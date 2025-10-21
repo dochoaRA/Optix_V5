@@ -17895,9 +17895,37 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: -50.0
+      Value: -40.0
     - Name: TextColor
       Id: g=b18fc2a31d44fa8b7988309abc4b8bab
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#eb001b"
+  - Name: Label2
+    Id: g=ea90abfee5c1a20551ac49ae27e9b066
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=5bca8ea3bbe0c53c28a704ad65841103
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Test_21102025_12_21"}
+    - Name: LeftMargin
+      Id: g=3b72ae7b97f4f5f938bb8116997bbd6c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 343.0
+    - Name: TopMargin
+      Id: g=7635e532a442a2fae874a1c4d017c884
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: TextColor
+      Id: g=f0bf3f7c47fe89d2de236dbf200f045c
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
