@@ -237,3 +237,4 @@ Children:
 - File: MainMenu/MainMenu.yaml
 - File: Osszilloscope/Osszilloscope.yaml
 - File: UserAdministration/UserAdministration.yaml
+- File: ModelVariablesByAlan/ModelVariablesByAlan.yaml

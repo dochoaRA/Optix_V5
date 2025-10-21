@@ -1,0 +1,20 @@
+Name: ModelVariablesByAlan
+Id: g=600efaf966f393f5f022a6300b7e7e8c
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=2c0c1bc75355882f4141a319720b32b2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=5b7bd5b120bed1d7b25d30ac11113863
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Id: g=ec63730138e17200cb599873fc38b46b
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable4
+  Id: g=1d0a9037390917077d0d159a43be4ead
+  Type: BaseDataVariableType
+  DataType: Int32
