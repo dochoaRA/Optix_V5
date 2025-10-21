@@ -17874,6 +17874,34 @@ Children:
     - Class: Method
       Name: RemoveExpertTemp
       Id: g=3e779d77b1eebe87a0872852bdf24c4b
+  - Name: Label1
+    Id: g=9cadaeb6f410c6834cb16f91eb83a9ff
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=5fb9b3b6d37cce3f43529ff3302db159
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Test_21102025_12_12"}
+    - Name: LeftMargin
+      Id: g=d2fa8b98c0d8c3e9d96dd902f939749c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: TopMargin
+      Id: g=5b2988c1c5660515cc90ac7b84db2222
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -50.0
+    - Name: TextColor
+      Id: g=b18fc2a31d44fa8b7988309abc4b8bab
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#eb001b"
 - File: Component_library/Component_library.yaml
 - File: Keyboards/Keyboards.yaml
 - File: Faceplates/Faceplates.yaml
