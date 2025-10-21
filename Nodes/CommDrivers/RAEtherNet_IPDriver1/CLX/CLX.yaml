@@ -1,0 +1,153 @@
+Name: CLX
+Id: g=b23bd77b7fe0f0ab70765b42cb67dee2
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Id: g=84811652320e841542b708ef8f347d78
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.111.11"
+- Name: StationStatusVariables
+  Id: g=ae469332561b25a1c52087557a34f557
+  Type: PropertyGroup
+  Children:
+  - Name: ActiveDataItems
+    Id: g=3fd78be3ecd21600bf00515f1d36394c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ActivityCounter
+    Id: g=8219ede1254e30970ad57a24cd61f6a4
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: CatalogNumber
+    Id: g=05c5d705e821787642e780abee4e0104
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ControllerName
+    Id: g=828cf429dcbc85d0d422646361a2d26a
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: FailedDataItems
+    Id: g=45b973cfb973df8cd1c2e195bea4fb31
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MajorRev
+    Id: g=96e7457a650faa05c070730bcfe06ae2
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MinorRev
+    Id: g=b2815b7a22211aab6ec54f615f3df2c2
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Mode
+    Id: g=f034c6e5d4c0951c7e6cc6cb9eb7e3ac
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: OptimizedBlocks
+    Id: g=092e139e06e668ee4f906e1b1712f5b6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Path
+    Id: g=d5fcb92c5fa2a031f8d6138f54a4f876
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: Present
+    Id: g=848a2b27485df332696aedad3f5c8fa1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: ProductCode
+    Id: g=1fe51c3e75321dcbbc2c301d3f3ce28f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ProductType
+    Id: g=8a4f839ee8b313e295dacd6186a295c3
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: RecoverableMajorFaults
+    Id: g=07778125e15bad525895a2b8736a8cc0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RecoverableMinorFaults
+    Id: g=273c008365ae0ddf91516bfc48a15e3d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RunMode
+    Id: g=edf8e2c98b88231a768302658ec7375d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Synchronized
+    Id: g=5509cac9421ed918dcbf8d81404554b5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SyncState
+    Id: g=a4213551a953472581e3b7d5e8516156
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: UnrecoverableMajorFaults
+    Id: g=51b602cab2f523367332af61a81f7842
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: UnrecoverableMinorFaults
+    Id: g=ab3cf923f5b5c8d593fe21dbed976dbe
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Vendor
+    Id: g=101ffc774bffdd9322be20ea56d25569
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+- Name: OperationCode
+  Id: g=21a940ebe903aeac5a80bd6b49fe87cb
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+- Class: Reference
+  Target: ns=7;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=c5a8545d598bf405a9b35a227003be75
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
+- Name: Timeout
+  Id: g=b1ce778b7e87b5de009b8bdb678bce12
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:30.0000000"

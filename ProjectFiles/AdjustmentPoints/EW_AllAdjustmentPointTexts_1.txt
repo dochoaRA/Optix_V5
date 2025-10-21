@@ -1,0 +1,61 @@
+30452;	Absauger 
+5999;	Andrücken Station 4
+24490;	Andrücker
+24341;	Andrücker Originalitätsverschluss
+13441;	Anschlag Zentrierung 
+28731;	Aufrichthilfe 
+28760;	Auslauf
+16989;	Auslaufband
+31249;	Ausschieber Taktkette
+24713;	Außenklappenniederhalter fest
+4131;	Außenklappenniederhalter verstellbar
+11425;	Bereitstellungsband
+12126;	Beschleunigerband
+12803;	Deckelaufsetzer
+3581;	Deckeltransport
+13542;	Einlaufband
+32441;	Einschub
+23390;	Einschub-Anschlag
+479;	Einschub-Schieber
+29323;	Faltwerkzeug
+17339;	Führung
+9564;	Füllhilfe
+9958;	Gebindeschieber
+30279;	Gruppiertisch
+13511;	Hubstation
+21567;	Innenklappeneinleger fest
+30656;	Innenklappeneinleger verstellbar 
+16455;	Kalibrierung
+3037;	Kartonkette
+23116;	Kartonkette Station 1
+12458;	Kartonkette Station 2
+18124;	Kartonkette Station 3
+22421;	Kartonkette Station 4
+19163;	Leimachse
+7616;	Leimung
+23543;	Leimung oben
+15866;	Leimung unten 
+29279;	Magazin
+2992;	Originalitätsverschluss
+2093;	Querschieber
+9180;	Schacht
+4624;	Sicherheitsabfrage Magazin
+29545;	Stapler
+29730;	Station 1
+10328;	Station 2
+30860;	Station 3 
+30904;	Station 4 
+23436;	Stempel
+19663;	Stufenschieber
+10277;	Taktkette
+4681;	Übergangstisch
+22813;	Wendestation
+5871;	Zentrierung
+6599;	Zentrierung Einschub
+
+
+
+
+
+
+

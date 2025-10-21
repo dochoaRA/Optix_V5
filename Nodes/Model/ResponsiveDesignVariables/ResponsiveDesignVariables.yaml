@@ -1,0 +1,10 @@
+Name: ResponsiveDesignVariables
+Id: g=776618c4feb71a1d1585fb1538903c93
+Type: FolderType
+Children:
+- File: GridLayoutColumnFr/GridLayoutColumnFr.yaml
+- File: SideBar/SideBar.yaml
+- Name: Panelwidth
+  Id: g=6d2d8b1eda313d19f2adab0fdda66b29
+  Type: BaseDataVariableType
+  DataType: Int32

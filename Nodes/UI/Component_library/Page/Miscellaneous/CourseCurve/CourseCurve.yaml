@@ -1,0 +1,4004 @@
+Name: CourseCurve
+Id: g=b08ae90031ff2209ec6051019e9c35d7
+Type: FolderType
+Children:
+- Name: CourseCurve
+  Id: g=fd32737d08b8517f3f20bf3f05446ae8
+  Supertype: FunctionInGroup
+  ReferenceType: HasComponent
+  Children:
+  - Name: FunctionAccordion
+    Id: g=f4bb30bec9fefb0f7c4fae82513e1a1c
+    Type: Accordion
+    Children:
+    - Name: Header
+      Id: g=ff1309c0b5b712a914c9dc67602e20ac
+      Type: AccordionHeader
+      Children:
+      - Name: HorizontalLayout2
+        Id: g=e7584e1a0f8e8aa3f01bfe2721e61ced
+        Type: RowLayout
+        Children:
+        - Name: Icon
+          Id: g=2670145c5f6c81ea7769b7e0212691df
+          Type: Panel
+          Children:
+          - Name: Image1
+            Id: g=d571de83cfcd331272e25da90e2ef8f6
+            Type: Image
+            Children:
+            - Name: Path
+              Id: g=53c9a21d4215beccb198b2cfcaa2b249
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=28;%PROJECTDIR%/all/trajectory.icon.svg"
+        - Name: LabelPanel
+          Id: g=5d309879a3fc40ae110f984c2142f03c
+          Type: Panel
+          Children:
+          - Name: Label
+            Id: g=506f0aaa0ddbc2f4f1c6ab26544836d7
+            Type: Label
+            Children:
+            - Name: Text
+              Id: g=73ae720412e0eed6f9c3d00f49c248dd
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":28,"TextId":"17554"}
+        - Name: HandleIcon
+          Id: g=a9687727ae42494ff9bbc8abb6e3d564
+          Type: Panel
+          Children:
+          - Name: Icon_Rotation
+            Id: g=3505a4b2f6b34a625d428c100bf17648
+            Type: Image
+            Children:
+            - Name: Path
+              Id: g=ba5f217833a84a84bf3b85226c58c55e
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=28;%PROJECTDIR%/all/Function_Arrow.icon.svg"
+            - Name: Rotation
+              Id: g=90d09e2e557bc60423643dadb1734bd9
+              Type: BaseVariableType
+              DataType: Size
+              Children:
+              - Name: KeyValueConverter1
+                Id: g=a3489a30a134045f1e4b41a6b19dedf8
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Id: g=7ed1f4bbc51c7cacdedd0b7fd49849ae
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=974602f089032a36bf75f851e0f76e34
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../Expanded"
+              - Name: Value change animation
+                Id: g=2e54161337504628631fad8c8c6bad51
+                Type: BehaviourAnimation
+    - Name: Content
+      Id: g=0b83c1cd1f1f5a0a070d6f4dcc32de26
+      Type: AccordionContent
+      Children:
+      - Name: Rectangle1
+        Id: g=c861fa22a0030a250904482f67b788c3
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Id: g=7a3a0710c0c00336c463dc060aa2511d
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Id: g=74665d41ca7478603a8a4270fb466d18
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: BorderThickness
+          Id: g=073de925d8a8e6a4aa0df6ec00e76a23
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: FillColor
+          Id: g=09b32310883f0dda16e0bf29c1ab8658
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ebeeef"
+        - Name: HorizontalAlignment
+          Id: g=cbf3c9d680055b3b7c0a51d16e1fe4b0
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=4961f30abda1315b4af66c9955fc6935
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+      - Name: XYChart1
+        Id: g=199574e97f6688b7feea454087ab1c10
+        Type: XYChart
+        Children:
+        - Name: Pens
+          Id: g=7291a5fad7c18d12d4f3a58dbc3258e0
+          Type: BaseObjectType
+          Children:
+          - Name: CourseCurve
+            Id: g=5173442ed0104b2b10e2ded49f7e296c
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=e1725ac4dae0bcc2ae08376b82b5716b
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=50886245c92b526022570ca0e0cb2111
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/arrCourseCurve"
+            - Name: Thickness
+              Id: g=0eb9f349b4902706e3f8bb11b4d57ab7
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 3.0
+          - Name: Velocity
+            Id: g=30a4122f34c0a4e91bb1514fd0fc692c
+            Type: XYChartPolygonPen
+            Children:
+            - Name: PointArray
+              Id: g=c2b778f5e649eda2f6e2c2fc41e237a9
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=eaec0294ceffed5a6e9f2cce1e603598
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/arrVelocity"
+            - Name: BorderColor
+              Id: g=04a0d61453bf81b44642c94b95fc4865
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+              Children:
+              - Name: DynamicLink
+                Id: g=6fb0d03a1db3a0916a07988f7235db8f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/Velocity/CamColor/FillColor"
+            - Name: FillColor
+              Id: g=78c54f5d5d1a6aacd510b48726b3e263
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+              Children:
+              - Name: DynamicLink
+                Id: g=60c8c8171f8a3207fd3958cbfe0f689e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/Velocity/CamColor/FillColor"
+            - Name: Enabled
+              Id: g=7c116f90f26e065290e1a9e47dd7af9b
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=a47ca91ff3052b3453e35ef8ed9f938e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/Velocity/CamActiveCheckbox/Checked"
+          - Name: Acceleration
+            Id: g=09f421baee0e2628bf51a5b8eba35456
+            Type: XYChartPolygonPen
+            Children:
+            - Name: PointArray
+              Id: g=9e8a02bab2b48d50679b0458abfb66b0
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=fbccfaa44c9eefbb61a81a2156729695
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/arrAcceleration"
+            - Name: BorderColor
+              Id: g=19b0cf1d9b717044996c39a70537598f
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+              Children:
+              - Name: DynamicLink
+                Id: g=78021e9f0783a6b5a831eb1d3e672ce1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/Acceleration/CamColor/FillColor"
+            - Name: FillColor
+              Id: g=f841d7159135ce6f2f4e3cea165383aa
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+              Children:
+              - Name: DynamicLink
+                Id: g=69635ca80decec8929aa7096f9c87f9e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/Acceleration/CamColor/FillColor"
+            - Name: Enabled
+              Id: g=3e09061b79dd0915e9c33b1f9b2d6160
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=c75add7f2cb693748ffac4e731a94f2b
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/Acceleration/CamActiveCheckbox/Checked"
+          - Name: Cam1
+            Id: g=45f08508d31c9aeaa082782839c8260b
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=a28d8f36b6129523c5c58a6929f92496
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=27bc3c90877ca43866391d25499da6ec
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam1"
+            - Name: Thickness
+              Id: g=a4fc67a4442d3bd31319b9d91c04bdbd
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=2c592b3db5a6d97d9ba59c913f841a68
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=d6ce8d87730c9486ec385b5b3c6bd838
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend1/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=ad44ddd11a41ccb706ceb186a9e5b673
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#eb001b"
+              Children:
+              - Name: DynamicLink
+                Id: g=4dd1eb11ed0fa87835946e1c35d15c11
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend1/CamColor/FillColor"
+          - Name: Cam2
+            Id: g=e331ddc839be3df14c91c8e7b6d4fa58
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=5003eb6a178035c3eb8341c10649efca
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=47c8630fb8a53fa6c32bc322f8f769c4
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam2"
+            - Name: Thickness
+              Id: g=702b924539fe2c6c2fd186d7ec793134
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=06d518a51749aaf4d0bb7e2766d1080f
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=be44aa89ca0c4abf5d3309ad894746a6
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend2/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=033260679bd7a31a73b68be513d6dc72
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: DynamicLink
+                Id: g=37b0c28fe74634bc96ba016a5df249c7
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend2/CamColor/FillColor"
+          - Name: Cam3
+            Id: g=53ac9cdd6391f0185590d1f98a0da066
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=6805fc29c6ac471864f93fa2e2a40c11
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=20bb9784884fcda93dbefd8770508853
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam3"
+            - Name: Thickness
+              Id: g=8ef7da099c661d65cb44ac1bf73420a7
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=58c4c75560ded62c75f1ce888be22b3f
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=9159830d6ea44591eacc361bbe6e48aa
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend3/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=3350e47cae2591f2d9b35533bc20cc99
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#8584d7"
+              Children:
+              - Name: DynamicLink
+                Id: g=27a81f6af465f77e8e60bdf253ed8d64
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend3/CamColor/FillColor"
+          - Name: Cam4
+            Id: g=97e2ad4393efae6c8e0c676a612162de
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=0b77853e2ce90ab727b331d6cfde2ac6
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=e12c2b9ab2474a07a1b9f76a4c625d97
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam4"
+            - Name: Thickness
+              Id: g=484a0b88c2f3178d91cd38e13e8eb96b
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=5900ba7c48c106636ad8c4233d998cf2
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=dd461eda4cc2c34674e479e6da41c2f2
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend4/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=b8f62c9fef3553df842a3e5b5d55764a
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#6fb878"
+              Children:
+              - Name: DynamicLink
+                Id: g=9ced9548e0c833e377862fc2662052e0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend4/CamColor/FillColor"
+          - Name: Cam5
+            Id: g=a36842f465c7c25605596c750ebdc664
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=c80fe6fd530e4f7fd6f0482699dd23e9
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=f9636c79aee61aba7d87ab7b517781c8
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam5"
+            - Name: Thickness
+              Id: g=c19a2bcb3f09ad875670520f4e8d69e3
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=606b17a480b215f839fd4cc0c055eac6
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e5a6d48cbb4b71da03172aefee7fb0d0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend5/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=1aa1dc1bb727a4eb5e0f641214d83492
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#e97a90"
+              Children:
+              - Name: DynamicLink
+                Id: g=599db4b3f52e26d432b6f88592ddee7e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend5/CamColor/FillColor"
+          - Name: Cam6
+            Id: g=73b21cb96c116b4529e8bfd9a6ec92fc
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=ddd3be212efbf8fe1d5e54313d047c90
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=19f8954aa18badd94f18f4561e93e50d
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam6"
+            - Name: Thickness
+              Id: g=3bbbc942316e6918e69d25ea1f89d401
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=aca53d99e782580a325dcfdb5c6f05d3
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=356cafd2223a1286cdd1154ab5c8f5ee
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend6/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=bb716d85d84490fc005751693b8fa738
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ecd699"
+              Children:
+              - Name: DynamicLink
+                Id: g=e4f1704740250aec86d5c20694e0ba29
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend6/CamColor/FillColor"
+          - Name: Cam7
+            Id: g=bf6d6ddf2b3a297c1319cc3431cc1331
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=0c1fb8c765630735661a6f0227ae3145
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=47adb75424608a2ab232e36551ea5f10
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam7"
+            - Name: Thickness
+              Id: g=122fe9a76d0c32f20032685d3b288360
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=014dfc80dff1c2516fcb072fe46709f4
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=79af9265e7a37b8295d33d242a7a7f92
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend7/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=54e337aedbea3f1ac58a76b73c97e257
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#87ceeb"
+              Children:
+              - Name: DynamicLink
+                Id: g=385d95588fa6b35215ecf79faf472000
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend7/CamColor/FillColor"
+          - Name: Cam8
+            Id: g=c67f2af8a5d953ad739e43dcdda1b9ef
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=397d2d77f1b7878400c3d536179c29ce
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=0bb492e4f34c3fcae05be92ced26c7c4
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam8"
+            - Name: Thickness
+              Id: g=31f75fc5d5b3cc9c3ba8300a75384335
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=90da0743c52057d074bfda297e1422e6
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=179895514cc1c246411073b1f23061dc
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend8/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=37495eed3e270c079850da7c6af3f87f
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff1493"
+              Children:
+              - Name: DynamicLink
+                Id: g=7517ccf5a0827d3efce7454bede865a6
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend8/CamColor/FillColor"
+          - Name: Cam9
+            Id: g=24911e42fd0ef6bede2a6cbffe2f848d
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=f2803e68439b0499b0089929dff0ae7e
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=dee9f31a29f65d9fe732c2ec2cf369c0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam9"
+            - Name: Thickness
+              Id: g=8984b215848b895f1e7b0b6ee98a0ffa
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=0dc5983721fa814e36c5b740e75cbda1
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=62e87007200f7648f1301820de193731
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend9/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=d42d8277d3cdebbd96b839ba6f4bf35e
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#7fff00"
+              Children:
+              - Name: DynamicLink
+                Id: g=b2447007ef5b3aa8225dcfafb2324e6e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend9/CamColor/FillColor"
+          - Name: Cam10
+            Id: g=65caac1c99e5b0816b5307049d46b97b
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=8d7df5262c056eba6550490d68c51b57
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=165064810ba8914b4940f058a7eed398
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam10"
+            - Name: Thickness
+              Id: g=903591c9aeed888633b5927258ae279d
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=277ec1f0f6e25cb59edc69d1264e34f2
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=48a600ba48b678e5a323917eda68e236
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend10/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=c810b2dc1f61effb47b14a2639ca962d
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#4169e1"
+              Children:
+              - Name: DynamicLink
+                Id: g=1fc1d48f67afc516d5c33c3abac5ba5e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend10/CamColor/FillColor"
+          - Name: Cam11
+            Id: g=edd47fcd004438b724bbd9796efa2bdd
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=68e4b9baf18cc830f49fbf8195b11f39
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=dd24e61b7292613457d6791bd00685b5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam11"
+            - Name: Thickness
+              Id: g=f0c831dc7e8cc72b484a96aac7f3db4d
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=8e352e0a62a4fb8635a226637a6391c4
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=b7c2cd38669fe6415be81e5a52eb6bf5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend11/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=2e694b1b0dcb92f586a802dceeca0b91
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffa500"
+              Children:
+              - Name: DynamicLink
+                Id: g=9ec9a86bac3a0ad5ecd36a78b7034b2d
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend11/CamColor/FillColor"
+          - Name: Cam12
+            Id: g=78191b8ab3454f6128a7cbe7ed292c55
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=f7507e0f42cd7ccaf5d5cc49d731e54c
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=149fef26ca491fa08e93a7dd8579d0de
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam12"
+            - Name: Thickness
+              Id: g=e025724ec153b8e4bf9c483b62f1224f
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=843634b090d023aa86b6ebf08615042a
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=365a82f7e1cda25fdc40f0a6a13bcdfe
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend12/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=2dde029ef8795864af34d37d100169f7
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ba55d3"
+              Children:
+              - Name: DynamicLink
+                Id: g=bb7740bdabf469e9f5f1917ced08f1b9
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend12/CamColor/FillColor"
+          - Name: Cam13
+            Id: g=a03550df2c8ed09fd27040c3ede9d7dc
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=abf683ae487726f30edfae3f99e779f0
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=fdd055146837d215140a7c5661f083d7
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam13"
+            - Name: Thickness
+              Id: g=23118b8ace63a1515cf59d0710261fa7
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=5b4704b660adb4b9b305377f03b4b173
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=cc9fb0f26cbb7deb49cdc18b8f8fc8cb
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend13/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=8b27cc199d429fafdba3db1921ea98ae
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#32cd32"
+              Children:
+              - Name: DynamicLink
+                Id: g=1c8781eb2a1f45a3a17629ca0b2f4c2a
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend13/CamColor/FillColor"
+          - Name: Cam14
+            Id: g=c288d7a5dbbd89b5165325bf05baabf0
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=923805886587a3df2bfc896513fe4793
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=83bf2cae8e195d0a7803d53b9d110760
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam14"
+            - Name: Thickness
+              Id: g=e0ccf50e55071c4226e7e8f3ce57dadd
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=c31226c1caf2f2697a0d1e59e508bd42
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e46b6475aada9982ec112ef02184f701
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend14/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=fc6ec3c7af9b4b04fb9beef9acb8c0ae
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff69b4"
+              Children:
+              - Name: DynamicLink
+                Id: g=e0de531611166a4dc97c7010e6799e3b
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend14/CamColor/FillColor"
+          - Name: Cam15
+            Id: g=8526ee51871526fb6a3da5adb2b9552e
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=376a787ec4e16c1e12f381d902d25cfa
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=52d90e7d009178a32b4c7831736fbc4b
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam15"
+            - Name: Thickness
+              Id: g=7533d2b451cebecbea14428b5ee59035
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=b00f80518e7c7eff99c777a0b801680e
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=8d0eed208a4704580f3f293f23f99931
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend15/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=d7d319a2cb088f683c1dd9f54089f049
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#00ffff"
+              Children:
+              - Name: DynamicLink
+                Id: g=43627477f076fb930afbdaf510f247ef
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend15/CamColor/FillColor"
+          - Name: Cam16
+            Id: g=f8ee8664b1c630ecc3234d4c7fde93da
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=5d0fa5e39bf2ea8beb79eabda9695cd0
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=807d9dcd8e39ad05dd67444a5399e11d
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam16"
+            - Name: Thickness
+              Id: g=7b20903909a1cd8e7710384bc352e27d
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=48c08ce3adda25dbfdfbddb1119fa179
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=1eaad5d2ab00ed573af4daaa2ca4c13c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend16/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=4b3523e8b02632befa30842eff242b15
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#daa520"
+              Children:
+              - Name: DynamicLink
+                Id: g=37f8bfc2f5eed90a21a7074b45c89a17
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend16/CamColor/FillColor"
+          - Name: Cam17
+            Id: g=084b9d341b1e0407b28e62b31d0f8649
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=0b9b80b60859b0fdfccb52e255cc7277
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=906039ac7544a61d4de6e2c1c1830cc6
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam17"
+            - Name: Thickness
+              Id: g=4405dcebc8bf65ac12ced353fd940847
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=4b5358b44305053a2c2658c6569b4538
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=d32dc7fc4ba9aa687b906970ea804d54
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend17/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=c376c9ef79799f068f5fd47e0f74e7a6
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#4b0082"
+              Children:
+              - Name: DynamicLink
+                Id: g=9bdd52fa757fd449e20cc28614b608ad
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend17/CamColor/FillColor"
+          - Name: Cam18
+            Id: g=3e4d8b53e49a68a5393df723abc7b1a2
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=5a12259c2dfbfff13421b4b73bd38568
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=05214f04e528ccc1de865d77692ba93a
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam18"
+            - Name: Thickness
+              Id: g=2c6e5426badd5975cc1701893f4b4ea0
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=728568b6b412c685d9074ffde1f39c98
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e33bdd37c7e921ff9687f03ea696175f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend18/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=0900d64461bd63fb12d3fcf9028974e8
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffff00"
+              Children:
+              - Name: DynamicLink
+                Id: g=653ed295b04668d9a2e94aba37adb206
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend18/CamColor/FillColor"
+          - Name: Cam25
+            Id: g=d429d670422e311d789b026a214d6311
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=ae5e183c0ff82cff2181ea831a3bbbea
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=1c4485324d95c32709085d455ae78c6a
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam25"
+            - Name: Thickness
+              Id: g=a85a0784450e41d6467fdd1f1fc17795
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=9df3bdac89fe2a370fb479fd139642d3
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=72ed50a7835fbf6b8b347233734d3e0d
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend25/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=dec8283eeaa4cb86fa2cb31de635c2cd
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#40e0d0"
+              Children:
+              - Name: DynamicLink
+                Id: g=0260e4334c10cca0583f227ddad635ac
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend25/CamColor/FillColor"
+          - Name: Cam26
+            Id: g=c53ce879611cfee884748bf8bc3b6466
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=81f45c9bc425e180a45bfaac473d2444
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=f576910f60bc6f61ee6e14f095b893f0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam26"
+            - Name: Thickness
+              Id: g=558d7349f2c6a2f23f9735b0e2cc1b76
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=c74da7f541ccb400dc2ab63306f25856
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=ea9bbe86a495f7a4c3fc40901198beb4
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend26/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=3ddacbe1a28fe5e36f9d034771117d1c
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#dc143c"
+              Children:
+              - Name: DynamicLink
+                Id: g=b4da7de6f869b102cc4dc8ba62abde0c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend26/CamColor/FillColor"
+          - Name: Cam27
+            Id: g=3084878d3f198a3e17c44090cb6ee75c
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=283142d280b511ccdc53fc7035f00b3f
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=a3db17cf35fd328fabf2b48c1f6edc9a
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam27"
+            - Name: Thickness
+              Id: g=7819047c2fbfa8d914e53e5532073529
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=735340e22504d4f402ce504baeaf597c
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=3cb922c8575316157eb921f02819d81c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend27/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=53395a4a8b68e593a603aa1f4331a506
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#7fffd4"
+              Children:
+              - Name: DynamicLink
+                Id: g=5dc602cb5af892ac15d45a5129379a3b
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend27/CamColor/FillColor"
+          - Name: Cam28
+            Id: g=3d7a942f1cb2896a4062b49d35183ed6
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=f74cc849c794b47d04b12b7f01b24cc9
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=430cc65b49843fe76543837dddca07a0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam28"
+            - Name: Thickness
+              Id: g=def9dd965b2a67a8ae81ca49cfa59326
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=80a63d31933c67acb2b33340649fa7e4
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=16dd8d408fb3790439978d0aa088a995
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend28/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=478465f629e9011c5bbd36868b023fe3
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#8a2be2"
+              Children:
+              - Name: DynamicLink
+                Id: g=9df868fc3fe41cac5641427b571299da
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend28/CamColor/FillColor"
+          - Name: Cam29
+            Id: g=b788df80307b4c74ee79118fe02d4156
+            Type: XYChartArrayLinePen
+            Children:
+            - Name: PointArray
+              Id: g=9f518db963b57a0b262aa3f29f2192aa
+              Type: BaseDataVariableType
+              DataType: Number
+              ValueRank: 2
+              ArrayDimensions: [0,0]
+              Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
+              Children:
+              - Name: DynamicLink
+                Id: g=7e475456b9544468b36f2ad2b38c11c3
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/Cam29"
+            - Name: Thickness
+              Id: g=9cdacff2e56f8d638027ff5eeccd1845
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 6.0
+            - Name: Enabled
+              Id: g=c787820b7534f3cf6292b666ee13eb3b
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=8138fca73c6435888a3e6fa353845b6e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend29/CamActiveCheckbox/Checked"
+            - Name: Color
+              Id: g=03451097e766a7f41c16cf02ed30884f
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff6347"
+              Children:
+              - Name: DynamicLink
+                Id: g=56bcaecfcff9e32592b215a3c2bd5380
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../ScrollView1/VerticalLayoutCore1/CamLegend29/CamColor/FillColor"
+        - Name: LegendVisible
+          Id: g=6e2480f9ee48a86084b9fd52412a2194
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Class: Reference
+          Target: ns=11;i=573
+          Direction: Forward
+        - Name: Width
+          Id: g=cc5801bf4567872d6f453301311e801c
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 400.0
+        - Name: Height
+          Id: g=6be3871e08fc4e485cde08e53a10f7a5
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 745.0
+        - Name: HorizontalAlignment
+          Id: g=f057dbf41d9a0e5c817f7e66dc854f98
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: RightMargin
+          Id: g=ef09bac5fe583c1d48830a2685004c9d
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 492.0
+        - Name: Style
+          Id: g=d4ac034000d143cb7f048674a35fbd8c
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "CourseCurve"
+        - Name: Zoom
+          Id: g=3c4a7324752e4fbf65f84be56980d6ae
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 6.0
+          Children:
+          - Name: DynamicLink
+            Id: g=dcf01d4034785842ffe16bb43221d25f
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/ZoomFactor"
+        - Name: CenterX
+          Id: g=ebd5f718b25962e2b557b2d2122bcc93
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Id: g=8b85126ebe6b565b70b368c11140ea48
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/CenterX"
+        - Name: CenterY
+          Id: g=3aef55497688b5cc149a71cd26052857
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Id: g=737a55d1520b8636e17ebe4a6f29fa18
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/CenterZ"
+        - Name: TopMargin
+          Id: g=c7eb74f3a52500f89d777a5d04e93be4
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: LeftMargin
+          Id: g=3e86931f2d2e80d88a73313bc5396d4a
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: VerticalAlignment
+          Id: g=d4e273fb452d63162ef818f2a20acf62
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: BottomMargin
+          Id: g=364751e73d984aba1f7a3c34fa5666eb
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: Enabled
+          Id: g=90320676fc922ff090c41c5002550fce
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+        - Name: Opacity
+          Id: g=b1a85ead62a3f0556d8a998d93efb1dd
+          Type: BaseVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 200.0
+      - Name: WriteCurseCurveDatatoVariable
+        Id: g=51ea46d8c317b2eb2408f347a65606a9
+        Type: NetLogic
+        Children:
+        - Name: PLC
+          Id: g=2e2096a60ea849becb6582b38bdbd8e2
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VP1"
+      - Name: SealingEndLabel1
+        Id: g=f3eb98e2dcd0c08b81609db5130ee6a2
+        Type: SealingEndLabel
+        Children:
+        - Name: CircleOnCurve
+          Id: g=1da82cbb23895d7d7b16491818f89fe9
+          Type: Ellipse
+        - Name: PointLabel
+          Id: g=bd619afd56ebfc368ec88b5b6ec24a01
+          Type: Label
+        - Name: PolyLine1
+          Id: g=c13e74118735ed7dc4c8b2087ee736ac
+          Type: PolyLine
+        - Name: LeftMargin
+          Id: g=60acfe2043a401567531ae91ea92bd6f
+          Type: BaseVariableType
+          DataType: Size
+          Value: 140.0
+          Children:
+          - Name: DynamicLink
+            Id: g=1a6f1756cbfb2261cd368c8bffc8e2bb
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/EndSealingLabel[0]"
+        - Name: TopMargin
+          Id: g=268575eccead53b8eee9d6786c7e5599
+          Type: BaseVariableType
+          DataType: Size
+          Value: 450.0
+          Children:
+          - Name: DynamicLink
+            Id: g=c6367032ac6488dd5763ddf7cb2b4841
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/EndSealingLabel[1]"
+        - Name: VerticalAlignment
+          Id: g=9129b5dbc780315ee7ddf38e99512848
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: BottomMargin
+          Id: g=d046f6e3ec9ef71e4b9514ea2a05a055
+          Type: BaseVariableType
+          DataType: Size
+          Value: 285.0
+          Children:
+          - Name: DynamicLink
+            Id: g=cf04b0cb8bc1813c10967821487d1edf
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/EndSealingLabel[1]"
+      - Name: SealingStartLabel1
+        Id: g=9fc3951ad384c49df7eff91a9d2165f4
+        Type: SealingStartLabel
+        Children:
+        - Name: CircleOnCurve
+          Id: g=2357912e58de413a893655d8dc6c2034
+          Type: Ellipse
+        - Name: PointLabel
+          Id: g=f17a71581d61b51da3a107a1611d56bf
+          Type: Label
+        - Name: PolyLine2
+          Id: g=d5c76f6b6397b0b88006d3a488245abb
+          Type: PolyLine
+        - Name: LeftMargin
+          Id: g=45ab86cf73a4da8a9aa885b5b0a84230
+          Type: BaseVariableType
+          DataType: Size
+          Value: 130.0
+          Children:
+          - Name: DynamicLink
+            Id: g=fee53d32799962642caadbc3fdcb4785
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/StartSealingLabel[0]"
+        - Name: TopMargin
+          Id: g=43c21ad9ea88098890bf3d7a04a1e462
+          Type: BaseVariableType
+          DataType: Size
+          Value: 80.0
+          Children:
+          - Name: DynamicLink
+            Id: g=ecae522090208c3a210310d465d8f810
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/StartSealingLabel[1]"
+        - Name: VerticalAlignment
+          Id: g=171127538f6dbca3d8caf4589d216c92
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: BottomMargin
+          Id: g=ca4e1f81ff54b21736aa7962ab949a6d
+          Type: BaseVariableType
+          DataType: Size
+          Value: 595.0
+          Children:
+          - Name: DynamicLink
+            Id: g=133c3f21ef342f40fc2354a448127455
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/StartSealingLabel[1]"
+      - Name: WaitingPointLabel1
+        Id: g=43024d0204accca3fb76ac53bfc12317
+        Type: WaitingPointLabel
+        Children:
+        - Name: CircleOnCurve
+          Id: g=43f98aa68b3f6316da31687edca366d4
+          Type: Ellipse
+        - Name: PointLabel
+          Id: g=93ab6ae5cb5050b9b43663eee7c44ad3
+          Type: Label
+        - Name: PolyLine1
+          Id: g=ae2bb61c8e06c6f03ff1644f29a3693f
+          Type: PolyLine
+        - Name: LeftMargin
+          Id: g=5f107ee120344d3bd796461606a68006
+          Type: BaseVariableType
+          DataType: Size
+          Value: 540.0
+          Children:
+          - Name: DynamicLink
+            Id: g=d85a71bef9be128a6515d960761bf377
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/WaitingPointLabel[0]"
+        - Name: TopMargin
+          Id: g=ddd4e8814154275ffa11899a5716c348
+          Type: BaseVariableType
+          DataType: Size
+          Value: 90.0
+          Children:
+          - Name: DynamicLink
+            Id: g=862859afb0e1f039baa13141904ec29b
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/WaitingPointLabel[1]"
+        - Name: VerticalAlignment
+          Id: g=79e01b3a190eee3cf81669bcf4385425
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: BottomMargin
+          Id: g=a13d159077431a2fda196f52f0b9d79b
+          Type: BaseVariableType
+          DataType: Size
+          Value: 575.0
+          Children:
+          - Name: DynamicLink
+            Id: g=f1340870d7af2c4d3508c29b8fdd1108
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/Model/CourseCurve/WaitingPointLabel[1]"
+      - Name: Height
+        Id: g=401b3eaf9b19a64d74ca0685817d3a61
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 785.0
+      - Name: ScrollView1
+        Id: g=63d77c8f988f001dba7bed1093c26bfb
+        Type: ScrollView
+        Children:
+        - Name: ContentWidth
+          Id: g=2580cf41c244787bded993adf5cd1629
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentHeight
+          Id: g=5cb251883f156a12d77973a1d4ee56b2
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewWidth
+          Id: g=9fafc51e05c04cd67be4e800df87d544
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewHeight
+          Id: g=72a9853844a7a626d0337aa5c491da29
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentX
+          Id: g=cb884adc20147c78fed569f5e7f789c3
+          Type: BaseDataVariableType
+          DataType: Size
+        - Name: ContentY
+          Id: g=1c0eb3c9d3b5999630f4aca92a442eff
+          Type: BaseDataVariableType
+          DataType: Size
+        - Class: Reference
+          Target: ns=11;i=1394
+          Direction: Forward
+        - Name: Width
+          Id: g=4c0611065f26e78e1971bcebfe0b2b15
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 436.0
+        - Name: Height
+          Id: g=409ec443712b061ea361a19f125f14ce
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: HorizontalAlignment
+          Id: g=f9a54d66043e3d8edfaf06c6243d2d63
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: VerticalAlignment
+          Id: g=4f4b4c223be7ab773d3d24d61e420ddd
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalLayoutCore1
+          Id: g=52861d71d2e55e8b7a8a75d91a5ef513
+          Type: VerticalLayoutCore
+          Children:
+          - Name: Velocity
+            Id: g=85cca5ed33619671dba1f060dc3250c1
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=08af27f898e87574060701656dc9d842
+              Type: Rectangle
+            - Name: CamActiveCheckbox
+              Id: g=b28d9a818b572b2e4635a6c38db8487a
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=1d5a1f08b430782370048d02c6937651
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=8e01497a277391143fd0915c85ecfef1
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=ce9d784d06a09e5ce6c4adedf551c5ca
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"7678"}
+            - Name: CamColor
+              Id: g=7810ba79e4fcddf4b811432900fbb1f9
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=e91ecd0150ebf7c2f5edd72141ce87d7
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=d2a26a3e528c112c58ff8720734d4cc1
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#d7dde0"
+          - Name: Acceleration
+            Id: g=fd630d9d39378e47533e4fce17c4dedf
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=db6b041d931b8d5d0eaead0e7b9c4d5e
+              Type: Rectangle
+            - Name: CamActiveCheckbox
+              Id: g=0178de86c3b21cf85eeeac66ad322276
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=2bbde424aa6090a8ac5fa0c3d1a3965c
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=6e1a36f26a7ae4c3b47e4ba204207fe9
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=498ee7a58255aef2a919c9caa04f2a98
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"10505"}
+            - Name: CamColor
+              Id: g=4f06f091095f205de3bd745c567f89f6
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=98a5d0ec6811fda49f660315c31b0ba7
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=48405f34b7f8ae7df6bf65b97d1b5cb1
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#edaedd7f"
+          - Name: CamLegend1
+            Id: g=868aca280a784ab7aad62589ad1bc384
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=e35d5876ef64b901f8ee1856894b73a8
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=4e602ea64d694f64f4420a76d254f6a4
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=98cf03f67d247b6f888dd606b1fc4b0a
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=64aeb8fc70ca94297ae3663399545309
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=7e0917f57cea80e4f786fd3cd54c0aa4
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=08a54e4811598bbd6950d30e2b921150
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"1113"}
+            - Name: CamColor
+              Id: g=a0868c3a1dc16ef12f61a1a84d2a1d7d
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=46b2075989a705a7ae575e1c12d236a6
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=e68fb2028660aadb27d81b654a5aea89
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#eb001b"
+            - Name: Visible
+              Id: g=3900f717524e4d65d52c104aa5c30061
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=23e26a44f40895fbdeb6d925e2cfc99a
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible1"
+          - Name: CamLegend2
+            Id: g=c67e68473aa43f859f4bd68812325474
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=4aa96244a252fedcf5364efd11d13e1a
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=c88f80d6d4c2af14e4ca7ad49a6c462b
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=d1ea04e59cfbdd7531a0e51d8428b95b
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=b8b8128cc41223557150d798a2158a59
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=b3523db96cfeb216ed0723a8a06b7f3f
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=722d7c084cde58ae989b4ce9f398a344
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"13557"}
+            - Name: CamColor
+              Id: g=8add90fb63aec31e8ff8c30fd8da6496
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=3f25627fe5c5ad0f3c4b5a948f16e405
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=79caa1438465635be4df6e34a03df943
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff0000"
+            - Name: Visible
+              Id: g=c73a75026867ae8279e4688d8e982f80
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=df6526fc220229e83f5bed3af397c6f1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible2"
+          - Name: CamLegend3
+            Id: g=278fc85f51ed89657240cc76e316338f
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=a282f8a402c4dd2e67c74c4c5bf98be7
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=2cca69738d678d223ecc712acdc61259
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=aa7dbc9461baa37ae12d8e919d42cbac
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=4cdd5e27fe54b8afd353db933df07ac0
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=3d628ba6e161b7dc0cc4907d7ea32bf7
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=7776d7eb4c8c6252fe35cf086b508382
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"20248"}
+            - Name: CamColor
+              Id: g=d00ad0942a16892cdb3df1d75ca187e4
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=82d20d131aa7885e0118ebc4566c189a
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=6966d35d569a7387d8923ab540769042
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#6fb878"
+            - Name: Visible
+              Id: g=11bb6d9a783121f91f7f2a4fa3385b76
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=1aba778248251bfb8faf47acfa47e89e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible3"
+          - Name: CamLegend4
+            Id: g=556a4f02d8423324bba1a66419fcd568
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=4c2ea92dd777c756338030e408e9e1b6
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=b50d2a2ba893d2bfdfe5746ab3e6fd61
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=a0c2c92f2fa9d3e11b29aa82fbad6ee2
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=49c0fc53b407414988dbae7801043bc8
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=fe83beac53b4536b1c9dba9a71660d11
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=f03aa0afe6eeb7676dd538ae1222e018
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"24032"}
+            - Name: CamColor
+              Id: g=aca82dc9010bf895359b26ca04935878
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=e4ba73be4ebf988d7753466d8d120910
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=125b09da61cd42c4c46610e0634c7f4b
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#00caf1"
+            - Name: Visible
+              Id: g=3ec9bed36e1506dc2ed9547992cd9d25
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e900d6b58d22652956a7ed226e41d296
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible4"
+          - Name: CamLegend5
+            Id: g=1b36477b886022b694d5d063c1a7c7cc
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=88a19c4640390e33f0520a587da37b00
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=62e52f44ea5e64af187e0b4d8b23814b
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=2066107332b5f4c4ecf07569d1c6aa07
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=38f6620207ec87c18139199248ae3b36
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=dd7c52745462c44f55383465f10b1ce0
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=7eb4f53595dfead9f603430aa71c8367
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"3494"}
+            - Name: CamColor
+              Id: g=870bf625aba6c29e7c10557f68a139f1
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=0c3f2e46bacc730be9ffbd0cf8272e09
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=31fe64b58b45be08b0d32ab364fb3825
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#e97a90"
+            - Name: Visible
+              Id: g=5fe5cf0b314446b09ed140653c48109b
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=4646fffcfbe5b9fe56b5cbcb12b9e40c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible5"
+          - Name: CamLegend6
+            Id: g=2718e1aafec8703d6026bd2a4382ebf1
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=f374fbb3fab26893ec020060e862b56d
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=dd59d95fd4a92fa9a175e93c4a81dbd6
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=0d65ac4090e8719b25c27a1289016b38
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=7eb075c62e8ff9f5e24bff6ebf78c52d
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=9b8475fad294be870da76719c94f7965
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=9d12eb9c29154127194716f14b17293e
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"4203"}
+            - Name: CamColor
+              Id: g=0f6442fbc51af62dcbe1afe779e4cbe5
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=78f7957a208051efab3299da97ccb54c
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=de8b9b00df18268193f81f7b9ed7a74f
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ecd699"
+            - Name: Visible
+              Id: g=5c49a7b2e40cc7b1c766a130e44f5c6a
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e70422f220c2bb902b86b10529aa40a6
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible6"
+          - Name: ContentAlignment
+            Id: g=7fb582854b4720391cdf277c9c100d03
+            Type: BaseVariableType
+            DataType: ContentVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: VerticalAlignment
+            Id: g=0d945a6d8ac77a50e9f4abfc3a7e72c4
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+          - Name: CamLegend7
+            Id: g=3a8f8cca971cc46c79272318012d6617
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=af588743c564c551d51985808f3b0881
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=28a59fa61ae4e9ccaa3a6ade3ad7a56b
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=e87f169d9b83a23a972baa7fe85b1e19
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=7ca90d25dfcb3365b5b681c0e6744e86
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=cbdb96ef5f3b0bb8ebce0abf1b7ae3e3
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=aa88cc16b16ba6464dc54fdecc9b42dd
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"20840"}
+            - Name: CamColor
+              Id: g=5319ad8ce9e9503a6511243f73006664
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=6f37c3ff3d3c43576076c4c6b184d367
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=7d796659d7d88582d2468bcfad00db26
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#87ceeb"
+            - Name: Visible
+              Id: g=a25d409fa01a3ec536bf1937d2f584c7
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=0e66f213bbdec6dcea33e1e18ab3240a
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible7"
+          - Name: CamLegend8
+            Id: g=aef723083e1fbc9313860cd54c29082d
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=8d981ade1e4f23e33d414d4b9368dec2
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=aa3823060400e877391c704468a7d334
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=8b08a23f68fe399080801b054f1152b8
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=4800d36d90c4ffceeb9d60050c3ec142
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=14e9c9c1d99359b113dc60b0e1a60412
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=c2383b29e867609feb0ae65a18b4df39
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"14766"}
+            - Name: CamColor
+              Id: g=3c5e20574e72bd8e3d366bbf1d5b3740
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=bfc44c9803668f9b85044f9131f7aec2
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=6d7e6cbd724c690baeaa90efab2e7e4b
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff1493"
+            - Name: Visible
+              Id: g=ad2fccce16aac3803ba66972bb1a2e7b
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=8b282ea63ff0a1f3ceedf6472b2aab4f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible8"
+          - Name: CamLegend9
+            Id: g=aeae2168c5da0cc76fe5ec74475fc050
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=016dbb59a727a461c87f33d4f0698eea
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=bcabe1baf42107bcf25e26bd1f60580e
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=eb7c4500d524a77bce45629dd3541bb0
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=5a3d8f7342a3f5369d055d2ec533adfa
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=c725bed72e53e94aad13e6242dd5a023
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=7989dcbcfc9168cd95c1bcbac411ea6e
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"8010"}
+            - Name: CamColor
+              Id: g=00951d81e2b84f00d7c13861f546a563
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=0aba3aa0f7186ef286c5601f3b0e5985
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=b76e749b233cac762a62bfd0f99f8816
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#7fff00"
+            - Name: Visible
+              Id: g=f6480bb7595fb3938b76124e6b013ccd
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=aa8cf493c79b27d004affed8e993ff87
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible9"
+          - Name: CamLegend10
+            Id: g=90f055bf801039ff67b856c3c7b516da
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=c95925e50e7566ac47c931f307ac154f
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=a10705a505792b3c6a8172b385bd1a1f
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=44a6148de142b4d902464e7ea88345b9
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=270146a5153fc3e1558c00313c2c59c1
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=f012e339ac00fa1eafe4cf9c72982781
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=de3b549bc924e24781deedcc08634127
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"5634"}
+            - Name: CamColor
+              Id: g=fbe71aac9cb4db49a40356adee341770
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=758ff490717b4da93faae66890fe1ef9
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=1511e44bce2d8b1169dddc6e5ee78e39
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#4169e1"
+            - Name: Visible
+              Id: g=7afd3a0228dc4f5b09bc5f5c5d2267a0
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e25429ccd79ff657251bf9adf0763925
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible10"
+          - Name: CamLegend11
+            Id: g=9a4d3de84477828f6511afbc57417a52
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=838ce5de47bf3b9a914247c80906c929
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=46a1a40662958d55597315547eceb8a7
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=cf73bf5a2bb9fcfb6642e074f7f06449
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=26275dc9b6bd27527fdbf91281489cc0
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=4d8a34fc78556a5dce0a443707cf3935
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=507c2973508ddc66176904d5ed648957
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"23036"}
+            - Name: CamColor
+              Id: g=79b1947f007b3807ff4b6441ed1538ca
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=8dea17930c63cb32f71a89ec5232c448
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=98b35c9cea07d55dc208bed6209dc998
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffa500"
+            - Name: Visible
+              Id: g=31b45b4a2663844b73b3c44f0f46d17d
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=a9e4a11b03e7dd22403246c3fd955ae8
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible11"
+          - Name: CamLegend12
+            Id: g=1cbe4e30701a8e1a6f8bb05a4fafa057
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=7322d97c3aef69214ae3be3d9d877ab5
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=25218cb337fe5c39fdf4c1ac0530c836
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=f97135b48f728a81df76568fe826e66a
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=f2a3d249f821d0a43cf2cfe3eb0a24b5
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=655f018944491893b36ee7b6dbfa71a4
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=f025134aced4957e12ecd19226262504
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"16478"}
+            - Name: CamColor
+              Id: g=a5a13ce1f4eaf6dd2b76cf143a7e8592
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=8a5baf188690630379147736ad2a5fe1
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=72e6a04d848d1305352c35c98ff16dec
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ba55d3"
+            - Name: Visible
+              Id: g=067462ea7dce2cb31324efdc052d936f
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e03d1b3377be5dc437387e89e38114f9
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible12"
+          - Name: CamLegend13
+            Id: g=16f4198cd512aeb682d4185950c2cd6a
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=34efece1a1192e8b5bf44add83e9d48a
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=511a315688870127fe999fc9b8e5244b
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=efcf027bed16eeb9f2056926807b6985
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=8788f5164b335d1efd0f842e04595cb9
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=96d8b245be99d20ceda69c76f7532f11
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=68af874d7f4ca1af9c6e574aeda63a4b
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"26909"}
+            - Name: CamColor
+              Id: g=62134ab15b607db07bef47d095b00ba9
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=f234872d8e532ddbed3eb3a87476459b
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=84653ab9d925d57a948d9563f33c6d2a
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#32cd32"
+            - Name: Visible
+              Id: g=cc3e8c6d1a38788b649b508ca1eb5a4e
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=cdc279b58e4e5a64d747a94c56066731
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible13"
+          - Name: CamLegend14
+            Id: g=b9fa0f99459d6b4073d158ff936cbd76
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=fb13b1b81bf2dd485807e1237237134c
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=8fb46fae4e88b4277b292236134877a8
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=b06fe935bd366e78993c1e91770134a4
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=f1d3ca1ea81900c600078ad494c70b9a
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=e97e3fb40644d5fdc28ffae9f333886d
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=a511adfc2971b2ab16c920e19c0f36c9
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Spare cam"}
+            - Name: CamColor
+              Id: g=6c20627b2486ae30bbe91dd7ec2ac15f
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=da2dcaa1a2616eb38bf0cad7917753b1
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=23dbaa15f5737fe34f5b7ae6ebb985af
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff69b4"
+            - Name: Visible
+              Id: g=8cc79dfbd3da39401244e3d9f185abff
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=73aa94e5d6c725a6eae493d42fed6c35
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible14"
+          - Name: CamLegend15
+            Id: g=b5cfb9d1b3dd7abaa8c2b9759a9a3a93
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=66e1eac2cb846ce203a752fb67c59c0a
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=53c537c094fbd559741077a9e27e3091
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=4fbd217b791b9783ae9ec573ba806582
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=8769470a86f4d36292ed67c383714430
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=1d0eb5e55a1b7c79b076224a40194d15
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=45d8ee2df9ba36e9ddac4794b1bb2584
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"24320"}
+            - Name: CamColor
+              Id: g=7154c51245c6cd2bea20e89db2429099
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=4a727a714b88fee688137f9ec7d011d4
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=7cbbdb5d4323f66907886ffe62bee0f5
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#00ffff"
+            - Name: Visible
+              Id: g=764e3e3b38d13c1b66cfb9f25cecaff3
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=5205b3fa85a05a3b343ad4b98e4c1cef
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible15"
+          - Name: CamLegend16
+            Id: g=43d2778ab9f7080fafc83aad0ec6b36b
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=5b13cdb036a6a3565dafc0681246646e
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=96e9b355b8e836d17bfb98fd2a597946
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=8dc8e4220c3a4153182a0e27bfaeeea8
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=0041e9e5ac50866cc6599d86b95eeac4
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=ac478ac6a1783a8348bdcb00f47ab0c1
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=1ec80891087e9fe597531db24b1fdf77
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"15403"}
+            - Name: CamColor
+              Id: g=8da04c5413d6a14b8c7e94253c7fcb7c
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=1b03d771648354cae4f45a258cbc8226
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=19db001b87bf76f3c016d9ae2bd52fac
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#daa520"
+            - Name: Visible
+              Id: g=4f55f686a19310fe43fd2051ae313544
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=fe91da73a3417905aedecc4d7642d49b
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible16"
+          - Name: CamLegend17
+            Id: g=c97491a53210e9b331821f459c60b140
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=27599a0eaf0c7d4a5a398a9b8fd2b917
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=bee6b43e102d06b6b9fabb54531e8f25
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=2adc50f096887c833ec31f2b927ebc9a
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=764e5e4d92bc197975de38bffd99e4fc
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=8aa300338e5702d2c8c203ffe0d4d29a
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=e6d07c138e9818dacc04317d833b62d7
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"28980"}
+            - Name: CamColor
+              Id: g=aed9c317f3df0d7e3784cba440786cf5
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=2a52094968fcaf9e7d9d7556cb52bbb7
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=160a39ef2d8f16efc91b5027c257a296
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#4b0082"
+            - Name: Visible
+              Id: g=9c96dc86106b6312c61d876c370bdb4c
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=b0f398b4e95e5d304a9cbbf83538502c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible17"
+          - Name: CamLegend18
+            Id: g=10a20776ff304e950399c52dbb7b3e44
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=d910c56e1f8023f00ffb6cb961bb7b0d
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=5defe7593ae0f668a740880e92011e50
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=743926e562016d83873594a7ec00f905
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=2c1fd4cfa83db2629e88aac3d415855e
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=ad7dfc54a145abdc81cef3db453f27e8
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=7e15d110642cd29f7bba322a2932f8f5
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"14724"}
+            - Name: CamColor
+              Id: g=583ff5a02bd8628246870cf9dbd0884d
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=047fa8a3ea2390aaee0fa5a43c0c4557
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=e51e8979cf8a3c8e1a69417e951f47d2
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ffff00"
+            - Name: Visible
+              Id: g=3ce0d5570bab94f03f214e480d7da364
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=72d67f1f85cae37e90c1a6ba3f37b29e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible18"
+          - Name: CamLegend25
+            Id: g=4430760774b50590691017ee3a0fd8cb
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=486698a47960320e865cdfc9146c8a1c
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=88ffeb16c61c6417db6c4f1ef1e34948
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=f30bd1458dada8a7d3df92cb7eaee955
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=739aa8416c17c103813642eae4b5bd45
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=c4224d272dda56822dfb6baf901be6d8
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=eba5745d1a2494dad789415d3e0f9b4b
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"14407"}
+            - Name: CamColor
+              Id: g=932a0ed14c1f5d82f1ecbb223271564d
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=258f7753c20d09a74f20a7eb5e1bd701
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=b551523d2eb059ff4259f0957e42c3bf
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#40e0d0"
+            - Name: Visible
+              Id: g=aabf6671d03a8edc47cee5a4e86687d8
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=170f8d299e5807d1ef6a4f47193e5da7
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible25"
+          - Name: CamLegend26
+            Id: g=10ec3b47f6b66509ac665334dd9ef27c
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=e1f1dde3d7e3a0c29f3fc74dc80ef30c
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=ac9e0254e9b14aebcebe214c52fc3d95
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=c84091897b59292ecb58894dcd16a9c5
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=1edf9c298f14d85869e8f2913976b54e
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=8b6802abd50341367008a07e016c4796
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=4a1d4acbbf0cc29067db82ba18304198
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"24320"}
+            - Name: CamColor
+              Id: g=f97fb9825aeb5295f862e59f0a2542c0
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=dc04b099361f3a9c7588c9f1c4e046fc
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=732fff49153f6d227419d368f6b2055c
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#dc143c"
+            - Name: Visible
+              Id: g=b7a6d31eff9637338e4f5599af2cb4a9
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=ee2d18b57acae765b272c2d55198789c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible26"
+            - Name: TopMargin
+              Id: g=33a720e7be72853af1dad0203dcb5a02
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 2.0
+          - Name: CamLegend27
+            Id: g=81a3ff757f1653d3af05cd794c157c70
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=349d65bc34833cb4156aa6c2c04dda89
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=3297693ba9cf3a12865066678127ab37
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=50aaf409b0e4abc2ce4cc01ea00fd726
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=7c55793ad32d529d8a151b125d21f623
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=13dc4f31815ff351d3dd65184e521528
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=9b73b4da7811f053a9f73874c84cda47
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"21486"}
+            - Name: CamColor
+              Id: g=bf0d95566f612ca97acc351672bf9ac3
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=15a6757aca2f21d3f874f3b2eec25f95
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=5e6c848d36e871f7ea1cbaa8a973c39a
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#7fffd4"
+            - Name: Visible
+              Id: g=b38c90135b69df0476361560386ba16d
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=f72edbd56fc1894bf420bd6b02dd90c5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible27"
+          - Name: CamLegend28
+            Id: g=76d2ec932c110bd68e4c544183b74240
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=4178eea706f235c7e27f5dccc5667e01
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=6c6c1bd8eee8fd20a7fced4936bba957
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=d76d79880110740e58b7ee2cc22c6d14
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=19d4885871b1f4dba990b139c1c1a472
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=a9c8aea5fa5173199aba7e7c0dd65d74
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=1080d9a89330a87555f12e300d0d1774
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"13256"}
+            - Name: CamColor
+              Id: g=a0db15458dea9d86c57ced3f9f3d1a15
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=5a94e1e9b16312267a40c14e0c800605
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=f2355c49e042b285cabe944eed4af021
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#8a2be2"
+            - Name: Visible
+              Id: g=13c05b1bf4c9802052eeac54624ac0f6
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=1d931c408bd6103a88680c229e905449
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible28"
+          - Name: CamLegend29
+            Id: g=c5e6ef6883b025edf473e63d9bc8ce5c
+            Type: CamLegend
+            Children:
+            - Name: Background
+              Id: g=6902446ef899fd1ba9763cfb6b5a3828
+              Type: Rectangle
+              Children:
+              - Name: FillColor
+                Id: g=7ff8e7172f3567aa1ac62ca943f71b06
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#f5f6f7"
+            - Name: CamActiveCheckbox
+              Id: g=11770f67645e049728418e089d9852a5
+              Type: CheckBox
+              Children:
+              - Name: Checked
+                Id: g=5cf7008004217f70a8d1e30d8f19f454
+                Type: BaseDataVariableType
+                DataType: Boolean
+            - Name: CamLabel
+              Id: g=0344a047c38faf92fba8b8f8c9c4e13b
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=4711e8a33212720f1dda475863664070
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"3528"}
+            - Name: CamColor
+              Id: g=d04be43654cd0aa37ee9ac2c9e00398c
+              Type: Ellipse
+              Children:
+              - Name: LEDactive
+                Id: g=261b211a6c4e9bcc08992f1f431919df
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: FillColor
+                Id: g=d6847f88069734ac9db4f2fae9d77215
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#ff6347"
+            - Name: Visible
+              Id: g=ec805a562873a57c01ce772c0e5c6ca4
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=96b8f3feba05c1add324074617e32ad6
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/CourseCurve/Cams/CamVisible29"
+          - Name: Height
+            Id: g=3c772860338ac59ef8b03b3f49a79995
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+        - Name: RightMargin
+          Id: g=8066644027f62765b507ae4d67a52856
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.0
+        - Name: AlternatingColors
+          Id: g=2bc3f2f6bda8231b6afd1a523278fad2
+          Type: NetLogic
+        - Name: ScrollAxesEnabled
+          Id: g=73b24cfe59a3390888f401b02219b092
+          Type: BaseDataVariableType
+          DataType: ScrollAxesEnabledEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: ScrollBarStyle
+          Id: g=85bd1e5dfcea6d55c1eab5cfed9e206e
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "FormatList"
+      - Name: DoNotTouch
+        Id: g=e272607a08801b39369b25b3e441792f
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Id: g=33c506cccf7523a033ba9f3109e100b6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 745.0
+        - Name: Height
+          Id: g=0ff2e01d93da1693153543d2f8ca5318
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 492.0
+        - Name: HitTestVisible
+          Id: g=83613880b8406171069abd128c5c3ef1
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: LeftMargin
+          Id: g=99c8c8b1c25ff051aab42dc0203a40f0
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: HorizontalAlignment
+          Id: g=915a811d4c3c708d149c4f477931cf1e
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: RightMargin
+          Id: g=0d34c096a8f06d1d571f878482e000b6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 477.0
+        - Name: VerticalAlignment
+          Id: g=c42836d7f013b1a605126c278a7fdd0c
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: BorderColor
+          Id: g=a1fa0c8126953e354f9085b80b52fd0f
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+        - Name: FillColor
+          Id: g=0f797d70958464f4fe656ab37580b30e
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+    - Name: Expanded
+      Id: g=3ee43adc097e802a59f35e9fd569df71
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: Width
+    Id: g=3e520fc3293abcf832a7b30a0d8eef38
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1400.0
+  - Name: Header
+    Id: g=9724cee95d22f9aa45cce4ea6f9f9703
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+    Children:
+    - Name: DynamicLink
+      Id: g=5b254d348edd11eb603a598ab608399f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../FunctionAccordion/Header/HorizontalLayout2/LabelPanel/Label/Text"
+- Name: CamLegend
+  Id: g=fc070a1bdc6dfbea97762f404e5e9f4b
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=1bc937c2c13dc51b1238467da351aa73
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 436.0
+  - Name: Height
+    Id: g=bf3ba9ac851d3c2cd1799a29d822ffa0
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 73.0
+  - Name: HorizontalAlignment
+    Id: g=6dad5dc05ec1874652be99fe5e6f6642
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Background
+    Id: g=375c21acc9d41b73686c9a654600c79e
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Id: g=64f660d95fc864f52eaef400773ebb40
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=d80fcd1f32a0baccae74f778060029c8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: FillColor
+      Id: g=c53d16e4e86bad6445122096464e53e3
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#f5f6f7"
+    - Name: Style
+      Id: g=ad2d170f281736e3da902b15fbd41c41
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: BorderThickness
+      Id: g=81e56ffcf6a3715c0a6b9293913dfb76
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=d365ecb503f7453f4c95d86f2f2f1325
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=a359f76f452bb81da2002cfa5dbd8672
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+  - Name: CamActiveCheckbox
+    Id: g=f9b471f595b730b33493043c759761f2
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Id: g=8ba8c6ef8c0444135afd76a4a425596d
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Text
+      Id: g=afa6ce5315fcfa74b79f020ffa308e59
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=6107f06f4a1a6cb394a2a88b3538e37a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 45.0
+    - Name: Height
+      Id: g=d3cd721b83e09768fa04d7b18fe3c34d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 45.0
+    - Name: Style
+      Id: g=cae49b41c7f4cf1c2212c63713563bbe
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Rovema"
+    - Name: HorizontalAlignment
+      Id: g=8fa92bbaacec3901ed3f09f7a4258b67
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Id: g=e9d1c49bf3a1bd9b15b3e87d7870816b
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: RightMargin
+      Id: g=955e32b02c28ecacfdeb6f676d365320
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: LeftMargin
+      Id: g=057e98f774520c50a8f6f195fa25bb06
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+  - Name: CamLabel
+    Id: g=e529a0e2e03208d62e681a3879eb1ab2
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=fc3b82033aa60efd72b0b4344609ebeb
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"#Cam name"}
+    - Name: Style
+      Id: g=9c02dbaa694a103d7f46427dd5bb08ff
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Rovema"
+    - Name: FontSize
+      Id: g=cc783912d2ee1ef7c90ada663a171dd0
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: TextHorizontalAlignment
+      Id: g=6b842cb29f7cb1126cd79a2d24b047e8
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=cc9f36f1f25d9e630719d3477b6a1d06
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: LeftMargin
+      Id: g=7d606e5d402152466a2f2be30deb2a95
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 75.0
+    - Name: VerticalAlignment
+      Id: g=2a623ca823893de17776f8b75187199e
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+  - Name: CamColor
+    Id: g=237b4eaf9cf286690277b0950574d175
+    Type: Ellipse
+    Children:
+    - Name: Width
+      Id: g=90bc48dbe0f4cd8516228ea3ff9f3a3b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 23.0
+    - Name: Height
+      Id: g=708d9bcfe70341bb539def863e8dc990
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 23.0
+    - Name: BorderThickness
+      Id: g=bc04d427ff9f357094ac1af8147273ee
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: LEDactive
+      Id: g=633a19968bc954f8bbfbcc62ad280a2f
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: BorderColor
+      Id: g=f665d61d64336a20d65b401ac4537601
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#292929"
+    - Name: FillColor
+      Id: g=02c8b8359b4a7ccdcbae06f4442a89f6
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#a4aeb1"
+    - Name: VerticalAlignment
+      Id: g=09029d1efbd108cfaa6c6fade743340f
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: HorizontalAlignment
+      Id: g=cc3f8c7a8d4ee39649b8da7bc5749051
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=23387b039fc0e7fa6f87df5f498413ac
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+- Name: SealingStartLabel
+  Id: g=8e66030571c3e74fde1ff1d267eb08b0
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=2536f9e05479f51a12bd603e5ae108eb
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 210.0
+  - Name: Height
+    Id: g=ada7a635335a11c094f0aa0109a6c0f5
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: CircleOnCurve
+    Id: g=dd4ebd8c882d82f8540ed7096a40bb5b
+    Type: Ellipse
+    Children:
+    - Name: Width
+      Id: g=165a14c423ae25c14149798f8054e9ca
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Height
+      Id: g=9a2a839721ed104ea2184d3d9457d03d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: BorderThickness
+      Id: g=d8e5ab7f74538ff84ca172c28a0c1632
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: BorderColor
+      Id: g=ddc0f7a2b1a77fd72b9759662a621ff2
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: FillColor
+      Id: g=78fdb34178b5f77d7c200658abbb0c8e
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: LeftMargin
+      Id: g=bd60c4a98e81dd78186bef65ad0a534a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 196.0
+    - Name: TopMargin
+      Id: g=518a8b8cbe693d1a04dbac5bddc8dce1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=f62758327e52440531c9bffa524b97e0
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=262c59d100ef1936963d2d5d0dde70f4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Id: g=7db7c209f8145121493506c3971f9358
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+  - Name: PointLabel
+    Id: g=949fcad0050e44c6618bc22af2a25d3b
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=e1de6628545fc8e59916290f3b943698
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":28,"TextId":"15331"}
+    - Name: LeftMargin
+      Id: g=32d0f261393b27aa887fc36228ea457c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 64.0
+    - Name: TopMargin
+      Id: g=8969bdb4cef6cb9d0ad8b0b22767ea4c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 26.0
+    - Name: TextHorizontalAlignment
+      Id: g=7f87f25e5446495b9cdaed935a7b656a
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=1993b9ecd1db0fae445f4ba56ca36a3d
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: TextColor
+      Id: g=a17d5d7cb9a32af1f1e7f53d16edee2f
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: VerticalAlignment
+      Id: g=ea28555dcc2942ba88e74f8164e183d0
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: g=a867a28571c55d111d336ef5d33837a3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 26.0
+    - Name: HorizontalAlignment
+      Id: g=54809bda43d2c978f749ce67fbb7abae
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=fe4f05c39285c8af5ab5892be8954214
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: PolyLine2
+    Id: g=ce9928b168b7a349d460b13d06223d5a
+    Type: PolyLine
+    Children:
+    - Name: LineThickness
+      Id: g=7f68a860a66cfb7d633a8cd115bdd736
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: Width
+      Id: g=6d895b50234422494efbb6e97886fc98
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: Height
+      Id: g=8e26fbfafdc2927824a5a20ec378dae8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: LeftMargin
+      Id: g=9919b51e05bc3c46cbe5763fdbff350c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 143.0
+    - Name: TopMargin
+      Id: g=1c3f40111b9eeb5a68b21d8f15d0a032
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+    - Name: Path
+      Id: g=1b74f54e4123475c3c9e0391f1a68845
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "M 0.000000 0.000000 l 10.000000 0.000000 l 50.000000 30.000000"
+    - Name: LineColor
+      Id: g=11cd80dd3043fb4082959eeb287ce053
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: FillColor
+      Id: g=2c846e759172889bb53ac3d99abdaa6f
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Id: g=eda6eef9fcd6ae592f0e626f5533d357
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: g=d57c021a8a1768c89f632c560f3e0382
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+    - Name: HorizontalAlignment
+      Id: g=c81aadd00e6c05ee195cb450f2d010f9
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=0d5eea7e02679905463f89a4345878fb
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+  - Name: LeftMargin
+    Id: g=e3115d86d6a67a9ef7b43e0c806895e9
+    Type: BaseVariableType
+    DataType: Size
+    Children:
+    - Name: DynamicLink
+      Id: g=cdd494ed82726a7bf2b60b28dcc62770
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/CourseCurve/StartSealingLabel[0]"
+  - Name: TopMargin
+    Id: g=197ba58906cecdbb67f466598553fab2
+    Type: BaseVariableType
+    DataType: Size
+    Children:
+    - Name: DynamicLink
+      Id: g=ebfabc758d299f633606584aaf0247e0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/CourseCurve/StartSealingLabel[1]"
+- Name: SealingEndLabel
+  Id: g=6bb22e9cd27a7ea987dbd226a99b245e
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=7366ed4bdd34977a520f43d1766b4635
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 210.0
+  - Name: Height
+    Id: g=1bb73cd45c814400bc54f23b2d4ca7a5
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: CircleOnCurve
+    Id: g=5dc39fd40f203af5308704820f12a494
+    Type: Ellipse
+    Children:
+    - Name: Width
+      Id: g=6fe684fad732e7f723d7529225388235
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Height
+      Id: g=fd8d14fa05bec6f4f9e6acd5b1a8ffdc
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: BorderThickness
+      Id: g=5a6ee66dc4fc5ce972c06cf605594421
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: BorderColor
+      Id: g=b6c1a0c80954cef634f3609b4c93741b
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: FillColor
+      Id: g=d921a580e1dd1781bbceabc0be0bdb0e
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: LeftMargin
+      Id: g=91eab44cdc78f6d79eeb959079b69b5f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 196.0
+    - Name: TopMargin
+      Id: g=90526ac3a5c83b7f35305d0bdc46177a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=6b4741e5ffafbe4ecf92baf5cb2f66cd
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+  - Name: PointLabel
+    Id: g=f19cd067a1562bb896e1b64e767e5e16
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=ed9d614c2b7c1a51a748339a063cc863
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":28,"TextId":"2650"}
+    - Name: LeftMargin
+      Id: g=9f0995627f87e41d27d762146d137520
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 64.0
+    - Name: TopMargin
+      Id: g=0941aa968741f63f2dfff7a4af9cc12b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 26.0
+    - Name: TextHorizontalAlignment
+      Id: g=3e049d2f158eb78957498dd562981cd9
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=daeecf1dd1c04fdf68b27cdcf6f560d8
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: TextColor
+      Id: g=be43579963f4c872de4b76183e1cc589
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: HorizontalAlignment
+      Id: g=66f76baec35475d465754549230132d0
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=89cfa5063ac89ad3f91aad946920ff6c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: PolyLine1
+    Id: g=c1444b3f079c207bfd2cacf0c30103d4
+    Type: PolyLine
+    Children:
+    - Name: LineThickness
+      Id: g=d2482c0e63deb32409069a65a53edf44
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: Width
+      Id: g=040d2d97ed15b9c8935527bf3fe43f87
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: Height
+      Id: g=9df304deb08fc104259c10d66becb25a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: LeftMargin
+      Id: g=6a8295aeb7dc50cd630cb971dff41f47
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 143.0
+    - Name: TopMargin
+      Id: g=cc3c9f25fd26da28f271e0760f484d6e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+    - Name: Path
+      Id: g=39045ddf1dbd73e600f5416ee1f56525
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "M 60.000000 0.000000 l -50.000000 30.000000 l -10.000000 0.000000"
+    - Name: FillColor
+      Id: g=251e5591e383becb275c7d628d459a75
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+    - Name: LineColor
+      Id: g=f97a62d4c168ce794349674987f153ef
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: HorizontalAlignment
+      Id: g=2057d1cd3eeac6b4987c0c0a3650d3dd
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Id: g=015e1463c7fb02c50cabfb5ade4b66d4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+  - Name: LeftMargin
+    Id: g=3e4a1b88d1aa697ec76cf1d01a7c1f63
+    Type: BaseVariableType
+    DataType: Size
+    Children:
+    - Name: DynamicLink
+      Id: g=2cdd915b915bf66c24a99e5be75e45f4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/CourseCurve/EndSealingLabel[0]"
+  - Name: TopMargin
+    Id: g=50abedb31dc22c19332d078a9de2ebe0
+    Type: BaseVariableType
+    DataType: Size
+    Children:
+    - Name: DynamicLink
+      Id: g=9d6d17246c6abb17e7a5c621c3c81da9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/CourseCurve/EndSealingLabel[1]"
+- Name: WaitingPointLabel
+  Id: g=9f3c72e58e565b73685ffce8765f4533
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=585f782e4568f82d23bc2f6e6f288ac2
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 210.0
+  - Name: Height
+    Id: g=6bb71ee5fd548f70b3368fe8b2ce202e
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: CircleOnCurve
+    Id: g=93f9fb0ebbb4daaed6e7962b6e4ef7fd
+    Type: Ellipse
+    Children:
+    - Name: Width
+      Id: g=699b75a99f96522f1c8cba447bc89809
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Height
+      Id: g=3379b49729e51ea7ef2816ce1086bb64
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: BorderThickness
+      Id: g=724ec098a3f1477f5c63bb59a3e5d291
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: BorderColor
+      Id: g=8cc70c5b8f1579f8106e1a2e9d513401
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: FillColor
+      Id: g=00b7ed6d90896dce20df397ab619c491
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: LeftMargin
+      Id: g=dabc016dfa884b1a2f9e99bedf905ebf
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Id: g=dcd85e2d6f5730c707bf34e92047f122
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=5854781769230b6ac0fa317ded48c872
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Id: g=152347119a251cf10613a7b20f88df95
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+  - Name: PointLabel
+    Id: g=d759aa02bc068a82abce5c0126191ff2
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=2d9eef092d31422a2545f998b8e65707
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":28,"TextId":"15286"}
+    - Name: LeftMargin
+      Id: g=7c0bac85631103c0efb8c67587d23673
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: TopMargin
+      Id: g=b9def13f1d0f3e6a7e90529f12d0e825
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 26.0
+    - Name: TextHorizontalAlignment
+      Id: g=c034b1dd93009ee3bd24a7f17be9fadd
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=c3a58bd98e00f11cdba4fe5c311f7c22
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: TextColor
+      Id: g=1f3411b3e947803876ac6a289b5e1474
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: HorizontalAlignment
+      Id: g=cc6ed79f68a0073eadb9e8db087133dd
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: RightMargin
+      Id: g=1dcac8444d0942d2d9d9abc53c8ba355
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: VerticalAlignment
+      Id: g=2fb4a7a1f83b4d9111d201d11acf79e0
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: g=8fda285c85486bde0afbc2b9bb2349d7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 26.0
+  - Name: PolyLine1
+    Id: g=f7fb39e7f4ee086c227216b12fc28774
+    Type: PolyLine
+    Children:
+    - Name: LineThickness
+      Id: g=c2cf7123aeca2e83a882e2884d20cc56
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: Width
+      Id: g=03bc42ea4a61c6f64c7bf2c37394294a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: Height
+      Id: g=e1a8339d0a4f3e7c6b0af49427cbd91d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: LeftMargin
+      Id: g=92ebc80488490748cc6a460943f6330d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+    - Name: TopMargin
+      Id: g=94e1228a2dc844a849949369b54b0a55
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+    - Name: Path
+      Id: g=e2d59fb4289672fe93da1ba8ed976933
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "M 60.000000 0.000000 l -50.000000 30.000000 l -10.000000 0.000000"
+    - Name: FillColor
+      Id: g=02ca7f42b9d8113546ca9223dfdcef46
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+    - Name: LineColor
+      Id: g=4199cdde592e214f9b88ac9ffa3f1555
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#33ccea"
+    - Name: Rotation
+      Id: g=9a86fa02594d80356fd2270f04d59993
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 180.0
+    - Name: HorizontalAlignment
+      Id: g=61ca30abbdbe86343c6358afac5a724f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Id: g=234d27e9c261bfa2a685892242c5bcc1
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: BottomMargin
+      Id: g=a319b34982a809748603c3a269cf0754
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 7.0
+  - Name: LeftMargin
+    Id: g=2beb5fc32f8a941ea273838491d5cf74
+    Type: BaseVariableType
+    DataType: Size
+    Children:
+    - Name: DynamicLink
+      Id: g=bca719565b2b257958265e16674d6ffb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/CourseCurve/WaitingPointLabel[0]"
+  - Name: TopMargin
+    Id: g=3df8fa21601ddf174e637cca68fa99d1
+    Type: BaseVariableType
+    DataType: Size
+    Children:
+    - Name: DynamicLink
+      Id: g=9a471889c865aaf20c30e16466772612
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/CourseCurve/WaitingPointLabel[1]"

@@ -1,0 +1,53 @@
+Name: Diagnostics
+Id: g=2eea91bab04b2c7c2af47f204c12680a
+Type: FolderType
+Children:
+- Name: Diagnostics
+  Id: g=55454fe7becd524401d5db52bd5de829
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=76044b9a51dcb3038d353728891a47f9
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=b2a225a0b47e33463657bea41ca61832
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=6a2c57190d22822da370a78318b815aa
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=2a0d3b535d3a4a3c16952654ee2dd2a5
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=f4d96881ed8b9fbedf850635b4e1755e
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=d81fb2c6c94cebd7810a7c4d6ae8b400
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=6e4eb79ef7e4de1c4a667f3dec99f5ad
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=067de3db7c3d43deb81a71914fd7ddca
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=52c5298f7f73bfc6bfd3b5860a58731b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"7611"}
+- File: Diagnostics_content/Diagnostics_content.yaml

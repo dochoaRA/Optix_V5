@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <rect id="group-a" width="10" height="4" x="3" y="4"/>
+    <mask id="group-d" width="10" height="4" x="0" y="0" fill="#fff">
+      <use xlink:href="#group-a"/>
+    </mask>
+    <rect id="group-b" width="10" height="4" x="3" y="9"/>
+    <mask id="group-e" width="10" height="4" x="0" y="0" fill="#fff">
+      <use xlink:href="#group-b"/>
+    </mask>
+    <rect id="group-c" width="16" height="15" y="1" rx="2"/>
+    <mask id="group-f" width="16" height="15" x="0" y="0" fill="#fff">
+      <use xlink:href="#group-c"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-width="2">
+    <use mask="url(#group-d)" xlink:href="#group-a"/>
+    <use mask="url(#group-e)" xlink:href="#group-b"/>
+    <use mask="url(#group-f)" opacity=".5" xlink:href="#group-c"/>
+  </g>
+</svg>

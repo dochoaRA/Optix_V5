@@ -1,0 +1,1438 @@
+Name: Converters
+Id: g=b88e5f5d69b0be8d5599e1ab89b3fe7e
+Type: ConvertersCategoryFolder
+Children:
+- Name: Localization_short
+  Id: g=1b5247e7346e65f017c385fbf4e2c5fc
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=9;Pairs
+    Id: g=2ef2894f999143eaaf4d35b9a40df5c8
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=c6cb0df5f890f69e8aa228d25e6e7c6b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=89b606f90fe5ade5155056fb0d323629
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "de-DE"
+      - Name: Value
+        Id: g=06f3e0f11284f0d87ddb545db1eecec7
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "DE"
+    - Name: Pair1
+      Id: g=677562384408e33259a9009de27831e1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=a3ccb7a7f53f7f3b684f59f30d8c4d30
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "en-US"
+      - Name: Value
+        Id: g=7cecd81fbfb3fc215097b7b73b9ab9b3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "EN"
+    - Name: Pair2
+      Id: g=5df45beed73c9e883b4eb3e1363e1b2f
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=109931866ff7d8e29159b86e425d1e8e
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "pl-PL"
+      - Name: Value
+        Id: g=3a8eca0d0ebe14304e0a5f24e3634aec
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "PL"
+    - Name: Pair3
+      Id: g=acc6620ef479897b2647416c6c0ad17d
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=3ec6bc2ecd8f1879a76a9abf3002654c
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "nl-NL"
+      - Name: Value
+        Id: g=d553920b99fcedf0d9518de035394679
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "NL"
+    - Name: Pair4
+      Id: g=1fcf76ac7703db5094fa28ee56c0abf7
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=da89f7a1f2beadc65f7a6e3670055d91
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "da-DK"
+      - Name: Value
+        Id: g=867fff537c8207aa93bb869055e6923c
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "DA"
+    - Name: Pair5
+      Id: g=5cd52c8e994248e11d6742b2724a31d5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=384f040babf0fbe622f5dfc1f6d4f3b3
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "es-ES"
+      - Name: Value
+        Id: g=c16f49e66b22e28ddc61e9bf92481647
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "ES"
+    - Name: Pair6
+      Id: g=815f66b77c64911722985f552249e596
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0dafb8bd08eb4d59f60def5c3c5d86f6
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "it-IT"
+      - Name: Value
+        Id: g=332d9494a0797ba96b57294d70f3d1c2
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "IT"
+    - Name: Pair7
+      Id: g=d29813f81eefbe25be27149ea6a31460
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0df653dbd2d5dc688f0842d237cfeba7
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "fr-FR"
+      - Name: Value
+        Id: g=6059054aa55d751b71560cb16b8ab668
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "FR"
+    - Name: Pair8
+      Id: g=80b3521e4c14a0c6ffed389950a7bb2d
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=649f1a607a897d30ddddabeec7fe4b20
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "zh-CN"
+      - Name: Value
+        Id: g=c9be4f75a7aa9880f424b661b3c0d5e3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "ZH"
+    - Name: Pair9
+      Id: g=1af2905d2a78582e276a6d54e3f10df4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=be74143c9c97fed28c933691fafec8bc
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "hu-HU"
+      - Name: Value
+        Id: g=5183f4e11fd0b639b4ca1f37f690aec2
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "HU"
+    - Name: Pair10
+      Id: g=496efd6df5449077bfde0f0830676c43
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c040334e878eb58010e3d00a3660b2ec
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "pt-PT"
+      - Name: Value
+        Id: g=12d189891b32db856dcfeaffbdd5ec21
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "PT"
+    - Name: Pair11
+      Id: g=dd633ce8ff8b9ba5196356c41e4d980e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=89ef2e4099a3406cda5f74dde2a4717c
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "ru-RU"
+      - Name: Value
+        Id: g=62cb76acc5847643d79cdff6d8f3ce15
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "RU"
+    - Name: Pair12
+      Id: g=e664c894100b6f4638c497291af2b60f
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e43f785b63d53399f214c04a31867441
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "ro-RO"
+      - Name: Value
+        Id: g=39519c16174a2227212a6a4d800a9c94
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "RO"
+    - Name: Pair13
+      Id: g=bd37c67e703085695cffb8564df0e0d6
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=380e683b9dde2936d4efa79c17b307c4
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "sv-SE"
+      - Name: Value
+        Id: g=7927c6b7fd25fd9addfa4b796a844650
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "SV"
+    - Name: Pair14
+      Id: g=2c3b2f24f4da2476f44b54f6bdce3bd1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=ce96fe83ec40e9760bdf0159cba84f45
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "fi-FI"
+      - Name: Value
+        Id: g=e2e012c3a27334c32641b401ce03d059
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "FI"
+    - Name: Pair15
+      Id: g=a6fd2e069ae948d7b1cca93020979f14
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=4a3b355c63b522866c92c6894e3a7f30
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "nb-NO"
+      - Name: Value
+        Id: g=a25b28c5afe377d24f35a2711b6a9c49
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "NO"
+    - Name: Pair16
+      Id: g=eb4c32b292fc1f2539ed4735135a177e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=5fc46116ee3d8b10965b2dc9e2cd6dc6
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "tr-TR"
+      - Name: Value
+        Id: g=4bb5a3531dcfa4b89b45f197ff1e17e8
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "TR"
+    - Name: Pair17
+      Id: g=54eba3ce9a4a1bad6ce1ea9dd2257f53
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=749c836305d372f7f5c82f7817bb1baa
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "bg-BG"
+      - Name: Value
+        Id: g=6c062d51d6df4efb06b582c58cd2c939
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "BG"
+    - Name: Pair18
+      Id: g=cbcedc30808b01515d72a4a4a6fc5e0e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=a3c334c867b94f645905e35dbdbcd51e
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "el-GR"
+      - Name: Value
+        Id: g=5e28504e87ba5f68f5530eb24579a049
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "EL"
+    - Name: Pair19
+      Id: g=2cba92d9be06bc2feb1a59a0c7d20e50
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=5c97b2f38e07e71445ea7bacb200e999
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "hr-HR"
+      - Name: Value
+        Id: g=5e0d09e25520c59fa1735def49caadc7
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "HR"
+    - Name: Pair20
+      Id: g=ed9c61831fa02ce53c113779d804ff09
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0c1058c172ecfa5b4bc47d2d6f416850
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "cs-CZ"
+      - Name: Value
+        Id: g=a64a687f5d13bf1178f9f3c2727c7b04
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "CS"
+    - Name: Pair21
+      Id: g=113ba583713f652f5db56e3b9dca53b6
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=eeffa31a8ecbcf798d0efc49cb3c0fdb
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "ja-JP"
+      - Name: Value
+        Id: g=20fcd141a1842f5d445ee7f84194aa43
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "JA"
+    - Name: Pair22
+      Id: g=d9bc7675fa9048735014f8bd38670a60
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=4a787942df4b24c6c368c104042e8f33
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "id-ID"
+      - Name: Value
+        Id: g=e1c4046d29c0adea9b7d7be56e5e0d18
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "ID"
+    - Name: Pair23
+      Id: g=abe861e42bee4dfc5c2786ac25ed982a
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e43469ffcdca62436dfa830aaef9cee2
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "sl-SI"
+      - Name: Value
+        Id: g=17f35ce49bfeb63ce76f9363a4e7838c
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "SL"
+    - Name: Pair24
+      Id: g=f79a502abbd2ac730d611c807436499e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=810ca30745237ae3366352d9e6d5b9a6
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "et-EE"
+      - Name: Value
+        Id: g=3e79ed73692856881d116c572fba3142
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "ET"
+    - Name: Pair25
+      Id: g=ea471b2ecb9f308acb2daab95a9ac0c5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=12631bd770a01c2723b386bedd036447
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "he-IL"
+      - Name: Value
+        Id: g=a5563c8a378a7eb7594ac2e4b883b0da
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "HE"
+    - Name: Pair26
+      Id: g=fe69e742266f6b5e9cdad576765fa250
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=feff6c9ae67fe2439a20e78394daf07a
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "sr-RS"
+      - Name: Value
+        Id: g=58612f39761935462ea85b4bcaab19c1
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "SR"
+    - Name: Pair27
+      Id: g=b467e83856c9afc91c795b1680269f1e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=78f20fe017558e41a3778983929ebcec
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "sk-SK"
+      - Name: Value
+        Id: g=c5ad632401cd6ff7899ffbca3fb83e83
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "SK"
+    - Name: Pair28
+      Id: g=2e87d6cd811505a3164fcf62c7c4250b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6d25338696b492e27559b665e65a5af1
+        Type: BaseDataVariableType
+        DataType: LocaleId
+        ModellingRule: None
+        Value: "pt-BR"
+      - Name: Value
+        Id: g=480cec5d1a902067483f1a1c37a9a27c
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "PT"
+- Name: SidebarSelectionColor
+  Id: g=ac43bd81ccaa1520db3d99c4129bc6fb
+  Supertype: ConditionalConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Condition
+    Id: g=324599aa7ccf09ec6763f2a9b04b55de
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasSource
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=4724d4e38d24459300fd9485f5e857e6
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=c5fd39199c64087ad02a71cabe0fac9e
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "{#Label} == {#CurrentPage}"
+      - Name: ns=9;SourceLabel
+        Id: g=896ef570686e123d9612d70b606c5dfc
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=388d8eab127996f343ad132fec9f97d6
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{PanelLoader_Main}/CurrentPanel@BrowseName"
+      - Name: ns=9;SourceCurrentPage
+        Id: g=e8a2fa267c12b8171fd32d96712c4645
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=38457a370a2531497826fb1d66e17903
+          Type: DynamicLink
+          DataType: NodePath
+  - Name: TrueValue
+    Id: g=23a737d2411b016480376008dcc1bc32
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#33ccff"
+  - Name: FalseValue
+    Id: g=f31a711928d4684446354f4e8daf722c
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#dcdfe0"
+  - Name: ns=19;LibraryReference
+    Id: g=2a527945c8e1397cb51384bec8d3fd21
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 19
+      },
+      "Body": {
+       "libraryGuid": "4805dc68ead569d836fba949b971336f",
+       "objectGuid": "b45b2ad26dbfc2f2dfbfe09c8daaff28",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: Negation
+  Id: g=cbf2e9fc2a7dd8e13f650ca1b06d1df6
+  Supertype: ConditionalConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Condition
+    Id: g=8c3910f8934a92df9dc0427dcee161c4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasSource
+  - Name: TrueValue
+    Id: g=c74a2e983448817f71179fa9b4d37475
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasParameter
+    Children:
+    - Name: DynamicLink
+      Id: g=dd42ce8eaaa85e39e03149b5f5f629e3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/Bool/FALSE"
+  - Name: FalseValue
+    Id: g=da25f6ade0cb7707d1a59e5ee0279946
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasParameter
+    Children:
+    - Name: DynamicLink
+      Id: g=44059241bac10ef841c6b61d11deda87
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/Bool/TRUE"
+- Name: NotificationColor
+  Id: g=24be218a32d6321c2fe5b278aa34eee8
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=9;Pairs
+    Id: g=1f457ac7c9427fba0bdb59b0cffe8920
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=c0f1f1ad7db2eeec462aa2bf17387a90
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=712ab8b63ed6a1b4cfd9e71b616e6652
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Id: g=dedea83dfc7b0794f47dbd1dfbc3a925
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "#292929"
+    - Name: Pair1
+      Id: g=8853493dfaca2936efb7e51e9d86644d
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=1240f37e39368aa8004c1f6b7b542f08
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Id: g=89cbe2b0e43ce8eaf6d996d4f85701b3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "#db4263"
+- Name: LocalizedText_Unit
+  Id: g=bc34a82754ffc591fd93ed6a96e47156
+  Supertype: StringFormatter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Format
+    Id: g=718b7a6a2f9ebe66d507a617fd9793f5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"{#localizedText}\n{#Unit}"}
+  - Name: ns=9;SourcelocalizedText
+    Id: g=26893b105b7398bf8adc892d55283129
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+  - Name: ns=9;SourceUnit
+    Id: g=e28dcdcd6e05c1e46a82df306ffa6e62
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+- Name: FormatListSelectDropDown
+  Id: g=8c0a2dd2ea2a07d831b552c35596f1d3
+  Supertype: StringFormatter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Format
+    Id: g=271e0227573432620711a72730201d01
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"SELECT {#MachineType} FROM \"SQLiteFormatList{#ListNumber}\" WHERE {#MachineType}  IS NOT NULL ORDER BY ENUM"}
+  - Name: ns=9;SourceMachineType
+    Id: g=2b89975ed81fcb1fa0e0c4707b369035
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: StringFormatter1
+      Id: g=f6d8d787c5f25fbcf69293b450c61b3f
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=b0b3994a5455021fb1c1ea3bfcf02c38
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":""}
+        Children:
+        - Name: DynamicLink
+          Id: g=a28524d0d24ac3ea7b52bd36daa802ed
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_V5/Model/FormatListSelection/ConfigData/MachineType_BV"
+  - Name: ns=9;SourceListNumber
+    Id: g=dee0f8eeac96f39f60dbf4d2f1be7651
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: StringFormatter1
+      Id: g=31a70578ab4ecffa360bd18022df0239
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=b13785201120923125a5253f5c9c191e
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":""}
+        Children:
+        - Name: DynamicLink
+          Id: g=678b9965a786524abe32a5ecb862c925
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_V5/Model/FormatListSelection/ConfigData/List1"
+- Name: WorkfileVisible
+  Id: g=34b9247398be2045fcbef0979cd3278e
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Id: g=6f7442d004487c86bd5dd2182c2e22c4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+  - Name: ns=9;Pairs
+    Id: g=fe4fab2076a3bf4ce5c3ff3a8048d257
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Id: g=1cbb8d139045586fdd7cdfc65f64f6f8
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=fbc6d28947043f3ca499b5ba7dbaf016
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: Value
+        Id: g=6fb8fc474906c479418418aa46890d87
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "1"
+    - Name: Pair1
+      Id: g=6eb9df34c529870aa803d8885eef36bb
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=ffd4e59cb157f6f3bc879204ca0ba50b
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 1
+      - Name: Value
+        Id: g=aa661e1a0dd7f049fa7bacf866a50ec8
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=9d51e15eb2ec328e0d619ae69ed65412
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/1_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=b591de411ccac8daace55df07800e99e
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair2
+      Id: g=617d5d692a0a82f67cebdadb7d370b2f
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=bef8a1d7fc513e0fa5a231e84be1bb25
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 2
+      - Name: Value
+        Id: g=d9c060b103df8372232a890d2921cd41
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=b24b4731a4e9ec2c1fa6a9fe539da0e6
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/2_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=e7dc3cbd3ec459cc8b7b20fca4ca0fab
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair3
+      Id: g=8620a85637325ebac412120362cc7950
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=c2895ce5223902586135a58051a00cb4
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 3
+      - Name: Value
+        Id: g=068fa9e1b31f7813f37b97e436054102
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=b9f395d1c72c7e34169139cf78f6cc6f
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/3_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=979ff483031eabe6f2073111d66be748
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair4
+      Id: g=c69cc1b24e35feab19cf37c3a9216ca7
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=dfaed15028cf2f5f6f99d56d17838096
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4
+      - Name: Value
+        Id: g=6e8f4b88e8aaebfee0665c9158d7a9f4
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=c8518a465dee926a72cde1b73f815456
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/4_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=5c75646895443181ac82185c1cfad1e1
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair6
+      Id: g=32693509d310b3e0e7518f02c8b34f61
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=0b272acba8658eb79987d351af964787
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 6
+      - Name: Value
+        Id: g=30e62775446b6abe719d144ad696818e
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=48db53f2390596017b8910df250c8978
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/6_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=07a9a9b7c9d9901ed401066244c43488
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair5
+      Id: g=68be7b77f21f2a8e5530a1dbffb3b1ce
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=e8d4fc66913f4a1938824a8e59226493
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: -1
+      - Name: Value
+        Id: g=435d76584538ef1438a3cfe709c88507
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=e97165e07796d9c594d42a1c2f6f03ce
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/NotVisible"
+          Children:
+          - Name: Mode
+            Id: g=f3cc8606996dd93bc5230df46a995c98
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+  - Name: Mode
+    Id: g=dbd1810cdd39470aa6ff2d356e5984ce
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+- Name: WorkfileEnable
+  Id: g=77f7f1aa92e9ac0a629954a2a6f85c12
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Id: g=c3727553c7d50790b86e7bbff619ecd2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+  - Name: ns=9;Pairs
+    Id: g=2c5e7eb522e7d9a084932947daa84b06
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Id: g=66e34c43b58eee1fe32356a24c0177cc
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=8cd106d0e777edc49e7851c85b9d1c5d
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: Value
+        Id: g=a8503db15954f671e7e0f538dd457def
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "1"
+    - Name: Pair1
+      Id: g=2dc3fd4aa3bb4cd4d9fd543741c6fab7
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=a3d43f96c7491a33a7280cd4221ab9a5
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 1
+      - Name: Value
+        Id: g=c2b1d4968f9552a5160858141173bed7
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=1685cdc57af585a4bf2ef7236bec9ad0
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/1_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=106680923b2378395b591990023aba95
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair2
+      Id: g=b4255dd7cb7ed07e7deaf5d5802aeb7c
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=66e7cd95e66d0f7e19124ed6314bf2f2
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 2
+      - Name: Value
+        Id: g=147ca435736e8e6d7722568774d901f5
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=80bff2176c5b592321f99633aed623db
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/2_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=992de5f78556c1c902c0af5777a7a4a2
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair3
+      Id: g=eb0ccc7e17b2c99ce4e2cfc810ec2d89
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=e12d43b03a5618f774770d2c65650e78
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 3
+      - Name: Value
+        Id: g=4ca00005e9fe0aa7720cf2bae8d6f15b
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=c01a56e80280b600c3f78a5badf7644e
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/3_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=b62a9c80df5bbfb11fa7dbc7e11af955
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair4
+      Id: g=a6cb1bfc0901efaaaff6242fdbbf0cc8
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=21ec21d1cae9d977efcec336741d78c7
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4
+      - Name: Value
+        Id: g=49311da405e49600ab07d52b15fbffd2
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=cd467e82ca6e1dd7b16e9f4e18211523
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/4_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=bc319281c6e6f20bbf3b7afebf931925
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair6
+      Id: g=66ceee5aec5ff6efd37dac4b502b4b5f
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=c7d70d5f0eacba6eb0c6aeeef3546022
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 6
+      - Name: Value
+        Id: g=96795966721e511bba78f276d1ab110d
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=3b94ba36a3526fdc53a3f9f4080a0a84
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/6_Rovema"
+          Children:
+          - Name: Mode
+            Id: g=2b835708961eef030acd4b0f17fbc2f1
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair5
+      Id: g=b1fc3390d9d5088b8496515c70410410
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Id: g=64ae5d1e2187b065d37b5067657cf117
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: -1
+      - Name: Value
+        Id: g=6b09cd7b5ed1d4b710ce3b16c7e7c654
+        Type: BaseDataVariableType
+        DataType: String
+        Children:
+        - Name: DynamicLink
+          Id: g=61ea8f4b0a2a744299c85b338a0c2d59
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Roles/NotEnabled"
+          Children:
+          - Name: Mode
+            Id: g=d9688492eefb4d693b462e36cc617ec2
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+  - Name: Mode
+    Id: g=be43de8165a3469a97d11ab5baab3b09
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    Children:
+    - Name: ConditionalConverter1
+      Id: g=81c450b639126a7eeeb48b757580dac0
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=446772645840c7e602058f0db34adfc9
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=b8a6268b6857ffc4906b451a4343d0e1
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/DataBOOL/0/Enable"
+      - Name: TrueValue
+        Id: g=21f2cd1c182616aca901d70832a3196f
+        Type: BaseDataVariableType
+        DataType: Int32
+        ReferenceType: HasParameter
+        Children:
+        - Name: DynamicLink
+          Id: g=207c304dd79698d6239c01401aa77ed6
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/DataBOOL/0/RightToWrite"
+      - Name: FalseValue
+        Id: g=ce98024788489d987bf7c552d85984cf
+        Type: BaseDataVariableType
+        DataType: Int32
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: 99
+- Name: HeaderSelectionColor
+  Id: g=c70d41df206db95bdeb682f1491e6942
+  Supertype: ConditionalConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Condition
+    Id: g=432ec724f11ed670d4e5d14ba3ede150
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasSource
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=42afcc3eb20dc704efe4f688e8d9d08f
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=d06614ceb5d204690b1afb4bae6f37cc
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "{#Label} == {#CurrentPage}"
+      - Name: ns=9;SourceLabel
+        Id: g=e97e1f63f5dbfbfe77352201b4ca240d
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=19041a0aae8acd32d3f1e1430ae888ec
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{PanelLoader_Main}/CurrentPanel@BrowseName"
+      - Name: ns=9;SourceCurrentPage
+        Id: g=19f9388fb340781263745bfc912e17e8
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=776520efb0a2aea660c516b1d020ea8c
+          Type: DynamicLink
+          DataType: NodePath
+  - Name: TrueValue
+    Id: g=0ec496676e78c5d14a383aeba777023a
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#01b6d8"
+  - Name: FalseValue
+    Id: g=61c3e3500e1215c7ad464e105b3fcfb5
+    Type: BaseDataVariableType
+    DataType: Color
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "#292929"
+  - Name: ns=19;LibraryReference
+    Id: g=b106f497f13696dde43bf64576af58ea
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 19
+      },
+      "Body": {
+       "libraryGuid": "4805dc68ead569d836fba949b971336f",
+       "objectGuid": "b45b2ad26dbfc2f2dfbfe09c8daaff28",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: UnitInSecondLine
+  Id: g=9ed52e5db38cbb9750560562cbb75acd
+  Supertype: StringFormatter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Format
+    Id: g=50fadaa70f7539d76989cc8b3a71a4a0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"{#Label}\n{#Unit}"}
+  - Name: ns=9;SourceLabel
+    Id: g=c6c5db4fed3d850b5007238399fd3bea
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Id: g=453c2bcc49f25fdd00b368acdd608a62
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Label"
+  - Name: ns=9;SourceUnit
+    Id: g=67467d6541b29fd4b0ddb5dd5201cd34
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Id: g=78f11676ec57ee81cabd2e6fde5c3206
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Unit"
+- Name: AlarmPriorityToCategory
+  Id: g=afe919078b20962e560b241a5b0d9729
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Id: g=f05b13b599f1f3e84df681b43a2d4f3b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+  - Name: ns=9;Pairs
+    Id: g=69d3d0192f68ec5a744fa7521837b32e
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=970d23c7798c3df65dc2e7d536f5f51c
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=49a9c34f83d71827506998d514c574ce
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+      - Name: Value
+        Id: g=5caff5b7adcb4922f6a150669b83f544
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair1
+      Id: g=1026267a54a79c5c3138ff4e30d0a2df
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6db42420ae589991c89eda9f80d5b366
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Id: g=f5a0dde96ad058ddb188230cea4bb0bc
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair2
+      Id: g=1993afc24499d616639a9be5ab98c241
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=00c64e7fba69e9dfd75f64600c3d1a7e
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Id: g=6b8e8d2feb0f997620b7a555d0d3694d
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair3
+      Id: g=30768b026312d05a32f88f84162a41ca
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=10fc1ffad2ed44604d22508613e091ca
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Id: g=725b383fb7282c2d5aac2d5bfcefa2d8
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair4
+      Id: g=84504f61832e1438a18cb1ccc5f85712
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=a6a82599d011ecd5399ecff5f1085f46
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 4
+      - Name: Value
+        Id: g=f0e97d96637911d456461566ed9059db
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair5
+      Id: g=74cd74d605597416a4baf7689699cae5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=197d12bb7169ac4ab5e2fe6d9665f447
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 5
+      - Name: Value
+        Id: g=3261546fec6193d8d9fe3b2c4b216b32
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair6
+      Id: g=e56767b49aa9401d24380b645c064d90
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=2401059013ee32afad923ae79bca82e0
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 6
+      - Name: Value
+        Id: g=bd1ac4ff969b1fdfc127f494c23d2726
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair7
+      Id: g=2d2ec4899c49d5f88921f9da478bb8cd
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=32279120c5982d7e5e8f2da82e58de3d
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 7
+      - Name: Value
+        Id: g=3de82fb4ce9c6947dde21091d8cc6dc1
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"25715"}
+    - Name: Pair8
+      Id: g=f6152a4ff299488b459c79c3268dc052
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6f9f8f28bdc3bb694873dc0165d8e7b8
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 8
+      - Name: Value
+        Id: g=1ad39216f492f23b1caabe1ed06056ed
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"18742"}
+    - Name: Pair9
+      Id: g=38223d2ac33b2859e98c0ee77b5e3567
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=da0b826c7f1eb6e0f33a99210ba78f05
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: None
+        Value: 9
+      - Name: Value
+        Id: g=28e4d98dc27737996ca54ca5ff9011c5
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":28,"TextId":"18742"}

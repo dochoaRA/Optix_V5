@@ -1,0 +1,13 @@
+.content-header {
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+.toc-header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.timweb .dijitTabContainerTop-tabs .dijitTabRtl,
+.timweb .dijitTabContainerBottom-tabs .dijitTabRtl {
+  margin-right: 0;
+  margin-left: 1px;
+}

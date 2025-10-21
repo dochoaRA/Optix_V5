@@ -1,0 +1,73 @@
+Name: Roles
+Id: g=4ff7f51dcde609f9bad1bec52dddefba
+Type: FolderType
+Children:
+- Name: Operator
+  Id: g=3fa8c585bd7ed06885ac65a298ecfff2
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":28,"TextId":"16709"}
+  Children:
+  - Name: Role
+    Id: g=fd7563bde72251ab6b59b281a3f43cf0
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Operator"
+    Children:
+    - Name: DynamicLink
+      Id: g=35da0078fde212c692ca84129c039146
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Security/Groups/Operator@BrowseName"
+      Children:
+      - Name: Mode
+        Id: g=32fc83cd7bfdfdb5105c4029ddc83147
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: Setter
+  Id: g=50490eaa960ea56d47bf110b44b47108
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":28,"TextId":"26973"}
+  Children:
+  - Name: Role
+    Id: g=53c6c273cf30ae4808a32c1af9b072f2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Operator"
+    Children:
+    - Name: DynamicLink
+      Id: g=8caaf979ae39f27b1091329d55834c20
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Security/Groups/Setter@BrowseName"
+      Children:
+      - Name: Mode
+        Id: g=c820f5b5f9d1262ee9563b6f0ce0d1a7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: Master
+  Id: g=42005f4f585f3538c9b2714163181df9
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":28,"TextId":"24334"}
+  Children:
+  - Name: Role
+    Id: g=607315452a7b192034cf883bce66509e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Operator"
+    Children:
+    - Name: DynamicLink
+      Id: g=a5380dcf7d5b022abf9db562d7bdb2eb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Security/Groups/Master@BrowseName"
+      Children:
+      - Name: Mode
+        Id: g=81592d20f4cd96445d7bde4786eb83f6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2

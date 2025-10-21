@@ -1,0 +1,390 @@
+Name: 'Initial start-up_content'
+Id: g=e4fb5dba7614d055ef8656a16c7c5086
+Type: FolderType
+Children:
+- File: System/System.yaml
+- Name: Basic_Configuration
+  Id: g=b2ac2280ab38a3d31c9bac580b928c53
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=f2196c4abd483ebf0ff1bcaf9aa7a3f8
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=f5c7953602ca5db12fd438c0aa718f4d
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=e4e4ef4bc26f67eaac3d319b53fea845
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=9de1c5814763dd8698e11335a92e9151
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=e87822e2dd617d0b6d5c535de3e7bbac
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=7a8df34ac6365a2e7d391300845f1faf
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=3b7930710badfe3e932af140a723006b
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=ec9d6906cd52b01f55d221b589c8fe99
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=277278468439a7ce3755a85782857332
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- File: Drives/Drives.yaml
+- Name: Format_adjustment
+  Id: g=f7a70de99d7ad080c23455ebf6fc56d4
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=eb66583a66a032874e616a23ec08f898
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=ba9e8c8ae67ef99e45cd157b86aa2e1e
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=0ce4f3d7603d1fad28dfcc1dd13b3fda
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=5d44d470799a4608827e0f9f491feafc
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=282954e592e97feb13102f1910fc19a3
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=b2123562c035f407fb9aa9a9f50779cb
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=231ff0224085ca2b7c622f646736d404
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=ec8cca35359ab32919afbb9dd97ae3fb
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=01f57f266c523afab7cbb40b2e3f5a4f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: Attachments2
+  Id: g=78e3a0fa90a3e35d7db635d2022ed47d
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=ef9a2a83126a91084a5c1d46e6042b38
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=33f12bd70398eb743ef4898a4c460033
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=3804cc27aa5f11fd119fca503820e341
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=38b7cd9eed1a8d52c4e68a60cc7197d7
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=64c679f316caba14cbb0cb037b34082f
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=aeea62ceef93b6506c75701d5ab7d72e
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=ed80f839f91c2e80766132d086f6d0c6
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=4f49672513e2a1dd878f827ed6a937e7
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=e7df4ee8f2b8ca6d025afdd83dd1a2b4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: Sealing_Tools
+  Id: g=0ce66ee11e6cb0115dc711b5634a8b5c
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=c31ad6fb29822305b3863193ee5e2ebd
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=38c33637fd31d62072189bce177868a9
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=1dfcdb95d487a76e9cee67094ab0b934
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=abd7842c2b50c0eb124f72e7f1729da1
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=9e51746d5447be1a4f04d64232ca37a3
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=6f714f0f2618c8d23825f5053c208c88
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=672ae52fe6af59d40b309def53977331
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=dfd0be50110de7e9070e4299bd6e165d
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=0e4baae880dfbcbec1a3e15d45e9912a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: Switching_positions2
+  Id: g=56d5f4cd569cc48e0b145eceb802ce2c
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=8013dcdc4a0379fa6734ddae575404c4
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=1ff81d3f1e3e4b2bcd1647723fa7fe93
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=bce73fb2e4013841abfdbef9dcfac25b
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=bb1a2e37a64cd55026b2288b9ce5e0cd
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=1031b90a4133307afb412baea2898a51
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=e0dc742ed0204aef0ca8e80f590248c3
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=d3c412704a01562e06afcef290815b73
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=74ae90e3c4eed56f52bf1a2c61f7350a
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=7dcb429caf245c0ce925850520281bb7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: Valve_terminals
+  Id: g=3dc70e2b5135a213b88495d6525f80a9
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=5d1b366e0e05c00b83ebb9cb9d176c03
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=7b768351c1a24ff2aacbf926027ccad2
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=a597a14ad3f53ff42466ccb53883c858
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=1b549a1a283721772b018d7b2f65181d
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=8600aecf53b9fd6fc269719d2807bd48
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=9daa64a39129618584187be4ae64b01c
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=92059ab5f158f6150fccb0867c8e9aa0
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=06ebcd2fe4858411cd8593c52fec1f30
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=60cd3fd9637321179b7288feb49ca856
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: Conveyors
+  Id: g=b0b430fd45c3470e3ff6f89cd775276a
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=3df196aac9f44e2d27506c23044da889
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=236d21a471caa0e466c6fc17e68041f1
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=48ea5e0f220c21eb9d1207dc1d2d2b17
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=26310e1c9f4a0600e8b3f7096b211da1
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=4aacb7ad93a4bc3a699375c0cf99346a
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=4878a6a9bdebbb348feb8acbc277c83a
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=7ae6e687312c8fd9acab3abe0ef4bb6f
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=3bf053bff9ebcc32374ca312ba751b2e
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=15ff7fd7fe7b1846d390656d2f9f6478
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: Remote_Data
+  Id: g=5c70c5041eef2b102653384998ace421
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=a7693c9247c9d5b3b43e216ed58d1b0b
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=7d78fd54a7bcc737287bc4af64df10c5
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=a07b6e17b6de8ebf8a52812da219ff68
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=e35e1a10ebb2c2ecd1959fae0cc11dcb
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=e563b46014959264d356fbae4cdf3ea6
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=7360bf44e19efcbad145dc2714b5ceb8
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=14bc438e711fc79e02fb39c9ec67dd20
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=47f5bbfec8c6a6ac490807e82ef79b5c
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=268b01e9ecf6126380a39b9ed2134e33
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}

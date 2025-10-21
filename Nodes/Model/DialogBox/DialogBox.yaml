@@ -1,0 +1,21 @@
+Name: DialogBox
+Id: g=6e10d99638825a2441572c5992f4ac5c
+Type: FolderType
+Children:
+- Name: OKButtonVisible
+  Id: g=3d8ba20c65b5aea7df5c42c5ab2ee723
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: CancelButtonVisible
+  Id: g=de46af2f9f54850df98724340d477ccb
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: YesButtonVisible
+  Id: g=0a639ab760a3a1b7987bed394fc3e40f
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: NoButtonVisible
+  Id: g=09988db6c1370014d93fd91b294d8c99
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: InfoWindowTextIds/InfoWindowTextIds.yaml

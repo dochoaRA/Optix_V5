@@ -1,0 +1,16 @@
+/* ProgressBar
+ * 
+ * Styling of the ProgressBar when RTL direction is specified
+ */
+.content-header {
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+.toc-header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.timweb .dijitProgressBarRtl .dijitProgressBarFull {
+  border-left-width: 1px;
+  border-right-width: 0px;
+}

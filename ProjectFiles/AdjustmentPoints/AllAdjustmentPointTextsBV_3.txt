@@ -1,0 +1,5 @@
+25135;  Flachbeutel
+2209;  Klotzbodenbeutel
+28814;  Ropack Beutel
+33013;  Seitenfaltbeutel
+33012;  Stabilo Seal-Beutel

@@ -1,0 +1,875 @@
+Name: Faceplates
+Id: g=b4eddc4faeb2adb0f20318d91fa6668d
+Type: FolderType
+Children:
+- File: IODevice_5vR/IODevice_5vR.yaml
+- File: IOLinkDevice_v3R/IOLinkDevice_v3R.yaml
+- File: NetworkDevice_v12R/NetworkDevice_v12R.yaml
+- File: PowerDevice_v4R/PowerDevice_v4R.yaml
+- File: SafetyDevice_v1R/SafetyDevice_v1R.yaml
+- Name: ISAStyleSheet1
+  Id: g=5ac65827710911e23e2267a36c27b0b1
+  Type: StyleSheet
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  DisplayName: {"LocaleId":"en-US","Text":"ISA Style Sheet"}
+  Children:
+  - Name: Radius
+    Id: g=ea635d96cee423bb11b2f40f5b63a11b
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 4.0
+  - Name: InteractiveColorGradientPercent
+    Id: g=3d0305bf5c4d85a87eb2adc44414626b
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: FocusGlowSize
+    Id: g=0fe5099155f777a15933730547c32e8d
+    Type: BaseDataVariableType
+    DataType: Size
+  - Name: AccentColor
+    Id: g=b6a18c2ce6500699c40e8cdf0a842b61
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#afafaf"
+  - Name: AccentTextColor
+    Id: g=a2f8a756f79d322036dae9376149773f
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3f3f3f"
+  - Name: AccentBorderColor
+    Id: g=3f46bca2c11bf0a43cbaa693b5fbbcea
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3f3f3f"
+  - Name: TextColor
+    Id: g=6de16e24ddd4241216720e6518a0aeb5
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3f3f3f"
+  - Name: FocusColor
+    Id: g=fd07d81c62c08d1548c43eaeeef31a8c
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3f3f3f"
+  - Name: BorderColor
+    Id: g=ebbc4afcfb358d3b282e47e93cdc3f4c
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#afafaf"
+  - Name: InteractiveColor
+    Id: g=2858b3b79cb9bb7264063be77fa16a7a
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#e4e4e4"
+  - Name: FontWeight
+    Id: g=0c43131753b6e263d88f8cda6e7daa87
+    Type: BaseDataVariableType
+    DataType: FontWeightEnum
+    Value: 400
+  - Name: ScreenColor
+    Id: g=3a4fcf16ff7d4ce177a59ebcd3db9908
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#e0e0e0"
+  - Name: WindowColor
+    Id: g=daf371fd156fa75899208f3e17e2d871
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#e0e0e0"
+  - Name: InteractiveDropShadowSize
+    Id: g=a9cf382105fc0735190df9cd5e60cdf2
+    Type: BaseDataVariableType
+    DataType: Size
+  - Name: FontPixelSize
+    Id: g=2df34bc174e07e8c6adc32b06adfefbb
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 16.0
+  - Name: ButtonStyles
+    Id: g=5c5b706a234eb86454e0a659abf74df9
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=cee6c25fb989b8655498984414ef77ad
+      Type: ButtonStyle
+      Children:
+      - Name: PressedColor
+        Id: g=20ad301dcca8b501b74211fe87a50893
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: Color
+        Id: g=87b9e4bf31eb85d56f5dc948ef303017
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f2f2f2"
+      - Name: BorderWidth
+        Id: g=9d8874390bb8a4b03371ca6df18dfd4d
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.5
+      - Name: FocusBorderColor
+        Id: g=6bd89b286f2ec40068302e5ca534f78b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: BorderColor
+        Id: g=e1e42803c971bde0844f1837b4801222
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: TextColor
+        Id: g=146ccbcf870ab452597559cc246a421f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: PressedTextColor
+        Id: g=b33c5192d7ebaffb8457170be895e510
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: PressedBorderColor
+        Id: g=c56376999cdaa7ac8c7719c090cbfee7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: IconUsesTextColor
+        Id: g=0903ffb9ed887e7e276463712967d87c
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: Accent
+      Id: g=705ef83339dda1cc5ee46c6096d63fa1
+      Type: ButtonStyle
+      Children:
+      - Name: TextColor
+        Id: g=250afc8b20d70147cea8a865f3d6b6f7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: BorderWidth
+        Id: g=9e90b4ebc3170533a9accf2cd0ca7d8b
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.5
+      - Name: FontWeight
+        Id: g=16c22629abb75388839fd844810cd9ad
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 400
+      - Name: FontFamily
+        Id: g=c2e76c93352cb05c0146d04c14ea846b
+        Type: BaseDataVariableType
+        DataType: Font
+      - Name: FontItalic
+        Id: g=46b2ef5c7a1fdac19486d5f9aa35da08
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: FontSize
+        Id: g=4abe72231ee7c75e470554a2b9b029ef
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 16.0
+      - Name: Radius
+        Id: g=e2c075ff4538723d11695e9b9bd95bf2
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: IconUsesTextColor
+        Id: g=5e040f854adcc95a7970330ccb357435
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: BorderedRectangular
+      Id: g=6bdb35de1f87934fae4bf19c537476fa
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=800d940c1510f4610b6a247d74976fd3
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: TextColor
+        Id: g=a41bfa7193295313ae0b1f5b007180a4
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: BorderColor
+        Id: g=834ac6e5015910b86e87065063c335eb
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=4b464777c55f270a7056490496a0f19d
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: IconUsesTextColor
+        Id: g=62c7de8d82abf14c7c7cb8c4de350d39
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: BorderedCircular
+      Id: g=44207b9c5231f9838a2835d08845a28c
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=583363d45fe4792b35cca72f3e3da607
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: TextColor
+        Id: g=c34d74133564aba2edee943d3895f868
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: BorderColor
+        Id: g=9f2841274b748be337f5b7ee007182c1
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=4ff9a403d16d28e17ff5b71bb489ffb0
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=da317215a7918edce04075176e50bb55
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+      - Name: IconUsesTextColor
+        Id: g=324ac63b077186215137def9911801c6
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: Emergency
+      Id: g=e9ec4a10cfcdcdad27d26df6a6fec1f9
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=521829890aa39c127688c2af25211f60
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Id: g=3866f0a1a5e48b913b644fffcaa71172
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=c0622fe9bf5e664b4f933d30426e831f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Id: g=bdb9f206a19aa9abf2c485e3e6eaae3f
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=95202a613bb1b354059cb38c6cce050d
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+      - Name: IconUsesTextColor
+        Id: g=ee875271c9e22db3589ab3a119c04ef9
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: Transparent
+      Id: g=ef82bcba73f4cc1f9991736049949b23
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=623acfeadbec3a499bbe5873567e2c2e
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderColor
+        Id: g=8c477829480c822522562c1f40a78307
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderWidth
+        Id: g=154a9aef0655fd0e9eabb78ff3cb5860
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: FocusBorderColor
+        Id: g=fe0f641718ccfb825b436fe3435c1a05
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: IconUsesTextColor
+        Id: g=f65254a65d8cb4a5997ce68cbd37b5ae
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: Command
+      Id: g=0913f5c87f7bd51763feeb2e3408b253
+      Type: ButtonStyle
+      Children:
+      - Name: BorderWidth
+        Id: g=a25973912de14988edee7898501c7f7c
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+      - Name: Radius
+        Id: g=3ec92e59edef5c79ce8a23233a40f323
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 8.0
+      - Name: FocusBorderColor
+        Id: g=eb823dc965a3e42e89ae15198d11bf34
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#6a6a6a"
+      - Name: Color
+        Id: g=ef81e67c7581e6d520a2ee7ebc70cd45
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c0c0c0"
+      - Name: BorderColor
+        Id: g=b89e858c23851d9ed2f23be70308e019
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#6a6a6a"
+      - Name: PressedColor
+        Id: g=627f78c90ba048438d1c7be1a78b266b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: PressedBorderColor
+        Id: g=e2fc87a1adcf8830aa31a1fad1bd4830
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: IconUsesTextColor
+        Id: g=8136d55c0b71ebb3c0e60edb8976451b
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: CommandFeedbackActive
+      Id: g=396c9e872d30e49aefc2db901a2b4755
+      Type: ButtonStyle
+      Children:
+      - Name: BorderWidth
+        Id: g=39e4930a6c88e9c4c9b56c8798f1bf62
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.0
+      - Name: Color
+        Id: g=3954dbfab214ea4f6c8881850cc51f82
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: PressedBorderColor
+        Id: g=6aebce8ebf592e238284bd2c766ca550
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: FocusBorderColor
+        Id: g=ff8671a13def0fdd0003000bc7f85d76
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#6a6a6a"
+      - Name: PressedColor
+        Id: g=97905b51819eda1f7f186541b84f0c9c
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#afafaf"
+      - Name: BorderColor
+        Id: g=702c1205b8cdd818c2a486cf962f35dc
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#6a6a6a"
+      - Name: IconUsesTextColor
+        Id: g=cbe6ef38d94a1026d9d23fada4e8d531
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: Navigation
+      Id: g=2d8d21b94978bd5ccddfb155e353699d
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=70754bad2ab36ef0676fab6de59a2694
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e0e0e0"
+      - Name: IconUsesTextColor
+        Id: g=28b78f8e320b2a78213a2cdee16939b6
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: HorizontalPaddingPercent
+        Id: g=4e934a3a87d32e9872c48e49302220b8
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.75
+  - Name: InputBoxStyles
+    Id: g=34f29c12579ad3d2415ed3bdd6d4ce95
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=206bcbda40627d7b2b345683e3571442
+      Type: InputBoxStyle
+      Children:
+      - Name: SelectionColor
+        Id: g=e3b017aacdaf58655d4af4eeb8aa438d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e0e0e0"
+  - Name: SwitchStyles
+    Id: g=7cf6cc800d7ee83f39e0acf85fc6d2f7
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=67af4a4aea706dc80d6c724a8d771748
+      Type: SwitchStyle
+      Children:
+      - Name: Radius
+        Id: g=c584c623c3d800b8646c2251ca30a802
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 16.0
+      - Name: ActiveBackgroundColor
+        Id: g=3344342964a68200d1bda286d09e8062
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+  - Name: GaugeStyles
+    Id: g=966ab3ea6911ff69ff62f10adb0d1acb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=23e0a1daf0b36bce3887d10cf7dbc510
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Id: g=b61d0d912a2d8f6283db52857327392c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=ec87e5fcd30d3ea207c2bb7c0dced48d
+      Type: NavigationPanelStyle
+      Children:
+      - Name: ActiveSecondaryColor
+        Id: g=fc503fc2197dbb73e6cb4abf30809be6
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: BackgroundColor
+        Id: g=0e12c1086fdbc340b86bd25d8a009d4f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c0c0c0"
+      - Name: InactiveColor
+        Id: g=74da527cb851922b68cd09b0317c94db
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c0c0c0"
+      - Name: Radius
+        Id: g=e82b83cd178b970289a172df8cb84721
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 8.0
+      - Name: ActivePrimaryColor
+        Id: g=d6b9b3f8b7d8328f214d2ec5da0483a3
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e0e0e0"
+      - Name: IconUsesTextColor
+        Id: g=a4eee40e2b6e6eccd2608fac201d93e1
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: TabSpacing
+        Id: g=0b6c16a218812ec249d9d3705df283eb
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 8.0
+    - Name: ISANavPanel
+      Id: g=3616e7e76272afc496789ef76e1c60fc
+      Type: NavigationPanelStyle
+      Children:
+      - Name: ActivePrimaryColor
+        Id: g=bfd4c7a4449c2484f7b844d9799394f9
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e0e0e0"
+      - Name: InactiveColor
+        Id: g=838db6a8defb8e515f32218d3fdd8805
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#c0c0c0"
+      - Name: BackgroundColor
+        Id: g=d222589091644d6dddcad081fa4e0284
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e0e0e0"
+      - Name: Radius
+        Id: g=956e423629503e9f531d667180cc3b63
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: IconUsesTextColor
+        Id: g=c6ba18184a71d746c3e014320e4f818e
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+  - Name: ChartStyles
+    Id: g=eaeb434c5a55b2195a1c4205a9930a4d
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=9d31262166bd2cacd908db260c6dbf59
+      Type: ChartStyle
+  - Name: DataListStyles
+    Id: g=9f3707a2eeccbefe7855167be6b7048c
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=a72ee618fbb03d746caccb6d5b04f2ad
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Id: g=b3e9e182b3b2098454eb7f1c705f7e7e
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=ab7ade84ade03e49213fa30c24a817c9
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Id: g=18d102a0287a3fd81502fbd6a242d004
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=20bb79c6e51caeabcbeaff25ba4f8a01
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Id: g=51515a12522a51b173d3f0732734f9bb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=33b8dc5389fbc878c664484b2027d306
+      Type: AccordionStyle
+    - Name: Table
+      Id: g=64d63c0e02739a667d9f2df1db69a220
+      Type: AccordionStyle
+      Children:
+      - Name: BorderColor
+        Id: g=8442e9e7468dfddfa6aad280b9d47551
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: Radius
+        Id: g=19db9631e96d6f17f7c4a535e6255cb1
+        Type: BaseDataVariableType
+        DataType: Size
+  - Name: PieChartStyles
+    Id: g=db47ab1fe1486c5c5b8649fadcc74009
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=405aff000aa6bed5b381757ba565e88a
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Id: g=f8d65c9872a94e329be63e1c8eb6ed74
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=9ad4a1f37000d98b8c159a03eadac9cf
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Id: g=0e183cb792330334d41087f15b066693
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=aa671e5c5b1e177e2878d56e2e3abd57
+      Type: LabelStyle
+      Children:
+      - Name: Radius
+        Id: g=44935638bd3a0f405ed0defc5e3b6bda
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.0
+    - Name: Data Label
+      Id: g=6cbb0627b98f8c6a2b9bf5f8d44711c9
+      Type: LabelStyle
+      Children:
+      - Name: FontSize
+        Id: g=507578cb5777a505dc54c77d03fd8a22
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 14.0
+        Children:
+        - Name: ExpressionEvaluator1
+          Id: g=b25405b728c58c63e8377cc4a0573734
+          Type: ExpressionEvaluator
+          Children:
+          - Name: Expression
+            Id: g=78bff3469bc3a34c2ee3d8c1793d5fa1
+            Type: BaseDataVariableType
+            DataType: String
+            ReferenceType: HasParameter
+            Value: "{0} *0.8"
+          - Name: ns=9;Source0
+            Id: g=3ebd3b899eca57c88dfd19e615db4e18
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=7a93092fe76af1bc46e6f272cc94eab6
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FontPixelSize"
+      - Name: Radius
+        Id: g=9028b2c6d3382064aa0d288e217ea3fd
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.0
+    - Name: Live Data
+      Id: g=23814bd5ae65ce1e54085759e48824df
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Id: g=508728ff8dab01a7f599a7a8d53298cc
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+    - Name: Live Data Primary
+      Id: g=e97d9081f8d6a46ae386dcc51eff8fe6
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Id: g=0f3732b517ab81b67ba2c47cd33d1132
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+      - Name: FontSize
+        Id: g=248b0eac0c166f2454fa7414e311f153
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 19.0
+        Children:
+        - Name: ExpressionEvaluator1
+          Id: g=2e68935fc8aa536884f6287e427690c0
+          Type: ExpressionEvaluator
+          Children:
+          - Name: Expression
+            Id: g=d76d5e475a45272011ef4abc8635397b
+            Type: BaseDataVariableType
+            DataType: String
+            ReferenceType: HasParameter
+            Value: "{0} *1.2"
+          - Name: ns=9;Source0
+            Id: g=7028f9b22f2e22923b6f39f7dd40bbf9
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=7d0147efd24647ad804f0fc8e5f483fc
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FontPixelSize"
+      - Name: FontWeight
+        Id: g=11568b9dc5973fc0c6841f654bf36fea
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+    - Name: 'De-emphasized Text'
+      Id: g=4dfee8c7d70b6c432263428a43189c5e
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Id: g=be009c4466879a46ce0de89e1eed6c59
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+      - Name: FontSize
+        Id: g=e13161eddf630733baa4edacdf0512dd
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 14.0
+        Children:
+        - Name: ExpressionEvaluator1
+          Id: g=910ce4107e0aa88cd70ce45bdd2fc3b4
+          Type: ExpressionEvaluator
+          Children:
+          - Name: Expression
+            Id: g=c77c987de3615a60274d03da47e3dba7
+            Type: BaseDataVariableType
+            DataType: String
+            ReferenceType: HasParameter
+            Value: "{0} *0.8"
+          - Name: ns=9;Source0
+            Id: g=9d0ed1c6251b78d40c43d98909530173
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=3278cb6f8ba616e4fb138c96b38d6761
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FontPixelSize"
+      - Name: Radius
+        Id: g=23770ff24fe2213e4b091b16080aab5d
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.0
+    - Name: Emphasized Text
+      Id: g=79c43ef82f77d86866c547b2a5f30ff8
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Id: g=076d449b7be3c243c1633bab4f82953c
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: FontWeight
+        Id: g=4bea4bcad7e374127f0ed25af8aaecbb
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+    - Name: Heading
+      Id: g=0f63886ac0a7f2f6adb66366dec557d5
+      Type: LabelStyle
+      Children:
+      - Name: FontWeight
+        Id: g=498f81ca5437ff1acf0b9ae93a191ea5
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+    - Name: Warning
+      Id: g=b98fe0f95fb049f96c9facc5a6ce0187
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Id: g=e0fea0242a10438f7d5536bee798f21b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: Fault
+      Id: g=1758d1f8819967cd7a205b0caa407361
+      Type: LabelStyle
+      Children:
+      - Name: TextColor
+        Id: g=0169a0bba25c514349148355890619a2
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FontWeight
+        Id: g=543229a0b528636b361e2bd07ec5a026
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+  - Name: RadioButtonStyles
+    Id: g=6e33227c213bfaea8b10c3f3255a0d8e
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=81b2fe4526a8118e9216dd4f507c0e18
+      Type: RadioButtonStyle
+      Children:
+      - Name: IndicatorSize
+        Id: g=9f6b4e38e0821c13ced9a02426025bd1
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
+      - Name: ActiveTextColor
+        Id: g=266d59a3009a38c46cfce9a620807ffc
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: ActiveColor
+        Id: g=80ad45ed175dd295f9593c28fbfec30a
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+  - Name: CheckBoxStyles
+    Id: g=510dc8c9fb1276844a66ec0d230f2d69
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=2b83975c1264b27b522c13b682ffd37d
+      Type: CheckBoxStyle
+      Children:
+      - Name: Radius
+        Id: g=1fba8429766baea9c002aab36b4aa2c5
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.0
+      - Name: ActiveTickColor
+        Id: g=eb21f24aed29301e94d3770ee829d14a
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: ActiveTextColor
+        Id: g=ae556dc81cb98ff13d88ac2acdfe11c7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#3f3f3f"
+      - Name: IndicatorSize
+        Id: g=3a32c77806f8d67e00587f5831e60f95
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.0
+  - Name: AnimationDuration
+    Id: g=b7d0d4d83c6f781002abb600ce9d2472
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 150
+  - Name: DisabledOpacity
+    Id: g=8a81fbc71a5af8c998e3918cc3cae03d
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.4000000059604645
+  - Name: DataInputBackgroundColor
+    Id: g=75002b894cae1a91e69f5084e2046eeb
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
+  - Name: DataInputTextColor
+    Id: g=17696fdff1b4108b1718f79a5635698a
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3b3b3b"
+  - Name: InteractiveBackgroundColor
+    Id: g=24a59387e0650e3556a16c48c60a0744
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#f0f0f0"
+  - Name: RectangleStyles
+    Id: g=d3b214c9077bb447475419d9f03c817a
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e79b5a5fc11412e3b5bd1991ac5111e1
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=3d68e2f0fa2f54ec9d119bfe607b4745
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=fb15c671df6b12da87f6606604c8f10d
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=1a58bd4cbbcb61d45811c84116a88e4d
+      Type: ScreenStyle
+  - Name: ns=19;LibraryReference
+    Id: g=63eeac478fb3c62a88966638e7da7bd0
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 19
+      },
+      "Body": {
+       "libraryGuid": "8f879552c67d48428e3c5ec6ef776800",
+       "objectGuid": "291eb61433ef49cdf19d53ae39ec9a6c",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

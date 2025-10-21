@@ -1,0 +1,624 @@
+Name: Footer
+Id: g=665c44869186160878f19d2c90a7253e
+Type: FolderType
+Children:
+- Name: StartStopReset
+  Id: g=a6e12427771d90cf2d09c1dedbbdb8f6
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=6ed3a761af1975f9d56650caa6cdbdbb
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 430.0
+  - Name: Height
+    Id: g=2e7102e7a596ddc7cd9e2250069ad783
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 141.0
+  - Name: BackgroundColor
+    Id: g=9b6c700f5e0cb916dbcad74c123c5913
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#4b4b53"
+  - Name: RESET
+    Id: g=5f47239af3a650ee0a3a6ce6893ef138
+    Type: SSR_Button
+    Children:
+    - Name: Label1
+      Id: g=e96dde40a21bd1128c94bfb3d556a733
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=0a6410677640e1784f75f6e69861dd24
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=653242eafdba2dc31deb52807ae7d52f
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../..@BrowseName"
+      - Name: TextColor
+        Id: g=a6b2a7beface7f762493dfb99a6cafb7
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+    - Name: Image
+      Id: g=8adb9ffce5234a1165c332ebb5ea640d
+      Type: Panel
+      Children:
+      - Name: Background gradient
+        Id: g=d58ad07aff94010779b660ea650910d8
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=1f0be2d667e05757b63c7f452f626274
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/Gradient/StartStopResetGradient.svg"
+      - Name: Pictogram
+        Id: g=f3b9ddd59abbac6b5d05733dd8326c4f
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=3f60c3dcb6db06a0898854e709a83bd3
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/all/reset_double.icon.svg"
+        - Name: DynamicColor
+          Id: g=da0b169d8af2276e9ec1b233068e87b9
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+    - Name: MouseDownEventHandler1
+      Id: g=aa136dbbe1cf9e52993fef3db978d86a
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=b4993f3187ac6623648f40a0eea7f7df
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+      - Name: MethodsToCall
+        Id: g=b1739b62281afeeb85b2fd18244a3094
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=d796cd84e35fa3da3f50a147b043cebe
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=e485e19999d497b04a8b7e573ac9536e
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Id: g=6bb91c5c8e409d4c482f03bd9f0f454f
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=0ce205d6f395273f9dec80d9f3df25c4
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=b84af7a6b95b89ea84da988bef1cd7e8
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=81b91de7cd7671149413eacdea0c3057
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":9,"TextId":"SetVariableToModifyDescription"}
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/VP_AlarmAdministrator/AlarmForHMI/NewAlarm"
+            - Name: Value
+              Id: g=738d8405de9119ee70cc35f5aee71c0a
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Description: {"NamespaceIndex":9,"TextId":"SetValueDescription"}
+            - Name: ArrayIndex
+              Id: g=691aa62b632e0dcf1294cc8fe3357fde
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":9,"TextId":"SetArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+        - Name: MethodContainer2
+          Id: g=58affbac83c6f4fd51ef6f61b8354e60
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=cde4040f6b5ecac244bd3fc0e21b2835
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Id: g=9d9b06bbcb2c44261c83a583fb797272
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=0107d6fba3b9bd0a66c2dd9040ccd8ef
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=4946277ceaadc64ee6544d0a82ba1377
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=ae348af57b205db14bae6ec6d9f8e924
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":9,"TextId":"SetVariableToModifyDescription"}
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/PV/PB/Reset/Button"
+            - Name: Value
+              Id: g=4ccc42fd150721ea15eec4ba217e2857
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Description: {"NamespaceIndex":9,"TextId":"SetValueDescription"}
+              Value: true
+            - Name: ArrayIndex
+              Id: g=4c5ae8d754b7b9de9faceb6d5354979f
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":9,"TextId":"SetArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Id: g=5124226a767e32d31fbe93ea43d28210
+        Type: MouseDownEvent
+        Children:
+        - Name: EventId
+          Id: g=484468eee2e459456a584a0a5d37b37d
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=8f3d2b5842653358984a576a73c83da7
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=419916eb20990dacad0c0a9f21fcc168
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=16de2aaef53bb3dfb7a5c9f0df326889
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=e3ed3763c89b6d8e76c9eed7dfd6f6e8
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=cf839d62fb3fab6a270635299fd49980
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=3a576a53257231a072cfa57815299f2a
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=7bae700d695f11f3b71344eefe45f072
+          Type: PropertyType
+          DataType: UInt16
+    - Name: MouseUpEventHandler1
+      Id: g=9d8ca62f8ea07827e01da500ad4540fc
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=47be961abdf36de685172f57c45f7041
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
+      - Name: MethodsToCall
+        Id: g=8079580544572c48d95f7f5b67a1a822
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=bd542d11e4591515d25fd54008c42fcf
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=02b20da4424db029d6db31dfe9794f79
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Id: g=303289aa0394091456457e6e1bd0efd5
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=710f79fdc81886acdacf3bcee93254e3
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=64597e327e388bdb74e9023ba6f4c3ac
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=5661437a7547942e49028fab47ed9c4e
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":9,"TextId":"SetVariableToModifyDescription"}
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/PV/PB/Reset/Button"
+            - Name: Value
+              Id: g=812efc5f4b69a76e6d1ac5b18069f884
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Description: {"NamespaceIndex":9,"TextId":"SetValueDescription"}
+            - Name: ArrayIndex
+              Id: g=8dbae6507b7f5a8f964c418a4ad387c1
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":9,"TextId":"SetArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Id: g=10b358d042d9a99e80a5dad2308eb562
+        Type: MouseUpEvent
+        Children:
+        - Name: EventId
+          Id: g=4c25aa0e700a9d8bd8c42d98afd22962
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=0f97fd8d5dbf909c2964756d8cf0ab90
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=2a86e1105592f73f6be40c1ff7cdd85f
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=e32849e07515b5646c43f60722e6ba91
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=e5c5cee79f4f4a28518a03c2779c44b8
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=6fbd9f48f3b7843b1cb04540eb243880
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=a26c74fbb3d38bcb078e6eceb61c0e5d
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=df850944d74f6d582fe98b2d59284246
+          Type: PropertyType
+          DataType: UInt16
+    - Name: HitTestVisible
+      Id: g=b3d5aaf8c2029379becedb4b34c4f4e5
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: START
+    Id: g=2c1c2dd6c2b86fb459e0df828378dd3a
+    Type: SSR_Button
+    Children:
+    - Name: Label1
+      Id: g=9fc58db7c446b69ac95c0c3e89eedf13
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=9517a28f144b61fbbd5c2e743f0242ed
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=1d555829d8563ba91e7663d30d31a894
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../..@BrowseName"
+      - Name: TextColor
+        Id: g=c70b5e7599b305be6b509bd5bd13f0bc
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#64ff7e"
+    - Name: Image
+      Id: g=b0bd95522e36600aaba97cc78660aae1
+      Type: Panel
+      Children:
+      - Name: Background gradient
+        Id: g=4c6d65458f1fca68ca2e1c4a15ebe32b
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=a7aa94395c881077b0385e9ade132efd
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/Gradient/StartStopResetGradient.svg"
+      - Name: Pictogram
+        Id: g=c4865c6f5339984df72386ee2808eb8e
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=9e600c10199e1a439a765c956e62d173
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/all/Start2.icon.svg"
+        - Name: Width
+          Id: g=19e400eecaa0e6fcbb6761a49c969446
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 6.0
+        - Name: Height
+          Id: g=b3aed2c730c66b05c08a6342f2b27807
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 35.0
+        - Name: DynamicColor
+          Id: g=939ddaf844b6adc7670bbb395322a57d
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#64ff7e"
+    - Name: HorizontalAlignment
+      Id: g=d11391b21619561f0bdc557052cf5d9a
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: LeftMargin
+      Id: g=4516fec09d8abbe0b182cf1a753e89e2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HitTestVisible
+      Id: g=a2237b2f002f656f1d9a066d0b970a5e
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: STOP
+    Id: g=6f05ae46eac8dfdc83ef20c1d1620a75
+    Type: SSR_Button
+    Children:
+    - Name: Label1
+      Id: g=e51e7b94ffa3d24754ac43435a023125
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=62e43a0751105be882b2239520e789b5
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=9e51e327d3203b323b406ce8e8453772
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../..@BrowseName"
+      - Name: TextColor
+        Id: g=e9dee2894961a25adf9b6118e396a20c
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ff2655"
+    - Name: Image
+      Id: g=57d8904d061b8d35e58c175111117aef
+      Type: Panel
+      Children:
+      - Name: Background gradient
+        Id: g=777d0bc472dd823a925ffbe8673984fd
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=1770bc45ac4f013f4902e0e66568fe31
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/Gradient/StartStopResetGradient.svg"
+      - Name: Pictogram
+        Id: g=98b90c04b45eb4a4cc0507cb5d7a2e63
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=0a650e1ee030b685975bbf587c569161
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/all/start.icon.svg"
+        - Name: DynamicColor
+          Id: g=eea68feb367d477fb1e9f2f4da7e03a0
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ff2655"
+        - Name: Width
+          Id: g=2ed6a53f5e2ed72b746cb96a8bd428e6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 51.0
+        - Name: Height
+          Id: g=9548a07e54736daa5900a497e20dfa68
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 51.0
+    - Name: HorizontalAlignment
+      Id: g=14068de6886179032276c83b566c1375
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: HitTestVisible
+      Id: g=0fcb6a58c58b73fa06a387e6d7005dae
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+- Name: SSR_Button
+  Id: g=21fb11722b7d2e2ad687612b58cbe4e6
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=29e1786d5a54482fd168691e00f2ffa1
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 142.0
+  - Name: Height
+    Id: g=e6a02bc437f3c5ccffa9c106f9ba4e85
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 141.0
+  - Name: Label1
+    Id: g=42547fa3a0574b89c4d46fb1acab449e
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=88899451e9b6a354fe5fd626a8795579
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=da423f706c9e8537984dd1e9b96bc5c3
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../..@BrowseName"
+    - Name: Style
+      Id: g=0b6285f341dea6dcabb5f66360c6d93b
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "StartStopReset"
+    - Name: HorizontalAlignment
+      Id: g=0ba044305fea86cfc05bff2019ec4c63
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=17ace0fd1eb12c39d1be6dc1adfd9b9d
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: TextHorizontalAlignment
+      Id: g=33ab867139a8660d126f54204c1b4e80
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: TextVerticalAlignment
+      Id: g=46e04d3b6ac67b7d7a9c8cdf4b25cf3d
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: Height
+      Id: g=4ddaddb446b234f837235445a3555e60
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 41.0
+  - Name: Image
+    Id: g=b52152153fdff3768ed3cbb021c7bf73
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=23781252896bf27f454c2497c786fcf9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Id: g=91dbbd2f9effd018977280b2939aab8f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Background gradient
+      Id: g=119abaae140be6757086cffa1e3ee46f
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=d81678858e981f3f61cf28a06061f759
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=28;%PROJECTDIR%/Gradient/StartStopResetGradient.svg"
+      - Name: Width
+        Id: g=b2702a5428ff211493f9087a9cc8f988
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.66000366210938
+      - Name: Height
+        Id: g=340752ce39cb526327877fa6f5d989e5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 71.0
+      - Name: HorizontalAlignment
+        Id: g=866a8f01cbf3b2c0e19a8c50471b4f9b
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=1a5ebbedad4f0069bd185d04a1e693fc
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: Pictogram
+      Id: g=d6791a4615aef630f71eb089b5efe5f6
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=68a7cc05b5a713b89072e39e38c7f9fd
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=28;%PROJECTDIR%/all/reset.icon.svg"
+      - Name: Width
+        Id: g=cb52c13ada1f3c4a33c4ef9a58faaa6e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 58.0
+      - Name: Height
+        Id: g=48d61758d623a040a41ed8f743c91c88
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.0
+      - Name: HorizontalAlignment
+        Id: g=0eb1c8810967966514c3e976d56e8194
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: VerticalAlignment
+        Id: g=f0812a1d07dc4a709bfaa9fa8929cd42
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+    - Name: HorizontalAlignment
+      Id: g=0a8b2ffa6c1a39b454dcbb76e3047211
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=e9b838c6d4242500f4da9809b9b600ed
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional

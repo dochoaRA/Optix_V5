@@ -1,0 +1,25 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: 1_Rovema
+  Id: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  Type: ns=1;RoleType
+- Name: 2_Rovema
+  Id: g=4491e9e1bf46a56f73d9b8cbce2024dc
+  Type: ns=1;RoleType
+- Name: 3_Rovema
+  Id: g=6fc60f019330e2193aeb30d3573e817b
+  Type: ns=1;RoleType
+- Name: 4_Rovema
+  Id: g=72395c4ef80ccde5edeeecc44db6c5f3
+  Type: ns=1;RoleType
+- Name: 6_Rovema
+  Id: g=88eb7daa7374e9228adec32425e764e7
+  Type: ns=1;RoleType
+- Name: NotVisible
+  Id: g=ce0fab4b0a6ac5ff3c48f31a907e827d
+  Type: ns=1;RoleType
+- Name: NotEnabled
+  Id: g=c0ebc146e0f7c000cb73e8204e7228a9
+  Type: ns=1;RoleType

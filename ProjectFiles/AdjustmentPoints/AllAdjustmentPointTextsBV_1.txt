@@ -1,0 +1,39 @@
+26460;  Anheftbacke Zip
+26170;  Backenstock
+16526;  Beutelform
+1003;  	Beutellift
+33009;  Beutelsteuergerät
+24032;  Bodenschieber
+1049;  	Dosierung
+13957;  Drucker 1
+28904;  Drucker 2
+33001;  Einlaufschwinge
+17065;  Etikettierer 1
+26197;  Etikettierer 2
+33011;  Eurolochstanze
+18914;  Folienabzug
+33259;  Formatplatte
+33003;  Formatsatz
+17831;  Fotozelle
+33002;  Fülltrichter
+33005;  Heißluftschweißeinheit
+17023;  Kamera 1
+4043; 	Kamera 2
+6415;  	Kantensiegelung
+20990;  Längssiegelwerkzeug
+23036;  Lochstanze
+26500;  Lochstanze Rundloch
+28494;  Lochstanze Zip
+33000;  Packstoffträger
+5634;  	Produktklopfer
+1543;  	Querbacken
+17099;  Rutsche
+33010;  Schnecken-Formatsatz
+20651;  Schneidvorrichtung
+33007;  Seitenfaltkurve
+33006;  Seitenfaltstecher
+13256;  Spreizer
+26130;  Transportbänder
+33008;  Übergabeschacht
+32425;  Ultraschall
+32216;  Zip-Applikator

@@ -1,0 +1,28 @@
+16989;	Auslaufband
+31249;	Ausschieber Taktkette
+12126;	Beschleunigerband
+17876;	Drehachse links
+24938;	Drehachse rechts
+27829;	Drehrolle
+16324;	Egalisierband
+13542;	Einlaufband
+9564;	Füllhilfe
+17339;	Führung
+28571;	Gebindehalter
+30279;	Gruppiertisch
+23056;	HRR
+16455;	Kalibrierung
+21087;	Karton
+27653;	Kartonzuführband
+30254;	Klebestreifengerät
+27039;	Leerkartonwechsler
+29279;	Magazin
+7020;	Nachdrückstation
+3454;	Sauger
+19387;	Sensor
+2848;	Schwenkachse links
+25140;	Schwenkachse rechts
+19334;	Speichertaktkette
+4681;	Übergangstisch
+10248;	Vollkartonwechsler
+23131;	Zuführband

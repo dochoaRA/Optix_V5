@@ -1,0 +1,13 @@
+Name: LoginAdditions
+Id: g=32020795e719e9031772c36ddfd263b9
+Type: FolderType
+Children:
+- Name: dtLoginTimeStamp
+  Id: g=c64471c3672839e63d080ee2e792b848
+  Type: BaseDataVariableType
+  DataType: DateTime
+- Name: strActiveRole
+  Id: g=d95f75985bf84bbe9f1283da8eadf655
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

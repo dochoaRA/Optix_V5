@@ -1,0 +1,20 @@
+Name: AliasTypes
+Id: g=a523620ae5bb438a20a74945519d7b76
+Type: FolderType
+Children:
+- Name: NewUser
+  Id: g=c07916e95c636bb0e6538666ab19b228
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Id: g=71befdb549d1ba9b92676eee07a2ad0d
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Password
+    Id: g=b91cdaecf16fe80128142127a58bbe7e
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Password2
+    Id: g=107ec266b57c929b8dbea1a5cb8d16c3
+    Type: BaseDataVariableType
+    DataType: String

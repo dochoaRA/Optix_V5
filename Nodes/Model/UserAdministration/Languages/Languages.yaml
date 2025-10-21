@@ -1,0 +1,46 @@
+Name: Languages
+Id: g=1b98cdfe9153236cf0936672f2173663
+Type: FolderType
+Children:
+- Name: 'de-DE'
+  Id: g=15072f3623289286618102b3292e2949
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: 'en-US'
+  Id: g=a69671636bf4ffaada901fbf4a0ea491
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: 'pl-PL'
+  Id: g=1f9cab06584f3b5cd861d9199f4ff316
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Id: g=2f30aee9bd855cd3b702967d480cc2ea
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Configuration/Language/Polish"
+    Children:
+    - Name: Mode
+      Id: g=9e242ce948704a3336b2c8ed5e11bffb
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'nl-NL'
+  Id: g=c3ab86c81d4b3f225ee01edbf5e5ec9a
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Id: g=40a09b7f5ebd8716cd2d623669cd9fe1
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Configuration/Language/Dutch"
+    Children:
+    - Name: Mode
+      Id: g=0351e837dec248363c3388889e24ff96
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

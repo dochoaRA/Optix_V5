@@ -1,0 +1,5 @@
+Name: ns=19;Keyboards
+Id: g=ce55cb9bd03e11771bcf9dc825f3eb7a
+Type: KeyboardsCategoryFolder
+Children:
+- File: Basic_Keyboards/Basic_Keyboards.yaml

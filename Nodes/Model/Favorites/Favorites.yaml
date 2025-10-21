@@ -1,0 +1,57 @@
+Name: Favorites
+Id: g=fd3a41e46a1812c2a9699f92ef43b61f
+Type: FolderType
+Children:
+- Name: FavoriteComponent
+  Id: g=3fae79b5492182d88336be995d813779
+  Supertype: BaseObjectType
+  Description: {"LocaleId":"en-US","Text":"Instances of this will be added to the individual user for each Favorite Component"}
+  Children:
+  - Name: FunctionTextId
+    Id: g=78cd82ceb177a07a070b41619100cb1b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PathTextId1
+    Id: g=69204b25d05c2d7c42327957eba69f85
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PathTextId2
+    Id: g=6f8ba0e5e8ccee648c66ab9b8a5cf303
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PathTextId3
+    Id: g=777a3d60c0f2532bc6afb6113cbbda4a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PathTextId4
+    Id: g=dc9ca2562cbb06ae919a9117b6a77afc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: ComponentLabel
+    Id: g=463b8b5e78f542018ccf0b5418c2e30e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: GroupTextId
+    Id: g=60b8dc5d345027fbf96b7bc7f7690728
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: GroupSubHeaderTextId
+    Id: g=8bb7c4df974a0b4effa94d3f38edd6fa
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: ComponentNodeId
+    Id: g=443a9e5d466a7c5009cdf7be3c728166
+    Type: BaseDataVariableType
+    DataType: NodeId
+  - Name: ComponentFavorite
+    Id: g=c3de28db86b1432738cae4b759cf0267
+    Type: BaseDataVariableType
+    DataType: Boolean

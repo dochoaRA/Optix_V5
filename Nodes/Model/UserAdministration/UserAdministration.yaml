@@ -1,0 +1,7 @@
+Name: UserAdministration
+Id: g=1d3b7cb97e45755dddbf99926df2fbbf
+Type: FolderType
+Children:
+- File: Languages/Languages.yaml
+- File: Roles/Roles.yaml
+- File: AliasTypes/AliasTypes.yaml

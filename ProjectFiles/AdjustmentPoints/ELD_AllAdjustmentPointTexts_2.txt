@@ -1,0 +1,21 @@
+31354;	Anschlag
+28726;	Breite
+17339;	Führung
+28471;	Höhe
+25998;	Länge
+24490;	Andrücker
+14425;	Seitenführung
+15012;	Seitenführung links
+29884;	Seitenführung rechts
+26732;	Formatbreite
+16455;	Kalibrierung
+17718;	Abschieber
+33203;	Laschenspreizer
+5917;	Beutelegalisierung
+22767;	Winkel
+3591;	ab
+32483;	oben
+
+
+
+

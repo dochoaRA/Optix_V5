@@ -1,0 +1,50 @@
+17718;	Abschieber
+32762;	Andrückplatte 
+31354;	Anschlag
+11208;	Aufrichtblech
+9000;	Beutelhöhe
+28726;	Breite
+21286;	drehen
+20145;	Eingreifschutz
+9488;	Einschubführung
+8694;	Einschubstößel
+11846;	Einstellbügel
+21472;	Erhöhung
+26731;	Faltschachtelbreite
+14984;	Faltschachtelhöhe
+18458;	Faltschachtellänge
+465;	Faltschachteltiefe + Laschenlänge
+26732;	Formatbreite
+17339;	Führung
+30989;	Führungsblech
+30742;	Führungsschienen
+9564;	Füllhilfe
+8327;	Gegenhalteschiene
+28471;	Höhe 
+16455;	Kalibrierung
+25998;	Länge
+27755;  Laschenandrücker
+30023;	Laschenführung feste Seite
+12279;	Laschenlänge
+5581;	Laschenrückhalter
+25338;	Magazinplatte
+16174;	Niederhalter
+32483;	oben
+23631;	Rückhaltebügel 
+4738;	Saugerplatte
+9180;	Schacht
+24320;	Schieber
+15012;	Seitenführung links 
+29884;	Seitenführung rechts 
+12120;	Tiefenverstellung
+17575;	Überfüllung
+21272;	unten
+6375;	Vakuumband
+12017;	Weiche
+29658;	Zuschnittbreite
+
+
+
+
+
+

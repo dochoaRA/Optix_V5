@@ -1,0 +1,88 @@
+Name: Osszilloscope
+Id: g=a9fcc41ff7ff26b5a94a926001650d4c
+Type: FolderType
+Children:
+- Name: AxisData
+  Id: g=5567cc9facf0a2064516ce900c491ea4
+  Supertype: BaseObjectType
+  Children:
+  - Name: AxisNumber
+    Id: g=78f6d1deca774ed2e53f53b72509e991
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "1"
+  - Name: Controller
+    Id: g=45ce0bd794042ff0e62e9120122d876f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VP1"
+- Name: VP1_S01
+  Id: g=0a3b8eec8cfe054e21987614dc7d7cd0
+  Type: AxisData
+  Children:
+  - Name: AxisNumber
+    Id: g=15fa05551dec27784bdb0c1049114ef4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "1"
+  - Name: Controller
+    Id: g=3dd8473287c71d99990e917e3829d8ae
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VP1"
+- Name: VP1_S02
+  Id: g=c0602a7bccb57bc71fa300eb2b2a0fe0
+  Type: AxisData
+  Children:
+  - Name: AxisNumber
+    Id: g=178262de1b1b27a927845860cc960e66
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "2"
+  - Name: Controller
+    Id: g=ef21adfaf7bede4830adba1966c88547
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VP1"
+- Name: VP1_S03
+  Id: g=6f7cafa87b6e9e2add96f2d4dc0dc079
+  Type: AxisData
+  Children:
+  - Name: AxisNumber
+    Id: g=42b75f562b7a35b94ba438f1ee6f9c63
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "3"
+  - Name: Controller
+    Id: g=d316d6c01ceeef2f583c3afddb541afe
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VP1"
+- Name: VP1_S04
+  Id: g=f2095fe3e333ee12981450b2611aa489
+  Type: AxisData
+  Children:
+  - Name: AxisNumber
+    Id: g=49e50216bae1e6d50565711fdf337eb1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "4"
+  - Name: Controller
+    Id: g=2924cfe2f980c11de181e0f4d3f41353
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VP1"
+- Name: VP1_S11
+  Id: g=929b4a781adee4e747d112ebd171f785
+  Type: AxisData
+  Children:
+  - Name: AxisNumber
+    Id: g=4f5e164a1f2f6d1aa3216c1a93cf8295
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "11"
+  - Name: Controller
+    Id: g=92948994dc218b0e1bb334a90eeee82c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VP1"

@@ -1,0 +1,7 @@
+31354;	Anschlag
+28726;	Breite
+17339;	Führung
+28471;	Höhe
+16602;	Klinke
+25998;	Länge
+13358;	Zuschnitthalter

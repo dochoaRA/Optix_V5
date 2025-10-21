@@ -1,0 +1,21 @@
+24490;	Andrücker
+31354;	Anschlag
+28726;	Breite
+24214;	Druckentlastung
+26732;	Formatbreite
+17339;	Führung
+30742;	Führungsschienen
+28018;	Gegenhalter
+28471;	Höhe
+23349;	Hubbegrenzung
+16602;	Klinke
+25998;	Länge
+30494;	links
+32471;	rechts
+24320;	Schieber
+14425;	Seitenführung
+15012;	Seitenführung links
+29884;	Seitenführung rechts
+12120;	Tiefenverstellung
+22767;	Winkel
+13358;	Zuschnitthalter

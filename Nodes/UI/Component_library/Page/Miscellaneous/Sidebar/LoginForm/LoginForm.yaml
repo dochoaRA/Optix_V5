@@ -1,0 +1,265 @@
+Name: LoginForm
+Id: g=e4467948489447e3b6998b6228ce4881
+Type: FolderType
+Children:
+- Name: LoginForm
+  Id: g=d0fba00ff93f064d6e1cb546eea27209
+  Supertype: PanelLoader
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel
+    Id: g=b326dafde6535c6307baecdeacc977a2
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=7fa24a9da2207d496566f76871890ed2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: ConditionalConverter1
+      Id: g=f0e5ffd0da69977cc0d993d4edb08a35
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=a7a274031371dda358bfe2f8a80b1420
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=aa55d0abd71c233177cd97b5c6a86e7e
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/LoggedIn"
+      - Name: TrueValue
+        Id: g=ff60b3ae00db4b330658f1243fcd0754
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Logout"
+      - Name: FalseValue
+        Id: g=f2aace50156f569101496bcd65561b59
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Login"
+        Children:
+        - Name: KeyValueConverter1
+          Id: g=62c12e75bcb180643777e50338b29161
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Id: g=d49355da59a19b7017694c5624e4b4c3
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=77b370dbbca905ae000919867f340230
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Optix_V5/Authentication/AuthenticationMode"
+          - Name: ns=9;Pairs
+            Id: g=f84ac00c25d82eac39f93f39d248d7b6
+            Type: BaseObjectType
+            ModellingRule: None
+            Children:
+            - Name: Pair
+              Id: g=453b7fd4f2ec1b5b8f833f2232f7b105
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=1d59074a8a757ea8ac33c85d7b3e36d4
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+              - Name: Value
+                Id: g=37c854018bba174938d83d7b156aed66
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Login"
+            - Name: Pair1
+              Id: g=174fdcf1cae5a2c9a3acda789d458973
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=e3468ebab28b142a3c484d0fad8586b2
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 1
+              - Name: Value
+                Id: g=29ed2907eade6fb3aedfbc4bedd82d5d
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Login"
+            - Name: Pair2
+              Id: g=8978d5f0ceac929b9bd6b5d884cd6675
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=0e018d7bc7cd4e920354986749a40575
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 2
+              - Name: Value
+                Id: g=63365f20696fb5d83142ca31de3721d0
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Login"
+            - Name: Pair3
+              Id: g=cadc8fdf1173e19cfe6e554b05ca0257
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=aa9fa75dada6552bf4b10d16edfc0c34
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 3
+              - Name: Value
+                Id: g=c8cb10b0df9d8dc26eb1111f44058f1f
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Login"
+            - Name: Pair4
+              Id: g=0995728a52141b9e925d2e7b8a213fe8
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=147bd53208182f715c8c9c5661a33ea7
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 4
+              - Name: Value
+                Id: g=d131709703ddae84bc9310c7d288a766
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/Login"
+            - Name: Pair5
+              Id: g=56a377d48c1af2d76a065e9e11d4a2d1
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=2f772d672679b3b2c4cb5962cdff5338
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 5
+              - Name: Value
+                Id: g=3aed430afc4d7baf199f4c9fcf6a43b5
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/Sidebar/LoginForm/LoginFormComponents/OAuth2Login"
+  - Name: CurrentPanel
+    Id: g=f014a94c3cc0c1c9cfc82261ac70ac69
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Children:
+    - Name: Kind
+      Id: g=d5f8f63564b087a8c7eebdf592c43e8b
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+  - Class: Reference
+    Target: ns=11;i=478
+    Direction: Forward
+  - Name: Width
+    Id: g=e4e2dc9dcf08d55e47df35a0507b17b0
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Id: g=05fbc0db82b29afdcbc092999e5cfacc
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Users
+    Id: g=f8c36a31a339f34189aaf384156e331b
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Optix_V5/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=8539a148fc7f2471eb7a7f580a4674ab
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: PanelAliasNode
+    Id: g=52db857c137e0b817d179404913b56be
+    Type: BaseDataVariableType
+    DataType: NodeId
+    ValueRank: ScalarOrOneDimension
+    Children:
+    - Name: DynamicLink
+      Id: g=85f39cbe5b521d4b6545d5588b3dc2da
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Security/Users@NodeId"
+  - Name: ns=19;LibraryReference
+    Id: g=47979a9a6d5c0cd9bedb5ff665fce659
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 19
+      },
+      "Body": {
+       "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+       "objectGuid": "64c3e1535979981f3ad5449b009a965c",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+  - Name: HorizontalAlignment
+    Id: g=1a61207c844323b3d8146520422cedd2
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=ff0d75f2f37dfe43fdfea755302f6ebb
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+- File: LoginFormComponents/LoginFormComponents.yaml
+- Name: ns=19;LibraryReference
+  Id: g=f4ae79c9ed3a83ec373060fb84ff0214
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 19
+    },
+    "Body": {
+     "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+     "objectGuid": "64c3e1535979981f3ad5449b009a965c",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }

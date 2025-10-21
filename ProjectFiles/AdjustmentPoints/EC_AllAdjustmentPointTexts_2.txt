@@ -1,0 +1,29 @@
+31354;	Anschlag
+28726;	Breite
+24214;	Druckentlastung
+26732;	Formatbreite
+25632;	Formatteil
+17339;	Führung
+30742;	Führungsschienen
+28018;	Gegenhalter
+28471;	Höhe
+23349;	Hubbegrenzung
+16602;	Klinke
+25998;	Länge
+25338;	Magazinplatte
+16174;	Niederhalter
+3454;	Sauger
+31741;	Saugerarm
+19387;	Sensor
+14425;	Seitenführung
+15012;	Seitenführung links
+29884;	Seitenführung rechts
+29730;	Station 1
+10328;	Station 2
+30860;	Station 3 
+30904;	Station 4
+23436;	Stempel
+14152;	Stopper
+12120;	Tiefenverstellung
+10343;	Werkzeug 
+13358;	Zuschnitthalter

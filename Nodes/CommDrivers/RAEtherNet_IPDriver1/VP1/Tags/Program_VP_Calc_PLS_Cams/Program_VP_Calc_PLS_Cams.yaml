@@ -1,0 +1,76 @@
+Name: 'Program:VP_Calc_PLS_Cams'
+Id: g=8994f6075bacdb60c3bb522f68582e3a
+Type: FolderType
+Children:
+- Name: X_Tab_mm
+  Id: g=6b6fc43a7dab328c93759076be001e6d
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [361]
+  Children:
+  - Name: SymbolName
+    Id: g=495c11ba89a3920fd5d7b73cbe78a031
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_Calc_PLS_Cams.X_Tab_mm"
+- Name: Z_Tab_mm
+  Id: g=c38af1d7f9be45bc857f8ac2d8e4d247
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [361]
+  Children:
+  - Name: SymbolName
+    Id: g=435f1c36016884eb5ab1d6fd041eeabe
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_Calc_PLS_Cams.Z_Tab_mm"
+- Name: Speed_Tab
+  Id: g=c59bd9150c7ce40afc2da3d4eb7260ec
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [361]
+  Children:
+  - Name: SymbolName
+    Id: g=c3571e04dc47addac5b41ff721d4ddb2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_Calc_PLS_Cams.Speed_Tab"
+- Name: Acceleration_Tab
+  Id: g=2d240fd94bf5e4dff3e8ed8340714d13
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [361]
+  Children:
+  - Name: SymbolName
+    Id: g=49d81010dbdef9062d9f9a2a84a80c91
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_Calc_PLS_Cams.Acceleration_Tab"
+- Name: X_Acceleration_Tab
+  Id: g=023fb21a294fbfe176999500894c48fc
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [361]
+  Children:
+  - Name: SymbolName
+    Id: g=552ccf520c4fe8109088696231ca4a26
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_Calc_PLS_Cams.X_Acceleration_Tab"
+- Name: Z_Acceleration_Tab
+  Id: g=9c5619a722a9a0e4ac8ecb9065f18edc
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [361]
+  Children:
+  - Name: SymbolName
+    Id: g=e15ab2ed22633d011b5a8aa6323fcdb1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_Calc_PLS_Cams.Z_Acceleration_Tab"

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.6.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 45.205 56" overflow="visible" xml:space="preserve">
+<g id="grid" display="none">
+</g>
+<g id="stk">
+	<g>
+		<polygon fill="#7E7E7E" points="40.323,50.678 40.323,44.916 27.793,44.916 27.765,50.678 		"/>
+		<polygon fill="#7E7E7E" points="40.413,9.959 40.413,5.009 27.615,5.009 27.587,9.959 		"/>
+		
+			<rect x="23.669" y="1.001" fill="none" stroke="#B8B8B8" stroke-width="2" stroke-miterlimit="10" width="20.669" height="53.997"/>
+		<text transform="matrix(0 -1 1 0 36.8667 43.8221)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">E</text>
+		<text transform="matrix(0 -1 1 0 36.8667 38.1316)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">N</text>
+		<text transform="matrix(0 -1 1 0 36.8667 30.1219)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">4</text>
+		<text transform="matrix(0 -1 1 0 36.8667 24.0447)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">T</text>
+		<text transform="matrix(0 -1 1 0 36.8667 17.8719)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">R</text>
+	</g>
+	<g>
+		<polygon fill="#7E7E7E" points="17.654,50.678 17.654,44.916 5.124,44.916 5.096,50.678 		"/>
+		<polygon fill="#7E7E7E" points="17.744,9.959 17.744,5.009 4.946,5.009 4.918,9.959 		"/>
+		<rect x="1" y="1.001" fill="none" stroke="#B8B8B8" stroke-width="2" stroke-miterlimit="10" width="20.669" height="53.997"/>
+		<text transform="matrix(0 -1 1 0 14.1977 43.8221)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">E</text>
+		<text transform="matrix(0 -1 1 0 14.1977 38.1316)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">N</text>
+		<text transform="matrix(0 -1 1 0 14.1977 30.1219)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">4</text>
+		<text transform="matrix(0 -1 1 0 14.1977 24.0447)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">T</text>
+		<text transform="matrix(0 -1 1 0 14.1977 17.8719)" fill="#7E7E7E" font-family="'SegoeUI-Bold'" font-size="9px">R</text>
+	</g>
+	
+		<rect x="-471.514" y="-91.969" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="530.325" height="154.622"/>
+</g>
+</svg>

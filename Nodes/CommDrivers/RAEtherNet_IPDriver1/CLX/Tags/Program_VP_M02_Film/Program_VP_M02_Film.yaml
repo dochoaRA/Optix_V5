@@ -1,0 +1,24 @@
+Name: 'Program:VP_M02_Film'
+Id: g=52bbb035afc0821014c4cfe32e6383c0
+Type: FolderType
+Children:
+- Name: FilmPositionOptix1
+  Id: g=531ccdd85b8331eb342db33a119587f8
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=fc360f5fcd3c09f4be072a1d5f1ac013
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_M02_Film.FilmPositionOptix1"
+- Name: FilmPositionOptix2
+  Id: g=cc1df259ee8e069d8b93b1bda5efd116
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=e16d56bb4aa9767c2ac73d8c31839098
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:VP_M02_Film.FilmPositionOptix2"

@@ -1,0 +1,264 @@
+Name: Additions
+Id: g=a0c27c74c8be3acefd4dd8c0ef2cd7e1
+Type: FolderType
+Children:
+- Name: CurrentRecipe
+  Id: g=9b473c83b1cabd772d28e71d748c00fc
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=7968da4c082243af9d2f42650bc6bfad
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 500.0
+  - Name: Height
+    Id: g=7ba4b41fab32dbb8a0bb2e52197bddea
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 70.0
+  - Name: HorizontalAlignment
+    Id: g=32bc948e1bd1e8379147a154c776d88f
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: LeftMargin
+    Id: g=343e29debb677df0c6226f265c195202
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 28.0
+  - Name: RightMargin
+    Id: g=43e1b5c40bcb0a3c708f9033b67b0fd7
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 28.0
+  - Name: HorinzontalLayoutCore1
+    Id: g=f6494547ad04bcba5026c5429fa389e5
+    Type: GridLayout
+    Children:
+    - Name: VerticalAlignment
+      Id: g=23685b3e641ca3cb250e48cc9bb014fd
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: CurrentRecipeLabel
+      Id: g=ddc5274e8cb415503f30fcc459311a82
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=a9e3bf52464c59d9a75fd1986a380ba3
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":28,"TextId":"31381"}
+      - Name: Style
+        Id: g=56931cfad9a134cef8d995e93aa297cf
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Rovema"
+      - Name: LeftMargin
+        Id: g=6ce0ad25553bdbae136d4c7701a45aae
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=82764f9dc11914ba8243ba19ab2ac003
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Id: g=dbdaeda50e9bf0bfcb2ff8496228a371
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: HorizontalAlignment
+        Id: g=439e7ad41aa4bd1a58b108ba4ed7b020
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: FontSize
+        Id: g=b85e9adc1a625fca8eed59077763d881
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 25.0
+      - Name: TextVerticalAlignment
+        Id: g=bdb1db42d7b96c65b5bc1b2fb7b31545
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: CurrentRecipeLabel1
+      Id: g=8de8ff262469c199e56ee05af3cfb082
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=b85717930e505fab337557b4a12b543f
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: StringFormatter1
+          Id: g=d7a190f852e9bbc45b4df1d7d5b61ada
+          Type: StringFormatter
+          Children:
+          - Name: Format
+            Id: g=1f602a9b306cb60456bc3f11996505d0
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"{#NumberLabel} {#RecipeNumber} - {#RecipeName}"}
+          - Name: ns=9;SourceNumberLabel
+            Id: g=3ec3f324d0be6329e7adc3ff3b84f01a
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: StringFormatter1
+              Id: g=3f1c8eee64a3f23c2228fc89afc92fd5
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Id: g=adcc496819dc5f5c0a510e90c99bee95
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"17024"}
+          - Name: ns=9;SourceRecipeName
+            Id: g=5088a1ee9aa4e6dd59d92344b4ec9782
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=b8172969d20f81529669e4577ae1eac6
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/RecipeName"
+          - Name: ns=9;SourceRecipeNumber
+            Id: g=22a55f6990011dc05d1178111bb49f59
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=d6d592cd779cd06918507b58726f8d1a
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/RecipeNumber"
+      - Name: Style
+        Id: g=e1fa097dfe2349c7e9d5537a95f6f90d
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Rovema"
+      - Name: LeftMargin
+        Id: g=968eb47bee57ec804a7f1afc4b012780
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: TopMargin
+        Id: g=835d7d5f0b694150035a9b32418b6953
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Id: g=98f8a3799fefee1f96641325a33ea674
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalAlignment
+        Id: g=c39b175ab97a2c0bc7860db2f77c6cfa
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: FontSize
+        Id: g=c27bd92c0fe0770bfae8b2fd1fa8fd08
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 25.0
+      - Name: TextVerticalAlignment
+        Id: g=1099bb5ee7b3235f10f3088ec6d06318
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: HorizontalAlignment
+      Id: g=b344d075ff44a2f8dc4c038d9c422219
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Columns
+      Id: g=1fdbf93e31800f6383b3e74fae75eb5b
+      Type: BaseDataVariableType
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: ["auto","Auto"]
+- Name: PageRow_GridLayout
+  Id: g=dbdcf0a07e0d1e4543e40524f044c2a2
+  Supertype: GridLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=1e56c3375e8dbd72c7706c739ce7e076
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Id: g=204f19f6701ee7c39f72241e3020a5d2
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: -1.0
+  - Name: Rows
+    Id: g=65044a3df7eb20457e3f5b6225a6ac47
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["auto"]
+  - Name: Columns
+    Id: g=ebef97bcd871f5cc02e15936654b7a6e
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["1fr","1fr"]
+    Children:
+    - Name: DynamicLink
+      Id: g=59fbe79fe7dfd986664945fce2c4fe76
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/ResponsiveDesignVariables/GridLayoutColumnFr/1to1"
+  - Name: HorizontalAlignment
+    Id: g=9d04e6c1ad0e11c175c461ce29e29122
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: RightMargin
+    Id: g=b86e6ff266da333f79acf9f8bea0f34c
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 10.0
+  - Name: VerticalGap
+    Id: g=6de50eba9db8e9992063d12afc6d96f9
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 28.0

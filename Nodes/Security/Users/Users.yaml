@@ -1,0 +1,358 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: rovema
+  Id: g=5c7f2af9a27cf4af29257006b51d6f7d
+  Type: UserCore
+  Children:
+  - Name: Role
+    Id: g=342ad3cb08f8ba00794c708f9a622e80
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: DateOfCreation
+    Id: g=9f3f1b959658b90d1ca29af92239e62e
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-09-01T00:00:00.0000000"
+  - Name: Creator
+    Id: g=efdd4d8a36ed3fc12facf9e681c79566
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "system"
+  - Name: RFID
+    Id: g=9528a0fda372314528b894a39c9ce2bc
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: HasGroup
+    Target: g=653d9c6abd6864b738c9c4e1d06fba46
+  - Name: Password
+    Id: g=18f91920b1017c3e84c812ad28acfab0
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=4ddec0db5878afbf3d6b4651a550d903
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [9,232,4,191,104,6,146,166,241,111,16,235,93,99,161,96,77,174,80,214,176,188,230,55,39,82,101,180,8,160,219,177],
+         "Salt": [163,55,156,16,156,143,178,214,142,6,14,53,25,11,67,84,99,248,103,104,62,229,120,42,86,35,59,220,11,115,165,0]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=74b83dae4d0a3604d6aa6fc5d9656b17
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2025-09-05T13:33:12.0274950"
+    - Name: History
+      Id: g=93235410388272e9d7ba3fb133208259
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+- Name: rovema operator
+  Id: g=d76823acea688811f8a1b354f3668952
+  Type: UserCore
+  Children:
+  - Name: Role
+    Id: g=79f78e09471c85f961f263b2008f4efe
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: DateOfCreation
+    Id: g=739631fe9969af7178a8d02fd95a992f
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-09-01T00:00:00.0000000"
+  - Name: Creator
+    Id: g=94be4bd07e47194d664a4d4980e5d5cf
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "system"
+  - Name: RFID
+    Id: g=b8170ddc6d97e691db6e163f9a8a2310
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: HasGroup
+    Target: g=2a136d3fa6d2383faba480b459bafa76
+  - Name: Password
+    Id: g=96b96d6ef4ae3c829f99a39ecc211096
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=0b0d057cf8a9a222f9f00e26130c9d30
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [160,100,184,60,92,250,108,128,11,245,60,207,100,222,192,243,76,59,183,137,147,71,224,15,221,127,88,36,127,53,221,189],
+         "Salt": [49,9,78,157,88,2,230,109,7,28,179,56,51,0,64,82,185,61,6,222,71,245,99,195,100,137,57,198,255,88,148,192]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=3b1571eb9e5c4d2ad3969c201f5f10ec
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2025-09-15T11:38:47.2632008"
+    - Name: History
+      Id: g=151cf416ebcb75b617444d25dd76bab7
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+- Name: rovema setter
+  Id: g=bf380be7d9d9df66f189dbe2a729ebcc
+  Type: UserCore
+  Children:
+  - Name: Role
+    Id: g=4cae306e769995462e4192e769e5da5e
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: DateOfCreation
+    Id: g=579a55efc43b96dd1645e2bf5fff7b3d
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-09-01T00:00:00.0000000"
+  - Name: Creator
+    Id: g=f9374816cfe63779578404132c48b7ba
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "system"
+  - Name: RFID
+    Id: g=01f844e0989de62ab48d2ae1327254a1
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: HasGroup
+    Target: g=48d9e18fcc51507065bc344c64a6c71d
+  - Name: Password
+    Id: g=510788477a9381b0232c78743278af43
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=309d398a4ee316d40d928b2b95e3a8b8
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [122,96,102,143,249,189,12,114,84,30,218,208,185,223,126,63,74,241,174,197,29,42,8,95,61,119,241,125,181,179,141,238],
+         "Salt": [24,215,248,226,66,148,106,0,221,221,72,47,100,12,200,0,23,72,165,194,190,6,174,143,150,209,81,87,201,60,6,190]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=c2a20df9d52194091f1ea8af46ac8eea
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2025-09-15T11:38:51.3027920"
+    - Name: History
+      Id: g=14c08b8bc6f0bc543cb7b24e680e2f69
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+- Name: Rovema
+  Id: g=2c6531d8a0b7b464dbe3982871d4ca25
+  Type: UserCore
+  Children:
+  - Name: Role
+    Id: g=c9fedb3614c33e783f47673ddd6c12f8
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: DateOfCreation
+    Id: g=61f2924df72a0781b6e04be66f7967b5
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-09-01T00:00:00.0000000"
+  - Name: Creator
+    Id: g=721fe0cd73d8a9b34de541a09884c143
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "system"
+  - Name: RFID
+    Id: g=ef92a218192c00323df3499cf327bc74
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: HasGroup
+    Target: g=bccf47fb9e43ad9d9e05ad214df0b70e
+- Name: i
+  Id: g=54f16a9dbe5327cf7b793a91a349fb79
+  Type: UserCore
+  Children:
+  - Name: Role
+    Id: g=30e32a6b9e3b2ee4df165132fa41c696
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: DateOfCreation
+    Id: g=4eafaeaa38f2081f14e3b568979eb337
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-09-01T00:00:00.0000000"
+  - Name: Creator
+    Id: g=fcec47decb13a0bdc00a450a9b64cd84
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "system"
+  - Name: RFID
+    Id: g=477d942fd6428a0ca44cb4f1370e8226
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: HasGroup
+    Target: g=bccf47fb9e43ad9d9e05ad214df0b70e
+  - Name: Password
+    Id: g=20995bcc90e7bb60d7211465872a4d41
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=f1886820053d97807099c76ebb43ffbc
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [72,10,86,2,100,146,26,101,31,33,24,81,151,91,123,171,197,185,173,100,240,250,194,236,240,143,146,146,60,247,2,109],
+         "Salt": [244,248,35,45,46,80,116,67,111,81,23,154,60,79,214,230,72,1,188,25,54,98,101,31,25,82,2,134,47,135,89,83]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=79ab14f0d710fb89269378682b323e03
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2025-09-05T13:32:46.0825195"
+    - Name: History
+      Id: g=67a92055785e552988be6d4a9998912e
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+- Name: UserCore
+  Id: g=b0571c239b4c426cfaf030a638ca1981
+  Supertype: UserType
+  Children:
+  - Name: Password
+    Id: g=3d23689c5584588dc219aad2257f4b4e
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    ModellingRule: Optional
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=f0be660729d70c2a33f56369422b0ea9
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [196,207,221,16,243,145,120,152,139,211,188,139,89,247,248,222,44,86,178,125,74,163,29,232,110,55,104,15,0,106,84,129],
+         "Salt": [255,133,110,215,223,243,127,232,216,132,45,139,29,211,42,208,193,117,149,137,59,101,17,139,22,128,156,226,112,162,80,66]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=0b8394d1a0dac29aa12db4a72a7244a2
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2025-07-07T14:53:24.2141156"
+    - Name: History
+      Id: g=3ecaa33e472d1270e0c84af2e1a1d3ae
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+  - Name: MeasurementSystem
+    Id: g=c6ca741e4776386aa9d6e7af97a975d9
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    ModellingRule: Optional
+    Value: 1
+  - Name: Domain
+    Id: g=c45dfc005cb2db0251bfa575c84f8bc3
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    ModellingRule: Optional
+  - Name: LocaleId
+    Id: g=27525ec5a4a7e0402946abf158ecf39f
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ModellingRule: Optional
+    Value: "en-US"
+  - Name: Language
+    Id: g=9647e0cbdf3da39218e6039a66a63b35
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ModellingRule: Optional
+  - Name: Role
+    Id: g=b51de84f8bf11f9b77a104d454da43c3
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: DateOfCreation
+    Id: g=89f19f13f17e3fee6510b144024e4d5a
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-09-01T00:00:00.0000000"
+  - Name: Creator
+    Id: g=66b45a11b4cbc14f5983cc4f6814143c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "system"
+  - Name: RFID
+    Id: g=881b0749bf5aa6225c11c8a00e6c4f26
+    Type: BaseDataVariableType
+    DataType: String

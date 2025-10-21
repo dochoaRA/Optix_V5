@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=8; IE=9" />-->
+		<title id="_htmlHeaderTitle"></title>
+
+		<!-- Include Dijit -->
+		<link href="./dijit/themes/timweb/timweb.css" rel="stylesheet" type="text/css" />
+		<!--<link href="./dijit/themes/nihilo/nihilo.css" rel="stylesheet" type="text/css"/>-->
+		<!--<link href="./dijit/themes/soria/soria.css" rel="stylesheet" type="text/css"/>-->
+
+		<!-- Include Dojo -->
+		<script src="./dojo/dojo.js" data-dojo-config="async: true, parseOnLoad: false" type="text/javascript"></script>
+
+		<!-- Include FCT Script -->
+		<script src="./script/web_basics.js" type="text/javascript"></script>
+		<script src="./config/partmap.js" type="text/javascript"></script>
+		<script src="./config/contentmap.js" type="text/javascript"></script>
+		<script src="./config/navigation.js" type="text/javascript"></script>
+		<script src="./config/searchindex.js" type="text/javascript"></script>
+		<script src="./config/searchtext.js" type="text/javascript"></script>
+		<script src="./config/customprop.js" type="text/javascript"></script>
+
+		<script type="text/javascript">	
+		require(["dojo/io-query", "dojo/parser", "dijit/layout/BorderContainer", "dijit/layout/ContentPane",
+				"dijit/Menu", "dijit/MenuItem", "dijit/MenuSeparator",
+				"dijit/PopupMenuBarItem", "dijit/PopupMenuItem"]);
+
+		if (window.addEventListener)
+			window.addEventListener('load',function(){initBaseFunctions(function(){loadPage();});},false);
+		else if (window.attachEvent)
+			window.attachEvent('onload',function(){initBaseFunctions(function(){loadPage();});});
+		else
+			window.onload = new function(){initBaseFunctions(function(){loadPage();});};		
+    </script>
+	</head>
+	<body class="timweb">
+		<!--button onclick="javascript: load();">reload</button-->
+		<div id="_master" style="opacity: 0" class="page" data-dojo-type="dijit/layout/BorderContainer">
+			<div id="_header" class="header" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top'">&nbsp;</div>
+			<div id="_menu" data-dojo-type="dijit/MenuBar" data-dojo-props="region: 'top'">&nbsp;</div>
+			<div class="main" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="region:'center'">
+				<div id="_sideBar" data-dojo-type="dijit/layout/AccordionContainer" data-dojo-props="region:'left', splitter:true, minSize: 285" style="width: 285px;">
+					<div id="_nav" title="Navigation" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="gutters: false, region:'center'" style="padding: 0px; overflow: hidden;"></div>
+					<div id="_search" title="Search" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="gutters: false, region:'center'" style="padding: 0px; overflow: hidden; margin: 5px;">
+						<input type="text" placeholder="Searchtext" name="_searchfield" data-dojo-type="dijit/form/TextBox" data-dojo-props="trim:true, intermediateChanges:true" id="_searchfield" style="width: 99%;" />
+						<!--<button data-dojo-type="dijit/form/Button" type="button" onClick="search()">Search</button>-->
+						<div id="_resultTree"> </div>
+					</div>
+					<div id="_index" title="Index" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="gutters: false, region:'center'" style="padding: 0px; overflow: hidden; margin: 5px;"> </div>
+				</div>
+				<div id="contentBg" class="body" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'" style="padding: 0px;">
+					<div id="_content" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">&nbsp;</div>
+				</div>
+				<div class="clear">&nbsp;</div>
+			</div>
+			<div id="bgLoader" class="dijitOffScreen">&nbsp;</div>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   id="SingleCycleDosing"
+   xmlns="http://www.w3.org/2000/svg">
+  <path
+     class="iconStroke"
+     d="M 2.83,0 7,7 v 3 H 8.03 V 6.72 L 4.63,1.01 4.63,1 h 9.78 l -0,0 -3.39,5.72 V 10 H 11.97 V 7 L 16,0.31 V 0 C 11.61,0 7.22,0 2.83,0 Z M 2.98,9 0.98,11 1.63,11.76 2.98,10.47 3.02,15 h 1 L 3.98,9 Z M 9,9 v 3 H 7 L 9.5,16 12,12 H 10 V 9 Z" />
+</svg>

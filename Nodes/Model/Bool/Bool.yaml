@@ -1,0 +1,13 @@
+Name: Bool
+Id: g=3c77282a3557037c8c3dd0456cc98608
+Type: FolderType
+Children:
+- Name: TRUE
+  Id: g=0ed97b176d22f9deab7081a37af390bb
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: FALSE
+  Id: g=82447fa3eaec3f19ccc03932066c8aab
+  Type: BaseDataVariableType
+  DataType: Boolean

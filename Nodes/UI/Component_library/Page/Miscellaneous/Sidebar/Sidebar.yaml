@@ -1,0 +1,8 @@
+Name: Sidebar
+Id: g=9326ce12b349d0f79b48dc6931679ef8
+Type: FolderType
+Children:
+- File: LoginForm/LoginForm.yaml
+- File: Navigation/Navigation.yaml
+- File: Footer/Footer.yaml
+- File: SideBarHeader/SideBarHeader.yaml

@@ -1,0 +1,80 @@
+Name: Optix_V5
+Id: g=2377501668b6f55109e8506803d39f84
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=98d52aaafbc81a31bc6e8c3c0ebd1cb3
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=7e00c4dee7b3ff4c8ce54591acc8f66a
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US","de-DE","pl-PL","nl-NL","da-DK","es-ES","it-IT","fr-FR","zh-CN","hu-HU","pt-PT","ru-RU","ro-RO","sv-SE","fi-FI","nb-NO","tr-TR","bg-BG","el-GR","hr-HR","cs-CZ","ja-JP","id-ID","sl-SI","et-EE","he-IL","sr-RS","sk-SK","pt-BR","de-LI"]
+  - Name: LocaleFallbackList
+    Id: g=a361d06f07ac93247b8147e9fd1a1ca4
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=b50591436bf5774680a82508e9e10020
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=95709ec641760ffb38a5c0e8a9e7a46c
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Optix_V5/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=5a01361ff1ae4dbb7fda17a3de210739
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Id: g=549797ae6b7d5802dcd810f100d028a7
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
+- Name: PasswordPolicy
+  Id: g=b593fc938e01d5166e40841d2a10a520
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=241e381d24a17f0ed108f15cd7c22cab
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: EnforcePasswordHistory
+    Id: g=682c611efc9da65f2e147022a6932690
+    Type: BaseDataVariableType
+    DataType: Byte
+  - Name: MinimumPasswordAge
+    Id: g=38a121feceafe84216b57a306e5ba6d0
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MinimumPasswordLength
+    Id: g=78034ce648574346e428001f2e2310c2
+    Type: BaseDataVariableType
+    DataType: Byte
+- Name: AlarmConfiguration
+  Id: g=8fb5572435c5cfcd7926a386f334ac5d
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: MQTT/MQTT.yaml
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml

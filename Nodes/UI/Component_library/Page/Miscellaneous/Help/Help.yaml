@@ -1,0 +1,106 @@
+Name: Help
+Id: g=9f021b5d1f7368a9fae30553385a97c1
+Type: FolderType
+Children:
+- Name: HelpPage
+  Id: g=476203c70fd11d42d46e048dddf02d1d
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=51d9b81493fd822ef13f7f1234b638cb
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=7e9e03037b37eac47fd7e33e6d414a88
+      Type: ColumnLayout
+      Children:
+      - Name: RightMargin
+        Id: g=a0fb68026bd3b89c778aa6a64caa1676
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: WebBrowser1
+        Id: g=335ffe79147520e03abc3b5a46df1e12
+        Type: WebBrowser
+        Children:
+        - Name: URL
+          Id: g=44688886995991ad4409d45ff2959bae
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/help/de/01_mc_hlp/index.html"
+        - Class: Reference
+          Target: ns=11;i=354
+          Direction: Forward
+        - Class: Reference
+          Target: ns=11;i=356
+          Direction: Forward
+        - Class: Reference
+          Target: ns=11;i=358
+          Direction: Forward
+        - Name: Width
+          Id: g=537bb5e097b63c2ba73a102f0c06809c
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Id: g=adcf3874402ca363d40ef9a9a09ee7c6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Id: g=208d18a0980d8b94b1f51295edc264ce
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=444ec1347503b9b7adc2f986c4f38ca8
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+      - Name: VerticalAlignment
+        Id: g=95180360b8d2fc52aa0c529e6daa4419
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: ContentWidth
+      Id: g=0218d9790a7c828fe20b76c078373da8
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=8d72c300460eabda4f8132b89e97e209
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=f55f30949528c61351b32b9ba1aa608f
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=854835444d07b3c7974e3b1dd427ef2f
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=8cbdf44714c9f740fac93fbaae02928b
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=e1f057aa1532669c68fc3177b9e76b12
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=78c88536984a36c2206653fd7f942977
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"21915"}

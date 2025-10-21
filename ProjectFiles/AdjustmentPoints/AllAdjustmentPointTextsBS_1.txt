@@ -1,0 +1,36 @@
+15296	;	Becherkette
+12284	;	Beutelbremse 1
+8861	;	Beutelbremse 2
+14425	;	Seitenführung
+24630	;	Füllstation 1
+23287	;	Füllstation 2
+1049	;	Dosierung
+7834	;	Schnecken-Formatsatz
+33101	;	Produktbrecher
+32697	;	Kopfformer 1
+10935	;	Kopfformer 2
+18243	;	Faltautomat
+20040	;	Beutelkalibrierung
+25015	;	Siegelstation 1
+28541	;	Siegelstation 2
+24629	;	TinTie
+7616	;	Leimung
+8016	;	Clipper
+23032	;	Drucker
+33105	;	90° Weiche
+2849	;	Klebestreifengerät 1
+6297	;	Klebestreifengerät 2
+17065	;	Etikettierer 1
+26197	;	Etikettierer 2
+33107	;	Beutel drehen
+2222	;	Beutel umwerfen
+10033	;	Beutelausscheidung
+1238	;	Abtransportband 1
+26425	;	Abtransportband 2
+32623	;	Abtransportband 3
+26502	;	Abtransportband 4
+1697	;	Abtransportband 5
+12174	;	Abtransportband 6
+17411	;	Abtransportband 7
+22648	;	Abtransportband 8
+32700	;	Abtransportband 9

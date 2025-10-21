@@ -1,0 +1,317 @@
+Name: Core
+Id: g=8b84c5984fa9dfe7dcba0af99553c73b
+Type: FolderType
+Children:
+- Name: PageCore
+  Id: g=642c521f468c6ce870bf014af00d3355
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: BackgroundColor
+    Id: g=795f188f20d160be9f3e4cc5ee522736
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#d1d7da"
+  - Name: TopMargin
+    Id: g=a704934d4c631c4544e080b9a1ce344b
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+  - Name: ScrollView2
+    Id: g=4be364d51230079b38a4d7f043073602
+    Type: ScrollView
+    Children:
+    - Name: Width
+      Id: g=5f68294f94181c05a983499a306b56f2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Id: g=e97fb02ed3c9322b690b7fcc5c2e0c3d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: PageLayout
+      Id: g=19e845d9290d7d3e87c07980dd82464a
+      Type: ColumnLayout
+      Children:
+      - Name: Width
+        Id: g=cd4bcf51aab9575c01cee5bb98c49369
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Id: g=38b51d20078cbf899159ba17acebf435
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: HorizontalAlignment
+        Id: g=c997131edfde01a0411ff5a8e1d0b96e
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=eba6bc1116e71fe1db8c3721e391ea7e
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+      - Name: RightMargin
+        Id: g=570c8d304c8b7b876fcf6560b1240da8
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: VerticalGap
+        Id: g=4577b33946a14dfd9ce00b3f81c1a306
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: ScrollAxesEnabled
+      Id: g=6f38e340ce560cc8de3083c76e3bbefa
+      Type: BaseDataVariableType
+      DataType: ScrollAxesEnabledEnum
+      ModellingRule: Optional
+      Value: 2
+    - Name: HorizontalAlignment
+      Id: g=5c391712a0b774cf5ea8a9e322584886
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=4e902d2415f19e71150d6c439175455d
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: ScrollBarStyle
+      Id: g=6dded7f92f958c6a7e1e954053cd0a93
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "FormatList"
+    - Name: ContentWidth
+      Id: g=d2c698f1257b9416072e4be525137bd9
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=3c12331d2187230a9cd6bcef16da0283
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=439e89f42280efd579c0af757a43062b
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=ad63dad3d8b61563229a2b6c058e2d41
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=e4db211c04f64dafd7334a67935f17e1
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=2141d244669f10877f6330cd898a7733
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: RightMargin
+    Id: g=67732d6648dbd7f3387e90af2570d137
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+  - Name: ScreenName
+    Id: g=78c6b2d6abf64180685faa2679931e47
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: PageEmpty
+  Id: g=73008e4263e6d227e225a023f3a2c122
+  Supertype: PageCore
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=875e94f35e3e477e109923cf5a64a0d7
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=67a27319a67a350ec61fe6a077d46c49
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=8916605207a9c04db468fa04afa43dab
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=01a6d19048cacfeb8e620ec7a2973623
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=aae2cd72cd75280adbf17fde0072e6b7
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=3c40f14568aa3035f7756c8ebf9ba22a
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=dd9d87e14fdb6fb52e6fe1c02230c544
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=804e6a4a1fbf5ac67e101f77849bd9f3
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=88f24b356c918a82e7b09c5e7bc5adaa
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- Name: PageWithRecipeHeaderEmpty
+  Id: g=ac4ee36f3d9ac9a720bd4e74df6bb2d1
+  Supertype: PageCore
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=afd3eeb15dc84f7fa66fd8e998de37eb
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=f328c74fcbf4f58545d8ae16c20d6a59
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=a86150bc863c04e03077fded11c0be46
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=a46ad18856c7c905b8961631e5c4a3f2
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=c823bc2568930eaf8bf416ce3755123e
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=cfb8a6d4191e8addf72d0e2743d37cf7
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=550cf67830c9affdff0d5ac18195ce7d
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=3ce63cf56e684efa28decb0ae780b428
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+    - Name: TopMargin
+      Id: g=57139edf639b5f489f49269155efa0a3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: CurrentRecipe1
+    Id: g=c3f6b4960e4a5f9405c591103c49d7bb
+    Type: CurrentRecipe
+    Children:
+    - Name: HorinzontalLayoutCore1
+      Id: g=d2f814d96f6bbc69dfe603c4106f6e62
+      Type: GridLayout
+      Children:
+      - Name: CurrentRecipeLabel
+        Id: g=c542bad8e6bf8a7ddba466a26d62e864
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=7e291e8c139c8b0ad1eb9a017d2da854
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":28,"TextId":"31381"}
+      - Name: CurrentRecipeLabel1
+        Id: g=02745f85b82b34e07f69f3e4eeb0984c
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=d5a2a0251f8d703d881c96a486c72693
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: StringFormatter1
+            Id: g=ef04e959eb00d356b9b8ffa8d08032cd
+            Type: StringFormatter
+            Children:
+            - Name: SourceNumberLabel
+              Id: g=a22e12be173a705958092b1f28f6e3c2
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: StringFormatter1
+                Id: g=e4b67778e1ac35db77fbee1d536195cd
+                Type: StringFormatter
+            - Name: SourceRecipeName
+              Id: g=6ccef814d6c8f6a1a190a2a199579b4b
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=da89911fe6bc277fba9784e504eabbfd
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/RecipeName"
+            - Name: SourceRecipeNumber
+              Id: g=4e6f348b3680c876652bb6028c6f9ad1
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=f15493f5ae150e94237c50f4c58cb336
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/RecipeNumber"
+      - Name: Columns
+        Id: g=f932865a7b3d42df67c808af15ec2d3b
+        Type: BaseDataVariableType
+        DataType: String
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: ["auto","Auto"]
+    - Name: Height
+      Id: g=a8e346a1b66625ad53e9d795d88eb8cb
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: ScreenName
+    Id: g=4228bf04785473b71c6678bd7011bc6c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}
+- File: Additions/Additions.yaml

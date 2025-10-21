@@ -1,0 +1,23 @@
+Name: Additions
+Id: g=74a19ed8ac5b5d69a92a3bef1dcc6b50
+Type: FolderType
+Children:
+- Name: ErrorInfo
+  Id: g=fa247497a34536f356f52f4a25428cea
+  Type: BaseObjectType
+  Children:
+  - Name: All
+    Id: g=9f0d40d5c72114526f5a42801aa41644
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"30868"}
+  - Name: Info
+    Id: g=15318b65c9e6d8a60f117d9d6cf2f623
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"18742"}
+  - Name: Error
+    Id: g=2a495e125ea97ee8bf2022a60a8e8909
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"25715"}

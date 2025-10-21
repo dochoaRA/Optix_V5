@@ -1,0 +1,89 @@
+Name: 1
+Id: g=9112105f1514985a69313adf0f1ec2e2
+Type: FolderType
+Children:
+- Name: AdjustmentPoint
+  Id: g=7f134780a21cb8b7df2727fa998b0db0
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Id: g=b26b61802a1c919f77f31c21bcea9665
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Index/Value"
+    Children:
+    - Name: Mode
+      Id: g=101615376e954d3d83c29a4e4578c491
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: AdjustmentPosition1
+  Id: g=6b2957678ac98376d2b1c685a84aee50
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Id: g=6b01d60d6d775c49755cbe9a82dc2e3e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Text1/Value"
+    Children:
+    - Name: Mode
+      Id: g=04af0c375240e910522804a0a8e55eb2
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: AdjustmentPosition2
+  Id: g=c014198191471c3659ebb5a55cc460a0
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Id: g=6db68963b9f2d6e8ddbc29230332fe65
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Text2/Value"
+    Children:
+    - Name: Mode
+      Id: g=7e86cdaa59e9dbd88786d4c9c83e7c0c
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: Value
+  Id: g=73da2381087a5f28647e634a9f1924ee
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Id: g=80f6789d048d408421545fd33bddb30c
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Scale/Value"
+    Children:
+    - Name: Mode
+      Id: g=1da7cce7d540bb54c06a6f55305fdbb8
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: Comment
+  Id: g=c35afc48efc66bc13d6e73a6921eb9ff
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Id: g=e59d1364343bbf62847444722194add3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Comment/Value"
+    Children:
+    - Name: Mode
+      Id: g=e2d6d39f74fb4e3ad1447b0afd50648a
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1

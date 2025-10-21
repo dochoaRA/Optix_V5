@@ -1,0 +1,19 @@
+/* Editor */
+.content-header {
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+.toc-header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.timweb .dijitEditorRtl .dijitEditorIFrameContainer {
+  padding: 3px 10px 1px 3px;
+}
+.dj_ie6 .timweb .dijitEditorRtl .dijitEditorIFrameContainer,
+.dj_ie7 .timweb .dijitEditorRtl .dijitEditorIFrameContainer,
+.dj_ie8 .timweb .dijitEditorRtl .dijitEditorIFrameContainer {
+  padding: 3px 0px 1px 10px;
+  margin-right: 0px;
+  border: 0px solid #d3d3d3;
+}

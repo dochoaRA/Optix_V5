@@ -1,0 +1,48 @@
+8798;	Abtransportband
+30452;	Absauger 
+24490;	Andrücker
+28760;	Auslauf
+16989;	Auslaufband
+4327;	Befüllüberwachung
+12126;	Beschleunigerband
+23262;	Delta-2-Roboter
+13542;	Einlaufband
+21099;	Einschieber
+29323;	Faltwerkzeug
+17339;	Führung
+22343;	Kartonband
+6808;	Kartoneinschub
+3037;	Kartonkette
+23116;	Kartonkette Station 1
+12458;	Kartonkette Station 2
+18124;	Kartonkette Station 3
+22421;	Kartonkette Station 4
+27422;	Kartonverschließer
+32472;	Laschenumleger
+33203;	Laschenspreitzer
+7616;	Leimung
+29279;	Magazin
+7020;	NAchdrückstation
+9459;	Offene Laschenerkennung
+4624;	Sicherheitsabfrage Magazin
+29545;	Stapler
+29730;	Station 1
+10328;	Station 2
+30860;	Station 3 
+30904;	Station 4 
+23436;	Stempel
+19334;	Speichertaktkette
+23131;	Zuführband
+16506;	Zuschnitt
+17292;	Zuschnittführung
+1070;	Zuschnittführung links
+23231;	Zuschnittführung rechts
+
+
+
+
+
+
+
+
+

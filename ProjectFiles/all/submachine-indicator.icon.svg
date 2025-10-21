@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <circle id="group-a" cx="6" cy="6" r="6"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(17 17)">
+    <use fill="#CFD5D8" xlink:href="#group-a"/>
+    <circle cx="6" cy="6" r="5" stroke="#DB4263" stroke-width="2"/>
+    <circle cx="6" cy="6" r="7" stroke="#CFD5D8" stroke-width="2"/>
+  </g>
+</svg>

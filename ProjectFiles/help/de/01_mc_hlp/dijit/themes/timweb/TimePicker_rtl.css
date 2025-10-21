@@ -1,0 +1,17 @@
+/* TimePicker */
+.content-header {
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+.toc-header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.dj_ie .timweb .dijitTimePickerRtl .dijitTimePickerTickHover,
+.dj_ie .timweb .dijitTimePickerRtl .dijitTimePickerMarkerHover,
+.dj_ie .timweb .dijitTimePickerRtl .dijitTimePickerMarkerSelected,
+.dj_ie .timweb .dijitTimePickerRtl .dijitTimePickerTickSelected {
+  margin-left: -6px;
+  margin-right: -8px;
+  width: 114%;
+}

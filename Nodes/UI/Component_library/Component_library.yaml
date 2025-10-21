@@ -1,0 +1,8 @@
+Name: Component library
+Id: g=5a94ed6f5deae4cf359b3fa772f52253
+Type: FolderType
+Children:
+- File: Page/Page.yaml
+- File: Groups/Groups.yaml
+- File: Functions/Functions.yaml
+- File: Components/Components.yaml

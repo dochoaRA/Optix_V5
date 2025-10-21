@@ -1,0 +1,102 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: Setter
+  Id: g=48d9e18fcc51507065bc344c64a6c71d
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  - Class: Reference
+    Type: HasRole
+    Target: g=4491e9e1bf46a56f73d9b8cbce2024dc
+- Name: Operator
+  Id: g=2a136d3fa6d2383faba480b459bafa76
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+- Name: Master
+  Id: g=653d9c6abd6864b738c9c4e1d06fba46
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  - Class: Reference
+    Type: HasRole
+    Target: g=4491e9e1bf46a56f73d9b8cbce2024dc
+  - Class: Reference
+    Type: HasRole
+    Target: g=6fc60f019330e2193aeb30d3573e817b
+- Name: Expert
+  Id: g=bccf47fb9e43ad9d9e05ad214df0b70e
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  - Class: Reference
+    Type: HasRole
+    Target: g=4491e9e1bf46a56f73d9b8cbce2024dc
+  - Class: Reference
+    Type: HasRole
+    Target: g=72395c4ef80ccde5edeeecc44db6c5f3
+  - Class: Reference
+    Type: HasRole
+    Target: g=88eb7daa7374e9228adec32425e764e7
+  - Class: Reference
+    Type: HasRole
+    Target: g=6fc60f019330e2193aeb30d3573e817b
+- Name: Operator_temp
+  Id: g=ad55c23b1af9cd05f60d56a9b9e95ea3
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+- Name: Setter_temp
+  Id: g=d84eb9fcd5b5d654e7b3cd9dfeb357f5
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  - Class: Reference
+    Type: HasRole
+    Target: g=4491e9e1bf46a56f73d9b8cbce2024dc
+- Name: Master_temp
+  Id: g=15e060add847fe8eccce008be8d97ce9
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  - Class: Reference
+    Type: HasRole
+    Target: g=4491e9e1bf46a56f73d9b8cbce2024dc
+  - Class: Reference
+    Type: HasRole
+    Target: g=6fc60f019330e2193aeb30d3573e817b
+- Name: Expert_temp
+  Id: g=24964449965f04d153322335262bede8
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=eeeddbad33c12c1fa3afdf5f25e82be7
+  - Class: Reference
+    Type: HasRole
+    Target: g=4491e9e1bf46a56f73d9b8cbce2024dc
+  - Class: Reference
+    Type: HasRole
+    Target: g=6fc60f019330e2193aeb30d3573e817b
+  - Class: Reference
+    Type: HasRole
+    Target: g=72395c4ef80ccde5edeeecc44db6c5f3
+  - Class: Reference
+    Type: HasRole
+    Target: g=88eb7daa7374e9228adec32425e764e7

@@ -1,0 +1,40 @@
+13969;	Abtransport
+5752;	Kartonzuführung
+9507;	Produktzuführung
+18225;	Rückzugsband
+23876;	Übergabe
+25713;	Stufe oben
+11964;	Stufe unten
+6959;	Kartonwechselband
+11063;	Rüttler
+25262;	Rüttelband
+23131;	Zuführband
+27653;	Kartonzuführband
+14329;	Produktdrehband
+8798;	Abtransportband
+33203;	Laschenspreizer
+25357;	Transportband
+29279;	Magazin
+28018;	Gegenhalter
+3454;	Sauger
+21087;	Karton
+33004;	Längsverschließeinheit
+17339;	Führung
+30254;	Klebestreifengerät
+4663;	Bypass
+19387;	Sensor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

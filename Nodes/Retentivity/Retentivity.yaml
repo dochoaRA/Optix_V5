@@ -1,0 +1,38 @@
+Name: Retentivity
+Id: g=ddc3b2f136416e87141c685b1bd776ba
+Type: RetentivityCategoryFolder
+Children:
+- Name: SecurityRetentivityStorage
+  Id: g=d131709b60b508d1ddd786cf4e492de4
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=2d9dde2fb10be7df933ec11a2be02cc3
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=0545f3455d9135135ae871cc8db03d09
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Optix_V5/Security"
+      Children:
+      - Name: Kind
+        Id: g=6fe92ea0cb162dc802eff9add3e283cf
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Id: g=f7dc2361129e967e6197b387a0a6b887
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=0e64a7a15d01ee80fb4d059d130c6cd0
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+  - Name: DeltaObserverEnabled
+    Id: g=7b10592954cfddc0a4fb4c964ee289f3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true

@@ -1,0 +1,24 @@
+Name: 'Program:System_C_Recipe'
+Id: g=7745ccd7a4862d89f5a011bdc2b7a4d3
+Type: FolderType
+Children:
+- Name: CopyRecipeActive
+  Id: g=67a218ece5bde3e7b0b7b5edfe7e91af
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=da72bd8498a20b604f9bc496847aff5a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:System_C_Recipe.CopyRecipeActive"
+- Name: RecipeCopyEmptyPlace
+  Id: g=026aed304eb30fc22af8545cbab09e1f
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=a3f1f22014eb924b39db29db3035d0f2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:System_C_Recipe.RecipeCopyEmptyPlace"

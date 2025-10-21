@@ -1,0 +1,40 @@
+24490;	Andrücker
+12271;	Andrücker hinten
+21042;	Andrücker oben
+18657;	Andrücker Seite
+31354;	Anschlag
+7803;	Außenklappeneinleger fest
+22360;	Außenklappeneinleger verstellbar
+23829;	Boden
+28726;	Breite
+24214;	Druckentlastung
+26732;	Formatbreite
+17339;	Führung
+30742;	Führungsschienen
+28018;	Gegenhalter
+28471;	Höhe
+23349;	Hubbegrenzung
+28683;	Hubplatte
+21567;	Innenklappeneinleger fest
+30656;	Innenklappeneinleger verstellbar 
+16455;	Kalibrierung
+16602;	Klinke
+25998;	Länge
+16174;	Niederhalter
+2992;	Originalitätsverschluss
+3454;	Sauger
+31741;	Saugerarm
+4738;	Saugerplatte
+24320;	Schieber
+14425;	Seitenführung
+15012;	Seitenführung links
+29884;	Seitenführung rechts
+29730;	Station 1
+10328;	Station 2
+30860;	Station 3 
+30904;	Station 4 
+12120;	Tiefenverstellung
+19805;	Übergangsblech
+4681;	Übergangstisch
+13358;	Zuschnitthalter
+

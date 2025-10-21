@@ -1,0 +1,1 @@
+Installer doesn't install empty directories!

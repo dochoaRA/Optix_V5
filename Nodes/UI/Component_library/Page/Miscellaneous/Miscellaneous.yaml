@@ -1,0 +1,17 @@
+Name: Miscellaneous
+Id: g=c5980f2e1d8d0d0c85b1251ea65de6d3
+Type: FolderType
+Children:
+- File: Recipe/Recipe.yaml
+- File: FormatList/FormatList.yaml
+- File: UserAdministration/UserAdministration.yaml
+- File: Sidebar/Sidebar.yaml
+- File: Header/Header.yaml
+- File: DialogBox/DialogBox.yaml
+- File: Alarms/Alarms.yaml
+- File: CourseCurve/CourseCurve.yaml
+- File: Favourites/Favourites.yaml
+- File: MachineCube/MachineCube.yaml
+- File: MainMenu/MainMenu.yaml
+- File: SelectFileDialog/SelectFileDialog.yaml
+- File: Help/Help.yaml

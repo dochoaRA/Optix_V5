@@ -1,0 +1,168 @@
+Name: SessionVariables
+Id: g=eab00c57b97266e81622b23f813303ca
+Type: FolderType
+Children:
+- Name: UISessionVariables
+  Id: g=bce966d074a99fff550d205fd632ef5b
+  Supertype: UISession
+  Children:
+  - Name: IsInteractive
+    Id: g=5d208bec5e0b001386b7e6bc0de32197
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: true
+  - Name: IsNative
+    Id: g=6e129bf334a629849e1099ca2da980a8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IsWeb
+    Id: g=b26f0c77b88fa8b148d9b0d96a4aa497
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IpAddress
+    Id: g=ef4bcca79a5ed1ab32d225887fe8e144
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: StyleSheet
+    Id: g=558f9645e0bd8b193d1e68266002171f
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=507000213586992fbefb4c892796f86d
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: User
+    Id: g=e989d5aefe6ae6864369c31582f0dfff
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Children:
+    - Name: Kind
+      Id: g=ad0588269e60001923cc770b3907f723
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: ActualLocaleId
+    Id: g=cfd02fcf2889af0b797d0e036eacbb11
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+  - Name: ActualLanguage
+    Id: g=c164ac00f438c80f1905b50532016418
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+  - Name: ActualMeasurementSystem
+    Id: g=b697abc8ff62f48574015d9a33baa131
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+  - Name: TimeZoneOffset
+    Id: g=544031b44ea27d7aa4a8c6b8d7e2f15c
+    Type: BaseVariableType
+    DataType: TimeZoneDataType
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: Groups
+    Id: g=0c65659be515347491db32130982409d
+    Type: BaseObjectType
+  - Name: Roles
+    Id: g=340405b70431e0b720099c2460e43eb7
+    Type: BaseObjectType
+  - Name: Rights
+    Id: g=989d6aafa98493fb51bcff77dfd77c1e
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=1;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=266
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=269
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=303
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=272
+    Direction: Forward
+  - Name: LoggedIn
+    Id: g=bf314f1bcc969a1206e6db98bf7f5979
+    Type: BaseVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: LastSelectedAlarmNodeId
+    Id: g=d314074da0ef5ae7e9af7ceb28c61bdd
+    Type: BaseDataVariableType
+    DataType: NodeId
+  - Name: VisiblePath1
+    Id: g=be7203c6721c63a3fefefc7cc2e558ca
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: VisiblePath2
+    Id: g=a3be3cd15e0185f552073bb3ff2c1be7
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: VisiblePath3
+    Id: g=2fb3fe8fbf1bcfb4a1aa5a0a88594d0d
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: VisiblePath4
+    Id: g=9ed6220b68a6a78458b351f30ffdae05
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: PageNamePath1
+    Id: g=f4fe9e21b0f515fbcdf59bf4acd1454f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PageNamePath2
+    Id: g=dc82b5106f42d46e01429a51fc5b8e21
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PageNamePath3
+    Id: g=74014f2e68f92cb32975216321df231f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PageNamePath4
+    Id: g=24a52ff441bf21a23a4f50428bcd5a91
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: PageLinkPath1
+    Id: g=d5f5ce1db39822cf4b82436caacae119
+    Type: BaseDataVariableType
+    DataType: NodeId
+  - Name: PageLinkPath2
+    Id: g=e9131323e00588fb2d52641d8b5459d1
+    Type: BaseDataVariableType
+    DataType: NodeId
+  - Name: PageLinkPath3
+    Id: g=ca8384c12cbe63341fd2bad278ca1d1c
+    Type: BaseDataVariableType
+    DataType: NodeId
+  - Name: PageLinkPath4
+    Id: g=ddd007dce99447cd4d0c7f76516481a4
+    Type: BaseDataVariableType
+    DataType: NodeId
+  - Name: LocaleId
+    Id: g=23a0c695ae7cf09a5be959ba9e1c3a83
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ModellingRule: Optional
+  - Name: Language
+    Id: g=cbf72493f2137411919d276afdb64821
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ModellingRule: Optional

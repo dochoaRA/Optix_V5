@@ -1,0 +1,3800 @@
+Name: AlphaNumeric panels
+Id: g=3ed10debd4330bbfbe29552229a889b5
+Type: FolderType
+Children:
+- Name: Letters
+  Id: g=dda8a4ffd5d90d341056391e4029824b
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=78809a7f9cec500ac3b15ffa99fdce5f
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1280.0
+  - Name: Height
+    Id: g=19d03890f1d39ffaadfaf28358e44328
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 475.0
+  - Name: KeysRows
+    Id: g=d90cfe797335ee881294b5c9281be4d4
+    Type: ColumnLayout
+    Children:
+    - Name: LeftMargin
+      Id: g=0725409200157fffe623b2a8cec19c21
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TopMargin
+      Id: g=03d33b113843a429200c92e86550dad4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: VerticalGap
+      Id: g=d8d5a90bbcae29e300421899feb5cba9
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0
+    - Name: KeysRow0
+      Id: g=a0fb64699a9fac49196f5367f4bed8c8
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=336290f9e45d132817eb6946bc6abe22
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: HorizontalGap
+        Id: g=83459ac6dc6ce976cd094863d14eb0e8
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: 1
+        Id: g=1468d81b33da2edfa6d9fefa994617e2
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=08ab45f15b81158182180f9431a505e7
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "1"
+        - Name: Text
+          Id: g=5adca2f6a37e4a83eed303656319b585
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"1"}
+        - Name: LeftMargin
+          Id: g=63f805d4e152b40819bc43188f1df699
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=218f7d4c1c824bc37f35702542803b17
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 2
+        Id: g=20657028360c57722bd0ae8260ac159f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=d5369b91296ada1972178ef12650b721
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "2"
+        - Name: Text
+          Id: g=2edcfb319f6731da9c2c224e7db745b5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"2"}
+        - Name: LeftMargin
+          Id: g=0a71c444ca14f0f5f36ec3d9b5d66b5f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=e4514c0a7fec5af3c4844797a5cd3c55
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 3
+        Id: g=53d56454eae1153c9d07a40e5f95f41c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=a6fe57e88a83b44e0f98af4c513eb684
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "3"
+        - Name: Text
+          Id: g=6ff7952d231bdaadc99f6137a842e763
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"3"}
+        - Name: LeftMargin
+          Id: g=223b5f060c0102e0f7f9fa4201969fe7
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=7076642aeeda1181664f945d72f302fc
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 4
+        Id: g=682396d95dc8da7617a9008942d164ff
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=ad22eceaa2aad62a5f62a9bf67e77cc8
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "4"
+        - Name: Text
+          Id: g=8ed32de02230e2a671c0e4b6fd4f4619
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"4"}
+        - Name: LeftMargin
+          Id: g=f6c07b74867205be42bd4dd1ebe48d13
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=e3ab892be9f9540e542119b54e8d38d6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 5
+        Id: g=f2ad56d07540166b4ab6ed87db349d83
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=73c7ba63a87a8f623141a5566c07964a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "5"
+        - Name: Text
+          Id: g=2250d591996a3e149962d1c1f4b4daf9
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"5"}
+        - Name: LeftMargin
+          Id: g=ab67cfaf2b8918ec4759f89eac976ca6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=235ca314e7ce54fa7c0bdcf3dc37e67d
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 6
+        Id: g=8457d421e16398482bcde1cdd91ef8d5
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=5d96fcc30cab0e7ecdeab2de2689b594
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "6"
+        - Name: Text
+          Id: g=1063c1ad1426b12f8c88124720e7a63d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"6"}
+        - Name: LeftMargin
+          Id: g=d07160ed15b7f0221702f916e1b62b11
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=bbb7d9bd3bba3c694d82e9449a088819
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 7
+        Id: g=3acc6a8c7a445f38bf87df0f4cfcc767
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=9450843ab82db296d2170207f1198913
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "7"
+        - Name: Text
+          Id: g=e8dd2deec7c54d707dec0d11219e911e
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"7"}
+        - Name: LeftMargin
+          Id: g=2d82c033eb4c028d40445c099fb43d4e
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=ab0715b96afcdcd8e045721a05842250
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 8
+        Id: g=8b1e0995a30a2f6ff17580ce6dfcefca
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=79c687f9b6a68a88429efb86d19790d7
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "8"
+        - Name: Text
+          Id: g=8288a8e8a44e9432cca1a2cd352cfc08
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"8"}
+        - Name: LeftMargin
+          Id: g=ac400502d31228edca8867f42769222b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=94213150fd8e6f27729ee5e01885fa9b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 9
+        Id: g=4ed2a03b008d50bb6b8be08186ebf76d
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=ac9b2bb3220b6465da5d5acfdad51806
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "9"
+        - Name: Text
+          Id: g=d4de0a4318d026e9f3267ca639537975
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"9"}
+        - Name: LeftMargin
+          Id: g=603dd7b7bae4e4de0c481f51745cec85
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=757adf7cc4de2df868bda1ad50f931a7
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 0
+        Id: g=1fc8658a29a66e50a99933ce248a5cc8
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=1fa7c88dafaec5a0b7634dcf6bbca1d7
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "0"
+        - Name: Text
+          Id: g=5c5c7f3d20db84bddc15c0104981d267
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: LeftMargin
+          Id: g=038e122f4159b3ba4e6a6e2b310c68c5
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=7f523091bd8ab31dba2debc788300b06
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: '-'
+        Id: g=84483fd9a6778056a80a8897769c7a0c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=358584da07a484285e0122c1bf3a0468
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "-"
+        - Name: Text
+          Id: g=75d7f1c7154938af71a3d78fe312ca68
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"-"}
+        - Name: LeftMargin
+          Id: g=fecf7bc4c792d2ca9cb1967efac97300
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=504ee1d7250f3c28de5fedc69f90bfab
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: =
+        Id: g=aba6ec77fce3ba7e180038e33f8fd80a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=ad3012b907a89294f96e014664ea86ea
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "="
+        - Name: Text
+          Id: g=c8e4d61c09fcff433f09778a1b704f52
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"="}
+        - Name: LeftMargin
+          Id: g=c027ca91957804085ada907a3769bea2
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=d195cc6b8f564de3731be164d291259c
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: Backspace
+        Id: g=7db3003271f2e4e43c68980f152ef655
+        Type: BasicSymbolVerticalButton
+        Children:
+        - Name: ImageWidth
+          Id: g=8752278abbce80ba666659c77198132d
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 42.0
+        - Name: ImagePath
+          Id: g=871010e687d04a6184c68b9fffdeae30
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/all/Backspace.svg"
+        - Name: ImageHeight
+          Id: g=bca53b0cf93168909b70d35f87e1aec1
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 27.0
+        - Name: ns=11;GridLayoutProperties
+          Id: g=a95906b60cb69b44ec39d1331a8e17b0
+          Type: GridLayoutProperties
+          Children:
+          - Name: RowSpan
+            Id: g=150aa38f921395020d0a1325808a6dbc
+            Type: BaseDataVariableType
+            DataType: Int32
+            ModellingRule: Optional
+            Value: 1
+          - Name: ColumnSpan
+            Id: g=e472e5a8c264e447d0b2c0c5a5f8ee1c
+            Type: BaseDataVariableType
+            DataType: Int32
+            ModellingRule: Optional
+            Value: 2
+        - Name: Symbol
+          Id: g=ef152a2c311ff85167260ad148a3817b
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: Width
+          Id: g=34f84f45f53a2cf1fe666e901fe070ac
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 140.0
+        - Name: Height
+          Id: g=2774ea49d239a4b8df81104cc282b7c1
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Style
+          Id: g=08006acfa583b7b54662f35ebd69a7c7
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+    - Name: KeysRow1
+      Id: g=59515291d16c9bd2a1dac2609236501e
+      Type: RowLayout
+      Children:
+      - Name: q
+        Id: g=eaf0f0f73aab25d5bd7be2581ddc34ba
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=d1e348fd0b6282fa9f04b6314929cab1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "q"
+        - Name: Text
+          Id: g=df373757d018392febf3f0f578d8b8f3
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"q"}
+      - Name: w
+        Id: g=de6cdfd06129abd3603dca30f4fdd90a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=baf2b0dd004ecd329089ddb98fe8df23
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "w"
+        - Name: Text
+          Id: g=a3c1bdfcc5952bc0696b8a026fcec01c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"w"}
+      - Name: e
+        Id: g=834df2f951a34a6892562e7393359629
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=1f47313b3d8893d76df6a3b193710c43
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "e"
+        - Name: Text
+          Id: g=470221909ddb8b045f996436e0e59770
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"e"}
+      - Name: r
+        Id: g=c0b3f676d23126e04314d6c465ce121f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=458d65a38ea22ffe6e7039b71009f4b9
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "r"
+        - Name: Text
+          Id: g=363030a6b7757f4917199922369ad9a4
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"r"}
+      - Name: t
+        Id: g=66e70411f7fc5c6b71312c184c9c7f4f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=8abdcd511fd3e1ef2c04d36685e42312
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "t"
+        - Name: Text
+          Id: g=5b68155d0daa06d2386400fafda5e82c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"t"}
+      - Name: y
+        Id: g=cbd1b3fb8468c97f61cc433868c961c6
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=dcca983abae7093d31695e0dc1cd788a
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "y"
+        - Name: Text
+          Id: g=5bf983a21d7b180eea8a421f496c6ea7
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"y"}
+      - Name: u
+        Id: g=d50970b53a17a74424dfd629b57aeb35
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=d2ec695a9ab58071d357e9f63ae24d6b
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "u"
+        - Name: Text
+          Id: g=2d593841c1f101bd2ad163169e6d5d7d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"u"}
+      - Name: i
+        Id: g=417ff999010b46ba370091a5f40d29fb
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=9e428b9a798ef8e8daf2dbed13a983fb
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "i"
+        - Name: Text
+          Id: g=dd009cf76ce9167e4219c83061adb827
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"i"}
+      - Name: o
+        Id: g=c74db69d907c51f2470f745b3e3f590f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=ffcfdeff04b6af3797522861097df70d
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "o"
+        - Name: Text
+          Id: g=123a8ac5d327c55e58c26c4427ea2028
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"o"}
+      - Name: p
+        Id: g=fec83329bf04bc5fdef5edeadad514e9
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=2e297c899aba465c858a9ae1c08bf729
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "p"
+        - Name: Text
+          Id: g=ea630c2ef96a39dddd0f511e170f813c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"p"}
+      - Name: HorizontalGap
+        Id: g=2e7585295914a6383b83a01ba61ceb01
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: LeftMargin
+        Id: g=446d97da6fe1e17d7c382d7ec002f83c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: '['
+        Id: g=38d1368f9fcf523061344994b0bf857e
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=2b135ca7cf295e0bea360c87e1367f76
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "["
+        - Name: Text
+          Id: g=d9a895d6f2f6597ec014a3a81d59170b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"["}
+      - Name: ']'
+        Id: g=8ffc9b759e75cc42286da3b3af1dbe2d
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=3c2f25a8591b3fbbb2d29975bbd35f8a
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "]"
+        - Name: Text
+          Id: g=96295336c6b75ff59b1ab90cd101104e
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"]"}
+      - Name: BasicSymbolVerticalButton1
+        Id: g=83f88640e69f1d4767174557a8bee08a
+        Type: BasicSymbolVerticalButton
+        Children:
+        - Name: Style
+          Id: g=9da2c204bce0c3cab1d3606a09de9bcd
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Width
+          Id: g=5718d1b90fcfe5814617cd8056dacb94
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Height
+          Id: g=049cab91cc049f4912bb7667fffb9062
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 169.0
+        - Name: Symbol
+          Id: g=4a1d627f1232533845a06a9330958532
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+        - Name: ImagePath
+          Id: g=2fc233030a143888e41bb2ed7c71f038
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/all/Return.svg"
+        - Name: ImageWidth
+          Id: g=e752b552e382b457933d8f0c878fe979
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: LeftMargin
+          Id: g=35cebe71267c617bf103ecd373e4e0bb
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.0
+      - Name: Height
+        Id: g=8e7d7bb012c5b10d68ff25d2c5ba1d3c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 77.0
+    - Name: KeysRow2
+      Id: g=69c689b1ffcc7234d73611c06dbac8e4
+      Type: RowLayout
+      Children:
+      - Name: a
+        Id: g=65854f520f13ff0d42aa5edc3b604f2c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=099b3f11241a48bb3df9cbb35d5b4d7d
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "a"
+        - Name: Text
+          Id: g=30fdbed7ee0ef8d7cb949dc1561f1d87
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"a"}
+      - Name: s
+        Id: g=a338e0da8f108127f850c9ab7a968b45
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=413a0c376c2b55b95b896ef2f6a91f1f
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "s"
+        - Name: Text
+          Id: g=f5355cb546fede19b0de7399174eab8d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"s"}
+      - Name: d
+        Id: g=37f25a752251b6fc1e026fde374a7271
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=0bccefc742001cfb9e1a2c47050833fd
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "d"
+        - Name: Text
+          Id: g=7b9df1f18e006306c0c69a5dffcd7412
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"d"}
+      - Name: f
+        Id: g=7abac3ae97e92820309dcfab29fc1936
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=b956841a526809fd37fbdca5305fbcf4
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "f"
+        - Name: Text
+          Id: g=2cfba0a6f80567b67b88b96ff9c72899
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"f"}
+      - Name: g
+        Id: g=1b7264611199fd99f7bff34ff9a17ac3
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=5b0f1c013aea24c11a857f27287e0d01
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "g"
+        - Name: Text
+          Id: g=67744beb7749a9a44fbd2e3b9bbcb648
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"g"}
+      - Name: h
+        Id: g=296366c4e65b7fe06e65d2e6ad11f46c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=df1adfe4c723347445bb292cde8a30bf
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "h"
+        - Name: Text
+          Id: g=ff5f9485f33f1e52bfa749a93d9778b8
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"h"}
+      - Name: j
+        Id: g=1d2efa9b637a55ba7295c5557675a38c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=693c95596ee9b5edef630e567596d656
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "j"
+        - Name: Text
+          Id: g=2bca85233db0022031332678e875406b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"j"}
+      - Name: k
+        Id: g=5a58c1333b6cfbae90a245a03e4dfe20
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=02b5a2ca5bda6b12a87b1da54fa458ec
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "k"
+        - Name: Text
+          Id: g=59f9a10aa3e50d5bb29fe437cbe356c2
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"k"}
+      - Name: l
+        Id: g=241ebb4e7cc5dd415244783d47b62d01
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=6385d8253f20122b622d80c7b6c95dc3
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "l"
+        - Name: Text
+          Id: g=f4ca9afb021f3047a8b3eaecb9bad22c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"l"}
+      - Name: LeftMargin
+        Id: g=c46bfc528d0b0c07193bc15b542d5690
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 63.0
+      - Name: HorizontalGap
+        Id: g=f512903a0e3ee2e48744dce92588f66d
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: ;
+        Id: g=edf75cd21101388ae9a8e84fd342f02a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=fbf1762b34465a5c6ef83855dd2fd4de
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: ";"
+        - Name: Text
+          Id: g=2b0c5d43605f31e5d622b8e7c7e15b0f
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":";"}
+      - Name: "'"
+        Id: g=b393dee5ca7ce6db880afcbcc028045a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=c4a6d9ff42f06456f32627a6a2408c7a
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "´"
+        - Name: Text
+          Id: g=806f5e6fcd949e711192fc2d7d78629a
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"´"}
+      - Name: \
+        Id: g=9d3a6cc94e0212e52235da86093e7519
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=09e6da9ef42bdc36d861c95783b25114
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "\\"
+        - Name: Text
+          Id: g=eaff478241fd1213b024c99503a14c43
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"\\"}
+    - Name: KeysRow3
+      Id: g=5fe39fc921e2bad08c6c3f53daf3e9fe
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=f48703615a9f2ae9fab3a8f82643b3f8
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Shift
+        Id: g=a627eff6e87103a418da57185b389435
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: Symbol
+          Id: g=73c20344ab100aa28260e1dc3c8a953b
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ImagePath
+          Id: g=3deb4c099e29481cdbcddc2f0101ce1b
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/res/Shift_Outline_24x.svg"
+        - Name: Style
+          Id: g=de3d1d8795bf11bca016950077b619a2
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "KeyBoard"
+        - Name: Visible
+          Id: g=3082bb3f73f3a68af5b53af20880d6b7
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=4d956d21d7baec2e47e1217dd86a0ba7
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=7b9f97326a47d21738dcc2c40d981422
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0}=={1}"
+            - Name: ns=9;Source0
+              Id: g=4fb5cfe0972cc598745eb6d8662d9395
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=49d0030983a2d76ed064a2306f7875f5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{KeyboardLoader_Preedit}/CurrentPanel@BrowseName"
+            - Name: ns=9;Source1
+              Id: g=fc954b0bc3657be3e2a51acb488a0519
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=4b0f8b3bd558f8648d12f6072d27342e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/UI/Keyboards/Basic Keyboards/AlphaNumeric panels/Letters@BrowseName"
+        - Name: LeftMargin
+          Id: g=3e605357612418916c5ed038935fb9f1
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=d9888e17520be83e04ec39887c51caee
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: Width
+          Id: g=919c46a1d37804cffb4533f991210f4f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 190.0
+        - Name: Height
+          Id: g=0ba23b649fb72e71d3930945b525da7b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+      - Name: z
+        Id: g=3aa07c6b0fdee8395e2bab5b08a0f5c7
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=5d8b148c983592bf9e8f49e5c1fe7b7d
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "z"
+        - Name: Text
+          Id: g=6afd83703cbd9dd486a097578c2e5cba
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"z"}
+      - Name: x
+        Id: g=4f9a53c0d0de11e8480d0cbc26f9edf1
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=4d4142f2d1fecc6e3178c7a652bc22da
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "x"
+        - Name: Text
+          Id: g=07b8e59d499c1ae611ea138e7a55b932
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"x"}
+      - Name: c
+        Id: g=02ab94175e74a85b315051cee4b8a0dd
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=78f75ddb8983c362a6d89e7406168f5d
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "c"
+        - Name: Text
+          Id: g=89ff6a7f9094a8f4a0eb9fc543fefea9
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"c"}
+      - Name: v
+        Id: g=bef4cbd1c1460aca8553d10fe4ab5289
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=288c855c471fa8651e8f3647fbcbd74a
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "v"
+        - Name: Text
+          Id: g=625d9412bf09380787b0cea5407374d5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"v"}
+      - Name: b
+        Id: g=b974bc0179d4c377fd05b4400c33abe7
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=acbbd0b182365a04c9b406f0c3d8241a
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "b"
+        - Name: Text
+          Id: g=e8005eaf94c3036fb71067dd46e8da11
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"b"}
+      - Name: n
+        Id: g=c296343c2f2c44d39b47ce90fa63b2b8
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=037c0c132be9db378ef89249911cd1ea
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "n"
+        - Name: Text
+          Id: g=9883f682a4e463bd801e8cf20c3766dd
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"n"}
+      - Name: m
+        Id: g=7e7e109357a52a06e41e435c5fda1c57
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=e91ec27dc8a788eec28d8e8e597528f0
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "m"
+        - Name: Text
+          Id: g=9f31ee7fc2f369239f9268d45bb7d729
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"m"}
+      - Name: HorizontalGap
+        Id: g=eaad5599a738afe4db006665aa882e1a
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: ','
+        Id: g=5e126e92028fe15fce25937d77aea9b6
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=35ff5536e2fc0421341158c4f5fa2b30
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: ","
+        - Name: Text
+          Id: g=7d669162356c4a90622f87c3eec77596
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":","}
+      - Name: .
+        Id: g=346cd2b6825f1cbf7b18dbc2be5f9ada
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=f8a0b05e668f06722f4c8ca836739396
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "."
+        - Name: Text
+          Id: g=fa45efd0672615d5eb18c4583a213126
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"."}
+      - Name: _
+        Id: g=27cb6299fd6b5c47f57aa54d772cb2a4
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=53ea856d03879db9e1d7236869baab6f
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "/"
+        - Name: Text
+          Id: g=eb60176543aae0043e6dba21cfa8e9fd
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/"}
+      - Name: `
+        Id: g=4ee5f4f596ea83ee828784092ca874cb
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=fe52e0e49078463895c64d4e5aca0e54
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "`"
+        - Name: Text
+          Id: g=a1fe0e3822e9fc33a648677b9557061c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"`"}
+    - Name: KeysRow4
+      Id: g=47a3ca1d6f67d9f860ffa730dc3d2233
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=f77516cf4424f64a2f867c3151eea92a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Alt
+        Id: g=fee53e7f4c37713fde9e77ad658ccd08
+        Type: BasicSwitchPushButton
+        Children:
+        - Name: Visible
+          Id: g=5eb00d3510d1b7e41c68ec91b6a6b0fa
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Text
+          Id: g=a37ca9e245ec80101e0df53b0f1d0189
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Alt"}
+        - Name: LeftMargin
+          Id: g=5b68ce0c3df2cadcb43610cc84645349
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=6b007e6b19ddfb0d3de379519243b9a2
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MouseClickEventHandler1
+          Id: g=918a394f3dff7d9367330e139d6c5b93
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Id: g=b35858e2174f3d2c953e3c6067e7afcb
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Id: g=c6a9a1f70ee7d850b7a6347c3c1ac982
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Id: g=4b340a225eed88e107a3dfcc993e2c6d
+              Type: BaseObjectType
+              Children:
+              - Name: ns=9;ObjectPointer
+                Id: g=2f93e77f53dbc4b48016edbfe8f6f7b8
+                Type: NodePointer
+                DataType: NodeId
+                Children:
+                - Name: Kind
+                  Id: g=fddd577289b55845889bd1c817334e45
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Id: g=ed57799ab11176a3834fff952ffcd5c5
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{KeyboardLoader_Preedit}@NodeId"
+                  Children:
+                  - Name: Mode
+                    Id: g=d9ccad3c747a37896a1548263c109402
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: ns=9;Method
+                Id: g=a33312ece77bcf2b57486bf470f8c206
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ChangePanel"
+              - Name: InputArguments
+                Id: g=c7bf3a129a66dab7da37b509c18116f9
+                Type: BaseObjectType
+                Children:
+                - Name: NewPanel
+                  Id: g=7f1049297169da0290ce69c881b863bf
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Description: {"NamespaceIndex":11,"TextId":"ChangePanelNewPanelDescription"}
+                  Value: "/Objects/Optix_V5/UI/Keyboards/Basic Keyboards/AlphaNumeric panels/Alt"
+                - Name: AliasNode
+                  Id: g=dcb07baac8bb86445194ef9c74436beb
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Description: {"NamespaceIndex":11,"TextId":"ChangePanelAliasNodeDescription"}
+                  ValueRank: ScalarOrOneDimension
+          - Name: EventArguments
+            Id: g=f4dcc248fd504f2cda1511042c7b9349
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Id: g=88b0f0e6bcb9f6085b5c08a98fdd2a41
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Id: g=dc40cfad933cc15aa46c6ae597e1547f
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Id: g=226957895b9401c03d91aee80160dcb6
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Id: g=734998eda1d28922e3c0ff257974de4d
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Id: g=05181217fca4dca881c4004f63f38779
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Id: g=41048dc73826ae94af6643b925fa7196
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Id: g=348e447a347b715b79b5e40c845f79b8
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Id: g=d6e00796c47e2b0c83771472c81c3ec6
+              Type: PropertyType
+              DataType: UInt16
+        - Name: Width
+          Id: g=e29f8bcaf114d8f6967d0bf6bd271a09
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 169.0
+        - Name: HorizontalAlignment
+          Id: g=df168cc7c050f530a6d43a3d4bfc949b
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Id: g=73a74d34173323366768b9a00d862796
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+        - Name: Style
+          Id: g=49d280317e66de7a275bb56b91a61b2f
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Height
+          Id: g=3e995cbd27b973ec65abd8a7780b7317
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+      - Name: Space
+        Id: g=0d54fb1ee6454a0fe994cdf882fcd057
+        Type: BasicSpaceButton
+        Children:
+        - Name: Text
+          Id: g=f91c8e880885f6eaa63015122975f522
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: ImagePath
+          Id: g=26178525c455e6a7c64691d79eaf0e96
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+        - Name: Style
+          Id: g=5b7517379e75007f7100086e9ceb0d81
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Width
+          Id: g=185292cce37c1210cccaa1081a19ac42
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 872.0
+        - Name: Height
+          Id: g=a82654e9fbf643ac4b9799eb9f0f21bd
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+      - Name: Enter
+        Id: g=a5d16064526bc09e05cc6a68b415faf3
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: ImagePath
+          Id: g=9730bc94c273e62d4a9d30ca4bd4f207
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+        - Name: Text
+          Id: g=787acb0d80cd6c04448b5392b938f373
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"NamespaceIndex":28,"TextId":"20114"}
+        - Name: Style
+          Id: g=5997303ce960f7fc7b98073514091487
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Height
+          Id: g=af6881b8c0fd05e5e8f97acbef802f6f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Width
+          Id: g=b04283a8af1a98efe3166c303e464500
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 169.0
+        - Name: Symbol
+          Id: g=6b1fb6ea82995740e8c9fc534c151b1e
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+      - Name: HorizontalGap
+        Id: g=570b4a658ce2a53370f5c8abb96ac342
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+  - Name: HorizontalAlignment
+    Id: g=ec10b6695bc2c5111599a9841c020792
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=86ffadd3bbb727cdd96deb1924cb1928
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+- Name: Alt
+  Id: g=e0cb5280f5877ec1bb38bcd7870d334e
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=b5d83868ca46efeda76e658b48726491
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1280.0
+  - Name: Height
+    Id: g=ff5b26dc0706be6f1c73033d939e386c
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 475.0
+  - Name: KeysRows
+    Id: g=c056ea4d65b614675fc423d26e26bfcf
+    Type: ColumnLayout
+    Children:
+    - Name: LeftMargin
+      Id: g=d7d6f47771fd8857305fd5b6ffd50b64
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TopMargin
+      Id: g=75f8d66b08807d6fa101e4235676e389
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: VerticalGap
+      Id: g=2f9b655d0c3d4c98fe79bf3b1c99b789
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0
+    - Name: KeysRow0
+      Id: g=5e42e0034d5ab93abd1da25997be0b6b
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=7b2ee8ec540552935ea7c0e876a9556b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: HorizontalGap
+        Id: g=6c743d87eedf3d008bfed75b074b369e
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: Empty1
+        Id: g=35afaf0e22b1b594d89eec9b03b13a39
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=95388a64654f1d962dbd245c8e913669
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=a4e0a2bba75bedc2e2137212bcb9e3d5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: 2
+        Id: g=f559d8641203f552bca94df33c0b4dab
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=4932975bb4b51fbd33ea86af934b401d
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "²"
+        - Name: Text
+          Id: g=7b26d36a8e7e03e13e014191370485f7
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"²"}
+        - Name: LeftMargin
+          Id: g=f6bacc04412bbbc58648cb83fbed666a
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=e9f56653d00d896ef1c44ef3c373a950
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: 3
+        Id: g=c5ea822c6f97f5db4de13a1295de7634
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=8cb65752665c28d7a8589f2ee1d780f7
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "³"
+        - Name: Text
+          Id: g=cb1077dacd1daf3d2544aeed9f9927aa
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"³"}
+        - Name: LeftMargin
+          Id: g=e6e770b64124825406071d3c64000d55
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=7673c51c32fa63aa05e77ca5c0827646
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: Empty2
+        Id: g=681c23be105315dae4756a876648aef8
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=1167e6bb769458e06aa054ce2c6497f1
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=5c0eb6a22ec5694df0adec2f378acb8a
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty3
+        Id: g=daae9a61180ca592132c4cc3c1eced88
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=607daf4999dea7b4338010d3b735091c
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=66ec13af6cb4570c4e9d1f6e66f6d815
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty4
+        Id: g=6bbadba69ed2d7886cca187051f913d4
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=e50b3423314aeb064fbf853efc949dc7
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=d8ddf8089ef4d2d795c7be57fc04df9e
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: '{'
+        Id: g=62a07160d8605cca827f1204e4a81408
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=bca19bb3965c58c5e61f4e71f5ef0c89
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "{"
+        - Name: Text
+          Id: g=f870f1a9efe4f8ac1ba9867f87a53803
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{"}
+        - Name: LeftMargin
+          Id: g=74abd6d866f18987e31bbddfe8a69bc7
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=6ef87865bfe1e30fb2ea41e3786162f4
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: '['
+        Id: g=671100ac4ad82b60a5965a75a94e826d
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=0c55fcfb1f6f7f18db54a001ac62aff7
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "["
+        - Name: Text
+          Id: g=6a98dc9446dac6c3e4137de3cc917207
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"["}
+        - Name: LeftMargin
+          Id: g=4e030e5ed449e8f8aa5da82ee32fe9c8
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=55d2b3d42123a0b12b761fbcec2560a3
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: ']'
+        Id: g=3670edc41038f2dfff3deef3dd78e5f5
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=848a122c59a329422cc103d2cfd21223
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "]"
+        - Name: Text
+          Id: g=64c5f517f8ceda5188b34a50c78f1060
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"]"}
+        - Name: LeftMargin
+          Id: g=d1226727de1bd690401e07a18638e68a
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=e06bc8baccd67366165ae678e1ed5142
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: '}'
+        Id: g=46cd13c1ca1167a535b3fe1e7200b11b
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=533d016d91ff398fd2c219f2e3d60cf1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "}"
+        - Name: Text
+          Id: g=4facfe8fb7982abb11455e2394ae7e29
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"}"}
+        - Name: LeftMargin
+          Id: g=9e94b38665110795ea771e7d7003ca61
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=2f5dee91a258df012c72ca6759e65838
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: \
+        Id: g=4f14593e4db098be50ada1b216a9c2b1
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=2912453f0da0a14572b5cd2117cc01c6
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "\\"
+        - Name: Text
+          Id: g=f9d10bbb3daa9803989cd46e6cc6464b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"\\"}
+        - Name: LeftMargin
+          Id: g=975c622c562636694e386d2fe9ce5c55
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=efc49c1813750bae4e19302790d28cbb
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+      - Name: Empty5
+        Id: g=8d136b374224adc37fc838c3a99db68d
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=338f2457c6a9ab07e9ce6053bf4a7104
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=c9a7acd50c75f25bd517520e1e1bd720
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Backspace
+        Id: g=961b437eccc14ea6b2d33ff4f3a6c230
+        Type: BasicSymbolVerticalButton
+        Children:
+        - Name: ImageWidth
+          Id: g=fe623a1a896390dc950b9cc34a11955c
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 42.0
+        - Name: ImagePath
+          Id: g=e129d53b315671a861bf5a00f315b484
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/all/Backspace.svg"
+        - Name: ImageHeight
+          Id: g=1264d3ac9781c1128ec729e412507429
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 27.0
+        - Name: ns=11;GridLayoutProperties
+          Id: g=b6b618a80db43b8d60033218a3ffacb4
+          Type: GridLayoutProperties
+          Children:
+          - Name: RowSpan
+            Id: g=b02510b09e8e8790f875871476df61e4
+            Type: BaseDataVariableType
+            DataType: Int32
+            ModellingRule: Optional
+            Value: 1
+          - Name: ColumnSpan
+            Id: g=f98f53e99a68942be02757cd61cf0735
+            Type: BaseDataVariableType
+            DataType: Int32
+            ModellingRule: Optional
+            Value: 2
+        - Name: Symbol
+          Id: g=1704f8efdc74028b0704c9bc795c6a18
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: Width
+          Id: g=adf973cc610cade5adccb132a860154c
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 140.0
+        - Name: Height
+          Id: g=d3392b40d4a8c750fca473288e190116
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Style
+          Id: g=dfdda06202a13907563be55ace05f793
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+    - Name: KeysRow1
+      Id: g=8fb4df77a7822c07e867f8813ff34da2
+      Type: RowLayout
+      Children:
+      - Name: @
+        Id: g=24b6eb005dfdb8955627d5ae8537238f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=80d24885126d5434c43d13d5984997b0
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "@"
+        - Name: Text
+          Id: g=25ee4331c6ebcd3039b4001407bbabc7
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"@"}
+      - Name: Empty1
+        Id: g=571ed916ff5b23eb08ee9921f4caf5fa
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=014b1de80e71f143a912ff90ab181d57
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=d4051caa538a485d479405e90d50b160
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: €
+        Id: g=a7df5b5b6e160e6b8c747f25ea327e63
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=bc122cf65b31a7f9191fe8693570af53
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "€"
+        - Name: Text
+          Id: g=515db6407a90f3d6a799f9f3600a4237
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"€"}
+      - Name: HorizontalGap
+        Id: g=269a1720374bd88f03811961734d2a68
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: LeftMargin
+        Id: g=f6fd3f0c3ed2f5dea39cfdfe68fdc85c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: Height
+        Id: g=f7caa20f8e138043c91c8f07b5749d08
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 77.0
+      - Name: Empty2
+        Id: g=3503bf94936468ccb99d95bc0bfc2e3a
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=1688e964752ba706926514bba279b14d
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=06c90bca656f9f48f7e5ffe060a9277c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty3
+        Id: g=f6f998beecb31e358cbaf8ecc693f920
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=1557581cf29cca02c638fb128a7414da
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=d01977d8f4cb9c90561f298c11d947b2
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty4
+        Id: g=bb0d9815101b194b159c05b5edaf57c1
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=1b1bea6283ea969b3e92187241168428
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=24a25e478cf36139c263bb31d1e8ed50
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty5
+        Id: g=eb5a376fe32b17ae7cfb3a0aaec75090
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=81b074530761d3e777a30682961d92b9
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=c26da2c7a1cc38b073a624af6524f78d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty6
+        Id: g=2800f3b5204b09224972e11f283f2c7f
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=bb4efeec0dbf6abb5a061159bbc240b0
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=4f87f50cfc78306ea1c19cd86cae124a
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty7
+        Id: g=05759565c8759f0c5941a1fe43b3598d
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=d4b23dad9d5dbafa4c00d7a16db67bbc
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=ee78261dbf81a02b120b614875e82b47
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty8
+        Id: g=d1b68d1f06ac25a8bd5dc805df1250a0
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=ca9d2e58243ee48c1b3d9a87d9d0ace6
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=0b9b4efb0278e1d88df81999766e6b23
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty9
+        Id: g=c0a9b93aab2968d38d1b19a836895462
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=88527a3952aac348bb7e72f02ec7b467
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=3557fe3e2644668d0d39ab88a9c85113
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty10
+        Id: g=656448f1bc973b99fedbd65aa57ea2e5
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=63a8867b77bf8a2f0b3f451bba99c133
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=354e6249543ca5fd3df7f0bc562a973a
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Enter
+        Id: g=c923697b1afd8348b460c5102f48dc36
+        Type: BasicSymbolVerticalButton
+        Children:
+        - Name: Style
+          Id: g=6df4eb259eee900db92b3efc22e889ac
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Width
+          Id: g=aef04cb6d30a8355cbb383f058882660
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Height
+          Id: g=f2bc6a0f5c9acbd011dabe67b5402033
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 169.0
+        - Name: Symbol
+          Id: g=e9adf997f71ccf6a2661c1fe192251aa
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+        - Name: ImagePath
+          Id: g=f4d597100b732cc1b4278af2dbfb4d79
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/all/Return.svg"
+        - Name: ImageWidth
+          Id: g=5528de97b17dc66d415bd120ccaf1309
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: LeftMargin
+          Id: g=86ac1609332f40b82e72811de86bce97
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.0
+        - Name: Enabled
+          Id: g=a0c6e2d9dc74be7612cf9db4efbc3984
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+    - Name: KeysRow2
+      Id: g=3fc1edc79f7384b82a827aae03876429
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=efef096ff84504d8a887a550ba2628c0
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 63.0
+      - Name: HorizontalGap
+        Id: g=b7d2fd4fd2c163fbb56d862ee03c1af0
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: Empty1
+        Id: g=0f3987d84a52140015290daec8ba3af0
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=39c2e0b529f3ad74a9844451b9bc466c
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=4cc7340d41d67e0ad0e0b9c1f62967ae
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty2
+        Id: g=36810fcd2667196829823c1de54a4273
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=bbd81fb038141e54ffb9d9e4c769eda0
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=2ee0eafb43971ff068c605a283ea11dc
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty3
+        Id: g=7dea3dee71f519b155c5ac4e2ecddda1
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=38f1b741d70b9c3eed552129fde34ab0
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=9751d4e8975c435fc3523d02643cd5e9
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty4
+        Id: g=0f520aa416507f149ebe94fba6b9447d
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=8609582badc1900630e5633154279722
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=5c387aa4b3cc77b355932fa4b878f107
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty5
+        Id: g=8bd2520025a6bf69c03276f03ac83de5
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=8e489175c3bc8f36042c964249fd20c3
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=613610c71ff08d4fe8d9d8425c482286
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty6
+        Id: g=454c21f0a100654189db1f75c4e7962c
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=a9288e836e47cc8d77f524b3d1e16261
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=453140a4a73cdc869c564f6451592027
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty7
+        Id: g=f0394fa8a8c12f18da14f8ac46db5238
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=11e57ec32ce739c37610b7f42611b34f
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=5b5067a6b852a1b85255f5a1ac67149d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty8
+        Id: g=a458ad610abf04ec91a14ca029506a96
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=b6ff31dac5d0a1b88561f9f012fa3e3e
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=87f5273abf36be90873c6c8de545922d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty9
+        Id: g=76a45ac32bfded44ea4a42313365b284
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=b6910cccfd6ae45db70ca1c3eac9cdd4
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=6220f941e154f471dcab1026c9ec00d9
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty10
+        Id: g=f0093cdfa50dd4b1fc1a961f7f974e4a
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=b0c7536ac00f6dfb9495ef242d78be13
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=e5f9cb3807b5bc7d062e6efda2592a7e
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty11
+        Id: g=8bf5f81f55761dd8ba0c8a471ff94111
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=7b79b04f9a30f0546da2622a47da85c6
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=a6939676bce8323038b4cb2176ba24ed
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty12
+        Id: g=1098202b3f217c0667e42642a5c3fa95
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=5cf62bee618cb8e4385c05ef5b0b5ff7
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=9ee61647316bcc17e8bbc21f0aa7a97c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+    - Name: KeysRow3
+      Id: g=ee04d483b29aa4627b70cd83f5c5d847
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=c94b04c25b312224fb2643297542e084
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Shift
+        Id: g=8a0926de066ba3fe868d97dd4d0caac6
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: Symbol
+          Id: g=f8f127c84f95f8d7a8d9f18eb901994b
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+          Value: 1
+        - Name: ImagePath
+          Id: g=6cd40fb929620b6227dd893dd58c8c63
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+        - Name: Style
+          Id: g=073b96ed6a1f17ab0d5c7b51f6153ad1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "KeyBoard"
+        - Name: Visible
+          Id: g=22ed40bf14741bae6a4dedbf79206c07
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=a10895c119ef0bf464ff8101416d6403
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=5c320d0486b6913c07146ed567bf7149
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0}=={1}"
+            - Name: ns=9;Source0
+              Id: g=5cc5bc49a9efe033660c7857cf07e1f7
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=5646ddb3a6506919f50e8c82e9f795ca
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{KeyboardLoader_Preedit}/CurrentPanel@BrowseName"
+            - Name: ns=9;Source1
+              Id: g=e94d70ec3b2ca332b63cc6c6cc244f40
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=ae9586b7722c2065b62f893cc259b8f9
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/UI/Keyboards/Basic Keyboards/AlphaNumeric panels/Alt@BrowseName"
+        - Name: LeftMargin
+          Id: g=4341d2c2e1c7e487f72b6cf66b5d9b94
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=37d4445db841f48b87d657f73f41dd3f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: Width
+          Id: g=f1a117ade1e3868e9380d5332d173a76
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 190.0
+        - Name: Height
+          Id: g=e816b4432a5e00abb959ac0f7b686c55
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Enabled
+          Id: g=31e73aded069d1caf8caca9c0734f199
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+      - Name: HorizontalGap
+        Id: g=eec6df2e5451f6effcd96a3a5146ee18
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: Empty1
+        Id: g=9a311d8f9c29e38f850b828504abec9e
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=1a039cb43808b65375f3f476d46ee0e5
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=bde3f57fc58badb3c424bb417948c363
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty2
+        Id: g=9c7a5e2d49f8cfda103a564619fe2a25
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=554c43e6796bebdefa04540da9227e67
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=ad7410efb0d404bd1d51b15722485715
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty3
+        Id: g=46c5fd518d9b5479753ae1fe5b1516f9
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=abb5d47d5807fc0bf3c60e9bef60b54b
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=81e7a90fef3fbe15d38f3da105d51047
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty4
+        Id: g=ae2f63cdbc4695b2cdd5ab51cdec4f8a
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=cedf7ce48541ebe024d8544f74f1ee88
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=0561e500c2b141d17ce9bf13390b682f
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty5
+        Id: g=cc52570c048d15cb2693b4031a04935e
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=6d0c6d0fd3bad26133e90d4a9fe5fcb4
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=b077c6305daa50e475ea1b829699dcf1
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty6
+        Id: g=029f8e8efbc5ab58567667071f16feba
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=7b2ee0ef9ce67acce77ee287835d0031
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=672a6e4d95aa413f162f1eafa4cce2fb
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: µ
+        Id: g=e2131007ecc64240e35c24806be4491b
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=5bebb5c4edda73ce07d52be802828ed0
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "µ"
+        - Name: Text
+          Id: g=26fad0985c05d7cc5ef4c0eb90fad775
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"µ"}
+      - Name: Empty7
+        Id: g=93d812cb3e4e7776dae467c4ca8d6b67
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=22bfb5c483e72efdef0abe5fb0ae0554
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=cd76757a64c0e83797cec1bfc95af505
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty8
+        Id: g=c068a086f0767f538003c7920769219a
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=948df917eea8c1217f5c59e8d04af96c
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=6d3f2d13d5201df97dd9565e54ac1da3
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty9
+        Id: g=ec7300fbd4c7a9a20b00cc6b0c620deb
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=d7d1bf362d310809889a101d9a177ee6
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=2b2f2c927239f302a8d6cfd7edda118d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+      - Name: Empty10
+        Id: g=02a367e06561fdf0bfbef74e9f7034e2
+        Type: EmptyTextButton
+        Children:
+        - Name: Key
+          Id: g=27099783bb070d06723f8ac63e87da80
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Text
+          Id: g=11183d92ab0e48e0483fbc17aad71a6c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":""}
+    - Name: KeysRow4
+      Id: g=4c526efec4f585854b004ab99816cfb1
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=74c561954ea6d085892a5c66a653cf5a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Letters
+        Id: g=21909c816bef0353dfe958f4141993d4
+        Type: BasicSwitchPushButton
+        Children:
+        - Name: Visible
+          Id: g=68b426fe5b11cce4c3dce0209083bf36
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Text
+          Id: g=da346d42d45500647d6f7e029ff0c529
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Alt"}
+        - Name: LeftMargin
+          Id: g=029a653464810726e2462c033fd3f941
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=169234b47037276ef0044bc43891eaed
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: MouseClickEventHandler1
+          Id: g=b0aecb403e53ab24ac58cb3c746ff09e
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Id: g=d95d47cec9ba977df63715befa832d26
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Id: g=d3e377aa56187fb40fb03bc3e0c7ca5f
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Id: g=4db61a2295184aa094df45943cc9aed5
+              Type: BaseObjectType
+              Children:
+              - Name: ns=9;ObjectPointer
+                Id: g=65fab3933e147179dc5369e7242e348b
+                Type: NodePointer
+                DataType: NodeId
+                Children:
+                - Name: Kind
+                  Id: g=005ef6c81c1295b0346b48801e67375f
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Id: g=2cfa4c279b63f33ae7f31443f8dfaab2
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{KeyboardLoader_Preedit}@NodeId"
+                  Children:
+                  - Name: Mode
+                    Id: g=771a3bb849ed52b8af01ac88145d286a
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: ns=9;Method
+                Id: g=a0e1fbfc4ef2a9520125b70b3cc1ed51
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "ChangePanel"
+              - Name: InputArguments
+                Id: g=75ef7ceb678c44ad41b3ce404e2cea5a
+                Type: BaseObjectType
+                Children:
+                - Name: NewPanel
+                  Id: g=a8cf87ce926a2e04c9d94084c2025bdb
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Description: {"NamespaceIndex":11,"TextId":"ChangePanelNewPanelDescription"}
+                  Value: "/Objects/Optix_V5/UI/Keyboards/Basic Keyboards/AlphaNumeric panels/Letters"
+                - Name: AliasNode
+                  Id: g=9ed28b63b53bfdf02edfd8466f90ff7e
+                  Type: BaseDataVariableType
+                  DataType: NodeId
+                  Description: {"NamespaceIndex":11,"TextId":"ChangePanelAliasNodeDescription"}
+                  ValueRank: ScalarOrOneDimension
+          - Name: EventArguments
+            Id: g=5c06e8a0a98dab0625a938f3ead66eae
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Id: g=923cfc06ed1ddd2c5d3ff08062033a7c
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Id: g=d6d9e96544ec590c97676d9ff43595ed
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Id: g=8ae3049046feab23cdfde770dbe08656
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Id: g=968f1cd18c3f013088a494c8a8026836
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Id: g=152a1ec24ac36260ce96eb74e80f50b0
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Id: g=0e49d9ee688f9387d81e0dfe36fea05e
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Id: g=c1b6af3b450b24983c47dac87c1b9e55
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Id: g=c6f3f861a8d96c36abb86266b90cea1f
+              Type: PropertyType
+              DataType: UInt16
+        - Name: Width
+          Id: g=d9cb7498cbed26e8ba9b309c5f3fc9c7
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 169.0
+        - Name: HorizontalAlignment
+          Id: g=a3e732bbc9cfd805414d0ded0c075300
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Id: g=ad47e37418cb2f9abfa754dca0dadd32
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+        - Name: Style
+          Id: g=b2e948ff322540c05e266c8704090555
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Height
+          Id: g=98eca6cfbe62f6c5149ffca5467b09f0
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: BackgroundColor
+          Id: g=a078591fee5d0080637c8625a7f0640b
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#33ccea"
+      - Name: Space
+        Id: g=6f70936bb3c71281b9fe2b3c6088947e
+        Type: BasicSpaceButton
+        Children:
+        - Name: Text
+          Id: g=a8593d531fb7f34e9bfb7e879dfceb4d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: ImagePath
+          Id: g=e9d6289ae8016332620469398ab13fb7
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+        - Name: Style
+          Id: g=62d0f63b1241eae19ec1bf5e64359726
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Width
+          Id: g=e8e26c19534250a9475ca8402650ba16
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 872.0
+        - Name: Height
+          Id: g=9ddf403c60807cbe8969cdfc71184840
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+      - Name: Enter
+        Id: g=6936be14415ce07e876abe9545da30a2
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: ImagePath
+          Id: g=d4300d21f5454cf74e8d9217a5d54d43
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+        - Name: Text
+          Id: g=8a4ed12c1abcbd4fd8a4ea33466891ff
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"NamespaceIndex":28,"TextId":"20114"}
+        - Name: Style
+          Id: g=20fdb1d25931234f5705bc7adbbce275
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "KeyBoard"
+        - Name: Height
+          Id: g=a88e6493d1e58d1e21b964306e72af85
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Width
+          Id: g=91941c916e9226b366d4ecc895acf52e
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 169.0
+        - Name: Symbol
+          Id: g=017b7b4fd0c1c72310e37bda6a26f31b
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+      - Name: HorizontalGap
+        Id: g=faad86abd687aeec6080d68265930b99
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+- Name: NumbersAndSymbols1
+  Id: g=4498f5c34be10709305ba600435528be
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=934a8ed2630f3a74a8a0a091a4f3f673
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 630.0
+  - Name: Height
+    Id: g=9c6a62d2056632d321da9725cf88b45f
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 230.0
+  - Name: KeysRows
+    Id: g=62be7cff1bd0a891d019e113dfe32634
+    Type: ColumnLayout
+    Children:
+    - Name: LeftMargin
+      Id: g=bc0671d84a2acfedcd5208f0ecb62641
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TopMargin
+      Id: g=5b37c29c3467514861c932403b0a8567
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: VerticalGap
+      Id: g=8b432bf9431f62d9d7debe1129f806bf
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: KeysRow1
+      Id: g=0a702516d16a7af1e649eefd1f60e6a9
+      Type: RowLayout
+      Children:
+      - Name: HorizontalGap
+        Id: g=c25651d84117acba1a02ee92438b6a50
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: 1
+        Id: g=745886f03fba2af218a002f063402a53
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=4292fd5f4e8306d4765daf9f58e326ed
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "1"
+        - Name: Text
+          Id: g=ea35fa9dbc13fa9c77c5d23a846d7196
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"1"}
+      - Name: 2
+        Id: g=df758d1c6ecdb72366603083aee5a2ab
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=70f817809d08c0c9c4fcce98c7cc18fd
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "2"
+        - Name: Text
+          Id: g=467132697401b3b96ae684484555a3c8
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"2"}
+      - Name: 3
+        Id: g=fc9477a14c155041f4a460ba9ab5172c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=acd05480d939d0ea33e94496d3de9393
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "3"
+        - Name: Text
+          Id: g=0a3a0dee8717014d19edab831cf8ec8d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"3"}
+      - Name: 4
+        Id: g=dab5ea7dbf775c11202121224a4c60b5
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=a2e580739990b7c3d14c4ebaa2918398
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "4"
+        - Name: Text
+          Id: g=330b81ba11b2f04177c57ddbbe83087c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"4"}
+      - Name: 5
+        Id: g=173ee2d6eda1cee580debc5344f7259d
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=11871343c24967dc69a9e13e0f83d4e4
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "5"
+        - Name: Text
+          Id: g=4b4fe166f29a08f9f9860cf23bea8a38
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"5"}
+      - Name: 6
+        Id: g=2386bf4d350970a6263c8bed20ba50c2
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=ab202b64e5384f1451310291bfdbcfd3
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "6"
+        - Name: Text
+          Id: g=1296b85515135f81fcc324d275a1fafd
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"6"}
+      - Name: 7
+        Id: g=b37f709cbe66d6771be5b0115c25cf3c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=5017af07287bc5444a28ab3d86961c73
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "7"
+        - Name: Text
+          Id: g=896fc5275465464f4d6b693d2b930b5f
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"7"}
+      - Name: 8
+        Id: g=a1de55ad8e6f9c8682256fb245ca0355
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=4e401104939feb0609fe4865090ee26f
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "8"
+        - Name: Text
+          Id: g=66b0acc9baf1f20c44b661b6be2802fb
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"8"}
+      - Name: 9
+        Id: g=57a1dda4b0d4694cf1ea6056fc5b0018
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=f64fc9825f9430c49b3f3c93860d8f12
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "9"
+        - Name: Text
+          Id: g=caf130fa52b31bb79771c933498dc53c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"9"}
+      - Name: 0
+        Id: g=e682ef8e75853e9cd9fcf0be0f9c8f19
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=a7bcc9894ad248d3d776f1f3343128f7
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "0"
+        - Name: Text
+          Id: g=d8bade821470ec18defc1438a42fc300
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"0"}
+    - Name: KeysRow2
+      Id: g=f31404365f06bfc18755d989ce676f08
+      Type: RowLayout
+      Children:
+      - Name: HorizontalGap
+        Id: g=851bb6e9fe82a38c0d4f1758395f81dd
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: At
+        Id: g=412cc842f681ecf9a438f62e128bda60
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=c2cd9189fc7a8d5a92359b522f948f96
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "@"
+        - Name: Text
+          Id: g=211909f67319fe2e458b6cf7e11d9be3
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"@"}
+      - Name: Hashtag
+        Id: g=314217b4221ddf8788c6afc267c862da
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=a6bfe03fbdca5682f59332bd2d254f7b
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "#"
+        - Name: Text
+          Id: g=36c16944db9448bd63117c147399fc12
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"#"}
+      - Name: Percent
+        Id: g=ad6e41185c356433efb929faf153fa9a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=8ba4d302bac6bc89cc7b331e774b1fce
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "%"
+        - Name: Text
+          Id: g=86b1eedfa34117dcda5cb4e95bf17056
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"%"}
+      - Name: And
+        Id: g=ea37ef62ba0a6f0b3734ccb57db3e815
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=d518def879dbdf0c11317002d91c753f
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "&"
+        - Name: Text
+          Id: g=0669284580f07dd4a8d23188f114e035
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"&"}
+      - Name: Asterisk
+        Id: g=36912b0a11c97e1c4bd5d9113f5c479f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=4be94f083a1a331dd43ac04f18082da1
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "*"
+        - Name: Text
+          Id: g=6816c67c1d921734d5d41591d6933b1f
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"*"}
+      - Name: Underscore
+        Id: g=25e36b133ccf91dcc33131e8df4af02c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=a3e69627966fe9c22f9c6be666e518b1
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "_"
+        - Name: Text
+          Id: g=784d2d313e6e17d8d30cd7c7b9638100
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"_"}
+      - Name: hyphen
+        Id: g=739080b5af85eae8d2b50d22c4e68704
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=e12b840f88f2fc89e874357192993d22
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "-"
+        - Name: Text
+          Id: g=81f381bcf0edb6895fd0adc4f6d75ddf
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"-"}
+      - Name: Plus
+        Id: g=47c52ea26fc6508c9825832906ea7263
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=3097b09c96676a73f43b6b61fc0826aa
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "+"
+        - Name: Text
+          Id: g=589b1384847198692c8eef8c46de837f
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"+"}
+      - Name: OpeningParenthesis
+        Id: g=1ffa6e0b8099988ced7fe9f32809e513
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=c708d26d0632eb98c2b8b541a32e3196
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "("
+        - Name: Text
+          Id: g=22e5dcbdfd9e26a6ed280a76eb11de33
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"("}
+      - Name: ClosingParenthesis
+        Id: g=9256a552dc1d0795882d14d5fea1a34a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=27c3e92e0825759abd418db7f7eff12c
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: ")"
+        - Name: Text
+          Id: g=d2e4c7eeed8f7ede9b86da07ff454403
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":")"}
+    - Name: KeysRow3
+      Id: g=8091fa0613f3741c0ebad5cf1de7ddc6
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=1ac13e50d83b9b715ab9731cd896cfbb
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: HorizontalGap
+        Id: g=fdc5e991a62b0120c15d05194c110588
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: LessThan
+        Id: g=9ccd1b7cc6fe13df6e9473746261ee08
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=1b5742a7092dc2e781e1574679e7c75d
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "<"
+        - Name: Text
+          Id: g=43923cbd75b097b8b63d313b9beed428
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"<"}
+      - Name: GreaterThan
+        Id: g=aac3d8077579a20bc03ac67cfecc6cb0
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=3108425674203007536f92299ea1fbe5
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: ">"
+        - Name: Text
+          Id: g=b3c7f9d35b0d571e70ea5c01971aa38b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":">"}
+      - Name: Apostrophe
+        Id: g=f1222d5b592a8dc242c36db059cfb06e
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=b1364c43012fd2f8ac15e7d3349dc566
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "'"
+        - Name: Text
+          Id: g=7d53a0126d599294bd95fff4335ee1ed
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"'"}
+      - Name: Colon
+        Id: g=b559912efd7a8bf9c9408e440b9c5451
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=ca2547b597727417a3f98db0987712bc
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: ":"
+        - Name: Text
+          Id: g=88c25d293776024652cf5c7427033c48
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":":"}
+      - Name: Slash
+        Id: g=9bf3d508e6a71c363fc0c76db0c5c800
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=57bd4b9d2eeced9c393e9f64753b37a8
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "/"
+        - Name: Text
+          Id: g=93f054b00f5ce64e357a1dab564fc240
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/"}
+      - Name: ExclamationMark
+        Id: g=159f324c449310564f22d79db337ee9c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=d454f6705e609e820feec04066216ebc
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "!"
+        - Name: Text
+          Id: g=75606a4298701cc56b341c255e8cde5b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"!"}
+      - Name: QuestionMark
+        Id: g=5ef5ceba60e8c8c9435762218a4fb077
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=3e38216c8c4b2a33d45f9ed770b62c03
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "?"
+        - Name: Text
+          Id: g=0c9f0b8392015d1da057ed7d3850cb56
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"?"}
+      - Name: Backspace
+        Id: g=0c3c02a0a08fb5279ef2738bd1194f14
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: Symbol
+          Id: g=07567b3777801992fa083b91827f3b44
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: ImagePath
+          Id: g=a7144ccb5f0a175bcf019fad4f95ff55
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/res/Backspace_Outline_24x.svg"
+    - Name: KeysRow4
+      Id: g=18eac03faa8bd5661e3dd60e9dd32604
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=4bc30b88a3beac6c6779a4e105a039b2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: HorizontalGap
+        Id: g=a4de9f7f86fddbaa2f2bac3c7d0a7db5
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Space
+        Id: g=013ddf5105bf6a823c4b6417f5bcf254
+        Type: BasicSpaceButton
+        Children:
+        - Name: Text
+          Id: g=f263a45282168910cbef2f1e91b8eef5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+      - Name: Enter
+        Id: g=dfc083128ef68fec467eae4f0e6b5c77
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: ImagePath
+          Id: g=573c01a5848972f75c6551db1d228c05
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/res/Enter_Outline_24x.svg"
+- Name: NumbersAndSymbols2
+  Id: g=ddbd31cfb08dd769d736c33270b15341
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=ebf66574ed7c39a85ec7a6b2deab3a6c
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 630.0
+  - Name: Height
+    Id: g=60a2c667c36a8094d81fc9d310cd066a
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 230.0
+  - Name: KeysRows
+    Id: g=4520c672d3fb6f8f71fb41b5a3c0281f
+    Type: ColumnLayout
+    Children:
+    - Name: LeftMargin
+      Id: g=2de0f3d5bbef1cf6b5ed1aeadefbcd73
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TopMargin
+      Id: g=fbabf6d0f5febd7b61212fb6d707eff1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: VerticalGap
+      Id: g=1563be89911b53ad342a1763c2ba221c
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: KeysRow1
+      Id: g=e0ca9ed26df828ca4577cb562c1f92f4
+      Type: RowLayout
+      Children:
+      - Name: HorizontalGap
+        Id: g=4c7b53c2187b9a793c41711c6356152e
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Tilde
+        Id: g=fe66a4a780983754c35a77b7a6fbf58a
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=48f0cd1713f79aa47710970b69a99f4c
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "~"
+        - Name: Text
+          Id: g=c733b8c9096d09123021060566365a00
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"~"}
+      - Name: Accent
+        Id: g=ff94a7a4ef716ee4ca933056667dac37
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=9813b3acba33b77efd1a1d7b58982ae5
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "`"
+        - Name: Text
+          Id: g=b0ff8c8fa09a32878bd2fdf35e8d26dd
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"`"}
+      - Name: Pipe
+        Id: g=ee8269e069b5a661fc278086dcc9f432
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=9e567f6bc2af733c6723834d38750b98
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "|"
+        - Name: Text
+          Id: g=93d4064a1d28d655407b1dbe70ac3889
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"|"}
+      - Name: MiddleDot
+        Id: g=2da43843a1ec5e0f880b207930480b6c
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=50dbaf8918eff1a6a5eb53a113e08c13
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "·"
+        - Name: Text
+          Id: g=a138e6fc903f3aa9f67efedf7f1a7bee
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"·"}
+      - Name: SquareRoot
+        Id: g=aba0af27fc7fbd0966b91b79453161c7
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=bfad65749c45b3f7b14ccc9a26758c2a
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "√"
+        - Name: Text
+          Id: g=05d1289f34607ac982942469117bd964
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"√"}
+      - Name: Division
+        Id: g=17cc6e3b8f3030635eecf441f101fc30
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=091b5a12511f65fb87981cc15ee129b7
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "÷"
+        - Name: Text
+          Id: g=5349a7e3032f56eb95484cc85b720d81
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"÷"}
+      - Name: Multiplication
+        Id: g=44fe58872dd6645cfbc4734df9fd85b2
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=3711ab907d33ad553f33a4bc1bfcb505
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "×"
+        - Name: Text
+          Id: g=f9a43702b9e6ce4ff646c38dd18e62ed
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"×"}
+      - Name: OneHalf
+        Id: g=8141d7a51b535d57a5c3627c1021b83b
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=3900f66ca77b8902d742b46dbd712280
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "½"
+        - Name: Text
+          Id: g=eadb6c6f29befba7c7d462efec010a19
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"½"}
+      - Name: OpeningCurlyBrace
+        Id: g=2038daf90a31d2d68e4f6304b54ab431
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=4269ebc81d91edef1578a3d7c6ff4f7e
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "{"
+        - Name: Text
+          Id: g=64fef8344109755c48fcbd49ffa99d8b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{"}
+      - Name: ClosingCurlyBrace
+        Id: g=f57eca70063880381a8ccb0484ea1eb1
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=49b9c87aa0debff146bd5374619f7362
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "}"
+        - Name: Text
+          Id: g=9e1731c7169df5035cf25f07383bdfc5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"}"}
+    - Name: KeysRow2
+      Id: g=133087c0f541a098733652a2d524c18d
+      Type: RowLayout
+      Children:
+      - Name: HorizontalGap
+        Id: g=e3fd43bbd8251ccd9a69479cd8904fe2
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Dollar
+        Id: g=3461fe14eb522c5203ada1008e7e3d03
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=74c3e84fd8734defb55031b646f42013
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "$"
+        - Name: Text
+          Id: g=13af4382f089fa3970803a0bc57b8aec
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"$"}
+      - Name: Euro
+        Id: g=ab5e82bd6e2cd2bdf8e216aa5523f88f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=d08aaf394eb78e7d50966b5cecf0c72d
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "€"
+        - Name: Text
+          Id: g=5346a8adb5892eea3a048e86f2a612e1
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"€"}
+      - Name: Pound
+        Id: g=37f16ed06fc05213ef3e9b2f60b29dfc
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=81a0591e29162a98b2617f2fafdf02a0
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "£"
+        - Name: Text
+          Id: g=2b7416db50cdc752ab00f858caa68327
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"£"}
+      - Name: Cent
+        Id: g=288fcc5a24a84364996b3e222a715855
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=f6b996bc45597b4f9f01f9c4ede23f2e
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "¢"
+        - Name: Text
+          Id: g=3cc807662f9d672a95f3f495e1223b01
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"¢"}
+      - Name: Yen
+        Id: g=7ca99548e9668b884f8336790dbdc5b0
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=c0ddb8ae3dda897d5000987ecae8c28c
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "¥"
+        - Name: Text
+          Id: g=f4733a0de017c622649d09fac330d8fe
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"¥"}
+      - Name: Caret
+        Id: g=9e50ddb13c8bd6e5085a94abae970085
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=7e1bb85e7e88acb00339892e6945f570
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "^"
+        - Name: Text
+          Id: g=55e5fc80ea924065e2516ab4512e4589
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"^"}
+      - Name: Equal
+        Id: g=614ec62f73e73b229036f727e9f320de
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=e8362dd20550c489efe52604ccc48e6e
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "="
+        - Name: Text
+          Id: g=e45b97d5e879ed16413cfc636161ea72
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"="}
+      - Name: Backslash
+        Id: g=76427443a8f65784b78e23798b6d7dad
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=9d29bd1cc3315fdeb95059a7130628a1
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "\\"
+        - Name: Text
+          Id: g=a4928d956186ac2d8e9932e02cfd345c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"\\"}
+      - Name: OpeningSquareBracket
+        Id: g=7b0197236b2ee49cfea5ca3dc731a12f
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=17e8f845d94fc1662fa7f8bd5898a86c
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "["
+        - Name: Text
+          Id: g=43f4fc018e50eb531c34254253fe4915
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"["}
+      - Name: ClosingSquareBracket
+        Id: g=59c7d7958aa06c8676c6f85bc3f7a843
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=b63a58d508bd575d7a659da17ff05052
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "]"
+        - Name: Text
+          Id: g=762e51f5ba8e1f5d0d64763d49af1ee2
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"]"}
+    - Name: KeysRow3
+      Id: g=e421be8ea25763461dc6388443baefa3
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=6a76a9e212aa7a4b4056db6091a71548
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: HorizontalGap
+        Id: g=9c66c55dab4ba8d535aab0a57dbe9dfb
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Trademark
+        Id: g=023d27a6c4f8ba578de8af1e756e8ff2
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=7adf28b01ca27f90f851314fa2e999aa
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "™"
+        - Name: Text
+          Id: g=a0d8bba0526930548717d36c2ca804be
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"™"}
+      - Name: LeftAngleQuote
+        Id: g=17168d2394d7684e01b40149aa53fb53
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=9f954fb4db49270e3ed0269f9713c067
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "«"
+        - Name: Text
+          Id: g=b32a0df1dbcf52c246104ba97356fe3b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"«"}
+      - Name: RightAngleQuote
+        Id: g=349a609dc9f84a3df24357358f981bf2
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=2d5083e69244e1bea3cd266d6835d450
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "»"
+        - Name: Text
+          Id: g=62c5f4ab66279434f71196bfa7f77157
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"»"}
+      - Name: LeftDoubleQuote
+        Id: g=437a63e34e26b0f0e719817b56bb6d98
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=deae7dbc745260e2a7762aebcaaa5c7c
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "“"
+        - Name: Text
+          Id: g=8c8c6af7c2c77ceabf2bd9d0a1fee896
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"“"}
+      - Name: RightDoubleQuote
+        Id: g=1baca1007a883ff25b55a6e270001f24
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=f41eeaaf026703abd8feda431f0dd3fe
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "”"
+        - Name: Text
+          Id: g=a664f99a85f8535500a2cbbc1a3e4288
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"”"}
+      - Name: Ellipsis
+        Id: g=8202781272cc3752309587e3c86e2a88
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=19916c1e349b853a07124ef72d556c46
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "…"
+        - Name: Text
+          Id: g=f4bdfe835bd9b3d19109b6b1ac16bda4
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"…"}
+      - Name: Comma
+        Id: g=e58ed0e055a4cb8d096bb9b932df878b
+        Type: BasicTextButton
+        Children:
+        - Name: Key
+          Id: g=a834c90aa0bf89242976d708e4fdd093
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: ","
+        - Name: Text
+          Id: g=5517a984c15f6bf150d95a170adc3ce1
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":","}
+      - Name: Backspace
+        Id: g=e4e552265b34e07db1dbd455f466efd0
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: Symbol
+          Id: g=6761af23efed19040f7ea70d4b38d24f
+          Type: BaseDataVariableType
+          DataType: VirtualKeyboardKeySymbolEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: ImagePath
+          Id: g=2b72d9c559b93ccae5dd82f16735fe3a
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/res/Backspace_Outline_24x.svg"
+    - Name: KeysRow4
+      Id: g=cd38648d1024b1a29e6fa4f1cce0f73c
+      Type: RowLayout
+      Children:
+      - Name: LeftMargin
+        Id: g=ef8fc8c410a70a5c4d6a1526b37616c7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: HorizontalGap
+        Id: g=356231e263e31a1adfcc2bb47c04efd5
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Space
+        Id: g=7c079a2d4944433875e2e879bd257bcc
+        Type: BasicSpaceButton
+        Children:
+        - Name: Text
+          Id: g=01321e098b56da078a68a62e0d73ed67
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+      - Name: Enter
+        Id: g=fe14c40f3b7e6808a31a42b0b221f6ef
+        Type: BasicSymbolHorizontalButton
+        Children:
+        - Name: ImagePath
+          Id: g=91daae1714da277889a1bc265154e6ac
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=28;%PROJECTDIR%/res/Enter_Outline_24x.svg"

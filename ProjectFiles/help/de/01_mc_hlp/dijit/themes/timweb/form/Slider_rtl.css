@@ -1,0 +1,34 @@
+.content-header {
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+.toc-header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.timweb .dijitSliderRtl .dijitSliderProgressBarH,
+.timweb .dijitSliderRtl .dijitSliderRemainingBarH,
+.timweb .dijitSliderRtl .dijitSliderLeftBumper,
+.timweb .dijitSliderRtl .dijitSliderRightBumper,
+.timweb .dijitSliderRtl .dijitSliderTopBumper {
+  background-position: top right;
+}
+.timweb .dijitSliderRtl .dijitSliderProgressBarV,
+.timweb .dijitSliderRtl .dijitSliderRemainingBarV,
+.timweb .dijitSliderRtl .dijitSliderBottomBumper {
+  background-position: bottom right;
+}
+.timweb .dijitSliderRtl .dijitSliderLeftBumper {
+  border-left-width: 0;
+  border-right-width: 1px;
+}
+.timweb .dijitSliderRtl .dijitSliderRightBumper {
+  border-left-width: 1px;
+  border-right-width: 0;
+}
+.timweb .dijitSliderRtl .dijitSliderIncrementIconH {
+  background-position: -357px 50%;
+}
+.timweb .dijitSliderRtl .dijitSliderDecrementIconH {
+  background-position: -251px 50%;
+}

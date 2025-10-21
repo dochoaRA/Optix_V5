@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 48.013 56" overflow="visible" xml:space="preserve">
+<g id="grid" display="none">
+</g>
+<g id="stk">
+	
+		<rect x="-80.582" y="-6.784" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="530.325" height="69.711"/>
+	<g>
+		<rect x="0.844" y="0.874" fill="#808080" width="46.562" height="14.23"/>
+		<g>
+			<rect x="4.973" y="4.837" fill="#FFFFFF" width="5.923" height="6.743"/>
+		</g>
+		<g>
+			<g>
+				<rect x="5.094" y="24.881" fill="#B8B8B8" width="37.448" height="8.955"/>
+			</g>
+		</g>
+		<path fill="#FFFFFF" d="M24.665,6.52H17.1c-1.06,0-1.919,0.859-1.919,1.919s0.859,1.919,1.919,1.919h7.565
+			c1.06,0,1.919-0.859,1.919-1.919S25.725,6.52,24.665,6.52z"/>
+		<g>
+			<circle fill="#FFFFFF" cx="32.23" cy="8.439" r="1.919"/>
+		</g>
+		<g>
+			<circle fill="#FFFFFF" cx="39.796" cy="8.439" r="1.919"/>
+		</g>
+		<rect x="1" y="0.995" fill="none" stroke="#9B9B9B" stroke-width="2" stroke-miterlimit="10" width="46.013" height="54.01"/>
+		
+			<rect x="1.077" y="15.354" fill="none" stroke="#9B9B9B" stroke-width="2" stroke-miterlimit="10" width="45.937" height="39.65"/>
+		<line fill="none" stroke="#9B9B9B" stroke-width="2" stroke-miterlimit="10" x1="42.543" y1="38.114" x2="5.108" y2="38.114"/>
+		<line fill="none" stroke="#9B9B9B" stroke-width="2" stroke-miterlimit="10" x1="42.543" y1="43.608" x2="5.108" y2="43.608"/>
+		<line fill="none" stroke="#9B9B9B" stroke-width="2" stroke-miterlimit="10" x1="42.543" y1="49.102" x2="5.108" y2="49.102"/>
+	</g>
+</g>
+</svg>

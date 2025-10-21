@@ -1,0 +1,291 @@
+Name: NetLogic
+Id: g=640dfc4b73344776b6f94eebd9ea3ba6
+Type: NetLogicCategoryFolder
+Children:
+- Name: ClockLogic
+  Id: g=977a5c6c5df3415c9a1e2f622a65a3b6
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Id: g=6357ed2e2ae666e83f252619b4a9aceb
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Id: g=27095e60c85e2a1171d2d8bb765f03e8
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Id: g=a7265b3bc61246641a6a59c01c2a3f3e
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Id: g=b74a0c2352c37fe8718dd01a1aa6e58f
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Id: g=355d3685998a429a8b3ee97f8c507021
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Id: g=42238e204dec72f4df649fd319c84fcd
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Id: g=3766dca3a90542091c0acfa41fb28ab1
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: UTCTime
+    Id: g=f27c129180b016183447cdc4b55b49bd
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Id: g=4cbcff2a3f3fbbde1efb4b1fa7c17886
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Id: g=1bf9e55a23da2c6f9269435a5a3ffbac
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Id: g=3e9574634d66e341241ad27c2eb5d376
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Id: g=3d39bc0fda078180fb881b575b9bbaba
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Id: g=886b7ebeedd02b2c156f15d00b13f1f5
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Id: g=7f8460e4a547707e1214c18f39c83eb9
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: ns=19;LibraryReference
+    Id: g=0eef02e8229202a514b9f50b71f381e6
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 19
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "9996e8e9dc11a5c3e3631c6fb9425d2d",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: PeriodicTasks
+  Id: g=ab9728de22512ed91c8060b51b7c9de8
+  Type: NetLogic
+  Children:
+  - Name: Time
+    Id: g=7c68a289cd22a4ec98d6fa28f89a32a6
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Id: g=bf762f96d120a999a14c8a1fbf481588
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Id: g=2b1fb7eaad418681d9c568972c05895d
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Id: g=de838daaece9a17cdd88a1cc0c5fef18
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Id: g=69151efae6aa9c6aa94a2b3474780427
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Id: g=f65eb8e8ed4670300c581d4666082c06
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Id: g=21f130bfc64e6baab0a7a38a2e973a5e
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: ExpertLogInTimeStamp
+    Id: g=66beaee1f0465cb9ca314239c86ccfa5
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Class: Method
+    Name: RemoveExpertTemp
+    Id: g=8cc50046a37659123a26c3b1443889e8
+  - Name: ExpertInput
+    Id: g=9416ccb4e34d1c892239ea4f4fbcedaf
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/UserAdministration/ExpertMode"
+  - Class: Method
+    Name: ExpertLogin
+    Id: g=61de2b5dcecba6ecfecf71e3dca98899
+- Name: ImportAndExportTranslations
+  Id: g=eb28279c05be091e1c71074e4a6b29dd
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Description: {"LocaleId":"en-US","Text":"Inpackt Liste Export mit allem als xlsx. Export als UTF8 CSV über Excel (Wichtig!)"}
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=9428471285c7b65de9c16de570d86b9c
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=762b63637970cc59c378f57e2379be8c
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/TE-INSTALL/Desktop/Temp/textsource_20250905.csv"
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=8d5227080129607cddbe8f64a7d59abe
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=22874b0a9f6e75d0b4a4e070a3a3813e
+  - Name: CharacterSeparator
+    Id: g=35f68474505e261db5bda074d1a44f60
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Id: g=b3c778029c04265d9611c82497e93979
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Id: g=aa504105dd155a8c22df0ba9e74bceac
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Optix_V5/Translations/Rovema_Dictionary(DO_NOT_OPEN)"
+    Children:
+    - Name: Kind
+      Id: g=f348cb7d0e8b536bb4ad9d4340617d46
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=19;LibraryReference
+    Id: g=cc490549b65d359b88d1a243ffc47ff9
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 19
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: TranslateAlarm
+  Id: g=159912ad14b2bc8b5b2dfc20bafd17d9
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Translate
+    Id: g=cf76f36222e65821ce0cfbff138a7bf9
+  - Name: AlarmReason
+    Id: g=d02186af231e6a47ed451afed52d2d95
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: AlarmFunction
+    Id: g=c78109af8b7e42a5b4721b80b73f21c0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: AlarmMachinePart
+    Id: g=93c4d7258050513b0dee6e017fbe8ef7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: AlarmDeviceTag
+    Id: g=8cbe912646b2e6a88f45379f20d8a36a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: AlarmMessage
+    Id: g=4b2bc398032d181a4a616c7526ca4963
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=db2c9c598f6e625d55b4400e8c29483e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/VP_AlarmAdministrator/AlarmForHMI/Message"
+      Children:
+      - Name: Mode
+        Id: g=610f86ae353a9ee225b74ea8d175072c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: AlarmMessageID
+    Id: g=c386e5bbe8b055c3f27491fff0cdd80d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: AlarmReasonFunction
+    Id: g=789e293c61b576a02e613433513b64f6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: AlarmMessageBrowsePath
+    Id: g=210436b6a1af6df841e99d4c14c1624c
+    Type: BaseDataVariableType
+    DataType: String
+    Children:
+    - Name: DynamicLink
+      Id: g=12f7695ba1e1c837b4c3f6eb5bc9a5ab
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/VP_AlarmAdministrator/AlarmForHMI/Message@BrowsePath"
+      Children:
+      - Name: Mode
+        Id: g=2661c37c6326775792d37a1b4f4fedfa
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: UpdateAlarmHistory
+  Id: g=82a3599be0d9b99e3ec008112fef4ce9
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: UpdateSQLdata
+    Id: g=bfa807a781d15204fd6ba6c7e8242361
+- Name: TranslateFormatList_temp
+  Id: g=3f81440f35bde6e0ddf4e5dbd068c3db
+  Type: NetLogic
+- Name: ReadDongle
+  Id: g=236f454eb8e8c8edcd6092bee95c5329
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: ReadDongleData
+    Id: g=9f7b997d8d2290e1b6f7c62d6f94e3d7
+  - Name: foundDongle
+    Id: g=8cafb9d49f7ca51c8ac5af510906c7a7
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: devName
+    Id: g=8773b82fb67c84fc9a1139bcd39549a3
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: dongleId
+    Id: g=fedfb24459b4ab07ef27bbb91e95f695
+    Type: BaseDataVariableType
+    DataType: Int32

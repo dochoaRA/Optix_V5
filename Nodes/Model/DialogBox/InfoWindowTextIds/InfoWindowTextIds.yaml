@@ -1,0 +1,232 @@
+Name: InfoWindowTextIds
+Id: g=ea55fffa01d07166f3d5a99d1bc3d7fe
+Type: FolderType
+Children:
+- Name: InfoWindowTextIds
+  Id: g=d13dc0ee5bbd9743cb4c906c0554adeb
+  Supertype: BaseObjectType
+  Children:
+  - Name: Header
+    Id: g=7f0665b2fa9378de1110360a10025cd9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: Text
+    Id: g=dbb88cdbb8b3fc830614006da6e83a25
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+  - Name: HeaderColor
+    Id: g=df004855094bc21ce719c1a9dd7b4b6c
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+- Name: RFID_started
+  Id: g=93eec68148b4477b11dbb8e19a5c9fe4
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=d5d633f42c3ef97e0ef88f47bf2b1cee
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"24039"}
+  - Name: Text
+    Id: g=7db174cd61561b1fbb3152d95106df8b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"31090"}
+  - Name: HeaderColor
+    Id: g=82ac3be93dba6aea9cd74921f1e3a4ca
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+- Name: RFID_expired
+  Id: g=518ec0d8020d88adf5d4e8fa27b16ea3
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=4f5ec9037bf257a040467c94b9269b5b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"18237"}
+  - Name: Text
+    Id: g=41e1e77ba55bb9801d2cf57eec6a67ee
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"24103"}
+  - Name: HeaderColor
+    Id: g=6358a04ca68b551c6b1ed18dc1711e38
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+- Name: RFID_successful
+  Id: g=3826c9b14a89886819e936067db5d9e1
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=3eef022847cd99cfb2cad8d375900e2e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"10582"}
+  - Name: Text
+    Id: g=997f8c042abf6c40dbbf54500191c90f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"8040"}
+  - Name: HeaderColor
+    Id: g=0f7d61d300a2d6d96cfdb3094b18c81d
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+- Name: PasswordWrongOld
+  Id: g=c8800c88df38bdf9a3626a8f61ad820e
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=5962cd088951ab619afa0f6ba351368b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"25715"}
+  - Name: Text
+    Id: g=84244d932cdbd9c8a64dce5b9fc34822
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"30947"}
+  - Name: HeaderColor
+    Id: g=83527037f52de5e15da9a24aee25b12a
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#db4263"
+- Name: PasswordMismatch
+  Id: g=3316e2ff91038fee8bdc4626a751252d
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=bbbcef5fb8cc93a777a9a4e81d510355
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"25715"}
+  - Name: Text
+    Id: g=b81978eccaedfc0ce5f878314f22f0a2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"7252"}
+  - Name: HeaderColor
+    Id: g=e10d6f972606bb55838f1610a65b4024
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#db4263"
+- Name: PasswordChangeSuccessful
+  Id: g=e84d7be8e43b5c60f037b8ce61a1c9be
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=4731b940fa8604ff64a0574053c064f4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"20089"}
+  - Name: Text
+    Id: g=2cedeb60109c2f4f8608649108dcd635
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"9457"}
+  - Name: HeaderColor
+    Id: g=ff46486b6d974cfbe98d62424b5b331d
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+- Name: NewUserSuccessful
+  Id: g=0ac1eb149de41af1c6e1ecb3da57ac7f
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=0aee56b1771cd3bdbfe975a827ab0aef
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"22006"}
+  - Name: Text
+    Id: g=87b0bd086b22bed6a5c54fb44407f732
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"27141"}
+  - Name: HeaderColor
+    Id: g=e52e7650780ce6679874a98ecc3fbed0
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#000000"
+- Name: ExpertLoginFailedPassword
+  Id: g=e691fa705affcd29b2a55932706bbf5b
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=c6a82427a902c93234ef764453717067
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"12144"}
+  - Name: Text
+    Id: g=639ab8d42d968ce1e4a2987be62288d1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"18398"}
+  - Name: HeaderColor
+    Id: g=13debbe5f76dfe89db216e225abcd8b4
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#db4263"
+- Name: ExpertLoginFailedNoSession
+  Id: g=0b210be243efc61c0dc9a2a5c41f986f
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=98e341515d5909a5607a388947edce36
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"12144"}
+  - Name: Text
+    Id: g=b483e69845f840d717ae214f169c41d4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"2325"}
+  - Name: HeaderColor
+    Id: g=29e5ce75ca4f5716db66c78676fa5db6
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#db4263"
+- Name: UsernameAlreadyExists
+  Id: g=c02f2ab64582f12477efecb2673d4f3e
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=79278a154d245d1256a048428876e024
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"25715"}
+  - Name: Text
+    Id: g=61356675aae850305bed7b1a86e5caa3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"22039"}
+  - Name: HeaderColor
+    Id: g=04480346c66296a2c0cfb70022da74b3
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#db4263"
+- Name: PasswordEmpty
+  Id: g=f5956c986bc5c05a8fca879541b4a477
+  Type: InfoWindowTextIds
+  Children:
+  - Name: Header
+    Id: g=732f64142c62a39084a15ea2c89e2d87
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"25715"}
+  - Name: Text
+    Id: g=96afe5da63eb0a8cea37874910cb050a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":28,"TextId":"3031"}
+  - Name: HeaderColor
+    Id: g=dfae548ee995f7bee379c27fdc87679e
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#db4263"

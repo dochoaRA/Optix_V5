@@ -1,0 +1,202 @@
+Name: MainMenu
+Id: g=47ad127751bb21ed80afa873bdb30d8f
+Type: FolderType
+Children:
+- Name: FilmEdgeGuidingRatio
+  Id: g=a40cfdf3ba59815c6aa500048ccad434
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: ["0","0"]
+  Children:
+  - Name: DynamicLink_0
+    Id: g=93756a5272c6f00330535672f293533d
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Left"
+    Children:
+    - Name: Mode
+      Id: g=dafc0c89eba2f9d04721bbbcba6cea96
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=f5d2307cb8b20723b8a838c0bb3157e2
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [0],
+         "FieldIndexes": []
+        }
+       }
+  - Name: DynamicLink_1
+    Id: g=26f6eb438255fe707bdb936301cbb6ad
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Right"
+    Children:
+    - Name: Mode
+      Id: g=a51cdaa624f2fd5f72135b5bcb303b2e
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=7ae0e21a8f61cf02a341164b8b441213
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [1],
+         "FieldIndexes": []
+        }
+       }
+- Name: Left
+  Id: g=25360abf0f42fffc461f0da155eda4af
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Id: g=b5f686a93fbce137fef2e070b3144d06
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Id: g=91ceb72a531d4c66f8e18327a63f8064
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"{0}fr"}
+    - Name: ns=9;Source0
+      Id: g=9688f1f059a48fb8826219a769e418ce
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=128a9c7cc298306137b1efecff54e969
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:VP_M02_Film/FilmPositionOptix1"
+        Children:
+        - Name: Mode
+          Id: g=d5d8096b82c80d03fa57687d423bdf0a
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=91af4e8fe5895a24f0dd2d439ae6f29b
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Right
+  Id: g=ca2df7e554470f7a40a4a0f3951846e2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Id: g=a6494c9ff129f9a161f8d8b0b510768e
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Id: g=ef73c68e15d5a88bd09284fb4ecba4fd
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"{0}fr"}
+    - Name: ns=9;Source0
+      Id: g=673b8ee949e38bbf95406452c5139384
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=589c0d79152a2efb21a53e7e6055b51d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:VP_M02_Film/FilmPositionOptix2"
+        Children:
+        - Name: Mode
+          Id: g=d0624d03b201a50329111e89eb70daeb
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Id: g=7cab76fc6f0eb0ade1cd12f836236b52
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2
+- Name: FilmEdgeGuidingRatioInverted
+  Id: g=e7853288c654d24d68cb5378b3dfa4bf
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: ["0","0"]
+  Children:
+  - Name: DynamicLink_0
+    Id: g=6c0c889708100ceccc88501860863d35
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Right"
+    Children:
+    - Name: Mode
+      Id: g=49382e4599c8ccc941d9bb7fd5029c52
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=65d79da30cf71cd61c08d3031e03e46c
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [0],
+         "FieldIndexes": []
+        }
+       }
+  - Name: DynamicLink_1
+    Id: g=5969db7638d4910a5ae3a4c0e3b97d9e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Left"
+    Children:
+    - Name: Mode
+      Id: g=f33086960af4057fa41c8f2ffa1c97bf
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=79deb98f2489d4fcb3442c0adb1393c8
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [1],
+         "FieldIndexes": []
+        }
+       }

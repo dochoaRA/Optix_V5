@@ -1,0 +1,44 @@
+13969;	Abtransport
+22388;	Abwurf
+31354;	Anschlag
+25396;	Barcode Scanner
+652;	Becherband
+12126;	Beschleunigerband
+5917;	Beutelegalisierung
+23032;	Drucker
+17796;	Egalisierrad
+20234;	Faltschachtelabnahme
+13908;	Faltschachtelaufrichtung
+25958;	Faltschachtelaufrichtung feste Seite 
+32406;	Faltschachtelaufrichtung verstellbare Seite 
+15705;	Faltschachtelkette
+27989;	Faltschachtelkette fester Holm 
+21365;	Faltschachtelkette verstellbarer Holm 
+15209;	Faltschachtelmagazin
+4249;	Faltschachtelmagazin feste Seite
+24849;	Faltschachtelmagazin verstellbare Seite
+29334;	Faltschachtelvereinzelung
+11854;	Faltschachtelzuführung 
+3879;	Höhenverstellung Führungsschienen Auslauf feste Seite
+16638;	Höhenverstellung Führungsschienen Auslauf verstellbare Seite
+8309;	Höhenverstellung Führungsschienen Einlauf feste Seite
+13910;	Höhenverstellung Führungsschienen Einlauf verstellbare Seite
+30023;	Laschenführung feste Seite
+25205;	Laschenführung verstellbare Seite
+14717;	Laschenumleger feste Seite
+26120;	Laschenumleger verstellbare Seite
+24272;	Leimung feste Seite
+30144;	Leimung verstellbare Seite
+30066;	Oberband
+6316;	Produktabfrage
+16538;	Produkteinschub
+5413;	Produktübergabe
+14152;	Stopper
+
+
+
+
+
+
+
+

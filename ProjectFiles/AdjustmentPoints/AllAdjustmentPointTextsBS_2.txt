@@ -1,0 +1,46 @@
+16355	;	Abstand	
+474		;	Andruckrolle
+12298	;	Antrieb hinten
+1692	;	Antrieb vorne
+33159	;	Aufrichter Höhe
+3785	;	Faltbleche
+17339	;	Führung
+29931	;	Führung Höhe
+10332	;	Führungen unter Siegelbacken
+28471	;	Höhe
+15832	;	Kippkante
+29882	;	links/rechts
+22215	;	Luftausdrücker
+33154	;	Luftausdrücker Höhe
+14515	;	Mitnehmer
+33162	;	Mitnehmer hinten
+33161	;	Mitnehmer vorne
+5461	;	Niederhalter 1
+16823	;	Niederhalter 2
+3112	;	Niederhalter 3
+3454	;	Sauger
+24320	;	Schieber
+26666	;	Schleuderteller
+33006	;	Seitenfaltstecher
+11422	;	Seitenführung hinten 1
+3976	;	Seitenführung hinten 2
+15919	;	Seitenführung hinten 3
+30397	;	Seitenführung vorne 1
+362		;	Seitenführung vorne 2
+23925	;	Seitenführung vorne 3
+33155	;	Siegelbacken
+13256	;	Spreizer
+12958	;	Stauscheibe
+23436	;	Stempel
+24195	;	Stern
+14152	;	Stopper
+33250	;	Tiefe
+33167	;	Tiefe L/R
+4061	;	Trichter
+16815	;	Umlegung Höhe
+23464	;	Umlegung links/rechts
+33152	;	Umlenkung hinten
+33151	;	Umlenkung vorne
+11936	;	Verschluss
+22767	;	Winkel
+5871	;	Zentrierung

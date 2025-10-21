@@ -1,0 +1,3407 @@
+Name: FormatList
+Id: g=a5731cb839a5040685c73280e8dd8bf4
+Type: FolderType
+Children:
+- Name: DeleteRowDialog
+  Id: g=23fbf5c00a5754a6614847f74fc7dc8a
+  Supertype: DialogCore
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=11;i=519
+    Direction: Forward
+  - Name: OpaqueBackground
+    Id: g=3a5850795baa733539c3d0f2cc95bee1
+    Type: Rectangle
+  - Name: AlarmWindow
+    Id: g=9f8b1cf943ae7d632df2a15b4d9d093d
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=6a11e38d975d3903913945b45f9e44b0
+      Type: Rectangle
+    - Name: UpperCornersBackground
+      Id: g=da66081f521167c88708b09febd02269
+      Type: Rectangle
+    - Name: VerticalLayoutCore1
+      Id: g=8cb8735f25fb2a8af0d83f8eeb16bc3c
+      Type: VerticalLayoutCore
+      Children:
+      - Name: TitleAndIcon
+        Id: g=50361a77fdd37715890ad5b7cce56520
+        Type: Panel
+        Children:
+        - Name: VerticalLayoutIconTitle
+          Id: g=046b5d89b39436e691ba966a27ca3f69
+          Type: ColumnLayout
+          Children:
+          - Name: Icon_info_alarm
+            Id: g=ad8802d0fd6ad4167343b9542f8f6115
+            Type: MultiStateImage
+            Children:
+            - Name: StateValue
+              Id: g=a961945d2359fde736bae7e3cd329cd6
+              Type: BaseDataVariableType
+              DataType: Int32
+              Children:
+              - Name: KeyValueConverter1
+                Id: g=40bd56d0217c7418636857cc16f97804
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Id: g=2734284fea9eedcbde50b36bb1bb2a25
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=8e09bb0e0ea473e777552129f7cff97e
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/VP_AlarmAdministrator/AlarmForHMI/Category"
+            - Name: States
+              Id: g=bbd800fdad9ebd0c1782214f90f296e6
+              Type: BaseObjectType
+              Children:
+              - Name: Alarm
+                Id: g=fb4b6cb96ae56a227a76b519b26eaea0
+                Type: MultiStateImageState
+                Children:
+                - Name: Value
+                  Id: g=a409da5477a9f12431e3125bdf655a6e
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                - Name: Path
+                  Id: g=7872b72be6d7314f10e798f366bada72
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  Value: "ns=28;%PROJECTDIR%/all/message-box-warn.icon.svg"
+              - Name: Information
+                Id: g=dd5a62a0f60ca46f5bd8d83f734016ec
+                Type: MultiStateImageState
+                Children:
+                - Name: Value
+                  Id: g=3f512db34d3d62ac2d60c1d3bae8e0f7
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 1
+                - Name: Path
+                  Id: g=79de2544c7ea23899f6a726c9da45fc1
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  Value: "ns=28;%PROJECTDIR%/all/message-box-info.icon.svg"
+            - Name: Path
+              Id: g=3b748e06560b814010b88e71080b8205
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+          - Name: FunctionReasonPartPanel
+            Id: g=391431c0a89516a9d2a67d62220dff7d
+            Type: Panel
+            Children:
+            - Name: FunctionReasonPartLabel
+              Id: g=c6ab28c260037b3acc755cb15dfe9508
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=5719e9e103ef2083c189fdde10e9fa27
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":28,"TextId":"25738"}
+              - Name: LeftMargin
+                Id: g=b59aa7c75bff1f3eb834fa636c00e1d7
+                Type: BaseVariableType
+                DataType: Size
+              - Name: RightMargin
+                Id: g=0cdc09069f54ca1a9ed4648f1f8ed03b
+                Type: BaseVariableType
+                DataType: Size
+        - Name: LeftMargin
+          Id: g=524281fff1dad4d71a15e5b0934d72f4
+          Type: BaseVariableType
+          DataType: Size
+        - Name: RightMargin
+          Id: g=8ef7fe278e392706c12ce1ced11c6cda
+          Type: BaseVariableType
+          DataType: Size
+      - Name: FunctionReasonPanel
+        Id: g=53a774969f68384e0f26bbded0c1dbd4
+        Type: Panel
+        Children:
+        - Name: FunctionReasonLabel
+          Id: g=f4d0ace738d0c9ee4055a9f50182b33e
+          Type: Label
+          Children:
+          - Name: Text
+            Id: g=89817e3c60148ef24fb23ccf5a0383ac
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":28,"TextId":"25245"}
+          - Name: LeftMargin
+            Id: g=ca050fd1d79234c2448cc7458fe89491
+            Type: BaseVariableType
+            DataType: Size
+            Value: 56.0
+          - Name: RightMargin
+            Id: g=89b96741b2d46f41c0b26485305d8c08
+            Type: BaseVariableType
+            DataType: Size
+            Value: 56.0
+      - Name: Separator
+        Id: g=f9f7fa57512310399523d5ba6b5976a4
+        Type: Rectangle
+      - Name: Buttons
+        Id: g=ebebcffa2d5d3f47452271249e470cb5
+        Type: Panel
+        Children:
+        - Name: HorinzontalLayoutCore1
+          Id: g=02bae999e322750b86d8ac769473e5a7
+          Type: HorinzontalLayoutCore
+          Children:
+          - Name: Button_Cancel
+            Id: g=865eb3d67954def11058427fa42fd049
+            Type: Button_DialogBox
+            Children:
+            - Name: FillColor
+              Id: g=43f659f2eb46281d29fdc5d9670224dd
+              Type: BaseDataVariableType
+              DataType: Color
+            - Name: Button
+              Id: g=30e38b9458f3d4ac1794190b0ba96a68
+              Type: MomentaryButton
+              Children:
+              - Name: Active
+                Id: g=a1e2c74b964c0356782bce8007ad5190
+                Type: BaseDataVariableType
+                DataType: Boolean
+                AccessLevel: Read
+              - Name: MouseClickEventHandler1
+                Id: g=a8e9c92540fffe4c874caf1ef2dff3ab
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Id: g=97ceda4ba465618973add23e72da2c6e
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Id: g=1b0a86969d2ef787367cd04a47cfc378
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Id: g=18e33449ff41641f357d8021dcc8ec5a
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=9;ObjectPointer
+                      Id: g=5ae232c096034aea37dbb55bfe34c970
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Id: g=7388252dc623f9f50902f4c45a47414f
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Id: g=2456362a0b23c7ba53c5ef742e2b6142
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../..@NodeId"
+                    - Name: ns=9;Method
+                      Id: g=6b1f43f4722e3f5c642fe07f485d56e8
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Close"
+                - Name: EventArguments
+                  Id: g=8bdd241c8775c63b11b46e3b8245551c
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Id: g=07f8b0c1bd7b915c950e1b8f0d02c7a2
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Id: g=f941b2b26e5cd240312f410e822fac0e
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Id: g=c4cebf282a651395a7bf2c5a54499da4
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Id: g=249f658b284f93ba25e98bd348f1be52
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Id: g=1d3c3e6a592b1e8795bcd55b6b778342
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Id: g=73da82a906726377a84534d684fa3691
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: Message
+                    Id: g=521cf7643083895400a8a0d78ff3fec6
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Id: g=23e972612446080b7ff8c8cc336be80a
+                    Type: PropertyType
+                    DataType: UInt16
+            - Name: Label1
+              Id: g=a1ecb8fbb88505686446d6659e481d61
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=061700025f30c55c4a732d9961b7e96f
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"10374"}
+            - Name: Visible
+              Id: g=b94f9e8791c40fc31d54c5985612f3f0
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Id: g=e287711727a9a300eb56a622230c86d1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Optix_V5/Model/Bool/TRUE"
+          - Name: Button_OK
+            Id: g=565806173d2b56688ac001e004f431af
+            Type: Button_DialogBox
+            Children:
+            - Name: FillColor
+              Id: g=039fb2ade88166c9abb099dfeb006233
+              Type: BaseDataVariableType
+              DataType: Color
+            - Name: Button
+              Id: g=b7c87c1d553d4a3be9fe2822b8ada7b3
+              Type: MomentaryButton
+              Children:
+              - Name: Active
+                Id: g=a21fa1119f8bcd180dd053de57734fd6
+                Type: BaseDataVariableType
+                DataType: Boolean
+                AccessLevel: Read
+              - Name: MouseClickEventHandler1
+                Id: g=2d0e592c8a25b0cd301be0403fe39a7d
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Id: g=c7033936feb3345e7693037b25df5879
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Id: g=b3830b387705043a182f9b9f69baa3bc
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Id: g=8e96a76dd29f81b630c89e1992b197a8
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ObjectPointer
+                      Id: g=113aaf95f8d5fa7ab8134fe193bfa97d
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Id: g=73f1f845c39944205255de47248e348e
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Id: g=ac3d93ac75ff694e41f93ff1d532e5e0
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../..@NodeId"
+                    - Name: Method
+                      Id: g=ec910dcea0fe6b55c8f30aa0cc26e55d
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Close"
+                  - Name: MethodContainer2
+                    Id: g=c0f494988420a9deeb612f8beca30e83
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=9;ObjectPointer
+                      Id: g=b9896299737da01057587565a3aa81bb
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: "/Objects/Commands/VariableCommands"
+                      Children:
+                      - Name: Kind
+                        Id: g=78c67f8c14e86a20d2e901b5abcee4f3
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: ns=9;Method
+                      Id: g=5bf9a4b39dc9640b9b1132f79b243330
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Set"
+                    - Name: InputArguments
+                      Id: g=6cf931127982eb0853f602e2008b9117
+                      Type: BaseObjectType
+                      Children:
+                      - Name: VariableToModify
+                        Id: g=46e26995538f1cbeae77614889a9618e
+                        Type: BaseDataVariableType
+                        DataType: VariablePointer
+                        Description: {"NamespaceIndex":9,"TextId":"SetVariableToModifyDescription"}
+                        Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/FL_DeleteLine_Index/Value"
+                      - Name: Value
+                        Id: g=dcc9b00d6a68292021a247d83f96a100
+                        Type: BaseDataVariableType
+                        DataType: Int16
+                        Description: {"NamespaceIndex":9,"TextId":"SetValueDescription"}
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=ca31f38179c1eb46eb2bbbd8171dd8b2
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{SelectedLine}@Value"
+                      - Name: ArrayIndex
+                        Id: g=e051d652c2df83cb28f00aca447a4d62
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Description: {"NamespaceIndex":9,"TextId":"SetArrayIndexDescription"}
+                        ValueRank: ScalarOrOneDimension
+                - Name: EventArguments
+                  Id: g=d634b64ada45cd00c22e883dffeb5150
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Id: g=bbd067ae5210db5ec8d6a39525371b6b
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Id: g=3cb81efcf93ba63f6fb90c9fb44a2df3
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Id: g=70bec3214041bf1cd16f190fbc75e0f7
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Id: g=1d7a320019137f92c7ed2c5df0a2b68d
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Id: g=4f43574739eaf8033e94e06afec001e7
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Id: g=92f5dbff3911224c93631f2bc6f46750
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: Message
+                    Id: g=4e3a406edf7d6bc5f3f51c17ad6d05dc
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Id: g=4d69fa9fd5fec014938747a580c2130f
+                    Type: PropertyType
+                    DataType: UInt16
+            - Name: Label1
+              Id: g=881263e0141f551d1612159d7f4d6cf1
+              Type: Label
+            - Name: Visible
+              Id: g=d258dd4696a72f11b082abbe7813f10e
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+    - Name: Invis_Variable_loader
+      Id: g=dcce6eeb3ab949040e2a1fe74f1d0614
+      Type: Panel
+      Children:
+      - Name: DeviceTag
+        Id: g=7660204800717d49e88b88748d5a45b7
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=75bea5853b9a807a16b6b3efede0ce2c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: DynamicLink
+            Id: g=d5852fd505c4361f3619f1e67e2ef8a1
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/NetLogic/TranslateAlarm/AlarmDeviceTag"
+      - Name: MessageID
+        Id: g=04ff52ea7e477bd7a9ec8f20b31b25c3
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=cf2fef1bcc7bc8edce262f91f2f8d861
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: DynamicLink
+            Id: g=8c6014838b3510bcc705bf8d0ab3c2fd
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/NetLogic/TranslateAlarm/AlarmMessageID"
+      - Name: Message
+        Id: g=842d967efefd866dfde9202d62d49c5a
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=68bc922e5ed221bfa46f1d23e69f8ffe
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: DynamicLink
+            Id: g=ff8bd1c9c74e2661ed3865a2449791b7
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_V5/NetLogic/TranslateAlarm/AlarmMessage"
+  - Name: SelectedLine
+    Id: g=74280471ed4d9448b02c9c6aea7445f0
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=c831c383f93a50cb3b04bbc2131f7605
+      Type: PropertyType
+      DataType: NodeId
+- Name: MechanicalAdjustmentList_eff
+  Id: g=d56767beacacfc1bf68579a78c41f16b
+  Supertype: GridLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=526a677e28e855ae33bb6af4625315fa
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1000.0
+  - Name: Height
+    Id: g=6f6101f67e366d99754cd668213b7ce4
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 70.0
+  - Name: Rows
+    Id: g=2c9ce05e9f3ed65445edbb6e7dac93c8
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["70"]
+  - Name: Columns
+    Id: g=7922e661799eadf64a0e58c87b400e3c
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["16fr","24fr","24fr","17fr","14fr","62","61"]
+  - Name: HorizontalAlignment
+    Id: g=834aa5432d708967edb2c892a090c40f
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=207acf8652ef91c6a6d1bac1d369cd0a
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+  - Name: Enumeration
+    Id: g=d02ab62fc898ae3d697faf17c43f7e35
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=55b7d47e5141dac3d21903bd7bd2814c
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=ac032dd9a77438c34fe5f53d772c4f88
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Index/Value"
+        Children:
+        - Name: Mode
+          Id: g=782b0523211ac9cdfcba8b644f6ec8e9
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Style
+      Id: g=7b45576dc8561f332a0b1f31b0b9dbad
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "FormatList"
+    - Name: HorizontalAlignment
+      Id: g=aaecd22fe79a51ce06ebc5794dbdf32f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=1e17e61c4b489e0536d1e98331c8d654
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: LeftMargin
+      Id: g=15578efd07a0b05b305a8ef20c0cce44
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 11.0
+    - Name: RightMargin
+      Id: g=757dba369a2c66abc0f3e8b9668739d4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 11.0
+    - Name: Height
+      Id: g=a108b5342c8e1aa3a3eca228d2bfe70b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: TextHorizontalAlignment
+      Id: g=abfb39eadf7c3ea7cdafe669a0f89cb0
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=b1ea95a5801920d1cc67d825f22f4eb8
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: ValueChangeBehaviour
+      Id: g=13e1d54d438e5139cbc7e2ca89aca1e3
+      Type: BaseDataVariableType
+      DataType: ValueChangeBehaviour
+      ModellingRule: Optional
+      Value: 1
+  - Name: ElementNumber
+    Id: g=9a5678a95885e2dded7097d90ce18196
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Visible
+    Id: g=82e1e65b29ea83dee3ae08092c245562
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: DropDownList1
+    Id: g=2ac8757116797149aced1ba9db0434fd
+    Type: Panel
+    Children:
+    - Name: HorizontalAlignment
+      Id: g=64c7d279beaf63037f11c86afc56180b
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=13be0c153fe1f3ef4731292251adbffe
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: ComboBox1
+      Id: g=595a78cb8724e3f81776f602bc5e511c
+      Type: ComboBox
+      Children:
+      - Class: Reference
+        Target: ns=11;i=480
+        Direction: Forward
+      - Name: Text
+        Id: g=80df7c6baecf3191d476dfbb9954c792
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Model
+        Id: g=2ac13e3c0bbd0c69bf89d15f214a4d80
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Optix_V5/DataStores/dbRecipes"
+        Children:
+        - Name: ItemKind
+          Id: g=b4c62a97208f790b21badd954a47c395
+          Type: PropertyType
+          DataType: NodeId
+        - Name: Kind
+          Id: g=105ca42524f04ab0d445e04c888283e1
+          Type: PropertyType
+          DataType: NodeId
+      - Name: SelectedValue
+        Id: g=f9a127ec83a3cb746b3671c0c66090a2
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Children:
+        - Name: DynamicLink
+          Id: g=ced3b5f4d34087cf61db148a0758bd64
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FormatPart1/Text"
+          Children:
+          - Name: Mode
+            Id: g=5918c3e1c315fee454b1bf10e25f8ca2
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 1
+      - Name: SelectedItem
+        Id: g=5a11771eabd12303c1ce4b8ac19446b5
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=d623e45e65916a91cfd3d7bbc81475bd
+          Type: PropertyType
+          DataType: NodeId
+      - Name: UISelectedItem
+        Id: g=e80bbbaa137eaf0faa775269dbad0d9c
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+      - Name: UISelectedValue
+        Id: g=2a94b65f21b658304c22a2814dbf4312
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Width
+        Id: g=4372ac271fa83fac337c85331cde3fc4
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 73.0
+      - Name: Item
+        Id: g=d0d6b05256c195641eb2a934c43a2e94
+        Type: Alias
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=8f9b390400eab0dab6892a0f4a33a775
+          Type: PropertyType
+          DataType: NodeId
+      - Name: HorizontalAlignment
+        Id: g=c9c9ebc5b93db154cb0e06dd4265541d
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=7fed71e70baa4e2f461e17040d414e9d
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: Height
+        Id: g=dfb5f5f9e1cd2a3178928228c2e1cf3c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.0
+      - Name: InputBoxStyle
+        Id: g=d5166d51a767ab6f7d0947687198ca76
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: ScrollBarStyle
+        Id: g=5c2e766c3734b340ac6c246b68bc3dd3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: DataListStyle
+        Id: g=af7b010317b886f72e9d4101396cf5ec
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: Mode
+        Id: g=76708ffcbfaa4f70224466b2dd314d0c
+        Type: BaseVariableType
+        DataType: ComboBoxModeEnum
+        ModellingRule: Optional
+        Value: 2
+      - Name: LeftMargin
+        Id: g=6d78e7a8d1f748e08e937b0db0806c0f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 11.0
+      - Name: RightMargin
+        Id: g=9285e123aa8692fe13662d857dd08478
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 11.0
+      - Name: Query
+        Id: g=9b26c0bc730051e109975457403165f4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SELECT BS FROM \"SQLiteFormatList1\" WHERE BS  IS NOT NULL ORDER BY ENUM"
+      - Name: FontSize
+        Id: g=b082d44486ed42e17dccc0557526b547
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 23.0
+      - Name: DisplayValuePath
+        Id: g=4fe54e9500a367f4af0dd480a249b16c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"{Item}/{#MachineType}"}
+        Children:
+        - Name: DynamicLink
+          Id: g=72f025db8985cb64e8e424e15004940d
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Item}/BS"
+      - Name: AllowDeselection
+        Id: g=5450cb74db4cab25757f77626015c796
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+    - Name: FormatPart1
+      Id: g=ca39563e124a153437f82f6513e6f6ef
+      Type: TextBox
+      Children:
+      - Name: Text
+        Id: g=323b06244f92cae25201a0b6d0843d11
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Style
+        Id: g=f2c50a62f8862eba26a2a1f9a4248b00
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: HorizontalAlignment
+        Id: g=827ce1c1fa326b417509a6a2ca277db4
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=592a23574fd7347c3decccd65376599f
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: LeftMargin
+        Id: g=458b5c18023cd6349b089b6b82e556c9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 11.0
+      - Name: RightMargin
+        Id: g=ab6dd8d4049d9f5f8ab2a305f94939d2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 49.0
+      - Name: Height
+        Id: g=2204ac987d811fe6009492adedd9d953
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 18.0
+      - Name: TextHorizontalAlignment
+        Id: g=ef3fac043df4de1f09a830484e217f6a
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextVerticalAlignment
+        Id: g=6664d5edb5cf1d6b27446c2e963c7df7
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: ValueChangeBehaviour
+        Id: g=26b3bfaca0c5fd4c0b4d86d3c53d7b68
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=a463ec3729c281c8496bb9a826fbdd02
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 48.0
+      - Name: BottomMargin
+        Id: g=86a4843b2a106cc8daf7cb38d5b385dc
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+  - Name: DropDownList2
+    Id: g=2029e1ec6be110affbaad3eaeab8f306
+    Type: Panel
+    Children:
+    - Name: HorizontalAlignment
+      Id: g=dc9658d6db1f2404cf5fa1b865003644
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=d3eae5231d2d2de5510a65f78373e8f7
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: ComboBox2
+      Id: g=f19fd91b3ac3cf6eac359f454dcaa62e
+      Type: ComboBox
+      Children:
+      - Class: Reference
+        Target: ns=11;i=480
+        Direction: Forward
+      - Name: Text
+        Id: g=f4f2eb9dfdf0f7664c2d22f6b1740e22
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Model
+        Id: g=889fed5a26da487f3b016c9875432a14
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Optix_V5/DataStores/dbRecipes"
+        Children:
+        - Name: ItemKind
+          Id: g=52f5f7b88f99a022ec3a4b5a15a1275b
+          Type: PropertyType
+          DataType: NodeId
+        - Name: Kind
+          Id: g=4fef4500a50e647b785650f67f2d4fa6
+          Type: PropertyType
+          DataType: NodeId
+      - Name: SelectedValue
+        Id: g=7657239f58a9b3e82cd6bbfe7d56525b
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Children:
+        - Name: DynamicLink
+          Id: g=0569e2681b16dc436a44396ea823e4ae
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FormatPart2/Text"
+          Children:
+          - Name: Mode
+            Id: g=0ec004ca622c94098596552974ad9cea
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: SelectedItem
+        Id: g=e85574ff6eeed97fee736c821360e003
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=f95ddd7fcd8595b9f65953b161d81607
+          Type: PropertyType
+          DataType: NodeId
+      - Name: UISelectedItem
+        Id: g=a04e53e4c2816964c5c02cbc89a82ae2
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+      - Name: UISelectedValue
+        Id: g=d18c3b30f32397f7f36002d6f1e36d95
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Width
+        Id: g=1c0bb80b094a2953b36bc878a32228d5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 73.0
+      - Name: Item
+        Id: g=525171449076524c5d2fbd706f3c102c
+        Type: Alias
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=3b3b6b08dcc7962b19a30a9bed5a9461
+          Type: PropertyType
+          DataType: NodeId
+      - Name: HorizontalAlignment
+        Id: g=6c0d29f97a65f3050da8c23c0964db62
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=34083b54e0cd2dce7b9ccd841d1211d3
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: Height
+        Id: g=72ba16c7ac818cd143ac739ea7fb9043
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.0
+      - Name: InputBoxStyle
+        Id: g=692a8098b6f194dc10adf53f58fbe2f5
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: ScrollBarStyle
+        Id: g=d9ec624cfcebfef4c058ecfa3674a33b
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: DataListStyle
+        Id: g=2430b49f5ec800d7437124a152a589ab
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: Mode
+        Id: g=fe869f752e1a0568077cfd91db224754
+        Type: BaseVariableType
+        DataType: ComboBoxModeEnum
+        ModellingRule: Optional
+        Value: 2
+      - Name: LeftMargin
+        Id: g=e14075f6569a6c50ab8c7a543bf9e75d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 11.0
+      - Name: RightMargin
+        Id: g=2649d643b9aa15dc9b58a4801c530ff7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 11.0
+      - Name: Query
+        Id: g=fa19ea60782856e1c34192fbe0d2c540
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SELECT BS FROM \"SQLiteFormatList2\" WHERE BS  IS NOT NULL ORDER BY ENUM"
+      - Name: FontSize
+        Id: g=8dad47921269947b8db64d155fac9aaf
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 23.0
+      - Name: DisplayValuePath
+        Id: g=acc90f1d01b5bb3273c13b12d830e9e3
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"{Item}/{#MachineType}"}
+        Children:
+        - Name: DynamicLink
+          Id: g=6caef6f0b39c89f766d057a11e2b3fbc
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Item}/BS"
+      - Name: AllowDeselection
+        Id: g=8c83c8b0d11e3a88e2f683bfb573fc90
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+    - Name: FormatPart2
+      Id: g=0ba4eeb03782314dfb0baeb36a8a9458
+      Type: TextBox
+      Children:
+      - Name: Text
+        Id: g=0da3cfd249f05f8b63eb6df4cdfdae0f
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Style
+        Id: g=38b6324bcfd4023148276a1a642dc123
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "FormatList"
+      - Name: HorizontalAlignment
+        Id: g=3d94b2eefa4f77eb6e918ea4e918a48c
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=b728d607ac5e798921fe263270723907
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: LeftMargin
+        Id: g=896a507581a158d3f3bd7e8d1c89d5e6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 11.0
+      - Name: RightMargin
+        Id: g=6f16410e51bf067407136161bc995214
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 49.0
+      - Name: Height
+        Id: g=ea5172e6df624a2001ebf1cda4fd44db
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 18.0
+      - Name: TextHorizontalAlignment
+        Id: g=9a544b3dab09c446ab1b3fe55104caaa
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextVerticalAlignment
+        Id: g=c08dce4aee93cda2e2ec6076d8b8edb0
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: ValueChangeBehaviour
+        Id: g=779f47de0e2287973d2141a610a8b570
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=f4c2cc3a55cab6523547f1d16993aeff
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 48.0
+      - Name: BottomMargin
+        Id: g=ea6c12ae6ed2888c4f195175e65a862e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+  - Name: Scale
+    Id: g=e7184862ee018e88b9364e1622d22253
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=5285ca550c8db93f9a8c241b43b766bf
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=0f03117dc99725889fb4905ad9a62732
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Scale/Value"
+        Children:
+        - Name: Mode
+          Id: g=e6f488242bd85c07f5b4a96a648a4c91
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Style
+      Id: g=e774dab4aa60e0fbb47261aa44451d62
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "FormatList"
+    - Name: HorizontalAlignment
+      Id: g=ec93709996f119c79b2388a15d28c505
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=524c835c77ee4456ae9f8cf83364b9f2
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: LeftMargin
+      Id: g=65dc2e7294106254019c2e47cb72051c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 11.0
+    - Name: RightMargin
+      Id: g=2a92a48c209b8666c02e168158e2bb62
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 11.0
+    - Name: Height
+      Id: g=0ce945fc61adb4c0a157c16c4a6f9dff
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: TextHorizontalAlignment
+      Id: g=8e244ffbb5517a3cbfdd128e315f55bc
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=225250ef9b99fd065390e366282ac7c3
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: ValueChangeBehaviour
+      Id: g=aad715f0d21d8048436273ab623815fc
+      Type: BaseDataVariableType
+      DataType: ValueChangeBehaviour
+      ModellingRule: Optional
+      Value: 1
+  - Name: Comment
+    Id: g=a7a79184b0798fb70e4f5a91d9128ac6
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=940f0d402387653221310aef07b8a73c
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=0d1bf238c73813254aab63f046eeef9f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/FormatList/1/Comment/Value"
+        Children:
+        - Name: Mode
+          Id: g=7f75f869e45a08db6550f2ddd7079183
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Style
+      Id: g=6dea2608ff0f7ac282e1fe2b76843ef5
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "FormatList"
+    - Name: HorizontalAlignment
+      Id: g=3ad51b68fb3bd38288185fae87788d32
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=b30ba23e1a7c46b5fbe323942c494721
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: LeftMargin
+      Id: g=8098461884fdbe65351ad765adb66042
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 11.0
+    - Name: RightMargin
+      Id: g=e422b4f04ac803e674e6dba0cbc22075
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 11.0
+    - Name: Height
+      Id: g=e3737e62df7e3ac361e8ab06654c8250
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: TextHorizontalAlignment
+      Id: g=35ef5143a3f9be171bcde1c03f9037c8
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextVerticalAlignment
+      Id: g=2dc374f5abb77cdf6965fca9af30a872
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: ValueChangeBehaviour
+      Id: g=ce10eefb6cb257753d8adad9bf0dde3d
+      Type: BaseDataVariableType
+      DataType: ValueChangeBehaviour
+      ModellingRule: Optional
+      Value: 1
+  - Name: AddNewLineButton
+    Id: g=a93fcefc1f67aeebf20f4861a5ffd311
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=82bd45977c6d86df96a250402973861c
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Style
+      Id: g=a08489401586e5983c1521a5b6f9590f
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "FormatList"
+    - Name: ImagePath
+      Id: g=0b40d5936e4ccfb95935534846218b54
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      ModellingRule: Optional
+      Value: "ns=28;%PROJECTDIR%/all/plus.icon.svg"
+    - Name: ImageWidth
+      Id: g=fb19210e1ec6dcd36db35c415e3e2a46
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: ImageHeight
+      Id: g=b656a942ab629949f066a93f42591d46
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: Width
+      Id: g=3ee932d9be38d432efef36bb51e8531e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: Height
+      Id: g=ac97c2477204209b33efd955b961143f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: HorizontalAlignment
+      Id: g=877535a43f1f5b86966a00fd98c42c9c
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Id: g=b04ebfdb3474e136f6f66b9cdbe89c7a
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: MouseClickEventHandler1
+      Id: g=0cc5e59defe90869c4cc70587f2f5a2b
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=613a4b0273e9e8294522a8c0f07b286a
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=d334270825befb7d6080daba63f762ab
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=0199277db022aebf6ae4f4fd3906e44f
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=f40c3915b9836f2c0383677fbf11ef9f
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Id: g=083c8f8fde3a74c004997ab56ac61045
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=722a299644d0850cfb27c8dbd3b5487b
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=7f375713d6e62b413be3e8b7e5eb01b6
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=6079928bd3e5615ab37091ae86329b5b
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":9,"TextId":"SetVariableToModifyDescription"}
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/FL_AddNewLine_Index/Value"
+            - Name: Value
+              Id: g=4107df63d2a12ca882d99376fed4d2d5
+              Type: BaseDataVariableType
+              DataType: Int16
+              Description: {"NamespaceIndex":9,"TextId":"SetValueDescription"}
+              Children:
+              - Name: DynamicLink
+                Id: g=104b0820d519678ba5ff43acfe6c876f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ElementNumber"
+            - Name: ArrayIndex
+              Id: g=7a4b311a957dc8114e43da10d3feb69a
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":9,"TextId":"SetArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Id: g=3d2f3a946e0661936f968f721381ee07
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=d32fd5381611980413e3cf259e31aeaf
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=bdf8c152ea974f3b5897a8c016b7a43c
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=9b76c94c76a333eecccf50747b8994f8
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=2da4fcc53f017fd7055660e328590190
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=746362e9e65f2b26af74645977650f79
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=0db72ac423a629485de28e9a3bc02bf1
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=c3ebc505c1157926368f838d7b01b42c
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=851be245b181615b072a937c224d7ce7
+          Type: PropertyType
+          DataType: UInt16
+    - Name: MouseDownEventHandler1
+      Id: g=2e5c21d9233e83ea8f24a9ea0ea5f067
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=7031617c87c7edba420556813bad2718
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+      - Name: MethodsToCall
+        Id: g=928871c4645160d2a5dc56ed8d8c6b84
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=ca4138f186a4f549905598eeeec0c72a
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=8ae4d152d3d18ec0529f0e6e6a47a735
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Id: g=76973e69c9225b66164cf098c8250a13
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=aff7d578e01ddadc1a9a6444bdfaa160
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=8dafa173595652f4859e937233804761
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=198ee6b87f5076b345b6c0790e325a11
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/FL_AddNewLine"
+            - Name: Value
+              Id: g=eaf75970a936bfb0a3c5603f78d07d3b
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: ArrayIndex
+              Id: g=f5388b1f65b7dee7bfa22f51829146c0
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Id: g=3885d877ccfe7b38de4e64f00a4a8d18
+        Type: MouseDownEvent
+        Children:
+        - Name: EventId
+          Id: g=a24a759ee683373fa710ef85a45ec012
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=0a44bee08036e65ccd0f0e03c4a52ba7
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=bc6ad101994408516927ec8dfa47ec03
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=c61513d789e6558e6f2d34de477d5e96
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=3bd3284f74a65cf540bda395e85168b2
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=4b977fc47642e555d518f5e12a8db339
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=6e2c7bc88ea8d58c2211d0c14790ffde
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=ee4100e86ad13b5ef543bb17e559592d
+          Type: PropertyType
+          DataType: UInt16
+    - Name: MouseUpEventHandler1
+      Id: g=8885dd5501a31cdf5be85fccb038702c
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=5e39120f35cbb37bb8f8946f2ab45ecc
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
+      - Name: MethodsToCall
+        Id: g=a4f96ada6230580d6dfd56e2d72f9684
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=08683800ed73d7579569ab2c727ff9bb
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=32cdf3764fde65a01b38f0bd48ab573c
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Id: g=784c22c98685dbb9ebfae22613bd6728
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=5acd10c60176c1119fdeeb7502ae2047
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Id: g=9063c8d7c7281586197817ece45f7fe2
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Id: g=ad439de1a1829a5d94522ffa3ff1ef6c
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/FL_AddNewLine"
+            - Name: Value
+              Id: g=9444ad11f798f5f7ab4913d642e8802b
+              Type: BaseDataVariableType
+              DataType: Boolean
+            - Name: ArrayIndex
+              Id: g=ea966c12ebb76a39579c7854f05ca0f5
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Id: g=8acdb18a88bd283e753b12eee4145f93
+        Type: MouseUpEvent
+        Children:
+        - Name: EventId
+          Id: g=fd3ce09f68a84e39115b6d268c0bdc32
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=fcd7ff455c159244a8e98837471e68aa
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=617ba0eda5d1a4b9e725340bc2d814cc
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=f84892210d405c18d2faa79a2f9ba3d7
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=7a52cac14b68a050d1a58014b358e71f
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=88382d4e58671963f9bd509a50bb5ade
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=a472040e8c922139d119e6e28927e82d
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=4c04982db5fd6bcc5404ea4c7abddff2
+          Type: PropertyType
+          DataType: UInt16
+  - Name: DeleteLineButton
+    Id: g=2ee3f52ed49b7f381e5c3e3db6129c52
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=9bb281db891f7010385629b366dbc5f5
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Style
+      Id: g=898a6dacaf937e6dfd52678ba67eaf42
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "FormatList"
+    - Name: ImagePath
+      Id: g=02e66950b56ff833749cf4fe41fce545
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      ModellingRule: Optional
+      Value: "ns=28;%PROJECTDIR%/all/trashcan.svg"
+    - Name: ImageWidth
+      Id: g=f4a72f67087cee6293ff49a04507e51b
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: ImageHeight
+      Id: g=1d5ab32fb775c3632e13dc3f6b96365a
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: MouseClickEventHandler1
+      Id: g=3a04d81da55479f9fd2d0d93d4d82760
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=f9adf8c5fe44d01196f06dfac6963fe0
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=50f2aa38af942e084081be717b5b40e5
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=d0eff5efe79050e3f43e9b5a3eb94c2a
+          Type: BaseObjectType
+          Children:
+          - Name: ns=9;ObjectPointer
+            Id: g=8a96b5da90bb15eb7deae6171ffc92a1
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Id: g=0c914f47d49bced686a6cf11d8258362
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=9;Method
+            Id: g=7157e103123fd334703692d00bac553e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Id: g=289dd149886f1c86366936e0b49df5d2
+            Type: BaseObjectType
+            Children:
+            - Name: Dialog
+              Id: g=6b5544b0a0cb1a83eee308bb69078bef
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":11,"TextId":"OpenDialogDialogDescription"}
+              Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/DeleteRowDialog"
+            - Name: AliasNode
+              Id: g=bc79e9a676ab5b628f730360f4a66f76
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":11,"TextId":"OpenDialogAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
+              Children:
+              - Name: DynamicLink
+                Id: g=3f0710500c482a4d3255305dc41b4637
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ElementNumber@NodeId"
+            - Name: ParentItem
+              Id: g=5ca92ea12cabecbf981ae828bd31748b
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":11,"TextId":"OpenDialogParentItemDescription"}
+              Children:
+              - Name: DynamicLink
+                Id: g=4dfd041b0420d3a76f1d2822be41b6b7
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../..@NodeId"
+          - Name: OutputArguments
+            Id: g=053e1f00d27125ad217621951227f54c
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Id: g=4582c8d108fa7d2d71893b3008fa83c6
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":11,"TextId":"OpenDialogDialogNodeIdDescription"}
+      - Name: EventArguments
+        Id: g=6ca55bfacc98a5a6942cdcb2fda71d2a
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=0f40d591f64a63a67b97ffcfb8ecef3d
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=e3d4f2c3cffa8fbbd0b0efa1631bbf38
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=d886d2c6b79c885290631c8b28fa9d14
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=c996f2e32d84800ad16c157ae322690c
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=64e341292525a79dcf72187300d1b095
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=6b690f2ec8528fee1cbfb88b736a1540
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=f26c4284dbdc2063db41996e8a674972
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=34fba77e45d36c0081a51404511f4e2e
+          Type: PropertyType
+          DataType: UInt16
+    - Name: Width
+      Id: g=05539e0355ec4c36b8d4513a102dcac7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: Height
+      Id: g=5cb316d0a960709b4665b416abb79ead
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: HorizontalAlignment
+      Id: g=2ea9579292e3f5191fa77eb5f734e718
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Id: g=ad8b06fd414d809bb33c54db6adfaebe
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+- Name: FormatList_Efficient
+  Id: g=b8bf1ceb18df9f0f245e092aeb6fd7f7
+  Supertype: FunctionWith2ndHeadline
+  ReferenceType: HasComponent
+  Children:
+  - Name: FunctionAccordion
+    Id: g=fa2c12244cf5e959f45f773a02638b25
+    Type: Accordion
+    Children:
+    - Name: Header
+      Id: g=4c962216181f3dbf0dccfed94442d9d4
+      Type: AccordionHeader
+      Children:
+      - Name: HorizontalLayout2
+        Id: g=3fb97aef110732aadbd830f18147db7a
+        Type: RowLayout
+        Children:
+        - Name: Icon
+          Id: g=72d041497fcff5e25d10d3879c0fb170
+          Type: Panel
+          Children:
+          - Name: Image1
+            Id: g=d11d6ad3770514d5dbab0db70bb38e19
+            Type: Image
+            Children:
+            - Name: Path
+              Id: g=d065352010bd97d731afc0420e0ec6da
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=28;%PROJECTDIR%/all/recipe.icon.svg"
+        - Name: LabelPanel
+          Id: g=d7a10f22b18d0b37756722690312f63b
+          Type: Panel
+          Children:
+          - Name: Label
+            Id: g=e640adeb54f76143f472341a8ed95e05
+            Type: Label
+            Children:
+            - Name: Text
+              Id: g=4f4d79a82c4b644fe141b3919feae91a
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":28,"TextId":"17688"}
+          - Name: SubHeader
+            Id: g=b9759d4114bd250dd0122d241999d7b3
+            Type: Label
+            Children:
+            - Name: Text
+              Id: g=e71d2319bfa94340ee22844a782613fc
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":28,"TextId":"20800"}
+        - Name: HandleIcon
+          Id: g=896f296dca458aa6509972f96967d06e
+          Type: Panel
+          Children:
+          - Name: Icon_Rotation
+            Id: g=885e921cb9a0b0bbdb7e99d10d6704b0
+            Type: Image
+            Children:
+            - Name: Path
+              Id: g=efc78050d188c9d0d20bdd32f6e105c2
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=28;%PROJECTDIR%/all/Function_Arrow.icon.svg"
+            - Name: Rotation
+              Id: g=ad3daaad547f5872429f50b0ae46fb66
+              Type: BaseVariableType
+              DataType: Size
+              Children:
+              - Name: KeyValueConverter1
+                Id: g=66494223336bcf0d41a14ba1a87a135a
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Id: g=26339af11e3bc7956e092af2f68f2577
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=8c9c78a2a8a2d6c7502a003a3a9c309e
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../Expanded"
+              - Name: Value change animation
+                Id: g=2a5c61c5733a87c1bc23930554d0ff8c
+                Type: BehaviourAnimation
+    - Name: Content
+      Id: g=b370c6d5f3885d96aec4243d11be3cf7
+      Type: AccordionContent
+      Children:
+      - Name: VerticalLayoutCore1
+        Id: g=9494daa317d457e16deda45368e2f824
+        Type: VerticalLayoutCore
+        Children:
+        - Name: MechanicalAdjustmentListHeader
+          Id: g=a4c616fcc8272707ff06e2445deb52b5
+          Type: GridLayout
+          Children:
+          - Name: Width
+            Id: g=7e88c7c8db76c9b60b62033957aa382d
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Id: g=402fd05c329fbbfa9c2cae40d558a863
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: Rows
+            Id: g=033382c31373ec8488ed98fb3f2fbf0d
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: ["100"]
+          - Name: Columns
+            Id: g=61f9fce64cf69d8c6e08ecb5361444c0
+            Type: BaseDataVariableType
+            DataType: String
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: ["16fr","24fr","24fr","17fr","14fr","123","23"]
+          - Name: HorizontalAlignment
+            Id: g=1f9adfa7de4bbbf5c143f67c71b3b526
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Id: g=d24598c0d2b2f1d3bb93c0d5b15fcb1b
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+          - Name: AdjustmentPointPanel
+            Id: g=2798621c52440b3205cae956e3005438
+            Type: Panel
+            Children:
+            - Name: HorizontalAlignment
+              Id: g=c1c4c2819a1e1848f07026cb6e29797e
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Id: g=64ddf58de7b3ff8a328468832b16c1e4
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+            - Name: AdjustmentPointLabel
+              Id: g=bc8022791352743ca69079b609b3a0db
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=821caaccadd1d8866a4b48c731bc0456
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"15239"}
+              - Name: TextVerticalAlignment
+                Id: g=8e3910d69c103df54fee99e2c81f0db7
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: VerticalAlignment
+                Id: g=0c7fc7bdd7ecd54ef1a562813586acec
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: LeftMargin
+                Id: g=038e997ad67ca3ca6743e316e953a5e6
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 13.0
+            - Name: Height
+              Id: g=f5c66548ac6c88add549ecba54d16769
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+          - Name: AdjustmentPositionPanel
+            Id: g=3558df5d5af86f6eef0063779653a5bd
+            Type: Panel
+            Children:
+            - Name: HorizontalAlignment
+              Id: g=e586ba8d08a1243fee7ee8c61b7a33fa
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Id: g=1d69026bb3757ddde206c4d89749d2b7
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+            - Name: AdjustmentPositionLabel
+              Id: g=ef5b14828892bec8159bbdacca36d4d1
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=c2046c35060c7b5eb282caf109d7f89f
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"6554"}
+              - Name: TextVerticalAlignment
+                Id: g=e3c3ccc49f89f7df3ece3607711d874c
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: VerticalAlignment
+                Id: g=fc055b33457eddf21744279646fcd822
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: LeftMargin
+                Id: g=60aa8af011dc9b10759d89ab1363f00b
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 13.0
+            - Name: Height
+              Id: g=2541517624d1a0566d28a2a69cbbc674
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+          - Name: AdjustmentPositionPanel2
+            Id: g=779b10dae90493f9b3421675de5cb002
+            Type: Panel
+            Children:
+            - Name: HorizontalAlignment
+              Id: g=dd7ff9a2d9f93c552e6c97ca895c5b96
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Id: g=8a714a08c130fda54f6ffebb0d6cdab2
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+            - Name: Height
+              Id: g=e88bb7a9a65f7405de9f589aae3b0d11
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+          - Name: Value_FormatPartPanel
+            Id: g=9a4a694318e209195e6608a4d4daf9e5
+            Type: Panel
+            Children:
+            - Name: HorizontalAlignment
+              Id: g=f558df7e1e7e2fb33c99c1f2be89a327
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Id: g=89bf84a106dedf93b2f0f4744398b5cf
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+            - Name: Value_FormatPartLabel
+              Id: g=cb712856d17bd700e85e0430eaed75cd
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=5889dbc92ff318e86883aa300c66e704
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"10365"}
+              - Name: TextVerticalAlignment
+                Id: g=ae82047247efb3c8e406d796188a98bf
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: VerticalAlignment
+                Id: g=7edb1cc13800fe08ac8acad790bae5f8
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: LeftMargin
+                Id: g=9805eb1238923ab755c30e1205185715
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 13.0
+            - Name: Height
+              Id: g=c76565af518c3d82440ad9c8a4cf2296
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+          - Name: CommentPanel
+            Id: g=9345354294c200030c12af83f4688cf2
+            Type: Panel
+            Children:
+            - Name: HorizontalAlignment
+              Id: g=b64800392a36e4208b38a868927e82bc
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Id: g=6f6f213ccd0fc9ec61f70deaeb791d20
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+            - Name: CommentLabel
+              Id: g=2e19dc42c539cf187ca70db99500940f
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=b1bcd211120308e1da0d01baee79687c
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"11805"}
+              - Name: TextVerticalAlignment
+                Id: g=54507cda445ddb218b228f8fb333c097
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: VerticalAlignment
+                Id: g=5cf6b35b03ee46f18955a883b3e2e116
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: LeftMargin
+                Id: g=576e01e4d80fca62fb77fc7e2fe1e6e9
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 13.0
+            - Name: Height
+              Id: g=919657527f9166e7e9082bf672e0770a
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+          - Name: EditPanel
+            Id: g=f3996c7e99b62ae03549738b63ec91cb
+            Type: Panel
+            Children:
+            - Name: HorizontalAlignment
+              Id: g=737a186dd8d73e324e56016ee924958c
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Id: g=8071d2bc571e99c08e581f2e36a4c02c
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+            - Name: EditLabel
+              Id: g=3e3baaee3cf0acd75c978ace78ac83db
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=59271c2db1ee49ba54facc55f263b332
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"4269"}
+              - Name: TextVerticalAlignment
+                Id: g=e52f5570c6969aebadc747580af56d2d
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: VerticalAlignment
+                Id: g=0d8b1261ae82a92f8ef7d541effdc49d
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: LeftMargin
+                Id: g=027512ea80371a2d6780e4d019b05813
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 13.0
+            - Name: Height
+              Id: g=54fd6c739b13fce63c401e89b785daee
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+        - Name: ScrollView1
+          Id: g=d21ab62faa171a0b281739f0f1e0e4a0
+          Type: ScrollView
+          Children:
+          - Class: Reference
+            Target: ns=11;i=1394
+            Direction: Forward
+          - Name: ContentWidth
+            Id: g=3faeaf448e95508b79e3e465bae16ed4
+            Type: BaseDataVariableType
+            DataType: Size
+            AccessLevel: Read
+          - Name: ContentHeight
+            Id: g=7a13ce27fc6d8418513daab5759e3d81
+            Type: BaseDataVariableType
+            DataType: Size
+            AccessLevel: Read
+          - Name: ViewWidth
+            Id: g=ae3cf3951fef257b7b6b0cbb71cc8992
+            Type: BaseDataVariableType
+            DataType: Size
+            AccessLevel: Read
+          - Name: ViewHeight
+            Id: g=32453fe05ce29d4014924d5ce4dbf422
+            Type: BaseDataVariableType
+            DataType: Size
+            AccessLevel: Read
+          - Name: ContentX
+            Id: g=836f218b37e510469cc119d8992ad834
+            Type: BaseDataVariableType
+            DataType: Size
+          - Name: ContentY
+            Id: g=bb1325b232b306597c2e8229f7ead0aa
+            Type: BaseDataVariableType
+            DataType: Size
+          - Name: Width
+            Id: g=555a31eddde326e587d4176471826582
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Id: g=4f7131ac39daf99573a8cfebe6632d53
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Id: g=4e9706ed4eb0899e5ca3a8cecb7ac611
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Id: g=f6dd6ed281c1a022a1a59b09febae7a1
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: ScrollBarStyle
+            Id: g=8000eff1c4a3b3c6e1eb2156a5cf6c61
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "FormatList"
+          - Name: VerticalLayoutCore1
+            Id: g=177af796d3eced5cf4ee073e21947607
+            Type: VerticalLayoutCore
+            Children:
+            - Name: Panelloader1_Panel1
+              Id: g=206c9382b2db34f696ffe0f8b4b96100
+              Type: Panel
+              Children:
+              - Name: Width
+                Id: g=79ef6ec383dabc25026c80529cdc876e
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Id: g=4e75fb895755913fbe4a932cd3cbe969
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 350.0
+              - Name: HorizontalAlignment
+                Id: g=30857c4f6c128ad8c449c5c78e46f1d6
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: TopMargin
+                Id: g=1c5963dad3ad858acc21acd8b489caf7
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Panelloader_FL1
+                Id: g=aba137ada597b2d5c2b18f1b0245c9d2
+                Type: PanelLoader
+                Children:
+                - Class: Reference
+                  Target: ns=11;i=478
+                  Direction: Forward
+                - Name: Panel
+                  Id: g=26cdea6daa8f2502e0ee36441ad07624
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=f19f649efead178d0d80aeb1816746a6
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Id: g=dcb860e1c574d5da93387400611f00e1
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Children:
+                  - Name: Kind
+                    Id: g=bf224988538ccee7252390be3ecb19f7
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Name: Width
+                  Id: g=4f0b3682258fcd572eda5f51436097c8
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Id: g=151b952682e208dacc08489922ae129d
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 700.0
+                - Name: HorizontalAlignment
+                  Id: g=c2714c04910957974546a911e8ce53a0
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: VerticalAlignment
+                  Id: g=82b68ed5f0b397fb856d9b54fabdc17c
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+            - Name: Panelloader1_Panel2
+              Id: g=8e71d3345db01d30f6e2bb73498707e3
+              Type: Panel
+              Children:
+              - Name: Width
+                Id: g=e369d2b9e6c0f17d99cefacddc35170e
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Id: g=819980035673f42ebe5fe062f81e4b18
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 350.0
+              - Name: HorizontalAlignment
+                Id: g=e61aa23f99fe074faedf187f916493c4
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: TopMargin
+                Id: g=018677cee526db1b81d8a9818f046852
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Panelloader_FL2
+                Id: g=e21ba72a960b138566d140a6a37fada9
+                Type: PanelLoader
+                Children:
+                - Class: Reference
+                  Target: ns=11;i=478
+                  Direction: Forward
+                - Name: Panel
+                  Id: g=c3c43fab867d315bd0835d2744ce476d
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=be960e2dafb228ce65be085edfd1eda0
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Id: g=a470927ffdce61504d68130fbaffd05f
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Children:
+                  - Name: Kind
+                    Id: g=8ff670a1ef28487fd9e8d1d6b5640871
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Name: Width
+                  Id: g=790a0693631c592e6752f27dd066ea1b
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Id: g=8bbaef7e78a44f88d9e8b045dec21643
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 700.0
+                - Name: HorizontalAlignment
+                  Id: g=2ece38ed611241b22460d612b2aee9dc
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TopMargin
+                  Id: g=43dfbd4ed4f766a156f53beebfe097d3
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: VerticalAlignment
+                  Id: g=543f0d3157cbb4c6cccb18c4e62e6acf
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+            - Name: Panelloader1_Panel3
+              Id: g=b6a2cd867e287b934c71141cc547b3e6
+              Type: Panel
+              Children:
+              - Name: Width
+                Id: g=ad05f7240bc9037a00b8f9d87568d775
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Id: g=62c6d63505fb0a8fafae9d93946920e0
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 350.0
+              - Name: HorizontalAlignment
+                Id: g=09d9ab63ba6c9436c52f986ef5c960fd
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: TopMargin
+                Id: g=72a0dfc8c1c7611722a0fde7e99dfe2b
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Panelloader_FL3
+                Id: g=718b5f4273dd2a94dc812a66143dcc78
+                Type: PanelLoader
+                Children:
+                - Class: Reference
+                  Target: ns=11;i=478
+                  Direction: Forward
+                - Name: Panel
+                  Id: g=8ab2fe7c3e842e85f0483fc08db66b52
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=a6409bf94c7b8500c4a52483bd14a4b3
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Id: g=fb8f90094bcb10d130a899d843e0d97b
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Children:
+                  - Name: Kind
+                    Id: g=547db54a636a6499545e0dbbab8268c6
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Name: Width
+                  Id: g=3c10ce5b5f3a9d8277d18f5291163e21
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Id: g=1ff9f71d7e1f2e0ba9013dcc2376f796
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 700.0
+                - Name: HorizontalAlignment
+                  Id: g=d701868c5b26145ad5a2471457f24b73
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TopMargin
+                  Id: g=40d5d738fab1a874cfec345d5db87ea1
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: VerticalAlignment
+                  Id: g=56f06e09731ff7af05c692dcac08772c
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+            - Name: Panelloader1_Panel4
+              Id: g=b3cf9e8a1d78f4090b5f67331f3bdec7
+              Type: Panel
+              Children:
+              - Name: Width
+                Id: g=e7ac8ca9232db5f2a716907cb012ce90
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Id: g=518b2524194290546785d93ea9026669
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 350.0
+              - Name: HorizontalAlignment
+                Id: g=3a94fda12d3adf598204053430b8a877
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: TopMargin
+                Id: g=a33fb2a5996534ee70d4c1c469d4c15b
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Panelloader_FL4
+                Id: g=615d4b37770b6980458e7f3ef420f3ba
+                Type: PanelLoader
+                Children:
+                - Class: Reference
+                  Target: ns=11;i=478
+                  Direction: Forward
+                - Name: Panel
+                  Id: g=0f6607acede85f645aadf65846d71f34
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=94da897e4a687bd36bc14cc854f381f0
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Id: g=f781b6575b1073f840630362a6092c89
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Children:
+                  - Name: Kind
+                    Id: g=dc3a479b16bcd5944b8cc81813ded780
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Name: Width
+                  Id: g=c796f2ab2a1e393312041f0e669717ea
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Id: g=ed722052d858ed84af02238dd1bef5e5
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 700.0
+                - Name: HorizontalAlignment
+                  Id: g=a658609d47abf376408fd7ea2eb4396c
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TopMargin
+                  Id: g=b2998b6ac16be8b865e46b860a0d9fd6
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: VerticalAlignment
+                  Id: g=93d08ff8c78beed013ffb71b7e292202
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+            - Name: Panelloader1_Panel5
+              Id: g=e0d73a74eb1c3668984db82be5ae0af7
+              Type: Panel
+              Children:
+              - Name: Width
+                Id: g=7e6d1a8058489fae6ad70cfbf94f6028
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Id: g=85433c5f0d1579118b00a5cabbf2558a
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 350.0
+              - Name: HorizontalAlignment
+                Id: g=34d5521b71d519f24835af128ba8adad
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: TopMargin
+                Id: g=ccb602e484cbc0a9bf30d6b508e5eb62
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Panelloader_FL5
+                Id: g=6d74f97cc97cb771ce48984b6ea2a950
+                Type: PanelLoader
+                Children:
+                - Class: Reference
+                  Target: ns=11;i=478
+                  Direction: Forward
+                - Name: Panel
+                  Id: g=c30192dcb75deb044783068181198da1
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=4acae232496afe54989b1616a500bd2d
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Id: g=e664f1c9c668c396ffe1c3f1eb9287df
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Children:
+                  - Name: Kind
+                    Id: g=4886b97707b08dbb838115d28887aa4f
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Name: Width
+                  Id: g=24852c1a618f68ffc2428578fff4f0ab
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Id: g=4dc600b2dfb57850821f84ba996c2628
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 700.0
+                - Name: HorizontalAlignment
+                  Id: g=9fa7036c0b6c552198adf4b1c2190d72
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TopMargin
+                  Id: g=ea4a05217c37575dabfdc14d6a13723a
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: VerticalAlignment
+                  Id: g=8ec96597507e68a2092dc24a524897b0
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+            - Name: Panelloader1_Panel6
+              Id: g=9d833e5e90482298d130b997e820eb58
+              Type: Panel
+              Children:
+              - Name: Width
+                Id: g=0d5016a427f1c1e21b43ddcae90509ed
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 300.0
+              - Name: Height
+                Id: g=1d60933b18b7b1594db934d3e0c6d4ef
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 350.0
+              - Name: HorizontalAlignment
+                Id: g=89868e404cdd790fc890a273b1e3efaa
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: TopMargin
+                Id: g=8f1c54d9132c1c2ce509e4ee842a5679
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: Panelloader_FL6
+                Id: g=78bb54211e22fde373544ac42bfd26c8
+                Type: PanelLoader
+                Children:
+                - Class: Reference
+                  Target: ns=11;i=478
+                  Direction: Forward
+                - Name: Panel
+                  Id: g=87ab396d5676d8187f63e99f23672e53
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=092228069b58f3763dfef66a266ecfd8
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Id: g=cf33393bdf423cb18e8d3e765df8f76c
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Children:
+                  - Name: Kind
+                    Id: g=37af10d82732cbf5d13cc1bcf843c67a
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Name: Width
+                  Id: g=f6c3dccdd122b7021f9d0e6ebd06848c
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: Height
+                  Id: g=e9a1a533af0c10f485a9f5333cac1717
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 700.0
+                - Name: HorizontalAlignment
+                  Id: g=998619443b0a8f9400d1b65c8d393be7
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+                - Name: TopMargin
+                  Id: g=780c161c782ccb94e7ac6a832bd210eb
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                - Name: VerticalAlignment
+                  Id: g=1f14c8afc5fa4165c0e541fb9281398b
+                  Type: BaseVariableType
+                  DataType: VerticalAlignment
+                  ModellingRule: Optional
+                  Value: 3
+        - Name: VerticalAlignment
+          Id: g=128e4461c36c972b77b6f0a0854d49a6
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: FixedEnumerationButton
+          Id: g=22d9e6de4bad840865a542b0eebefedd
+          Type: Panel
+          Children:
+          - Name: Width
+            Id: g=03783c95217796710f91000d9b77af62
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Id: g=99ee93b6dd9d4dec53fe51e7261eb562
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: HorizontalAlignment
+            Id: g=26597fc4d3265fa6a563b5620dccdcb0
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: Visible
+            Id: g=7077f11700f8f09fdd3bd8acd1052ea6
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
+          - Name: FixedIndexSwitch
+            Id: g=a3f2aa3fa765417e47e1e16e38626c01
+            Type: Rectangle
+            Children:
+            - Name: LeftMargin
+              Id: g=ce2b28ee134199834bb60eec6264a28e
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 68.0
+            - Name: Width
+              Id: g=2497d5c8276c00aa8b9b786e4d73d6d5
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 103.0
+            - Name: Height
+              Id: g=73850aa2470343f403f11c22005e62f6
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 45.0
+            - Name: VerticalAlignment
+              Id: g=7914b1eccb2069658efdc3779a05507c
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: Transparant_Switch
+              Id: g=56d328d13ddafdb8c14ccdddacf00d46
+              Type: Switch
+              Children:
+              - Name: Checked
+                Id: g=f055aea6e06dd1e6370b775e08e2808d
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Children:
+                - Name: DynamicLink
+                  Id: g=9927d4f5f29b2678a6610253a211cd34
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Optix_V5/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:ProjectSpecific_Panelview/FL_KeepIndex/Value"
+                  Children:
+                  - Name: Mode
+                    Id: g=f8d13ec95f9d1a121f15caeda4a7cc89
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: Width
+                Id: g=bbb9e2f043d501c9257cdfccffcb0dea
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 60.0
+              - Name: LeftMargin
+                Id: g=8655bcc41b074aa5eeb4a4aa6fcfa050
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Id: g=ba65a78cc5e35d616f6d9f3ce52491fc
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: VerticalAlignment
+                Id: g=3d69c7f6e53f2c72aa98c445f7b9c338
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: HorizontalAlignment
+                Id: g=e6b23e55960d27df2ba47e3827929038
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: Height
+                Id: g=22c2c3e79ede8439f583100c96966c4e
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 26.0
+              - Name: Style
+                Id: g=fad7ecd7b99b89feee6e6106d9629755
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "Transparent"
+              - Name: BottomMargin
+                Id: g=4697b44fbf80dfb22286141c9ad70079
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: RightMargin
+                Id: g=344250ccb22f743dcfb5179a837ef08a
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+            - Name: Image1
+              Id: g=074e2ff6ef3eeb6e4a92c278dfce420f
+              Type: Image
+              Children:
+              - Name: Path
+                Id: g=3c8151004bc4afe0ca92248c7aa4b7b3
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=28;%PROJECTDIR%/all/ShiftDataDown.svg"
+              - Name: HorizontalAlignment
+                Id: g=08eaee1beee22c484dea76efed90827d
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+              - Name: LeftMargin
+                Id: g=5c47be0028a8d4c44ddfe898bd4661c4
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 13.0
+              - Name: Width
+                Id: g=446b2b23c54db92723dd800bb0dea087
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 20.0
+              - Name: Height
+                Id: g=bdbd1e15ff8fa2995d4d212fd3ea6e1a
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 20.0
+              - Name: RightMargin
+                Id: g=d0b10b97a69423e5171276c0f3ebc458
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Id: g=46ef392a652b13866bfd705c282e1d02
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 3.0
+              - Name: BottomMargin
+                Id: g=c39c55db446d867dff3d754c178b066d
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: VerticalAlignment
+                Id: g=a9d0add2b58829069babcba4dc3b893d
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+            - Name: BorderThickness
+              Id: g=d47659cbe14a5bb8bf0296c9e3fdf40e
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1.0
+            - Name: CornerRadius
+              Id: g=4c1e9abc9f25b1a624db3671f7c6552d
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 3.0
+            - Name: BorderColor
+              Id: g=160c92487e41abc957abe06bf220612a
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#45454d"
+            - Name: FillColor
+              Id: g=b3920881419dc505b41ac6202787cf8b
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#edf0f1"
+              Children:
+              - Name: ConditionalConverter1
+                Id: g=d36b9449a143ad81968d5259da728a47
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Id: g=105f10dcf4f8f5c5f2a98f547edcf669
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=2181a2e0ccb598a9958bdb46e6dc9726
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../Transparant_Switch/Checked"
+                - Name: TrueValue
+                  Id: g=fa55d8ee135993275834bc21299af1e9
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#00caf1"
+                - Name: FalseValue
+                  Id: g=f0e00ee1974011ba31e3503fd998fe02
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#edf0f1"
+            - Name: HorizontalAlignment
+              Id: g=9da82c9a576042dea18036714cad2e99
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: RightMargin
+              Id: g=a20893e489c8219b61e7f00bf1bd28b8
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 33.0
+            - Name: Label1
+              Id: g=0d3092876e451f3426b392b389a28255
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=035142553ffd27c3aa95473572a548d8
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"NamespaceIndex":28,"TextId":"31326"}
+              - Name: VerticalAlignment
+                Id: g=a10cc00273f582b084cf98430ed9e0be
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: LeftMargin
+                Id: g=269c39e94e6af8b4591446704e69757e
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 45.0
+      - Name: Height
+        Id: g=7273ccb3cbdd733e9e7b8e3416dd6448
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 550.0
+    - Name: Expanded
+      Id: g=a283c09faf0f73c46474fe78e1c277bd
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: ExpandedTransitioned
+      Id: g=3d0f5ff62d1b1dba641846e700cce777
+      Type: VariableTransitionEventDispatcher
+      Children:
+      - Name: Value
+        Id: g=3cbbc4c0f1f70a80dfc5950dda77914d
+        Type: BaseVariableType
+        DataType: Double
+        Value: 1.0
+      - Name: Transition
+        Id: g=bd91b857ab07121ad1df6d9aff2872fc
+        Type: BaseVariableType
+        DataType: VariableTransition
+      - Name: VariableNodePath
+        Id: g=2fc1a6dd21b75eaf762f8ab727b86d94
+        Type: BaseVariableType
+        DataType: NodePath
+        Value: "../Expanded"
+      - Name: VariableTransitionEventHandler1
+        Id: g=46e3917cc417ba0d1ac50f4fde4581c8
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=f20c861bcc044e7c8684cbbda75253e1
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+        - Name: MethodsToCall
+          Id: g=1f205fea089be920857daa94576a85af
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=0d9ca1dda3f6275b7815b83ce653c924
+            Type: BaseObjectType
+            Children:
+            - Name: ns=9;ObjectPointer
+              Id: g=7b1da53eedff1357143228622b1cb418
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=6bbdeca893101d19a57c8989bc31fed3
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=f309ffaf50dace6ee9591b022a0c02aa
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Panelloader_FL1}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=041dd0ca3c2625923eba2b5eb508254e
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=9;Method
+              Id: g=6b5ed9a4e9509180015e20558eaf4b64
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Id: g=4cbae3e0b887876dc8bd33a22b5b4170
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Id: g=838dfd06afcb528b21a35d9eb1d530e4
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/FormatListParts/FL_1_1"
+              - Name: AliasNode
+                Id: g=87ced36895dccaa84c48cee11aa94d49
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+          - Name: MethodContainer2
+            Id: g=b3191c75f581309f2f66810245a79415
+            Type: BaseObjectType
+            Children:
+            - Name: ns=9;ObjectPointer
+              Id: g=aac064e247edad45f18ebab0abbd8025
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=d61fba6eaeabf130d76a62c6f695beea
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=a21eca1032337159d95f13c694d7809f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Panelloader_FL2}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=ffa9981fa20b7d2cbaec3de7de41f43d
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=9;Method
+              Id: g=e39a34687c20db9e000c537fe1cbb203
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Id: g=f6c2daa9d10d2c0e09fdff05abed258e
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Id: g=db7e240b3ccff604825e01370f498d99
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/FormatListParts/FL_6_1"
+              - Name: AliasNode
+                Id: g=0bb3bde4dd52e81fd5feef21f76c2ddc
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+          - Name: MethodContainer3
+            Id: g=8eda913235b152875b5d95ed7668fb06
+            Type: BaseObjectType
+            Children:
+            - Name: ns=9;ObjectPointer
+              Id: g=42b7c8e49662ad2e46a2dc2206052bc7
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=fb37d249622b0e4a6019b28967cf07a1
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=4a8daeb65173261029768907f01233fd
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Panelloader_FL3}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=f745deeb8c38f7085e397c8d5f7c7714
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=9;Method
+              Id: g=b8b92fa6f5853f331d3882ecc5e39c86
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Id: g=5f1650e11fa0f91b2233805d6f28d715
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Id: g=1a7d3d3db699701c9310e2c909c8a28e
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/FormatListParts/FL_11_1"
+              - Name: AliasNode
+                Id: g=f23c8b258d6088dd8ec0c3539fd3869a
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+          - Name: MethodContainer4
+            Id: g=caed7844b0b56671dd446e31c311d316
+            Type: BaseObjectType
+            Children:
+            - Name: ns=9;ObjectPointer
+              Id: g=2f3f9cb167487cba469f88b9b4f17d01
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=48d6d37f91eb5fc854a6efc79e487484
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=43242e2bbb5a5e56783ede5da7e255d7
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Panelloader_FL4}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=c9a6735c334e5526102800f723491f56
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=9;Method
+              Id: g=cfcd2039984e146027579df481f34dd3
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Id: g=2cda8c4ffacfd3913c3a572025a4e49a
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Id: g=042ed50d8f74a0673fa32f14194cb17c
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/FormatListParts/FL_16_1"
+              - Name: AliasNode
+                Id: g=b4ddf34518cc0c433ddff92ce312b1c0
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+          - Name: MethodContainer5
+            Id: g=94ff57c99c8f30682e29f6f26553658e
+            Type: BaseObjectType
+            Children:
+            - Name: ns=9;ObjectPointer
+              Id: g=a413fcd9c1da20a17abd65e7a67687e6
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=8028d36138ad29e2acf6ea8d4ac90506
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=c43f739df13bacb00aabb1e21093cf90
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Panelloader_FL5}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=26ec25a455ba40334d7bd83b383754b1
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=9;Method
+              Id: g=71c14a8ea21759af067396d73615fc85
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Id: g=4faf50709c69d48d5733cc02efd3e232
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Id: g=2dce96ac54cb02c27ada6a1f423ea31c
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/FormatListParts/FL_21_1"
+              - Name: AliasNode
+                Id: g=055a56f308d313d71cbba748eaf9af90
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+          - Name: MethodContainer6
+            Id: g=387cf1f7bf25b0cb6ce8c1e9be91a36f
+            Type: BaseObjectType
+            Children:
+            - Name: ns=9;ObjectPointer
+              Id: g=662e4aa64c55334f331fd2057cd1a51b
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=084facc26f266044679f75726df1b290
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=9d06ceccf7dfb5325a7f5dcaa24716f2
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Panelloader_FL6}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=cc5674d0ac7de0ee95f2bf5a426399df
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=9;Method
+              Id: g=1115689915a4fd7506c4f73361889345
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Id: g=3d942c5c08ee5c834bc421384fc1cf6e
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Id: g=39af04ef0ce084a753d6b3ff5f4ea1cb
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/FormatList/FormatListParts/FL_26_1"
+              - Name: AliasNode
+                Id: g=a6db325ba8700923719b2bc5ed78b3b2
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Id: g=1025c6aad5c66118c8bee8be410d9781
+          Type: VariableTransitionEvent
+          Children:
+          - Name: VariableNodeId
+            Id: g=9c7190595ca639303a0b3f01872c4687
+            Type: BaseVariableType
+            DataType: NodeId
+          - Name: NewValue
+            Id: g=936263b84134d2feee36c6e3784d95dd
+            Type: BaseVariableType
+            DataType: BaseDataType
+          - Name: OldValue
+            Id: g=b17be49c91a95648943f7e2e0d7bf2d2
+            Type: BaseVariableType
+            DataType: BaseDataType
+          - Name: EventId
+            Id: g=09e2fd8a16bd4375b6e212ca5b927c06
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=d1b04393d27ef2c9803dff46b60b1386
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=7392c5ff7efd56ca078f7d1c62dfd0fd
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=57a7806e3a5fa8f684e5eccc91c0a92f
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=5217af2078e387a43115cab1709d36d3
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=393526f7f3756069cca65d1458d24f17
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=c86260fdea0915d937988c8258a5fc9c
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=1c05842fe6728e302cb7201d309e2da1
+            Type: PropertyType
+            DataType: UInt16
+  - Name: VerticalAlignment
+    Id: g=f13cea6f8903ba90599d4965eee68b8e
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+  - Name: HorizontalAlignment
+    Id: g=e21d9b9da9fa3307c7fa01542e8748a8
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Width
+    Id: g=bd278e8a8e156947c0de1eec14854be4
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1000.0
+  - Name: MachineType
+    Id: g=b6b7ac60ac29c22370a500a8117cbeff
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BV"
+    Children:
+    - Name: DynamicLink
+      Id: g=e53ffdd132467102fe947bbc0a75c5c0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Optix_V5/Model/FormatListSelection/ConfigData/MachineType_BV"
+      Children:
+      - Name: Mode
+        Id: g=be23a3def553fe400fca8acee4dfe45a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: ListLength
+    Id: g=abc8bb5288de951d97425d1dda8b5eb1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Header
+    Id: g=8738a3a6e17e1630e75c4ab8727c4a25
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+    Children:
+    - Name: DynamicLink
+      Id: g=f0d3ac89020393c5575a39252519698a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../FunctionAccordion/Header/HorizontalLayout2/LabelPanel/Label/Text"
+  - Name: SubHeader
+    Id: g=78c12414ae91ed563ab6fe09364dd7cb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"0"}
+    Children:
+    - Name: DynamicLink
+      Id: g=4db509e8bc702d8d879d560f586b4650
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../FunctionAccordion/Header/HorizontalLayout2/LabelPanel/SubHeader/Text"
+- File: FormatListParts/FormatListParts.yaml
+- File: old/old.yaml

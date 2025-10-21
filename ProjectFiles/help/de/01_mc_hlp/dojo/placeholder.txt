@@ -1,0 +1,5 @@
+﻿just a placeholder
+
+without this file setup would not create that folder
+
+content merged from \\data02\FCT_SW\Softwarestand_Base\tim_server\TIMXMLPublisher\WebApp(Dojo)\template\

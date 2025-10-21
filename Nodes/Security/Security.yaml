@@ -1,0 +1,8 @@
+Name: Security
+Id: g=69b63ec1680bb66226168ed8c16521a0
+Type: SecurityCategoryFolder
+Description: {"LocaleId":"en-US","Text":"In case there are multiple HMIs, one needs to be configured as an OPC-UA Server and all other as clients. The clients need to choose the opcua-tag in the runtime as users. And all links to users have to be checked"}
+Children:
+- File: Users/Users.yaml
+- File: Groups/Groups.yaml
+- File: Roles/Roles.yaml

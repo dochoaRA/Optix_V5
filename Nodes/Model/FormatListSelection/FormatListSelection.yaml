@@ -1,0 +1,28 @@
+Name: FormatListSelection
+Id: g=d241371a1395db48af724b3d7b80da66
+Type: FolderType
+Children:
+- Name: ActiveMachineType
+  Id: g=e3988c35209b527bba86c23a495b4261
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Id: g=0e0cc8a67ac57dd1ff2d8daef118d108
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../ConfigData/MachineType_BV"
+    Children:
+    - Name: Mode
+      Id: g=d2e92c1942bf923d95dad6198eb6e309
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: FormatListLength
+  Id: g=d595c3c11d851565527312eb3750be4e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 30
+- File: ConfigData/ConfigData.yaml
+- File: FormatListData/FormatListData.yaml

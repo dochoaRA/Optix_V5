@@ -1,0 +1,12 @@
+
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navi/back" transform="translate(-109.000000, -9.000000)">
+            <g id="Group" transform="translate(109.000000, 9.000000)">
+                <polygon id="Rectangle" fill="#02CBF1" points="12 5 14 7 16.0151367 5 18 7 20 5 20 10 12 10"></polygon>
+                <path d="M19.5347221,11 C19.8315471,11.5231884 20,12.119047 20,12.75 L20,13.6875 C20,15.75 18.2,17.4375 16,17.4375 C13.8,17.4375 12,15.75 12,13.6875 L12,12.75 C12,12.119047 12.1684529,11.5231884 12.4652779,11 L19.5347221,11 Z" id="Combined-Shape" fill="#D7DDE0"></path>
+                <path d="M16,19 C14.4,19 13,18.4375 12,17.5 C10.2,18.0625 9,19.28125 9,20.875 L9,24 L23,24 L23,20.875 C23,19.28125 21.8,18.0625 20,17.5 C19,18.4375 17.6,19 16,19 Z" id="Shape" fill="#D7DDE0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

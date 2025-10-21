@@ -1,0 +1,6 @@
+Name: RAEtherNet_IPDriver1
+Id: g=1aba45ca7c3acf1d6e506c8c632d03f8
+Type: RAEtherNetIPDriver
+Children:
+- File: CLX/CLX.yaml
+- File: VP1/VP1.yaml

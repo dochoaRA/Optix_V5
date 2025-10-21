@@ -1,0 +1,2047 @@
+Name: <PrivateElements>
+Id: g=989f82c0ca4d7fe14e995932bbcc1c0f
+Type: FolderType
+Children:
+- File: 'Panels-Faceplate/Panels-Faceplate.yaml'
+- File: Widgets/Widgets.yaml
+- Name: raC_4_00_raC_Dvc_PF525_InfLookup_Description
+  Id: g=60e305542448a2685dcabfbd7da43a90
+  Supertype: ValueMapConverter
+  Description: {"LocaleId":"en-US","Text":"Information loop-up table for fault table containing short descriptions for fault codes"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=9;Pairs
+    Id: g=892ed14bae07cfab8b0efffed42f80d4
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair1
+      Id: g=2d4789d9f972a33acec7db87553bc1fd
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=92ea4f75c58bc75b5d7d7ff6f1beb57e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 4294934528
+      - Name: Value
+        Id: g=09f84cf501268f1aba5243e0e26331ae
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Description not found; see Product Manual."
+    - Name: Pair2
+      Id: g=57fb84a39d0a30901a78a5c2e19a0b40
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=37c7638e071956f6ced72fa3295cb7b9
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 59
+      - Name: Value
+        Id: g=d271df6d1d008fd795314f455cd143f0
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Safety 1 & Safety 2 inputs are not enabled."
+    - Name: Pair3
+      Id: g=646c49a9e39c0a5ce3e6bb73ba43ebdc
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=67eccf3b1b5554c397fb0ffb2d55cd13
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 72
+      - Name: Value
+        Id: g=3a29086d32f99459ee69c26ea11b5b26
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control over the network option card’s has been interrupted."
+    - Name: Pair4
+      Id: g=b99bc97d6770f079f384303029ffa17f
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=8d2fc289ff79debd40c9b77716a24746
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 73
+      - Name: Value
+        Id: g=868bac06e1c17d6eca5f09a715b808da
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control through the embedded EtherNet/IP adapter interrupted."
+    - Name: Pair5
+      Id: g=632d96290a382403b27a25ad6563fda1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=b72a7867f54fe7983c8a12084dec9efb
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 111
+      - Name: Value
+        Id: g=85bf96b873e58e50e6273f7bc71727a3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Safety Hardware: one of the two safety inputs is not enabled."
+    - Name: Pair6
+      Id: g=5a209e0205a73dfb6bf62676e2035817
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=7a5b194a180c928e53379cd2a12021a0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Id: g=8901c21df24415033dc0f3d4d534c4b8
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "External trip (Auxiliary) input."
+    - Name: Pair7
+      Id: g=59413007c358426ab0fe51c53fb3ed7d
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=ba04a02ffc854f2436e06307108a8bac
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Id: g=1cbfac0facf3a9a0ac94c565aadf0bc3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Single phase operation detected with excessive load."
+    - Name: Pair8
+      Id: g=c44134265e5684779a8f634e23ba5220
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c6e701d4c37cb592efc1fe42e82daf7f
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 4
+      - Name: Value
+        Id: g=159d488151a2ced84f9f5f72378a52a9
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "DC bus undervoltage."
+    - Name: Pair9
+      Id: g=c5c5ee069b0923dd62f5ad970e2a6883
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=15a6c3d3cd36166b0a7bcccc05f8bd8a
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 5
+      - Name: Value
+        Id: g=4a501e47c1b3be28eaa02651ff367149
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "DC bus overvoltage."
+    - Name: Pair10
+      Id: g=3fde1db1d2321e41875708d4e68f3370
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=2cf2262f0f80a585ce7988c3799cfaac
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 6
+      - Name: Value
+        Id: g=ce2e1d6ed964b67f2e4febc7a3c31116
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive is unable to accelerate or decelerate motor."
+    - Name: Pair11
+      Id: g=0e53735ee6b50aad87de9f51d70ab61e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=2bbd3168c3292d1e40860c2c25364ea0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 7
+      - Name: Value
+        Id: g=13ca42d1d52d7b83adfa30f7bcb1586e
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "An internal electronic overload trip has occurred."
+    - Name: Pair12
+      Id: g=c38739a79b8c04484b4bdd15869c62d3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=9d5869a99dbc3e12f4644028b3a1fb5a
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 8
+      - Name: Value
+        Id: g=7ea196459a91e987c101721efa428e6b
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Heatsink/Power Module overtemperature."
+    - Name: Pair13
+      Id: g=6c66bd6d5c8cfd88c2122012d6761da0
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=127feeb4850c830136773c2cbe59e6c3
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 9
+      - Name: Value
+        Id: g=0720f559374d57525c7983352c8f58be
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control module overtemperature."
+    - Name: Pair14
+      Id: g=3742958a255dfb9cf1d1a2b067c9322a
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=49d5e52a9c14275429fb1a685b019e7e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 12
+      - Name: Value
+        Id: g=6f23c14b6395a160160a12043b6d9b93
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The drive output current has exceeded the hardware current limit."
+    - Name: Pair15
+      Id: g=38bb389a0b1e1870c2f871635ff5bad1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e6c1bba01b66681f7775c9f4bd398201
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 13
+      - Name: Value
+        Id: g=99098beacbceaa4563abc5572abb6c5f
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "A current path to ground detected at the output terminal(s)."
+    - Name: Pair16
+      Id: g=11d4405a348234dae8a283d70c3b9479
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=589ba8a11fd73c3efd79b2944f90e7b9
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 15
+      - Name: Value
+        Id: g=91bec258dabc14d3c88d2b525a0ac194
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Output torque current fell below load loss level."
+    - Name: Pair17
+      Id: g=bae204d2dc7a43d6a1eddf6fc31552bd
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0fba75b27b47b17816d5cd4005eb1926
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 21
+      - Name: Value
+        Id: g=6a6dd980df3e4bb145fb3ec2c0103031
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Output phase loss."
+    - Name: Pair18
+      Id: g=cf344a40344823f590bcca8e0c11b7b9
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=1c3322d4d0b80c4cd681894dabc2003f
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 29
+      - Name: Value
+        Id: g=2e0aafb3605581a5d457665a0b3b53b6
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Analog input signal loss."
+    - Name: Pair19
+      Id: g=36e96dedacc3030402ad54809eb91085
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=133d26b12ab378ce7c8949598227be7e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 33
+      - Name: Value
+        Id: g=f7d3ba9f4b196f1ed5fbfc7280f88585
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Auto restart tries were unsuccessful."
+    - Name: Pair20
+      Id: g=76a1383a5d21e38111ba61b86e57153b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e44c9b8978a637579553d5f6412f4d7b
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 38
+      - Name: Value
+        Id: g=316ffedf51e58de5506611f7fd61139b
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase to ground fault: Phase U"
+    - Name: Pair21
+      Id: g=78ed1c63e891104cc8461ce8cbc34fdd
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=2ca2c1bc2ecf0f0fcb1940d5f19489c8
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 39
+      - Name: Value
+        Id: g=8959885e6b358bf7aaf1040a4d0f74e4
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase to ground fault: Phase V"
+    - Name: Pair22
+      Id: g=af13a857341522ca44b86d0d2c7371ce
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=d16b7cb3bf2df0b7b2a0ee7c7a64bcae
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 40
+      - Name: Value
+        Id: g=a8ae3b05cf749d3e3aa62e70ca1efe44
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase to ground fault: Phase W"
+    - Name: Pair23
+      Id: g=8619bd071365677cebebb71dae155315
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=21d4c3472877532e4a1f2e011cfb582b
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 41
+      - Name: Value
+        Id: g=1ef6e07214a68b36006d429549914ac1
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase short: Phase U-V."
+    - Name: Pair24
+      Id: g=fba3e073f7fcc0c59ad50d4ba4bb2136
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=35abdcaaf70d09bfcf6e34d51e42bf39
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 42
+      - Name: Value
+        Id: g=f5f1e085d43165a638d7455f13184273
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase short: Phase U-W."
+    - Name: Pair25
+      Id: g=cc4fd1bb9214757344e6fb8a9f524996
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=90e571d2035624955ba7ee5a13a2531d
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 43
+      - Name: Value
+        Id: g=8270575dcd41126feab0db5cb457318c
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase short: Phase V-W."
+    - Name: Pair26
+      Id: g=9c4e122cd365a62ef9332546e21c1d44
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=91303f91a77f12d8853646a303aa7f44
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 48
+      - Name: Value
+        Id: g=e5ff1516e7c0ea41657047041eb39552
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive parameters have been set to default."
+    - Name: Pair27
+      Id: g=7287aefb46b16009c74b6eb67e2e07bf
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=54047e4d4fe3ee5230bf30f9a8295e58
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 63
+      - Name: Value
+        Id: g=acd62ca640362d7ade92be5e6db92503
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Software overcurrent limit has been exceeded."
+    - Name: Pair28
+      Id: g=1549516350dda7556890503fea4ddda1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=da314a1729f2a5d29125f2a39a795491
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 64
+      - Name: Value
+        Id: g=1b7745b82530751a2bf773ec2baad234
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive overload rating has been exceeded."
+    - Name: Pair29
+      Id: g=33a2de8e6c142a7d8c546fc6434e4fe3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=ce55d5ab6bb50fb7bacc78e8387e42ed
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 70
+      - Name: Value
+        Id: g=a71e68479285bcd410f44caa695b6d0a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive power unit failure."
+    - Name: Pair30
+      Id: g=f2b676ffbbe46240bd0860c6ec92dc4b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=4031057ac7c51936e11b96c22b7ab704
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 71
+      - Name: Value
+        Id: g=0b4530384c61d5f22d37c08273274bad
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control over the Modbus or DSI comm link has been interrupted."
+    - Name: Pair31
+      Id: g=57e6dec1899c726df2463666ac32586c
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=f5714072e1914db861b00e7012066bb5
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 80
+      - Name: Value
+        Id: g=1971e4b19d833c01086c4668c87a8412
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The autotune function failed or was  cancelled by the user."
+    - Name: Pair32
+      Id: g=6a59d819aaefe86f2b6dde4d4bf7300e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=b7a553cc2ea6cd3e56af73f5fc759eb0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 81
+      - Name: Value
+        Id: g=25c232df9d38a5352d1e465b8b694a08
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Communication between drive and modbus/DSI master interrupted."
+    - Name: Pair33
+      Id: g=950d2a76f4b7637b8cfda762f92368e0
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=88f646637a4a899832d5c099b2cfae6d
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 82
+      - Name: Value
+        Id: g=6fcef85ddda217dc6ee5bad85927025e
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Communication between drive and network option card interrupted."
+    - Name: Pair34
+      Id: g=da0833aa707d1781532da2aaa0af35af
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=58c85159dc3416dcb21f83bec96fc3f0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 83
+      - Name: Value
+        Id: g=8447074ce7e6d22271e7793eb5d32c07
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Communication between drive and the network adapter interrupted."
+    - Name: Pair35
+      Id: g=b9ae34dc9b955feb4cf0188c186e4da3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e77558ee6b4c4dfefdebcc8716d70329
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 91
+      - Name: Value
+        Id: g=b2a5987876ed7d0468e99b790eed2608
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Encoder signal loss on A/B channel."
+    - Name: Pair36
+      Id: g=7d6f0da4980354e6d54abc4bbe98b437
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=5227b0eb4459e784a69fe3010c138baa
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 94
+      - Name: Value
+        Id: g=ba3c96e254bd921d3ee0c0811d21f618
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Freeze-Fire (Function Loss) input is inactive."
+    - Name: Pair37
+      Id: g=8aa527aab2a73dbc5b4aafc9f1adc51c
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c8ac63d5ba3ad1f0d83d7eb91e24f9eb
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 100
+      - Name: Value
+        Id: g=f1f4e783e33ed182f7ff2d785ce508c8
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive parameter non-volatile storage is corrupted."
+    - Name: Pair38
+      Id: g=c459a814355debbf218dfb82be5584a7
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e4a93267a22aa17f6a17e8d5947bd095
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 101
+      - Name: Value
+        Id: g=5370d2646cfa354dc778fc0c282e561a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "External non-volatile storage has failed."
+    - Name: Pair39
+      Id: g=b375ede3838d25fcc2faf8a52127d342
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=87677f0d24903d3f04ff5875d3a9a19c
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 105
+      - Name: Value
+        Id: g=620304e7fc34cc2f4d249d886405d2db
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control module was disconnected while drive was powered."
+    - Name: Pair40
+      Id: g=6554732733abab2ec0fac7a1a4753ded
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c696545f4480937a33ed2dd6c1a6e38e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 106
+      - Name: Value
+        Id: g=403c230f2904a27fbe8fa309a3feac89
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control module and power module are incompatible."
+    - Name: Pair41
+      Id: g=d680cceeadfdd5ae93406e4ec0593ccb
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=777c8d32d685c7eb16e696078d30b8e4
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 107
+      - Name: Value
+        Id: g=ba893c004c8e7d0dea18b884497e547a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The control module could not recognize the power module."
+    - Name: Pair42
+      Id: g=d8e335407bdde227bca988bdd2653fba
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=5ed55a5c23f3f405ce39ed922eec48b4
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 109
+      - Name: Value
+        Id: g=60a3d04437b3110e07cd4045c0e3abe3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Control module / power module mismatch."
+    - Name: Pair43
+      Id: g=72e43f577f88976f4f6a43fc9995b964
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=13273dc9b9ed504bf73e7608411f9448
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 110
+      - Name: Value
+        Id: g=5a7ad6d6ad2cd6a15546d5f82ea87001
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Keypad membrane failure / disconnected."
+    - Name: Pair44
+      Id: g=3b4aedba8bc420170b66f6fa4978acd9
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=067c7a8cd2f1f37ba49c9fad8a9c6488
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 114
+      - Name: Value
+        Id: g=4e3e1f9d4608b95605de58d35dc76272
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Microprocessor failure."
+    - Name: Pair45
+      Id: g=a04f69dd5648f28d9e8d0fe82b07ea68
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=21170130a27e288fd3397fa3c58a18ee
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 122
+      - Name: Value
+        Id: g=b4b14d4ee390939dd39eba64d97f6963
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Failure detected in drive control & I/O section."
+    - Name: Pair46
+      Id: g=a52ed5b887171e559b66698c6d94413e
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c7c9a907cb911a823a8aebe657a21310
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 125
+      - Name: Value
+        Id: g=053bb6e1d6c1fe38fb0a548e8a3fb56b
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Flash update required."
+    - Name: Pair47
+      Id: g=a180310c522f530aeea1f1c73118fbea
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=90bd476f80587e58215050d4a163c0b8
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 126
+      - Name: Value
+        Id: g=3860bccfb60c5f10d49682f23bd42818
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Non-recoverable error detected."
+    - Name: Pair48
+      Id: g=54c6aa985aa6006cb272cbc897b94589
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e008b713064381d300421d9f008ae029
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 127
+      - Name: Value
+        Id: g=3c437d7109a9c6a12e3da5f2281fb149
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "A critical problem with the firmware was detected."
+  - Name: Mode
+    Id: g=6c04a305366a35bf93c646f19d95f1aa
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: raC_4_00_raC_Dvc_PF525_InfLookup_Details
+  Id: g=6d1c5ca9926986ee67ce1e36632b4cca
+  Supertype: ValueMapConverter
+  Description: {"LocaleId":"en-US","Text":"Information loop-up table for fault table containing long details/actions for fault codes"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=9;Pairs
+    Id: g=d9d852a5c82e489e09321c8a638fec73
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair1
+      Id: g=285d1fd703e5b8fe0dff1d656d97aad1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0b30ac43715ceb0b494ad17448f6bfa7
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 4294934528
+      - Name: Value
+        Id: g=7e498e98a9fd7dc3d04518fabd653bd9
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "No description found in the lookup table for the current code."
+    - Name: Pair2
+      Id: g=6861b630205bd3fbf01fac927e3ea27b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=77282c7cd485ec56a1389f70b125739d
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 59
+      - Name: Value
+        Id: g=3f0ccd034c0159ecd4e10fe760dba33a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Check safety input signals. If not using safety; verify & tighten jumper for I/O terminals S1; S2 & S+."
+    - Name: Pair3
+      Id: g=1dbedd961e064b4817759e4f99ecc5b4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=905dff0f4552e4d1db4452cc02d1d20c
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 72
+      - Name: Value
+        Id: g=86bc35d5d817d38274f6b7216f0d5d43
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power. 2. Check communications cabling. 3. Check network adapter setting. 4. Check external network status."
+    - Name: Pair4
+      Id: g=cb6ff458ee775e24966c15d72f507198
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=17742d576df9b9885ed756b8ef2c44b6
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 73
+      - Name: Value
+        Id: g=855df172c00932d03080677fe1ad48cd
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power. 2. Check communications cabling. 3. Check EtherNet/IP setting. 4. Check external network status."
+    - Name: Pair5
+      Id: g=ba565e5bfdae0a067bd6e06bb2b5a6ad
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=058e9063df1f68c50c6cc088ba05bf0a
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 111
+      - Name: Value
+        Id: g=6cccaadc1521d6db44d7b236bf6466d7
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check safety input signals. If not using safety; verify and tighten jumper for I/O terminals S1; S2 and S+. 2. Replace control module if fault cannot be cleared."
+    - Name: Pair6
+      Id: g=929ae2a115648ae7151d3fd5df20846d
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=942ca69e81e73382decd73349990c8be
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Id: g=68fddfb69fa612c79b33e5e4959a917a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "An application interlock is preventing drive from energizing the motor. 1. Check auxiliary interlock wiring. 2. Verify communications programming for intentional fault."
+    - Name: Pair7
+      Id: g=69af4807e271005d430b13f306072cbf
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=116b46f79f2d96cb615e3e384eea4a44
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Id: g=5ddda21fbed2871270d7ae3c474015ef
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Monitor incoming AC line for low voltage or line power interruption. 2. Check input fuses 3. Reduce Load"
+    - Name: Pair8
+      Id: g=1509cbff14bfc107265747deb456061b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=9a3a65eb717eeb0b11ef8febc3cd014b
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 4
+      - Name: Value
+        Id: g=0b89aea8a1aed6217ef4609a896bbba4
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "DC bus voltage fell below minimum value. 1. Monitor incoming AC line for low voltage or line power interruption."
+    - Name: Pair9
+      Id: g=cd3a3f803781e0cd126ce338d9536599
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=d3f99b359f5af5682e06771ff619ae91
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 5
+      - Name: Value
+        Id: g=461dd55e6950bce498052f5387af7837
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "DC bus voltage exceeded maximum value. 1. Monitor incoming AC line for high line voltage or transient conditions. 2. Check for motor generation during deceleration; extend the deceleration time or install dynamic brake option."
+    - Name: Pair10
+      Id: g=2d41989bc49d2612650b8ab52d5f7c9d
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=78ff7429a0d06922c6eb3ceda96ca196
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 6
+      - Name: Value
+        Id: g=59550439e62d609239303679f32ffa25
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Increase P041; A442...A446 [Accel Time x] or reduce load so drive output current does not exceed the current set by parameter A484; A485 [Current Limit x] for too long. 2. Check for overhauling load."
+    - Name: Pair11
+      Id: g=33c099ad522f1b0db85f3d1f6b6ca7ed
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=35f0314ef680d0a36fa9530471227a28
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 7
+      - Name: Value
+        Id: g=87be7e851501bc2c3719ed0a5559b930
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Reduce load so drive output current does not exceed the current set by parameter P033 [Motor OL Current]. 2. Verify A530 [Boost Select] setting"
+    - Name: Pair12
+      Id: g=87cdc4291333871647c020cd1aac9a08
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=ed0c92387231f3275e25b54cca295990
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 8
+      - Name: Value
+        Id: g=be861982d96917881e15aa8e9a6e3e5b
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check for blocked or dirty heat sink fins. 2. Verify that ambient temperature has not exceeded the rated ambient temperature. 3. Check fan."
+    - Name: Pair13
+      Id: g=aeb13e022d7514237b3c460b68d0cbfe
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=a4ccb27f9450d9c27c2d931f77bacbb2
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 9
+      - Name: Value
+        Id: g=21e568c6d78efd814c2a8a3e812e4cc5
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check product ambient temperature 2. Check for airflow obstruction 3. Check for dirt or debris 4. Check fan"
+    - Name: Pair14
+      Id: g=d4fb8070a93e39a6750c12955de57ea7
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=ac23c8aa50dbffff576eb3091d21e2d6
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 12
+      - Name: Value
+        Id: g=abadd92e4cd8402ae8119ed10537942c
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check for excess load 2. Check for improper A530 boost setting 3. Check DC brake volts setting too high or other causes of excess current"
+    - Name: Pair15
+      Id: g=1ebe87733e80d30677756634469347e9
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=46b84e27eb9e09d1c38fad272b7912f0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 13
+      - Name: Value
+        Id: g=06ff430439573512386c2e4d737aaba6
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check the motor and external wiring to the drive output terminals for a grounded condition. "
+    - Name: Pair16
+      Id: g=6d15eb48ff3b532309ff2dc3874b879c
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=39aa5f098745b03a099af3c7d6629344
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 15
+      - Name: Value
+        Id: g=36c93896e96d04fb756a8d7d067d1929
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Output current  < [Load Loss Level] for a time > [Load Loss Time]. 1. Verify connections between motor and load. 2. Verify level and time requirements."
+    - Name: Pair17
+      Id: g=1a06b39adae59836188314e131d26fe3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=d7f11281bb52fb796bb82f17574982a8
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 21
+      - Name: Value
+        Id: g=eb58bdd2d273e41d2ae19ba5bab05ce3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Verify motor wiring 2. Verify motor"
+    - Name: Pair18
+      Id: g=95737b046ba693bffc0c0b7f6fc2e0b3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=c84da3ac155befedef4a5dd5f5104903
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 29
+      - Name: Value
+        Id: g=d252bfcf9ce93efa742eee9c1d1ceca1
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check parameters. 2. Check for broken/loose connections at inputs."
+    - Name: Pair19
+      Id: g=7555cb83f6d0e974597444bed16b282f
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=463e6c59e8609fdfcf1094d5433d6a47
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 33
+      - Name: Value
+        Id: g=7b5273ceb18935df634531534fa89176
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive unsuccessfully attempted to reset a fault and resume running. 1. Programmed number  of tries exceeded (A541).  Correct the cause of the fault and manually clear."
+    - Name: Pair20
+      Id: g=cf222aa9f5993f558ad802b5cfd349b2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=d629089ffe6e1e56d585a899e0a02bcc
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 38
+      - Name: Value
+        Id: g=0806f6e9de23ad457776619aaae02608
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase to ground fault detected between the drive and motor. 1. Check wiring between drive and motor. 2. Check motor for grounded phase. 3. Replace drive if fault cannot be cleared."
+    - Name: Pair21
+      Id: g=692f254e3067a8e936bd4baec9824741
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=db202602e1d9d5b2d884e28cd6af8afb
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 39
+      - Name: Value
+        Id: g=cc3196afac07985f06128b0e9f510cc3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase to ground fault detected between the drive and motor. 1. Check wiring between drive and motor. 2. Check motor for grounded phase. 3. Replace drive if fault cannot be cleared."
+    - Name: Pair22
+      Id: g=ebd954645ad90dcad4f0dfa589eb43a4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=1702df8c096f3d71b367ae0ad33ac9fe
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 40
+      - Name: Value
+        Id: g=936104c2f880ef02d4def096d847abe7
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Phase to ground fault detected between the drive and motor. 1. Check the wiring between drive and motor. 2. Check motor for grounded phase. 3. Replace drive if fault cannot be cleared."
+    - Name: Pair23
+      Id: g=b51492fa93a2be2576503e981538dd14
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6307ae1563d75cd2c50f979d109402d7
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 41
+      - Name: Value
+        Id: g=a7d7510e57f15aa249a5658e3d5a84f0
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Excessive current detected between output terminals. 1. Check the wiring between the drive and motor. 2. Check motor for grounded phase. 3. Replace drive."
+    - Name: Pair24
+      Id: g=a1e57e0af4707635cba328faffeab212
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6a58d759684814b3183f05fea773417b
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 42
+      - Name: Value
+        Id: g=2a090a861d74a9babf2b0f0c649c51f7
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Excessive current detected between output terminals. 1. Check the wiring between the drive and motor. 2. Check motor for grounded phase. 3. Replace drive."
+    - Name: Pair25
+      Id: g=c5e288d9c9d4f78b8d0c7de0706a349c
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=1fc184a5e3f0437d3748e3d15c1b60a7
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 43
+      - Name: Value
+        Id: g=dcee0d1e387ced4deb09d5510848988e
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Excessive current detected between output terminals. 1. Check the wiring between the drive and motor. 2. Check motor for grounded phase. 3. Replace drive."
+    - Name: Pair26
+      Id: g=f2d6d127a7471059b0c2afc5be9fd135
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=8439509f6883296c21d0e5063c8230c6
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 48
+      - Name: Value
+        Id: g=d1d95aad945c88e96e7d0a6b5c460c76
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The drive was commanded to write default values to EEPROM. 1. Clear the fault or cycle power to the drive. 2. Program the drive parameters as needed."
+    - Name: Pair27
+      Id: g=05e293bbae2819f0b5ab530e16316331
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=2d48607285466e76c15afb2058491adc
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 63
+      - Name: Value
+        Id: g=f431c4265e9c89d00c231bbf0d5348d2
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "[Shear Pin x Level] (A486; A488)  >  [Shear Pin x Time] (A487; A489). 1. Verify connections between motor and load. 2.  Verify level and time requirements."
+    - Name: Pair28
+      Id: g=d92f156bffc288941bc9832939ac1fbc
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=ba33e7b49075c75cd220ff3b6092fd99
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 64
+      - Name: Value
+        Id: g=b55a0335b2e00e37e41d9dc8619bfe46
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Reduce load or extend acceleration time."
+    - Name: Pair29
+      Id: g=686f666e9b87de055af0ba95fc8e5eda
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=d690a59b074d8a092722306dcbbb8add
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 70
+      - Name: Value
+        Id: g=f4c601d20c187c5c46c948c88c6f0c96
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Failure has been detected in the drive power section. 1. Check maximum ambient temp has not been exceeded. 2. Cycle power. 3. Replace drive if fault cannot be cleared."
+    - Name: Pair30
+      Id: g=e528dfda68ca8c84a3ff2cd93ab989e7
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e0a6c7b6f8099482d6dc5994a422ac30
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 71
+      - Name: Value
+        Id: g=3bbd071c05d27322ce640ba87e37055a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power 2. Check communications cabling 3. Check Modbus or DSI setting 4. Check Modbus or DSI status"
+    - Name: Pair31
+      Id: g=a7c888115c26a772ba7390d38b0b2f83
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=f00a5a9548eff6462285a88d86df66e1
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 80
+      - Name: Value
+        Id: g=1578495274e0624e2dd81942b209bad0
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Restart procedure. "
+    - Name: Pair32
+      Id: g=c3dc35eba6ca877b5e4ea0e8b3001cd8
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=5d94210298fd0e99ad371182c459375e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 81
+      - Name: Value
+        Id: g=7096d4ae1441897d5463711e69eea38d
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power. 2. Check communications cabling. 3. Check Modbus or DSI setting / status. 4. Modify using C125 [Comm Loss Action]. 5. Replace wiring; Modbus master device; or control module."
+    - Name: Pair33
+      Id: g=17db159c9324b5ccbe9443fb91bad0e0
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6265cb6201543e0afe25730efe5cd884
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 82
+      - Name: Value
+        Id: g=5eca2ad66b4e39289f783e27b15e3236
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power. 2. Reinstall option card in drive . 3. Modify using C125 [Comm Loss Action]. 4. Replace wiring; port expander; option card; or control module."
+    - Name: Pair34
+      Id: g=e1b86421e89d3b7c2e466c4f8baf9a33
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=2c249b945aee4c532f80721e887fd581
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 83
+      - Name: Value
+        Id: g=de681909eafefbbe8fd4a17dda5ea5f6
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power 2. Check EtherNet/IP setting  3. Check drive’s Ethernet settings and diagnostic parameters.  4. Modify using C125 [Comm Loss Action] 5. Replace wiring; Ethernet switch; or control module."
+    - Name: Pair35
+      Id: g=bfccc5ed28299ed596f9aad7287393cb
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e3ad35d1924d0c5d84c5ffd0766725ff
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 91
+      - Name: Value
+        Id: g=b040641e6c87662a510d24b9b78bd250
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Check Wiring. 2. If P047; P049; P051 [Speed Referencex] = 16 “Positioning” and A535     [Motor Fdbk Type] = 5 “Quad Check”; swap the Encoder channel inputs or swap any two motor leads. 3. Replace encoder."
+    - Name: Pair36
+      Id: g=5a9e9d44246232a830a422212c9ededf
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=eb2dee24089589d149939aa58b384c22
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 94
+      - Name: Value
+        Id: g=721161a8836e4d71a5a894799b88c6ba
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Input to the programmed terminal is open. 1. Close input to the terminal and cycle power."
+    - Name: Pair37
+      Id: g=1c67478e258db56aa4e4957fb47c9eb6
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=db373b3c996855e01b6260b668209e17
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 100
+      - Name: Value
+        Id: g=22527e9dbb6cd18f3ce1d131e53d4cbe
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Set P053 [Reset To Defalts] to 2 “Factory Reset”."
+    - Name: Pair38
+      Id: g=8ab1ef56d0efbeddf2666189771b2610
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=6957cd6e2d4404606ba835db61d9da2f
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 101
+      - Name: Value
+        Id: g=21a1087b5dbf1709f53714b213409f24
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Set P053 [Reset To Defalts] to 2 “Factory Reset”. "
+    - Name: Pair39
+      Id: g=1b7b8e51c780c8469e2d23a5a97e1c62
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=5081a52f2e886ac16d23c43a6c3de525
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 105
+      - Name: Value
+        Id: g=de1222720f19a04806fdb96df6e23e8f
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Clear fault and verify all parameter settings. 2. Do not remove or install the control module while power is applied."
+    - Name: Pair40
+      Id: g=984050e48bcbd6cf207ddb69c150bcbd
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=52b2636171cdf275cb51130f55eb24cb
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 106
+      - Name: Value
+        Id: g=99ea7463ff3830dfcc4ca6b0a3a9faa7
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The control module does not support power modules with 0.25HP ratings. 1. Change to a different power module. 2. Change to a PowerFlex 523 control module."
+    - Name: Pair41
+      Id: g=7821eea52512ba50b3b5aefa64f365d5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=25787a8ef84948770bbfedb8f3ef37e3
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 107
+      - Name: Value
+        Id: g=df4ba1d693884399b27ee3265eeec07a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Change to a different power module. 2. Replace control module if changing power module does not work."
+    - Name: Pair42
+      Id: g=11b0c8fbb522dd4ff791a41531766bf8
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=982ea38ccae33888e2a51e5df52c47d5
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 109
+      - Name: Value
+        Id: g=d7d34733fea33dc287fda98b9f28bce3
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The control module was mounted to a different drive type power module. 1. Set P053 [Reset To Defalts] to 3 “PowerReset”. "
+    - Name: Pair43
+      Id: g=b25ec4946f5622946199cf597554fa64
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=380f3cde6ffd58376c25b226571b7ce0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 110
+      - Name: Value
+        Id: g=1bad05c7fdbac6a75fe4003266e72858
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power 2. Replace control module if fault cannot be cleared."
+    - Name: Pair44
+      Id: g=57e4cfc184ce8faa796301db62703850
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=81c646f32948de5cf91c953fbdf566ce
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 114
+      - Name: Value
+        Id: g=dbe8fa9fce7d187b2b62c51564b841ee
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power. 2. Verify grounding requirements. 3. Replace control module if fault cannot be cleared."
+    - Name: Pair45
+      Id: g=4b98527a660896d7a23ca77c56c8c76a
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0575530745a233603cf77b5b20ef328d
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 122
+      - Name: Value
+        Id: g=b4a7fca5dedfeaffd90f6d31a03da56f
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Cycle power. 2. Replace drive or control module if fault cannot be cleared."
+    - Name: Pair46
+      Id: g=69174968e727ea25e38c7078daa6d82b
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=e430bc0cd2a220eaf4d5fe96e5877d23
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 125
+      - Name: Value
+        Id: g=ee157b25aff87cf274abd68049fba93a
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "The firmware is corrupt; mismatched; or incompatible with the hardware. 1. Ensure correct firmware and re-flash."
+    - Name: Pair47
+      Id: g=76e33a7b60834ce39254d6b6524013f0
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=9dcc0274a10ba3f43cb773235fece360
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 126
+      - Name: Value
+        Id: g=d7a726af2f58a63ab21129bb70934a58
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "1. Clear fault or cycle power to the drive. 2. Replace drive or control module if fault cannot be cleared."
+    - Name: Pair48
+      Id: g=c6e06bc45003e4abb5800aa05666a3b5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=1d25eeaaec4f1804104224810c51f0a9
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 127
+      - Name: Value
+        Id: g=7858cdb85affe925dd29e176b2ae1ec2
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Drive is using backup firmware that only supports DSI comms.  Perform firmware flash update using DSI communications to attempt to load a valid set of firmware."
+  - Name: Mode
+    Id: g=efbec7a8c53f063eedf276d5f3db7414
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: raC_4_00_raC_Dvc_PF525_Help
+  Id: g=768261bfd56055551d14eb1c8bb229c4
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=87f32bc9c6a59593ef5f605e0085e24d
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 700.0
+  - Name: Height
+    Id: g=44559fd76585176182bbc898989f004c
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 600.0
+  - Name: TopMargin
+    Id: g=6840eb52e7d7c6d3d0af48d073299d88
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+  - Name: VerticalLayout
+    Id: g=7d3f48db6c94394bc7c7abe9bd30f5bd
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=5adabf300727809ed3ea0221794ac0bd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=a9d7f117053ab4e2631edd81a3666406
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=068ec49ee3bb058dbafacb7a6214ecb9
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=3a9ee05982e895d29704a934f79c7a76
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Help
+      Id: g=0c58b6d917bc341cf6ae18af49332f23
+      Type: ScrollView
+      Children:
+      - Name: Width
+        Id: g=d75c79e740c41709d3ec3041253f34dc
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=608b37be4a6ec4280f9b9ae04b0cda2f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=ae57bbea664ff998c992e925a160ca9d
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=740d7e2668637d44887fd9592eed0ac1
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: PDFViewer
+        Id: g=03c0079ad5777409b4ef8c6ac07c8b2b
+        Type: PdfViewer
+        Children:
+        - Name: Path
+          Id: g=97c4522bcbdeb98e41c7b70c6ddecf96
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/res/Help raC-4 Power.pdf"
+        - Name: CurrentPage
+          Id: g=32a5af1fb96e17211ffe78fee13ada9e
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: Width
+          Id: g=fdc6c2fb53fdddc30e8178af048f74b4
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 400.0
+        - Name: Height
+          Id: g=b68a87ad881056c4bb702d0a4853845c
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Id: g=4e1fddf1869b680153fc0f7ad96422fd
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=81a04e6f5e8a2d63142e6b85daa7d685
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: LeftMargin
+          Id: g=10eb1596e2f05627c30c67977794698e
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=4af26630cac6fe23d542702d731c9b97
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: RightMargin
+          Id: g=b0c0d942141f00fcc2c8ed576dc5e0c9
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: BottomMargin
+          Id: g=1fc57b9690b982321d61d80480e3206e
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: ZoomMode
+          Id: g=961a79cef4d05a13b4cb70022a39ebc6
+          Type: BaseDataVariableType
+          DataType: PdfViewerZoomMode
+          ModellingRule: Optional
+        - Name: Visible
+          Id: g=5e29c4b03498bab5ace57188c23769e0
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ConditionalConverter1
+            Id: g=7fc7656c2e6ef2c839dfedbaa2f12e9d
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Id: g=6f41e574213772b0bcaf03f89df8cb87
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=82d1ee4a4e0a8349427176a15e0ab112
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../Device - RM100/Expanded"
+            - Name: TrueValue
+              Id: g=0f04318960c5f882d0b1fa6eb68def98
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+            - Name: FalseValue
+              Id: g=95fac2fac5125e42cc3c09c31cf39c1d
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: true
+      - Name: LeftMargin
+        Id: g=5af46bd99e7d078e6b33fdf8fc601325
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=5b07068961ce2119292a787d19f047ac
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: RightMargin
+        Id: g=3566ecfc5367dfbde13b005d7454cbb5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: BottomMargin
+        Id: g=fc68f4f58cd8f608bb0ea9640a8bd03c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Zoommable
+        Id: g=6a5693cffd5bea564fc38bcdfd8f03f0
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: MinZoomOut
+        Id: g=fffa35d8ca192bb296e9b07dd1ac32d4
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 100
+      - Name: MaxZoomIn
+        Id: g=cba2b97027c19e6db25db4a6105e8964
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 100
+      - Name: ContentWidth
+        Id: g=3159cc503c50cd9ce7c757b0aca3f605
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ContentHeight
+        Id: g=0c61ad757e05212afd51692cb713261e
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ViewWidth
+        Id: g=3aeb5448a2165e85c1dec8c5650694f0
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ViewHeight
+        Id: g=4481f108a6ea0ac3f09381c2083ba804
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ContentX
+        Id: g=8d2d23c48f88bd9a259d9ed3cadbf3b1
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: ContentY
+        Id: g=77887a31a382c8fd93001ab7caa65e30
+        Type: BaseDataVariableType
+        DataType: Size
+      - Class: Reference
+        Target: ns=11;i=1394
+        Direction: Forward
+    - Name: 'Device - RM100'
+      Id: g=e1662a3c2e458b1d38754821c511e890
+      Type: Accordion
+      Children:
+      - Name: Header
+        Id: g=b55c3b66c5f47c0471419c7ee82abbf6
+        Type: AccordionHeader
+        Children:
+        - Name: Label
+          Id: g=2a2c17b3c72ce2f9521fbbbe2aa64c95
+          Type: Label
+          Children:
+          - Name: Text
+            Id: g=08b74ea5ea93e7e650a5d99c86982b9b
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"DEVICE - RM100"}
+          - Name: LeftMargin
+            Id: g=f9a06e7062ae67bc99e33fc0b5bb3e5b
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 5.0
+          - Name: Style
+            Id: g=d50c31210613450bbcf5d72b57d86872
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "Heading"
+          - Name: HorizontalAlignment
+            Id: g=5d5f5dc0cb73aa6b17be4ea1375cf200
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: VerticalAlignment
+            Id: g=dec56ce0f135f4f6b6524a16f57aaa50
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 2
+        - Name: Height
+          Id: g=4a5907ed2756183df062ae16bf6ff1b8
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+      - Name: Content
+        Id: g=ec601c7fe111dad373903ea537a865f2
+        Type: AccordionContent
+        Children:
+        - Name: WebBrowser1
+          Id: g=9ad70dcec3031b11d31c6592f64a0aa2
+          Type: WebBrowser
+          Children:
+          - Name: URL
+            Id: g=82792bba176d715372f5c593a74b8f4b
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "https://literature.rockwellautomation.com/idc/groups/literature/documents/rm/device-rm100_-en-p.pdf"
+          - Class: Reference
+            Target: ns=11;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=11;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=11;i=358
+            Direction: Forward
+          - Name: Width
+            Id: g=dabaa0258f7f2ce6df7e090e184961b6
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Id: g=53044826379973c37a7e1e4409a4d97d
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: HorizontalAlignment
+            Id: g=f1a5bf0431bdc5964de146f821e70705
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Id: g=77ecf17f7af43259b31288fc9f0a1f04
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+        - Name: Height
+          Id: g=aacb7485dab7967992d6752ae6283040
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 570.0
+      - Name: Expanded
+        Id: g=d92cad8c6caaf34f9aa1644bc433ba70
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Width
+        Id: g=803dbeaa5ccbb499454a0de8fdc47cda
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: HorizontalAlignment
+        Id: g=5d8bb5b97a6bd740e7f7b7f538195c4a
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=43c442fb6328c4979d99455a399dcbdb
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+  - Name: HorizontalAlignment
+    Id: g=e4f76bdefe921b97f00d0cbc0a551dbe
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 2
+  - Name: VerticalAlignment
+    Id: g=b919009aef144ce094b90f07d76e4675
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 2

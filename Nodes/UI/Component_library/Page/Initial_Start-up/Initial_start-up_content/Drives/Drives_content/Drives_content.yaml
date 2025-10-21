@@ -1,0 +1,52 @@
+Name: Drives_content
+Id: g=3318373b4b0ea0ae0ff9a40b3710db8a
+Type: FolderType
+Children:
+- Name: BV1
+  Id: g=7976d98df2ca7712c5692bcb5039bef4
+  Supertype: PageEmpty
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScrollView2
+    Id: g=d30bf1ef6029d7c3979cecf8c238a5f8
+    Type: ScrollView
+    Children:
+    - Name: PageLayout
+      Id: g=a234ef3454e0be934ac1c5ad9b9929c3
+      Type: ColumnLayout
+    - Name: ContentWidth
+      Id: g=005314488151a14850621fbc93443ac3
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentHeight
+      Id: g=3039571b725e2fda63b56492c0c4eb1a
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewWidth
+      Id: g=006dbf0af6bc1255e6200189aac0f314
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ViewHeight
+      Id: g=670896ca4fd21f9120065ceeda4faf6f
+      Type: BaseDataVariableType
+      DataType: Size
+      AccessLevel: Read
+    - Name: ContentX
+      Id: g=ecfe0e8d8ba1aa2405ab984e3bd595ff
+      Type: BaseDataVariableType
+      DataType: Size
+    - Name: ContentY
+      Id: g=47e228b445ed3eb84b1bcc068ac734eb
+      Type: BaseDataVariableType
+      DataType: Size
+    - Class: Reference
+      Target: ns=11;i=1394
+      Direction: Forward
+  - Name: ScreenName
+    Id: g=c2ad5b3562ce52637c88bc12b8b48b1e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":""}

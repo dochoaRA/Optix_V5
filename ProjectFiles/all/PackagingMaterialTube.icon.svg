@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   id="PackagingMaterialTube"
+   version="1.1"
+   sodipodi:docname="PackagingMaterialTube.icon.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="840"
+     inkscape:window-height="480"
+     id="namedview5"
+     showgrid="false"
+     inkscape:zoom="45.9375"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="PackagingMaterialTube" />
+  <path
+     class="iconStroke"
+     d="M 7.11 0 C 7.14 0.08 7.16 0.15 7.19 0.25 C 7.28 0.56 7.4 1 7.5 1.56 C 7.7 2.69 7.85 4.34 7.63 6.49 C 7.03 9.32 7.28 11.56 7.68 13.09 C 8.08 14.63 8.67 15.5 8.67 15.5 L 8.67 15.5 C 8.83 15.74 9.08 15.88 9.32 15.94 C 9.6 16.01 9.89 16.01 10.21 15.98 C 10.86 15.92 11.63 15.7 12.42 15.35 C 13.22 14.99 13.9 14.57 14.38 14.13 C 14.62 13.91 14.81 13.69 14.94 13.44 C 15.04 13.25 15.11 13.02 15.08 12.78 L 15.08 12.78 C 15.08 12.78 15.07 12.73 15.06 12.71 C 15.06 12.68 15.05 12.65 15.04 12.62 C 15.03 12.62 15.03 12.61 15.03 12.61 C 14.81 11.86 13.98 8.72 14.52 5.62 C 14.96 3.02 14.54 1.02 14.22 0 L 13.17 0 C 13.44 0.71 14.01 2.64 13.53 5.45 C 13.09 8.03 13.51 10.56 13.83 11.97 C 13.67 11.97 13.48 11.96 13.42 11.97 C 12.77 12.03 12 12.25 11.21 12.61 C 10.41 12.96 9.73 13.39 9.25 13.82 C 9.18 13.89 9.11 13.96 9.04 14.03 C 8.91 13.72 8.77 13.32 8.65 12.84 C 8.28 11.43 8.04 9.36 8.61 6.67 L 8.62 6.65 L 8.62 6.62 C 8.86 4.36 8.7 2.6 8.48 1.38 C 8.38 0.8 8.26 0.33 8.16 0 L 7.11 0 z M 3 2.58 L 3 9.58 L 1 9.58 L 3.5 13.58 L 6 9.58 L 4 9.58 L 4 2.58 L 3 2.58 z M 13.69 12.96 C 13.85 12.95 13.97 12.96 14.05 12.98 C 14 13.08 13.88 13.23 13.7 13.39 C 13.34 13.73 12.73 14.12 12.02 14.43 C 11.3 14.75 10.61 14.94 10.12 14.99 C 9.87 15.01 9.68 15 9.58 14.97 C 9.63 14.88 9.75 14.73 9.93 14.56 C 10.29 14.23 10.9 13.84 11.61 13.52 C 12.33 13.2 13.02 13.01 13.51 12.97 C 13.57 12.96 13.63 12.96 13.69 12.96 z"
+     id="path2"
+     style="fill:#000000;fill-opacity:1" />
+</svg>

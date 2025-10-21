@@ -1,0 +1,5 @@
+<svg width="16" height="16" viewBox="0 0 16 16">
+    <g fill-rule="evenodd">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM4 12.243a6.027 6.027 0 0 0 8.507 0 5.989 5.989 0 0 0 0-8.486C11.314 2.567 9.743 1.981 8 2v6l-4 4.243z" class="iconStroke"/>
+    </g>
+</svg>

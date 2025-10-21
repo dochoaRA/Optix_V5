@@ -1,0 +1,55 @@
+Name: TestAlarme
+Id: g=36c71bd3386ebea72e3be07408664e28
+Type: FolderType
+Children:
+- Name: DigitalAlarm1
+  Id: g=1253cf4879d851744c87f6fbd74bec8d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8adcea3f310af08e1d7264b1c1b1a17f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7abc35f29d7f68655f499ad75b212370
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=f564ab574a00ffddf6a8561a161c5b5f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward

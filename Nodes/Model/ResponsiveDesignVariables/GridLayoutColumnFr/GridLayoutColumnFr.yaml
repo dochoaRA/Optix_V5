@@ -1,0 +1,106 @@
+Name: GridLayoutColumnFr
+Id: g=6f5b6afe1b89e12c0b9dd9f58e8616bb
+Type: FolderType
+Description: {"LocaleId":"en-US","Text":"Ratio between functions/groups on a page. Main reason is that for smaller displays 3 objects should no longer be next to each other. Therefore all ratios should link to these variables."}
+Children:
+- Name: 1
+  Id: g=abb37d62786ae306220c3cea43d49e39
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [1]
+  Value: ["1fr"]
+- Name: 1to1
+  Id: g=23a7db893b226838023ba636aabfac70
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: ["1fr","1fr"]
+- Name: 1to2
+  Id: g=f20e55bad0b2f9d19e76958d2b634db9
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: ["1fr","2fr"]
+- Name: 2to1
+  Id: g=0571b574d1e1e3ccf27fdfcbbfdff859
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: ["2fr","1fr"]
+- Name: 1to1to1
+  Id: g=ef1d71b8c29c8e37a72d00321b1cffa3
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["1fr","1fr","1fr"]
+- Class: DataType
+  Name: GridLayout
+  Id: g=ccaa0ba85f51f2d660c4decb7fa9043c
+  Supertype: Enumeration
+  EnumDefinition: 
+   {
+    "Name": "GridLayout",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ccaa0ba85f51f2d660c4decb7fa9043c",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "Value0",
+      "Value": 0,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "1fr"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": ""
+      }
+     },{
+      "Name": "Value1",
+      "Value": 1,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "1fr;1fr"
+      }
+     },{
+      "Name": "Value2",
+      "Value": 2,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "1fr;2fr"
+      }
+     },{
+      "Name": "Value3",
+      "Value": 3,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "2fr;1fr"
+      }
+     },{
+      "Name": "Value4",
+      "Value": 4,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "1fr;1fr;1fr"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": ""
+      }
+     }]
+   }
+  Children:
+  - Name: ns=0;EnumValues
+    Id: g=39957df03b26497ba7477c4f1f4ef724
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"1fr"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"1fr;1fr"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"1fr;2fr"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"2fr;1fr"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"1fr;1fr;1fr"},"Description":{"LocaleId":"en-US","Text":""}}}]

@@ -1,0 +1,1061 @@
+Name: SelectFileDialog
+Id: g=853a07811981506e5e7d3474ec3083be
+Type: FolderType
+Children:
+- Name: SelectFileDialogEntry
+  Id: g=2ea0738dafca420930679a1fe2a9cbd0
+  Supertype: BaseObjectType
+  Children:
+  - Name: FileName
+    Id: g=a6a122f3e9f2079463a2401570c7de8f
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Size
+    Id: g=13792e60d76ca5b61540b4542d060f5c
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: IsDirectory
+    Id: g=5cac1ad8c0629fd79c0cc218a07ed0e5
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: SelectFileDialog
+  Id: g=948d28ec8731571db0dab8b2839591b6
+  Supertype: Dialog
+  DisplayName: {"NamespaceIndex":28,"TextId":"SelectFileDialogDisplayName"}
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=11;i=519
+    Direction: Forward
+  - Name: Width
+    Id: g=f96426a351cfcad33a6c906dc27a6ad3
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 435.0
+  - Name: Height
+    Id: g=b7914a5eae080021401782b1c62db67f
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 510.0
+  - Name: FileSelectorBackground
+    Id: g=7f998f40138a7b5a5d94d776f7fecab2
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Id: g=ba77bb6d55ad94a4d42248ee1b4555f0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 490.0
+    - Name: Height
+      Id: g=0c6e4e3eaa91a8ddb5c3ab1a4064c542
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 560.0
+    - Name: HorizontalAlignment
+      Id: g=af8745977847c7cc897590e2d12a6ab4
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=ab26c2d61e5f48d157577c9758bf7d98
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillColor
+      Id: g=b97e93871f445b010bda1bc3616af87b
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#f8f8f8"
+    - Name: FilesystemBrowser
+      Id: g=0abc48be56e5f9fe93257718d77eba81
+      Type: ColumnLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: SelectFileDialogLogic
+        Id: g=295019821295d0bdb90f7e087b1cb863
+        Type: NetLogic
+        Children:
+        - Name: FilesList
+          Id: g=6bca9647532b6082a9d740aeacc76a6d
+          Type: BaseObjectType
+      - Name: FolderBar
+        Id: g=f1eec3f44b68cdea5283e274a9aeba58
+        Type: RowLayout
+        Children:
+        - Name: Width
+          Id: g=9ac639cc036593f46dad541b8d694ccb
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Locations
+          Id: g=59ce6b958e7f9012a4f84a2b6992f864
+          Type: ComboBox
+          Children:
+          - Class: Reference
+            Target: ns=11;i=480
+            Direction: Forward
+          - Name: Text
+            Id: g=00dff49f487ff6d5e2666e5d43091b68
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Model
+            Id: g=4683817a789b22a252915c563e8590cf
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: ItemKind
+              Id: g=c8e5c2b46397bab18e489f7f09efe017
+              Type: PropertyType
+              DataType: NodeId
+            - Name: Kind
+              Id: g=0428e8dbaf783484e21176155ae26dce
+              Type: PropertyType
+              DataType: NodeId
+            - Name: CollegamentoDinamico
+              Id: g=fc7efea0945df95b7f329613c0330ae6
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Locations@NodeId"
+          - Name: SelectedValue
+            Id: g=6c78dc2883a9cf01e6eed38091b746b3
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+          - Name: SelectedItem
+            Id: g=3a38cc15d4fadb980448e377dc57014e
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=f28715d1e7f6f929a4c0c4f084cb9bc1
+              Type: PropertyType
+              DataType: NodeId
+          - Name: Item
+            Id: g=e8cfa419d0e6296d5b640f12ff85af33
+            Type: Alias
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=b50792dbd8bcbfadef4f9e19d7cc6ec8
+              Type: PropertyType
+              DataType: NodeId
+          - Name: HorizontalAlignment
+            Id: g=f3a497b8353c68c1edbcc28bede3656f
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+          - Name: Width
+            Id: g=97b15f94fcf9372c1d946234c582b91d
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 160.0
+          - Name: DisplayValuePath
+            Id: g=259e63f890f9c495ef2752e7dbc2dced
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Children:
+            - Name: CollegamentoDinamico
+              Id: g=ce140227a23efaac5ab734ffebbed563
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+          - Name: SelectedValuePath
+            Id: g=2db597056fb609e60d6d410062af336c
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: CollegamentoDinamico
+              Id: g=f7c7bb905fb36500820546b014660c1b
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: UISelectedItem
+            Id: g=1072103016223c71808657edc386734e
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+          - Name: UISelectedValue
+            Id: g=80d7865c1cf3e1c9fd24449774c6f781
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+        - Name: RelativePath
+          Id: g=fe1d8113c15d10188857d0869d03d455
+          Type: TextBox
+          Children:
+          - Name: Text
+            Id: g=b7cf0582212257e6b7f2566aa0c9fddc
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Width
+            Id: g=e436de8d9d0709eba4a40b41bb0d3fec
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 110.0
+          - Name: HorizontalAlignment
+            Id: g=63df4f1e26ba34f1b58413c1c3b6d8ec
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Id: g=4f007773db24a333649ed8d511f3d329
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 5.0
+        - Name: HorizontalAlignment
+          Id: g=9a2304a285e70b71c41512bd397e2207
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: SelectFileDialogFolderBarLogic
+          Id: g=1d31a34c323baf1935f3a23709e10091
+          Type: NetLogic
+      - Name: DataGrid
+        Id: g=88b2634324b432fc08d740add7579d54
+        Type: DataGrid
+        Children:
+        - Class: Reference
+          Target: ns=11;i=504
+          Direction: Forward
+        - Name: Model
+          Id: g=6d09ba7cfb2977c01a148280d145d1b4
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: ItemKind
+            Id: g=e2388622384f0ac271b13f84404e6ca3
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/SelectFileDialog/SelectFileDialogEntry"
+          - Name: Kind
+            Id: g=bc6c464e0a36cdf290f8ba6ded06a75a
+            Type: PropertyType
+            DataType: NodeId
+          - Name: DynamicLink
+            Id: g=a42e42e68c258ad9c7c6f406b02cdccb
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../SelectFileDialogLogic/FilesList@NodeId"
+        - Name: Query
+          Id: g=5806e0445943b7d243783af8464bf005
+          Type: BaseDataVariableType
+          DataType: String
+        - Name: Columns
+          Id: g=61757cf21cd095297d33d7f0733a9549
+          Type: BaseObjectType
+          Children:
+          - Name: DataGridColumn1
+            Id: g=6f1a2850c27a9f7ad9238efd55bbb7f5
+            Type: DataGridColumn
+            Children:
+            - Name: Title
+              Id: g=2ef9baf8f9bb8b9ea18559dad07524ef
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+            - Name: Width
+              Id: g=4d9168891edeb3f0ed806f960520695e
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 40.0
+            - Name: HeaderAlignment
+              Id: g=7d0329cd591a46fe6a6843f3532edb96
+              Type: BaseDataVariableType
+              DataType: TextHorizontalAlignment
+            - Name: ContentAlignment
+              Id: g=8402653561bfef694cbd1d43dac275e0
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              Value: 2
+            - Name: OrderBy
+              Id: g=1064dcf7cc00e5f32be2abfd8795ba34
+              Type: BaseDataVariableType
+              DataType: NodePath
+            - Name: DataItemTemplate
+              Id: g=c24152e1d18bda9cb2f5b747d9bd0f36
+              Type: DataGridImageItemTemplate
+              Children:
+              - Name: Path
+                Id: g=4145a08609ee61691f7be5306b283414
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Children:
+                - Name: KeyValueConverter1
+                  Id: g=3bfdf9fc01b81ecb04b771aa55ebbe91
+                  Type: ValueMapConverter
+                  Children:
+                  - Name: Source
+                    Id: g=e81a174ec83b8d5e51208aa0523de9c0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=af013ef435df2ba38d3a746a973b1c5c
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{Item}/IsDirectory"
+                      Children:
+                      - Name: Mode
+                        Id: g=0e065e789dcf126716cb67cc7c3dddc9
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: ns=9;Pairs
+                    Id: g=87e2410c7d491f589f3053c950f9a4c8
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Pair
+                      Id: g=a88aa19043be970d01d913ac75480832
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=ff28c89b5b73d6893ab661f9c42b80b4
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                      - Name: Value
+                        Id: g=411edaf5438bb71620cde57b61f4de5d
+                        Type: BaseDataVariableType
+                        DataType: ResourceUri
+                        Value: "ns=28;%PROJECTDIR%/FilesystemBrowser/FileDark.png"
+                    - Name: Pair1
+                      Id: g=2e66ebfe6bff415fddd0592a6a9ad341
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=dd37bdd5364baaf0ad4ed41fb778cecc
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Value: true
+                      - Name: Value
+                        Id: g=089cc1208b80c76516e6410f6a91e762
+                        Type: BaseDataVariableType
+                        DataType: ResourceUri
+                        Value: "ns=28;%PROJECTDIR%/FilesystemBrowser/Folder_normal.svg"
+              - Name: Width
+                Id: g=26250b240115edcd841d0d61eab41b07
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 16.0
+              - Name: Height
+                Id: g=0400d06fc1ae532cb08ac9c236a82ef2
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 16.0
+            - Name: Visible
+              Id: g=41f164734f3058c475ec6767f26c805b
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+          - Name: DataGridColumn2
+            Id: g=397f9f396b5b0b13593f7638a6b06111
+            Type: DataGridColumn
+            Children:
+            - Name: Title
+              Id: g=eea4ea752755ae2bcf69e0750ca14f6a
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":28,"TextId":"Filename"}
+            - Name: Width
+              Id: g=d652f9d3918e2eb2d6f0430219e5ddcf
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: HeaderAlignment
+              Id: g=3d3268687387403d46752f95f66603d7
+              Type: BaseDataVariableType
+              DataType: TextHorizontalAlignment
+            - Name: ContentAlignment
+              Id: g=21881e03cc59748c5a73a1e897eb7b52
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+            - Name: OrderBy
+              Id: g=e2629b5661a036c2bfd5802d106f6eee
+              Type: BaseDataVariableType
+              DataType: NodePath
+            - Name: DataItemTemplate
+              Id: g=153b2c07e391fe07064959eeba34b57b
+              Type: DataGridLabelItemTemplate
+              Children:
+              - Name: Text
+                Id: g=20b609b2c336491d8ade11d4a34936fa
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Id: g=d76e0869ee0d84312d0fbba56b2276c1
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/FileName"
+              - Name: TextColor
+                Id: g=279e83c2614e4e813d25c68d15c54001
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+            - Name: Visible
+              Id: g=24cd42b15f3782c1f4c4eb5c65aa9689
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+          - Name: DataGridColumn3
+            Id: g=40e08985aaccc7c1add6e035e46456f7
+            Type: DataGridColumn
+            Children:
+            - Name: Title
+              Id: g=c231719c0fcd4ab6559544b23a8452a1
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":28,"TextId":"Size"}
+            - Name: Width
+              Id: g=77a70bf062338d104c7048301120098b
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 100.0
+            - Name: HeaderAlignment
+              Id: g=49d82ef65586d16cd5d2938b3a92802e
+              Type: BaseDataVariableType
+              DataType: TextHorizontalAlignment
+              Value: 1
+            - Name: ContentAlignment
+              Id: g=c073d6eb5e5b4438f646a99978452240
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              Value: 1
+            - Name: OrderBy
+              Id: g=02cc231aef13c6af8c750596af18cc30
+              Type: BaseDataVariableType
+              DataType: NodePath
+            - Name: DataItemTemplate
+              Id: g=0262e33b4c52258ab357b4124861ce03
+              Type: DataGridLabelItemTemplate
+              Children:
+              - Name: Text
+                Id: g=f1af61a19b3842fc2489a89ebb2fea49
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: StringFormatter1
+                  Id: g=1e6b52578a468706160de46a2513c818
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Id: g=7523aa3eb7cf821c4024b7cd122d60b2
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"{0:n} KB"}
+                  - Name: Source0
+                    Id: g=b4350d587389a9a1274c908641b8f0c6
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=3e2f51e03b12247b4b9e5d3bce85e8ce
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{Item}/Size"
+                      Children:
+                      - Name: Mode
+                        Id: g=162b9f059abb035980451fd7e0c75e0c
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+              - Name: TextColor
+                Id: g=60f384f02b23a9549bb720088a768d5f
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#000000"
+            - Name: Visible
+              Id: g=06394e658f1bff846853159e0403f745
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+        - Name: SelectedItem
+          Id: g=e209d61ff77f3b9f585767f82ae64ca7
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Id: g=6559fa2d4c0d2f23edc6da6a178c8e4c
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/SelectFileDialog/SelectFileDialogEntry"
+        - Name: Width
+          Id: g=fe96622736841a76ac2ddb82b90b265b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Id: g=e6bec0cd0a328d2e51243459ceaa4900
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 260.0
+        - Name: Item
+          Id: g=6d273d3817f7aac9a031561770edd768
+          Type: Alias
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Id: g=ebb4583b74b4408f5998ab99533fa394
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Objects/Optix_V5/UI/Component library/Page/Miscellaneous/SelectFileDialog/SelectFileDialogEntry"
+        - Name: LeftMargin
+          Id: g=c661e4283623f665db415e460f251e50
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: RightMargin
+          Id: g=760b5200cef08ca606f94d24cd779a76
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: HorizontalAlignment
+          Id: g=5080e5e49db8e48ecae4968cc38aa7f4
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: BottomMargin
+          Id: g=88ef96102a915eb4b7630ff432d951b8
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: VerticalAlignment
+          Id: g=4075bdc641ece817d368435b8be926ea
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: SelectFileDialogDataGridLogic
+          Id: g=20ff442de227e7914e897eb173918219
+          Type: NetLogic
+        - Name: TopMargin
+          Id: g=dd5e2726a6dac6d3197e5bb42465bea5
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: UISelectedItem
+          Id: g=52fba3e572a9035f1634650f19f77bf9
+          Type: BaseDataVariableType
+          DataType: NodeId
+          AccessLevel: Read
+        - Name: SortColumn
+          Id: g=738027506e21837cb865b9c2519d6b80
+          Type: BaseDataVariableType
+          DataType: NodeId
+        - Name: SortOrder
+          Id: g=ba04dbc43ae59ff9aa55f26af632d8b6
+          Type: BaseDataVariableType
+          DataType: SortOrderEnum
+      - Name: FileBar
+        Id: g=8accdfa8b8facb598226fda0b971b293
+        Type: RowLayout
+        Children:
+        - Name: Width
+          Id: g=636a733b3ecaf2cc2ff5482bdbbaf31f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: FileName
+          Id: g=91840087ee5ad658c7d0cef63872b47d
+          Type: Label
+          Children:
+          - Name: Text
+            Id: g=d0fdaba2e95ced92711de4ca88a8dbf2
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"NamespaceIndex":28,"TextId":"FileNameInput"}
+          - Name: VerticalAlignment
+            Id: g=436eaf58ce60c82e18505dd8b7f7ff56
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: Width
+            Id: g=1edcd89f00d728cf4d17d654f68957d9
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+        - Name: FileTextBox
+          Id: g=f3dad51d78b9d4f3ced8bb14735641e1
+          Type: TextBox
+          Children:
+          - Name: Text
+            Id: g=f626a391bda151caf545e2642ade9ebd
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Width
+            Id: g=3d79ea41775cfc3b93db560e6b2a54df
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 110.0
+          - Name: HorizontalAlignment
+            Id: g=2707806df8f34ca16d3daeca13a32f85
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: SelectFileDialogFileBarLogic
+            Id: g=28e57bb478f2a8712cf30dd9cf6b16b2
+            Type: NetLogic
+          - Name: LeftMargin
+            Id: g=303f5541c40567c50e6a171979e855c3
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+        - Name: HorizontalAlignment
+          Id: g=7e2061c831328370cfc1cd69b223e72d
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TopMargin
+          Id: g=ccc5fdb48fd5a1d7e712d44bcccc86a9
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+      - Name: HorizontalAlignment
+        Id: g=54e00f7af99aee6aa1ede9aee5d9a222
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: ButtonsBar
+        Id: g=ba2fe67290a95caa794341341d035a38
+        Type: RowLayout
+        Children:
+        - Name: Width
+          Id: g=be58b58ffcb805c5399876491e914b38
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Confirm
+          Id: g=1a0ed627959b187d62eea2e8bcf1ad9e
+          Type: Button
+          Children:
+          - Name: Width
+            Id: g=a55e57bd64070e055343725236f6643a
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: Text
+            Id: g=1ad2e6cfcda1f9ca2f9ad555ab37b704
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"NamespaceIndex":28,"TextId":"ConfirmFromSelectFileDialog"}
+          - Name: ImagePosition
+            Id: g=24914adba36ba21198a8628864cb8f58
+            Type: BaseDataVariableType
+            DataType: ButtonImagePosition
+            ModellingRule: Optional
+            Value: 4
+          - Name: HorizontalAlignment
+            Id: g=de39e772e4615886a6a0eec0229390ce
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+          - Name: MouseClickEventHandler1
+            Id: g=ff4790cc732c8fbab7ae6a6e2a700f00
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Id: g=895bf60663d58583dceff1c2b8ba84c0
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Id: g=c79c2c4c4f3e555985117f31475ad8fc
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Id: g=48fe5b690eacb670de2a2b09c7d9da3b
+                Type: BaseObjectType
+                Children:
+                - Name: ns=9;ObjectPointer
+                  Id: g=841f085139cdefee4821eea512473a0b
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Id: g=e531349368d432ccb3c6e6250ca49728
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Id: g=b2773e1030f36b70334af9cd7490c0db
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../SelectFileDialogButtonsLogic@NodeId"
+                    Children:
+                    - Name: Mode
+                      Id: g=4c4070fb8dadde952da6ff3ac45b5110
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=9;Method
+                  Id: g=ef712d679c18717cadb5764af7acf452
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "ExecuteCallback"
+            - Name: EventArguments
+              Id: g=49a53bcff02a36010f2c51d82c8e0d5a
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Id: g=7bc59fd224cc308a0aca57c95727d04a
+                Type: PropertyType
+                DataType: ByteString
+              - Name: EventType
+                Id: g=12bbdcc20a0a7631afc60cd3856e608a
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceNode
+                Id: g=1f51d3014d6952a778ef0580c62cb03f
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceName
+                Id: g=4262ef025e4bb3ba8055c50661bd8104
+                Type: PropertyType
+                DataType: String
+              - Name: Time
+                Id: g=94688af6a92120a480dbb754b4dbac39
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: ReceiveTime
+                Id: g=7fabea06aea74673e40b428295487322
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: Message
+                Id: g=812ceedae6e647f5ce11f113f661161c
+                Type: PropertyType
+                DataType: LocalizedText
+              - Name: Severity
+                Id: g=e6a964e84e90ddb0e48fd00eae906b74
+                Type: PropertyType
+                DataType: UInt16
+          - Name: Enabled
+            Id: g=672142495aaead22caddd45a72bb60af
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+        - Name: Cancel
+          Id: g=46c9585a8efcd6274565c3c25d6b06da
+          Type: Button
+          Children:
+          - Name: Text
+            Id: g=740b1e34617367bf9e7f0abeaac34afd
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"NamespaceIndex":28,"TextId":"Cancel"}
+          - Name: Width
+            Id: g=caf788bea911a652c27bde48ccdb0f70
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: EventoMouseclickhandler1
+            Id: g=79518deddede8b32b5a04c0f6963484a
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Id: g=65add31648543d8d0273f104e02cc747
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Id: g=a7af71fa2772bd7f75e129a71084c7cb
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Id: g=51a6b9c5dc824a7bfe39f12d8c6777e5
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Id: g=5dc32bb72e2e66fe9e308ef348058c4a
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/UICommands"
+                  Children:
+                  - Name: Kind
+                    Id: g=1a0979b46e43b01714ff3ccc4d75830c
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Id: g=daaf20eda99697e5498cc6ac6248cf59
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../..@NodeId"
+                    Children:
+                    - Name: Mode
+                      Id: g=d442a9a62ffa365d0c6bf8ce4518690f
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: Method
+                  Id: g=a016506ee0ac8593e8cd59e38e7a8090
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Close"
+            - Name: EventArguments
+              Id: g=6e71ce44aee313aa400e7000e0174026
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Id: g=772820b47b8d6faa98a984424de78155
+                Type: PropertyType
+                DataType: ByteString
+              - Name: EventType
+                Id: g=d5d25e8830a1ce44564f223d455006b6
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceNode
+                Id: g=0822c14d174d8fe9f885b5933629bdc2
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceName
+                Id: g=fef020b362c25138953279a26a649039
+                Type: PropertyType
+                DataType: String
+              - Name: Time
+                Id: g=bfd6166c54a97d695bfe147df7e9d887
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: ReceiveTime
+                Id: g=930973794802f3e3e08627601c3bc9ed
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: Message
+                Id: g=0ebc7be9f3becda0644bb8a8e83c81f8
+                Type: PropertyType
+                DataType: LocalizedText
+              - Name: Severity
+                Id: g=2411afeaf1b8cfcfdc6b195aa75f745c
+                Type: PropertyType
+                DataType: UInt16
+          - Name: HorizontalAlignment
+            Id: g=9615eab430bf1c7eb69af9d37b4c7832
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TopMargin
+            Id: g=9ec842f5e2cde5e6c14e0461a61a2374
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: LeftMargin
+            Id: g=e4b2287ddf53cd86c76e0ba7443702a8
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+        - Name: HorizontalAlignment
+          Id: g=44ee24ebb901b40679a774378e84eb31
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: ContentAlignment
+          Id: g=30b041162f90f9d9103d524d14036a7c
+          Type: BaseVariableType
+          DataType: ContentHorizontalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: TopMargin
+          Id: g=349877473520857d129816a943b27bcc
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: SelectFileDialogButtonsLogic
+          Id: g=be4f5f896523d10024958478ab1fb857
+          Type: NetLogic
+          Children:
+          - Class: Method
+            Name: ExecuteCallback
+            Id: g=9b6251b912e4774f5f2a5456f35f94d0
+      - Name: Height
+        Id: g=3a7bc151e21c1bb70c51eed749bf4f4b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 480.0
+      - Name: Width
+        Id: g=95bb98017877d3cf59b48be554d339c6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 400.0
+      - Name: VerticalAlignment
+        Id: g=bac950c1c130937d53f3a6a779d4e560
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Id: g=4a0a2805def834637337ae19e8c4d30b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: TopMargin
+        Id: g=a9fc27f15a074b489a6e00a3c4fca477
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: RightMargin
+        Id: g=0db7810866817f44330b01531446b2da
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: BottomMargin
+        Id: g=a5812e6a0bf9c2e4c13a18adf7a936a3
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: Locations
+        Id: g=b5af4e7091b05d1080c483e61acec826
+        Type: BaseObjectType
+        Children:
+        - Name: APPLICATION_DIR
+          Id: g=9f5b71ec32b8cfe217d4c5848d1c95ed
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          DisplayName: {"NamespaceIndex":28,"TextId":"ApplicationFolder"}
+          Value: "%APPLICATIONDIR%\\"
+        - Name: PROJECT_DIR
+          Id: g=b8d522dbddfbb543f478227ef2f1f2a7
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          DisplayName: {"NamespaceIndex":28,"TextId":"ProjectFolder"}
+          Value: "%PROJECTDIR%\\"
+    - Name: FileSelectorCallbackAlias
+      Id: g=3058e6c96818da84140e21d500791d4a
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Id: g=38cf38c1219213ced0272ac15360d93c
+        Type: PropertyType
+        DataType: NodeId
+      - Name: DynamicLink
+        Id: g=5b789d1453658ceaa746a36c7aab558f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FileSelectedCallback@NodeId"
+        Children:
+        - Name: Mode
+          Id: g=8b80140399f620a3f20495df32b63c9e
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: TmpFile
+      Id: g=053ea3c8c9232755d1c54175af73051f
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+  - Name: StartingPath
+    Id: g=81fde9d4bdda4f2c0e049132e55d17f6
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Description: {"NamespaceIndex":28,"TextId":"StartingPathDescription"}
+    Value: "%PROJECTDIR%\\"
+  - Name: FullPath
+    Id: g=9ed6c750b4e041c877b857b34dbf0c68
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Description: {"NamespaceIndex":28,"TextId":"FullPathDescription"}
+  - Name: ExtensionFilter
+    Id: g=e7042c380b1e07f9e2c15a985a44109d
+    Type: BaseDataVariableType
+    DataType: String
+    Description: {"NamespaceIndex":28,"TextId":"ExtensionDescription"}
+    Value: "*.*"
+  - Name: AccessNetworkDrives
+    Id: g=358dc377d0363fc68e906e740ef89639
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Description: {"NamespaceIndex":28,"TextId":"AccessNetworkDrivesDescription"}
+  - Name: FileSelectedCallback
+    Id: g=56dabecc39730e8cfce976590d772d2d
+    Type: MethodInvocation
+    Children:
+    - Name: ObjectPointer
+      Id: g=42d273327bc582c64c153891129b3c65
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Id: g=18167545e06588cd12afc5c378e3c5a6
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType"
+    - Name: Method
+      Id: g=0eb28c1ac37058776afff0e4769c6970
+      Type: BaseDataVariableType
+      DataType: String
+    - Class: Reference
+      Target: ns=9;i=98
+      Direction: Forward
+  - Name: AccessFullFilesystem
+    Id: g=f8aba03e6cdb06dbe83db8acb9f20397
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Description: {"NamespaceIndex":28,"TextId":"AccessFullFileSystemDescription"}
+  - Name: ShowHiddenFiles
+    Id: g=6ae72e787d7d220a17a8c650192f86cf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Description: {"NamespaceIndex":28,"TextId":"ShowHiddenFilesDescription"}
+- Name: ns=19;LibraryReference
+  Id: g=919e4c1fa9edfb2215583992fa9ec566
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 19
+    },
+    "Body": {
+     "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+     "objectGuid": "24a5a973566854733742826022ba0843",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }

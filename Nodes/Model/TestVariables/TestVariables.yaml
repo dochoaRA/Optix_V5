@@ -1,0 +1,374 @@
+Name: TestVariables
+Id: g=4003373f8739ebf76d9e572705e496b4
+Type: FolderType
+Children:
+- Name: CsvFile
+  Id: g=c16ec2ddc17db6dd62f44b07806e5279
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"
+- Name: PasswordExpert_var
+  Id: g=6874262bedaf6dfd8406f5387fcdebd8
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "123"
+- Name: RadioData
+  Id: g=0e03bb0a7e49c5b82f24340e836f6839
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: CheckBoxData
+  Id: g=b9c5ec0ad442b943327d5c023f50ff8a
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: PW
+  Id: g=83da046428bf81d3c238f010644dd811
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "m"
+- Name: DT0
+  Id: g=f1425bb01a408a011394cdf4f348287a
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1970-01-01T00:00:00.0000000"
+- Name: SelectedAlarm
+  Id: g=b4013626f40bbb8dfb0b14d530d7deca
+  Type: BaseDataVariableType
+  DataType: NodeId
+- Name: Variable1
+  Id: g=4db4801bfa6f5301d0f04c8f1801969e
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable2
+  Id: g=6e24a94518899aebfc898ae6ee1d08dc
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable3
+  Id: g=2840262fdedf27156fe38863804b0619
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable4
+  Id: g=fd03f3c7bb074f1eceef272486bc0e23
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable5
+  Id: g=9942a5be9eb4a53f1254ecbf7b4a575d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable6
+  Id: g=5b6eb7ffec2578731254a31a64129136
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":""}
+- Name: Testpush
+  Id: g=142317ca624547fc76f0bbef92e6fb61
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SelectedFilePath
+  Id: g=2e63b595526eb9f7fa53e5cb232f9262
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"
+- Name: HenningIsHandsome
+  Id: g=3467f5b5e3a7827ebb5c4ec87adfb446
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Henning2
+  Id: g=567adbd0fa843ea1b97910c958642d2a
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: MaxAmStart
+  Id: g=ad9bbcf764b10439d65c3328a8e261cf
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Henning3
+  Id: g=05eaec99a898fdf56267675fbeb2e3ac
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Value: ["0","0"]
+- Name: AlarmColumn
+  Id: g=67b079f396177531da3aa00f7b6ae503
+  Supertype: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: Category
+    Id: g=88f9703bfe6468db6d660413f716dba3
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: DateTime
+    Id: g=cb17dc77cbef5149f5d613c74aa191d7
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: DateTimeAck
+    Id: g=2e5412633a751caba7cbc67d405f7d58
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: DeviceTag
+    Id: g=31ee7303e6a0f017317f9dba8f1d3039
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ReasonFunction
+    Id: g=2b8bd39d92b37c4cedd7c193a90bd2be
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: LT
+    Id: g=f6a620db6f0590d9a5ea2ba329b7d01b
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: PackML_ID
+    Id: g=f042e6b2d90149b369f9a2e593f4574d
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Message_ID
+    Id: g=f1031015df9412105adb462427afe7dc
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: PartMachine
+    Id: g=96e0c2bda767d05fb2b259f9a8c3a162
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Reason
+    Id: g=f96406b053739080f98f64a7c39c9e93
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Function
+    Id: g=a6d7514782478a408b9bfc4caa06605e
+    Type: BaseDataVariableType
+    DataType: String
+- Name: RatioCycleRate
+  Id: g=590106241e6c0de2bb0bc7d887e1ed09
+  Type: BaseDataVariableType
+  DataType: String
+  Children:
+  - Name: StringFormatter1
+    Id: g=3df9b38f5f334114d129e9e5c71956af
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Id: g=e09c6b5f475adcb0e508e90cab26614b
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"{#Actual}fr;{#Nominal}fr"}
+    - Name: ns=9;SourceActual
+      Id: g=ce39389f260b30368d5d0d7e31961620
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=8adbd0f93a085967ca657677ac8ddd56
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/PV/ValueOutput/84/Value"
+    - Name: ns=9;SourceNominal
+      Id: g=e8c1705d03de5115baf154bf13a75006
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Id: g=e9f41062d54254e7d86030679f77871d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/Workfile/Data/DataREAL/0/Value"
+- Name: RatioTest
+  Id: g=509810d8f5c735db66585ca7bdfe217d
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["0","0",""]
+  Children:
+  - Name: DynamicLink_0
+    Id: g=e6f4ea089113052104ca9ae04ed97605
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Actual"
+    Children:
+    - Name: Mode
+      Id: g=87e507f0c90ead01762605ccf01dd1ba
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=6298449a2c0d2da1a1972f9e28cd8f91
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [0],
+         "FieldIndexes": []
+        }
+       }
+  - Name: DynamicLink_1
+    Id: g=c8a57f0989b30d3d8c6103680b1ea8fc
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "5"
+    Children:
+    - Name: Mode
+      Id: g=d71937b1ff474e320999ac2048f0dd61
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=cfee12f864343b72c5e2c21d95063198
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [1],
+         "FieldIndexes": []
+        }
+       }
+  - Name: DynamicLink_2
+    Id: g=26596ee13afab465ff60e451e45c4dd3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Nominal"
+    Children:
+    - Name: Mode
+      Id: g=5b14e7d455d67ef68e375f1c71453dd6
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentElementAccess
+      Id: g=0f03995f21471583bb3ff67367936b86
+      Type: BaseVariableType
+      DataType: ElementAccess
+      Value: 
+       {
+        "TypeId": {
+         "Id": 313,
+         "Namespace": 1
+        },
+        "Body": {
+         "ArrayIndex": [2],
+         "FieldIndexes": []
+        }
+       }
+- Name: Nominal
+  Id: g=4fa3ef411c82be294f05ee053a1547cf
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Id: g=1f7bea3de8af5687065aad8aff15648f
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Id: g=5a66a8c06aca66458fcc72bc5e454e52
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"{#Actual}fr"}
+    - Name: ns=9;SourceActual
+      Id: g=3d5159a1e193941e48c80d3682a25a5b
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=cc2d3fdc9864a4f0f69831b012fd146d
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Id: g=f128cf4bc480683ace08f2667f0132bc
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          Value: "trunc(100*(1-({0}/({1}+0.000001))))"
+        - Name: ns=9;Source0
+          Id: g=f507c3b5667e9f02347682de5bff019e
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=8e325525851088c25b1ee48924f4f9b4
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/_MO_DINT2"
+        - Name: ns=9;Source1
+          Id: g=d229a584e1aa2c950601db2b53d9da89
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=245fe769190c003a113d1a6999f9bf53
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/_MO_DINT1"
+- Name: Actual
+  Id: g=bbc3ae1c6828a284052b0decb8af4252
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Id: g=074ad8efd5001bea11102b5fc14eb50c
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Id: g=a751860b556e033e1d6f295a12f1fe2e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"{#Actual}fr"}
+    - Name: ns=9;SourceActual
+      Id: g=fb619df1422b8ec8a792f2a13e041d69
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=3e23b313b4812d071573bb4ebbc49086
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Id: g=5ccc9fb483d2c31b8f04982f89edf051
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          Value: "trunc(100*({0}/({1}+0.000001)))"
+        - Name: ns=9;Source0
+          Id: g=cde60cf87f5206554f0e32287d4674aa
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=2e9a7a14b9e1cdfba9b949e95700320c
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/_MO_DINT2"
+        - Name: ns=9;Source1
+          Id: g=1f9e94076b74f960bc59e3d2ad5a1470
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=d9be5b7716d1989a92cc26bc7b83d24d
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Controller Tags/_MO_DINT1"

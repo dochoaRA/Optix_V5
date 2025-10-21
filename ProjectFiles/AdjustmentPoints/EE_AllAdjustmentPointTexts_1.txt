@@ -1,0 +1,11 @@
+30452;	Absauger
+13969;	Abtransport
+31354;	Anschlag
+21099;	Einschieber
+29323;	Faltwerkzeug
+17339;	Führung
+33200;	Kartonanschlag
+7616;	Leimung
+29279;	Magazin
+23436;	Stempel
+17292;	Zuschnittführung

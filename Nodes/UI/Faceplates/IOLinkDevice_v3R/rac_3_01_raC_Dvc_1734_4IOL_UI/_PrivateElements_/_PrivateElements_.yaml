@@ -1,0 +1,382 @@
+Name: <PrivateElements>
+Id: g=b83a5e6be0afce5efa07ac10035500a2
+Type: FolderType
+Children:
+- File: 'Panels-Faceplate/Panels-Faceplate.yaml'
+- File: Widgets/Widgets.yaml
+- Name: rac_3_01_raC_Dvc_1734_4IOL_Help
+  Id: g=a0b22f53c6b809abdc382f68c00d67e7
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=8f6d7fc9369f32bd5850255c3c649dc3
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 700.0
+  - Name: Height
+    Id: g=e81c2123d759a2ced2c00c8d98d27874
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 600.0
+  - Name: VerticalAlignment
+    Id: g=607bb887f8cc1139a15224663800441a
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 2
+  - Name: HorizontalAlignment
+    Id: g=0fdde319455f25dfd3bf8c117d45c50f
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 2
+  - Name: VerticalLayout1
+    Id: g=9e60e8a5452fb5b464f6e46524e223e6
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=00566a13b1b7e2531ee14eab5afdbd17
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=1ba8c12c33b5dcfd9e03a4aa18894621
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=4c24cbf163751121d4a51088ba5464b3
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=6c903b5ca2f785a7ad8c94bfc1d31554
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Help
+      Id: g=dd1151faaf68f18dc2a8115c10811fb0
+      Type: ScrollView
+      Children:
+      - Name: Width
+        Id: g=fc45443f5be47b1898521e2fe13c4d95
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=6b020de07e9f28f009476661d018b60f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: HorizontalAlignment
+        Id: g=2fbffd683965d42464102177a139e9dd
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=581b007b3eb1cfbd476460b4a3c0595d
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: PDFViewer
+        Id: g=75371d0a41d80ed36665b4621bda7778
+        Type: PdfViewer
+        Children:
+        - Name: Path
+          Id: g=ec75817b95c561ace702b91720502ea9
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=28;%PROJECTDIR%/res/Help raC-3 IO-Link.pdf"
+        - Name: CurrentPage
+          Id: g=e7d9efdf08ada7856054c7336f66931b
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: Width
+          Id: g=ab58898d277f0412abc5c69d0be519dc
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 400.0
+        - Name: Height
+          Id: g=3c0fa50ea7499b5c0e2e7254c5cd1839
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Id: g=d4a2a8f996fc28737bae6d757925c757
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=c3d3117e3126061c5008a94da2eb1b77
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: LeftMargin
+          Id: g=e9366a209e1ec80dc3f64a07c6dcd45e
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Id: g=3c78f21598170f2aac48a7a6d7c3f393
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: RightMargin
+          Id: g=c007dd2e1c7b431ff0f1646d7b428868
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: BottomMargin
+          Id: g=7ddf4e83bd3dcfef105068099f1a01c4
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: ZoomMode
+          Id: g=2021a5d9f29f528cc984f82275deee1f
+          Type: BaseDataVariableType
+          DataType: PdfViewerZoomMode
+          ModellingRule: Optional
+        - Name: Visible
+          Id: g=29bee9185958f70d8b852194db557300
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ConditionalConverter1
+            Id: g=13d409d13158872b850f524a96719985
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Id: g=4d9436fa13ec4b6894a0c196278d80fa
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=52320e3db45f6990f61b89cad5f82f21
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../Device - RM300/Expanded"
+            - Name: TrueValue
+              Id: g=8bee771681720bc97a28657695e9618d
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+            - Name: FalseValue
+              Id: g=d28cb77520fd51d4c90102589c2987b5
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: true
+      - Name: LeftMargin
+        Id: g=72516035948123a50cc52047a6ac7d6a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=f2264ce4b56223d35f6033f24748fe78
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: RightMargin
+        Id: g=ef38ad573b6924c1cbc9b151d2f02435
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: BottomMargin
+        Id: g=5a425f23ccadd7cdb22205574792f158
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Zoommable
+        Id: g=a85236363d168ced99208bd399d5e842
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: MinZoomOut
+        Id: g=cf6cc90ad0f7243e13a28e009dc46bac
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 100
+      - Name: MaxZoomIn
+        Id: g=e6f429bb31ffcd91f94851ca05fa5fa8
+        Type: BaseDataVariableType
+        DataType: Int32
+        ModellingRule: Optional
+        Value: 100
+      - Name: ContentWidth
+        Id: g=f1dfc57ffc4f754d38ee1404a0e59d86
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ContentHeight
+        Id: g=b3eb2cda47c77a8e53bcd0267cb3874c
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ViewWidth
+        Id: g=b037f8b364b698cd07e15a48a63e5a31
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ViewHeight
+        Id: g=fc9e4797f7b8f0b67084ab2609005dd3
+        Type: BaseDataVariableType
+        DataType: Size
+        AccessLevel: Read
+      - Name: ContentX
+        Id: g=9288d7e5430baa15bcd5e0b073ce1f93
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: ContentY
+        Id: g=f7b7167d83ecced30684c97e90beb6f4
+        Type: BaseDataVariableType
+        DataType: Size
+      - Class: Reference
+        Target: ns=11;i=1394
+        Direction: Forward
+    - Name: 'Device - RM300'
+      Id: g=3682f3a0aceea750065c484bc74adc33
+      Type: Accordion
+      Children:
+      - Name: Header
+        Id: g=8457de1e308a1604cab0e7be4c043d3c
+        Type: AccordionHeader
+        Children:
+        - Name: Label
+          Id: g=47dcccd6c8c8495edcebab603ac6c12d
+          Type: Label
+          Children:
+          - Name: Text
+            Id: g=357b4788aa198d7bbc07457be090c5e2
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"DEVICE - RM300"}
+          - Name: LeftMargin
+            Id: g=14c9c73041d7ad05be3c138f41bb08be
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 5.0
+          - Name: Style
+            Id: g=9deea8c90587f9f7aff92afb848ccc44
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "Heading"
+          - Name: HorizontalAlignment
+            Id: g=d008b3ce1eac03ff88b7f575851fd4ba
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: VerticalAlignment
+            Id: g=cae27a6846551967d31ffff1ea27ed53
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: TextVerticalAlignment
+            Id: g=32500bb007027b1a0f346cdfdf788bbb
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+        - Name: Height
+          Id: g=81adc301477ca0c5a5bc174b141cead5
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+      - Name: Content
+        Id: g=1399541fb745ac675917f4b53251fc27
+        Type: AccordionContent
+        Children:
+        - Name: WebBrowser1
+          Id: g=750be70b7bf88e16665e9dc95ecd15a3
+          Type: WebBrowser
+          Children:
+          - Name: URL
+            Id: g=e922b50963a1fe60004ae785d9560d46
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "https://literature.rockwellautomation.com/idc/groups/literature/documents/rm/device-rm300_-en-p.pdf"
+          - Class: Reference
+            Target: ns=11;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=11;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=11;i=358
+            Direction: Forward
+          - Name: Width
+            Id: g=03867c2aecd7d52bff98fd2a8740a61c
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Id: g=040cecfc3284ca8da321ac925b8a41bb
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: HorizontalAlignment
+            Id: g=6ba84504310fd5e4108afdf0d172011b
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Id: g=ae0e86760ae46d9e495a29d9cc818739
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+        - Name: Height
+          Id: g=f47b3949ddf097e6109d7e143db0698b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 570.0
+      - Name: Expanded
+        Id: g=30c1ecb0615136527d2a0fddea59b673
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Width
+        Id: g=aa231767f36ebf1952c9bec23eb99b37
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: HorizontalAlignment
+        Id: g=a56812e336c8de0b60570b8c2db18fdf
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=62bf275c6b2299eb6c2cd70733ac22ac
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional

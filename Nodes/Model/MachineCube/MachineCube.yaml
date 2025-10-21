@@ -1,0 +1,216 @@
+Name: MachineCube
+Id: g=d241f412dfddcac506144fe1c5e0c029
+Type: FolderType
+Children:
+- Name: PanelloaderSize
+  Id: g=a79ee3a8f2bae67a6b44e93b0c6422ee
+  Supertype: BaseObjectType
+  Description: {"LocaleId":"en-US","Text":"Necessary because the Stretch Properties do not update the actual Width and Height at runtime"}
+  Children:
+  - Name: PanelloaderHeight
+    Id: g=76f4fcbf469cd55e1b379fb30963179c
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: PanelloaderWidth
+    Id: g=f566034dd2e95d96e8559e403fe29ae9
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: MarginTop
+    Id: g=988efd743a8f3b3ff8faf8f034a32b33
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: MarginRight
+    Id: g=f065c3a7540584993597b73b28ddf994
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: PanelloaderMain
+  Id: g=4f7e7fc541fb77a7778a9c68558c0ceb
+  Type: PanelloaderSize
+  Children:
+  - Name: PanelloaderHeight
+    Id: g=419e576b1ea0ada3b8b49e42724d447d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1008
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=18b8dafff512de24e992de35a83d2613
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=33c7f544cc80482eb3e98ee27f0b3d24
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{#WindowSize}-{#Header}"
+      - Name: ns=9;SourceWindowSize
+        Id: g=442d1c6435d69d857d913eb058f867ea
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=7d1315176c86533693002d99e5e4ebe1
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../UI/NativePresentationEngine/StartWindow/Height"
+      - Name: ns=9;SourceHeader
+        Id: g=ccbd71fdbe53dca19e186abbdc8690c3
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=a485bafa9eeb46a9e56bbae63ce36618
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../UI/NativePresentationEngine/StartWindow/Main/PanelLoader_Main/TopMargin"
+  - Name: PanelloaderWidth
+    Id: g=126a26b81d5a8763b80be21bf1de0b61
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1490
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=5a59b0a1066831798b20c4fd4c37095b
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=5f25196af77cb9f584bcae18fac1351a
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{#WindowWidth}-{#Sidebar}"
+      - Name: ns=9;SourceWindowWidth
+        Id: g=d72fcd4ea8a380f309ff7770f44e79c5
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=26c20eb181b538e76f71224378d872e7
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../UI/NativePresentationEngine/StartWindow/Width"
+      - Name: ns=9;SourceSidebar
+        Id: g=2cc816054b819346fa4d8b9ad196eea2
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=d59e3033bc3c45ef4c25a201b42e5c80
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../UI/NativePresentationEngine/StartWindow/Main/PanelLoader_Main/RightMargin"
+  - Name: MarginTop
+    Id: g=79bd2aac1b9c47456dc831edd7113ba6
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: MarginRight
+    Id: g=afc5c3dea2584076e2875b4f728645bb
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: PanelloaderStartPage
+  Id: g=b198e149919ecf1461f0b93d0f961864
+  Type: PanelloaderSize
+  Children:
+  - Name: PanelloaderHeight
+    Id: g=bdeaef773b35981bf89a77b4cd2cc268
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 672
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=a1c9bcfe7d406008669a222989a91490
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=df71f24682d41a1c2b0d8c2f6ada6e5c
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{#PanelloaderWidth}*0.67651007"
+      - Name: ns=9;SourcePanelloaderWidth
+        Id: g=482bb3ae38ab57ff42b2874da6d8bfd1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=2a1d129ef30c56d8fa94b79186625711
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../PanelloaderWidth"
+  - Name: PanelloaderWidth
+    Id: g=fa39892d7baccb45636e48e70c0f9c9a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 993
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=090749052c86afb317e1e7d948ef47d7
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=a143e7b2828207942e0030754e438d61
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "({#WindowWidth}-{#SideBarWidth}-28-7)/3*2"
+      - Name: ns=9;SourceWindowWidth
+        Id: g=69bc84e7240e3fda0ade867b29c0a998
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=7500e8267970274c6eb4ecb23c0ad2ae
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../UI/NativePresentationEngine/StartWindow/Width"
+      - Name: ns=9;SourceSideBarWidth
+        Id: g=a7f9b1f699f9d1de575c4468e6519407
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=7a68d516252bbaec5d0208e1bc2331b6
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../UI/NativePresentationEngine/StartWindow/Main/SideBar/Width"
+  - Name: MarginTop
+    Id: g=578f49bded25033c4bb31863eb702f4b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 28
+  - Name: MarginRight
+    Id: g=560c76ae81c70f67514d75a90f652a98
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+- Name: Margins_Bubbles
+  Id: g=d2380d2d2085a2fb1125aceeaf9a6eb0
+  Supertype: BaseObjectType
+  Children:
+  - Name: TopMargin
+    Id: g=6e41ea832e18f5813447df409af8d4fb
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: TopConstant
+    Id: g=a81a5c0ee626819f04e8bb5c6a655eb4
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: RightMargin
+    Id: g=1256128fe07e4c070ade70e173c2685d
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: RightConstant
+    Id: g=b0b9c2ce89724be6b89e2c072c3b32fa
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: OrientationLeft
+    Id: g=4e1a80b31c12acf78c8b15835f5b4bd5
+    Type: BaseDataVariableType
+    DataType: Int32

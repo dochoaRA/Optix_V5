@@ -1,0 +1,3384 @@
+Name: 'Panels - Faceplate'
+Id: g=f7976ce53be64dc71dfd2896bc4bf464
+Type: FolderType
+Children:
+- Name: raC_5_05_raC_Dvc_1734_XXXX_Home
+  Id: g=10074916e7f4b50d110060bcc6dae696
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=eeb437b65ab1d5b343a32688dccb35c4
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 574.0
+  - Name: Height
+    Id: g=63f53a1bc59bb107468dc6e864ac715b
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 309.0
+  - Name: Tag
+    Id: g=846eee08ef1aa128176d95aa6b696a0a
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=141cd271a285d61753f4dff3a57cb0a3
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"339cecc7f4cc318bedc1e7a0a5f42548","Namespace":28}
+    - Name: NodeClass
+      Id: g=6b0ce4497ca2152575a038d8c2807c39
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      ModellingRule: Optional
+    - Name: DynamicLink
+      Id: g=37fd20e6e987f3c5cd5d36bec05f8d35
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{raSDK1_DialogBox}/Ref_Tag@NodeId"
+      Children:
+      - Name: Mode
+        Id: g=f1e50544ec131952bdaefae545c9d947
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: grp_Home
+    Id: g=92068a80be53d5e6df07ea07dcafdd57
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=fa554d9405a937f4f0a2c939886752bf
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=9dba475abc19907b6ad3686a0203f1d6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+    - Name: HorizontalAlignment
+      Id: g=a4547ab1cd58526d7f14dfa49e1a0773
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Banner
+      Id: g=1146ce033b308fb86de35e88fbed0ec2
+      Type: raC_5_05_raC_Dvc_1734_XXXX_Banner
+      Children:
+      - Name: grp_BannerAndSeparator
+        Id: g=1350bf34b45cbce3bb881a74ab96fb52
+        Type: ColumnLayout
+        Children:
+        - Name: pnl_banner
+          Id: g=bd55d3300289c0bae829ce5b05d8bb1a
+          Type: Panel
+          Children:
+          - Name: dwg_background
+            Id: g=de2c90392db425fb172ccf4f3040193b
+            Type: Rectangle
+            Children:
+            - Name: FillColor
+              Id: g=71b1d321971f23b343c0384c4aaaac91
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+              Children:
+              - Name: ConditionalConverter1
+                Id: g=4ed346364b03d8cc7f5b4b9787f01ff8
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Id: g=6daf92b4700ba5114dc987304a567c51
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Id: g=8a4edb5ea152214736f32cf989ca1d4f
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Source0
+                      Id: g=38b5d4343eebf630c0c65067691e718e
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Id: g=02419e35835a39be0b14f4f4e459e8c9
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Children:
+                        - Name: DynamicLinkFormatter
+                          Id: g=0edf727c9f0c0b02b898aead8ea21947
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Id: g=85604fda0456868d7edd2cbb7115161e
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Id: g=ff1935aeba70ae02fb171d856338900c
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../../../../../FaultTag"
+                    - Name: Source2
+                      Id: g=e09f712055b05ade6fd28d16693563a5
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Id: g=b693a3cb78c7d17ee5c0e517ef6f2f7a
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "{raSDK1_DialogBox}/Ref_Cat"
+          - Name: grp_Banner
+            Id: g=9fb5034d67bd3e08d01784e0e9f37a6b
+            Type: RowLayout
+            Children:
+            - Name: img_faulted
+              Id: g=9ba4a67ca7b2725dcc47162eb8773aee
+              Type: Image
+              Children:
+              - Name: Path
+                Id: g=8b04beb35480f16c597f3eef2dae2a50
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=28;%PROJECTDIR%/res/Faulted_16px.svg"
+              - Name: Visible
+                Id: g=dd27c49fd66b2ca764fe273d29dbc1d4
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ExpressionEvaluator1
+                  Id: g=489520b94f4065e7a847910bb4a6d7ec
+                  Type: ExpressionEvaluator
+                  Children:
+                  - Name: Source0
+                    Id: g=1d31c80733c5e123aff5a6ff166c10be
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=cc29ecaeef35bc131aff0bb5fbd81342
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Children:
+                      - Name: DynamicLinkFormatter
+                        Id: g=b84ddd961e1273c100a7224cc80a788d
+                        Type: StringFormatter
+                        Children:
+                        - Name: Source1
+                          Id: g=e46070e008bc8ac7f989e466200ec214
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Id: g=672680d31c15ab7b116e980aede96307
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../../FaultTag"
+                  - Name: Source2
+                    Id: g=d6abab5163a6cc7e4a6a55a9c3cdc7a9
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=636df2c48860ad205a38bfb0c2f14a4d
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_StsReady
+              Id: g=91450f79a043c68b1478536bd20665fd
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=895ef737d6cb6059a689be7002e1f5d0
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"TEST 111"}
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=47a7c14b97c749e79574ef329c04e706
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=d4f1854fb085df6b5e2041a9d905467a
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=ec9f47d330a2872f94be0375d62866bb
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=f81438698c77a8acae5c58765a365ab2
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=75a9ba83fcf3333c7b3766e15a8c2d43
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=dafa658c36ffc8e5573e3b3d3062f6e3
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=5328985c4feb5330d71e59a134d692ed
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=d3d36aecd6403fd21ed2ddc9dd9ed35a
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=a300578730801ebd3a836ae294ed1b51
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=19aa7262ddbde12f84688ffbde31a062
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+              - Name: Visible
+                Id: g=c31b25f88ce39d28899131e7cdf1a752
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Style
+                Id: g=4808c44494762a93b140af6f43f80214
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Default"
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=4f2c95b073a39130a73dad82eee1747b
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=91ed67dca22dcc2af20c3d2e97707809
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=d43dff86d6392e329a83e6c330b7d06b
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=3973942f2728f89c381a6aaa8c9e0f58
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=b0d00d673168389aa1acbd787a2b9cd9
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=4208509c481600d89f9d9a36c2308b79
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=91c9c0d11221eea20aae07f24efc406b
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=8d229dcf436a73c17ffe0d339469e5c8
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=e87ff452347c2a2a8dc21475bfe555a3
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=c17ee5314a0e2038d7e7dcf2be16106c
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_FaultMsg
+              Id: g=931faaec878f2e9f2c948a0a59b961d3
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=1078f3b0cd56127d1b7133c348812d97
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Module Fault – All Channel Data remains at last pre-fault state"}
+              - Name: Visible
+                Id: g=1a09e958a7b78df990ebab3c65783c4a
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=b06bf42351d2f630f307233fe3baf145
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=208a525af57fca375461dd281531d5de
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=66b65115fcd4fe6f320408d3113aa523
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=fc5490a822c92890c677e44d3f8f99d2
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=e0ad333133373d03a9d35973d407e96e
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=51dc648ef6c60c4ec54515174bf02b54
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=fdda33994bd1b4aa1d110f983b86a2d2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=01cb5afc60a5738d2023ae2a93985b5f
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=438fb29059c8dbdb25f0924fc9afbd80
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=2932e0fe0e3bfa579d75b7276cfd3b09
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+              - Name: TextColor
+                Id: g=4f7c7d8baccebcc28ccb1b7acdafdd82
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#3f3f3f"
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=aa19cbde49894552e20ddb326b2f9bbd
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=84dffdc8a93f7595947820b935959faf
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=7ddda090f5f8945d47c57af3144e87f1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=be906a91eb642208c2f1f2deff6d63d0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=3f2a7db44f54e11124fda997bf476b9e
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=4ff7e1e7766d7f2173df6808eafdabb9
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=4959facb19fc4688489cdfa8b735b7a8
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=7d73b6f12ecd58a8c210d5b6077a2145
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=f2450a0ea4468a2f76b2f44c81eb3b67
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=6464ea3f41b3c269e9c1f51bfac84169
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+              - Name: Style
+                Id: g=7ea4d1a323836211ece5942ba2a4fd6d
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Default"
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=b607c6e9b6b0841ffed57cec3fd0846d
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=69d7b16e2ebea250a1d3b6fd1aee359b
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=65982f75a7c6ee6709fca0acef7427f8
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=5155720bca48b092e05f130b76945da0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=0507448e0d73598a9a01fa909a16e421
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=25cc0bc120e3e8bbd21eef73b5708e4a
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=62d8c00114a2b383caf6604baf24a5a7
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=ee405717ef7ea39db322123e8f784da9
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=f4220b26c5780deec753a8af819675bc
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=39a087dceda2dbd5fdf2ae83201f4d94
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_ChannelFault
+              Id: g=418351c79a73b370dec40e3dc2526efe
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=a78d83fd4cd37fea7e969d9024744d94
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Channel Faults Exist – Data remains at last pre-fault state"}
+              - Name: Visible
+                Id: g=ed81f773e5df13b5fa4f8db69b3101b6
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=4b436873a18f8c61968f01070b72b571
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=0044e8bd25e7d8c9faf1babf30b7e8e7
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=032f5555d6a0d613e37a8ad34caf85ae
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=4375d0b969355bca5e405302bd23b921
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=888d5c326568c196ae38189b25cc29ba
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=1bbc11cecd9d16b59fb05eae664ccff2
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=4ae558ed7a143849a97a8421eed0e2fb
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=5a2d6c734d581ff9c02f46458f2f47bc
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=bcb5ce13b830054904f3defb4cae723a
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=7d22aa1be926803f929a79610045a9d5
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_ChannelFault1
+              Id: g=ef9890616f74d1f85575155055bed121
+              Type: Label
+              Children:
+              - Name: Visible
+                Id: g=dbe301e61770a0bb5fb392d9a2a8b492
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ExpressionEvaluator1
+                  Id: g=6aec37cb4dd7807153ade17c7d52f8c6
+                  Type: ExpressionEvaluator
+                  Children:
+                  - Name: Source0
+                    Id: g=de50242d9d725d1b04d78c16c2e41774
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=50b3c94a9e8a8572862a2b151a3b2107
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../msd_FaultMsg/Visible"
+              - Name: Text
+                Id: g=fb55a95e8c06763cecee001a7c649e8e
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: KeyValueConverter1
+                  Id: g=077b0134e5a85544355a2b21354f3f6f
+                  Type: ValueMapConverter
+                  Children:
+                  - Name: Source
+                    Id: g=4396d274497d9583c620c433f9b8fff1
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=caf72f10fb430d6f619cca92e3eb3f81
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=bf82e518f42ab917fa07727c8f2d4881
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=eb9764aac73bc93c4038f0051d1924b1
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+                  - Name: Pairs
+                    Id: g=e79e9908a6c6551f205c91c4a13d8556
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Pair1
+                      Id: g=dff45c3b0e9adc2a89ff92a46b786b72
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=97cc9afe71d79a739850e41705330578
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 1
+                      - Name: Value
+                        Id: g=15cb4e5e562b22df04b896709da6a009
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Children:
+                        - Name: ConditionalConverter1
+                          Id: g=ac17186d27ab531758f36b4abef707a4
+                          Type: ConditionalConverter
+                          Children:
+                          - Name: Condition
+                            Id: g=0be34c198a06475f09723113194db2d9
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: ExpressionEvaluator1
+                              Id: g=b4c11d153fc651c912272189c9de3157
+                              Type: ExpressionEvaluator
+                              Children:
+                              - Name: Source0
+                                Id: g=26ce03e528af0e39151a4eaca369d7b1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=20104a9fe7f9e9a2a5fde97b7ced1ab0
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=738300b77a3c88c010ced9cd4b37c0da
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=37be5ecac84fc6efdbb890082c09a446
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=f1c99cc5fd40f911db704263ef6b27b9
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag00"
+                              - Name: Source1
+                                Id: g=574349a4ea3a84dc75718f41e36531c4
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=21132a916ba351111deba0ffd13b3c79
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=6cd1c07ff98734e7dcdb5f359beb43c1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=b5c9a723dc7d8f9bd31f67d81ed205b7
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=719628af41dc1660c422218de277e8c7
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag01"
+                              - Name: Source2
+                                Id: g=31430a1afef8a93b907635342ed97574
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=7ecb9974b401c6eee1643c5a1abe3335
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=603120a1fd30d0c8ce3a7cef2fdfa923
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=82efecf15305e4caffc3345b0b1b906c
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=0031a20d67305a3147a8b24c09acdf64
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag02"
+                              - Name: Source3
+                                Id: g=53f5c43d114f96896edf8888d5c9748b
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=26fa72b784c4febc9a150ad55842adeb
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=0024e8407e74a7731dd5947d2fc34cf6
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=e619a470681a98a55fe1baf2fbd0d5bf
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=e973705cb55eabebffe463d0881a40c8
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag03"
+                    - Name: Pair2
+                      Id: g=085199a6eed48168e0dc90e863264486
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=61c653913591fd9bcd3f798aa2b27fbd
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 2
+                      - Name: Value
+                        Id: g=63d5a9b81ad993397f2f72ed97d6df92
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Children:
+                        - Name: ConditionalConverter1
+                          Id: g=e438107bd6e9b6814f2b9f327fad6e2b
+                          Type: ConditionalConverter
+                          Children:
+                          - Name: Condition
+                            Id: g=822ba63188e79a679403d24215d19763
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: ExpressionEvaluator1
+                              Id: g=f43187d159edf77bf196ab7e3d5b99b8
+                              Type: ExpressionEvaluator
+                              Children:
+                              - Name: Source0
+                                Id: g=1242e2921c5d3e288b8d242e62f1636c
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=c6696de07d3defd098b36cd7735bc3ad
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=efb73337075c512a1c82483038a985b0
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=e91ca4d2bad9ceb496c2829c8fb0358d
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=43846769117e3b6b77c02ec717d919da
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag00"
+                              - Name: Source1
+                                Id: g=05b82b7d52bb235cb6e7b17992d1a576
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=960f2e9b9af4138ce81b7eeb73dc371a
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=1c2a9579078dcac6d510ebe45865c3a1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=fc97d6b6e8cb7b208f9eedd3aa25f370
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=99f6754e50fd32e2e1da27a2c2724594
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag01"
+                              - Name: Source2
+                                Id: g=3455bb4c16a375fe2f09b3dbfa8fd3a4
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=144ab2567713c12cdc4be37a92eb2cc0
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=d4730396ed18e61a8f4241d9ff179be5
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=2b79ed859d7a17d06eb5ff8d079bfb47
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=0584f19e9cc14fddad699239c501b25a
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag02"
+                              - Name: Source3
+                                Id: g=fee4e140e9f5bd402047aa9daf1f390b
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=c19a5b063c709a2a8f8905282463ba11
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=fc7414177977ef1887195ad47b265901
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=bbd5d604bcb018c9c5006650138aa9d5
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=80f96cdff9aa51d575931fbb023c966b
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag03"
+                              - Name: Source4
+                                Id: g=094f99d0024f99f41121aaa505117669
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=ef63bc5287b8a9f3d5ff5346123bbb55
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=9b1eaf86f8e4801a98a746588a17bdae
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=e9045e3b89b8a08bd8a611b10fff6bcb
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=e17094c9b8f5aa3a870afad18789a1cb
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag04"
+                              - Name: Source5
+                                Id: g=aaf6d1d72925db7b842e0f547a49e039
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=9deeccce34e19cf980752f4a093a17b9
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=8322ff2a2da40961270cbebe9c47d1f9
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=3ecbbe14458f8b0b10268b938f24e9c1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=d58221630c5957d96252db1a4a52a3cb
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag05"
+                              - Name: Source6
+                                Id: g=3eb4e4a9eba062cd24fe442d6e923116
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=65d93c0c10d06e49aa5806d935ecdcb7
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=dfcc27e35ccf83f4c87a4ec58ccbf2b2
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=689efaf6ce0f979c1a0331bc6a713d51
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=908353e2ff0849b5784f382356d21d51
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag06"
+                              - Name: Source7
+                                Id: g=b70da05c00ae5fe7bea5bc99cfdd5746
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=bd69a342d4041ff41574a868a89f80ab
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=06c197f294640b1e02ec48dcd18ae1f3
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=7a7b12f6c0ef732ee517ab6fb3d6e32f
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=4b9727499cfc078abae512492f03bcc5
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag07"
+                    - Name: Pair3
+                      Id: g=757b04aaddf40e2e31acd3503141ea43
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=d9a4976c128e43a75dda6dd988486a8f
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 3
+                      - Name: Value
+                        Id: g=7757a9fe5c851127f26d315d0e321200
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Children:
+                        - Name: ConditionalConverter1
+                          Id: g=bf91bac1531d3d43d40d2d2796ebb5c8
+                          Type: ConditionalConverter
+                          Children:
+                          - Name: Condition
+                            Id: g=75ac17f0b812bca5613f6d42c81f1a1c
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: ExpressionEvaluator1
+                              Id: g=fecccc2d332fdb94af0d7d74b9902927
+                              Type: ExpressionEvaluator
+                              Children:
+                              - Name: Source0
+                                Id: g=4cc087d41a07bf5f28d0129d375f5bc2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=62bf7992d50e1664dd02aca4a4f5b409
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=17b5abbd8d5ef1dc90ef462f8e22f34f
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=ef7530c5edb8539dab8c53d0cceebac5
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=8486f4b40a3a47cb3fd829c0dfd6abac
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag00"
+                              - Name: Source1
+                                Id: g=d43bc68f57d4d11ebc58a2610e5c92c7
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=93737f92ab9c0b89baa99265c410c04f
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=d90c653369932ed7b1c96ffdec9606ef
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=9cc1287ecb7187a59d04d3629e552e50
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=21255f349d856fdd9a99160a2277aa92
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag01"
+                              - Name: Source2
+                                Id: g=6790d3c18134a7eec857caaecab6b481
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=bad47337ee032dbb7c3a261253867b27
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=6f38d4ccab698bb4edda5105639575ef
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=13be93ed4d731830f1838a47da08566c
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=d8e78f5d865cf83d71e4f7d9fe395884
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag02"
+                              - Name: Source3
+                                Id: g=5a4fd9bbb975470a2955d4c4a37061ba
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=84f73f9073afc2974d6ff8971d95c36e
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=bcbf435afc6f18b28c6ff7f25678c373
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=cc9ea0757c155d3177ae7df631b60a46
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=5851f4f75f87b0cf5dd4a74055ea685a
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag03"
+                              - Name: Source4
+                                Id: g=ffaadcc85cfc98e0e0e70fb790b7c6da
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=606cde01b7d062eaeaca7d1d0b4419c9
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=2d9918bf89728f0b0a8c8b17011181a2
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=35f96e33e05c0bd193bbba398952b13d
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=7f286c0d24241edb3abc14851f4d43b6
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag04"
+                              - Name: Source5
+                                Id: g=99fb1b61c64722dfbebed50969378eff
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=a2205dc264f2e273407927128f16a8dc
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=f0a8a5170158d300c6fac3bc4c9450a5
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=7e327b9a60f7e14d3d3d32c09a21e2e1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=8b6b1b11d9a4b5dd9501ae1106de7c11
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag05"
+                              - Name: Source6
+                                Id: g=621b08b0e3d34866314bd188d481921d
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=d0395445191c54d8abeca4571d3102e9
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=c0155e1ddec5514f8cc82b40a0221854
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=283ab1bfd15820029b3580483a87c8e9
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=e68b05bb034fbe497dbd9dfdf0ff6873
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag06"
+                              - Name: Source7
+                                Id: g=1a97e2e8123fb4ceeccd19f75898e94e
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=0a7dea36882c864811624946e31c8de3
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=2377c12490f06a1aa1ada89e84359a89
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=f6a742b27051533e2196fe7524085ab7
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=a7bc960455bff9cae407c7e27aa69e1e
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag07"
+                              - Name: Source8
+                                Id: g=640febbbf40dcbb4cce161a19102013c
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=6e7b2735b38ed04332f36657fca84684
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=0823b33fc1bf299dd067b1c26d9a41cf
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=093c13f86c4ac122f4e299b84dfe9caa
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=f313e14be117568af0aaa6fa7c9534e7
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag00"
+                              - Name: Source9
+                                Id: g=1fb667639fff57e6a71c6b249c7c9be0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=3b4794bacf834f7f1f770e796d32c379
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=b54c13163ad82cc326e15c934f7ee708
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=6225286ddf09916849d6305c358c5ccc
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=165ea1dec90412e3f4bbfebbc23c8a6e
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag01"
+                              - Name: Source10
+                                Id: g=baa9647338ea3d34ced47c1828d572f4
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=8e04df7c226fe6775dc179005258f30c
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=22877771083c679e89e698a0961d15ba
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=a272ba3afd8e5c9ff69b77f976c54e5e
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=8641cf67fcd0c2252003240463bb997b
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag02"
+                              - Name: Source11
+                                Id: g=ed8dfa81e0075ecd555765deb2887138
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=31f6b3d3d791ebc2d7bfcd1a8d198888
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=b8097df11881611444208eb0856ddc3d
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=130e9bac0748f2de9581bdbfffed84fb
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=90ef596e8c8b3ed31e16875fa37ba381
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag03"
+                    - Name: Pair4
+                      Id: g=af4b844c2759aa4529697b3532728eb5
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=bca34532892a61ae1a7e2ae8924fdec9
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 4
+                      - Name: Value
+                        Id: g=b2dff0fef577d5759c0263469c86cc3d
+                        Type: BaseDataVariableType
+                        DataType: String
+        - Name: Dwg_Seperator
+          Id: g=a59082832ecbc088a9229f7f0ff34a63
+          Type: Rectangle
+      - Name: FaultTag
+        Id: g=b18b644dd0bad8c5979be6c7dfc071ce
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "0"
+      - Name: Ch_FaultTag00
+        Id: g=768b72637907c48bf0ec99bc9c9dbacc
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag01
+        Id: g=6acfa2be344fe230a5c36ba57fdfbf8e
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag02
+        Id: g=77f29e5925447fb17f7dc79ed8c4af86
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag03
+        Id: g=b3c9686cb548a8bf1eecca4b08a2b5b5
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag04
+        Id: g=da17ccf2486a948df127a81c076588ba
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag05
+        Id: g=50d60dc74f42e4cbd5cd62d30f851bf6
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag06
+        Id: g=3cb1f0fe39a10741fcd43377db2b668d
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag07
+        Id: g=d984b3208b80a23984f3f0d0d36dfb9c
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag00
+        Id: g=baf7ba539e8220c1ebaab8db8f829862
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag01
+        Id: g=e37533a211c4824634a8ef02c1ed9995
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag02
+        Id: g=347d7240db7486865cbfc3ac3bf95193
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag03
+        Id: g=0598ed72e32d1a4ea823a974787bd282
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: ChannelSts
+      Id: g=adcac0b5a157c1fa028193dc81e70a6d
+      Type: Panel
+      Children:
+      - Name: Width
+        Id: g=88dd06c493739fd82f7f2d8c99c8e340
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=c0ca00891c9adb4307016e237e244215
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: ScrollView1
+        Id: g=3075915f7592bc2c6efc25fd1984be0d
+        Type: ScrollView
+        Children:
+        - Name: Width
+          Id: g=46aca6d8f417992ab293f5e29dd0462d
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Id: g=5fe0abde44552cd4b2db45f4ec845f8b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: HorizontalAlignment
+          Id: g=87222166e0ad24b53e7dbfac88d46b31
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=97bd148a0c1699075052fc8978103769
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: ScrollAxesEnabled
+          Id: g=a60c2449b3bc06a5bab70100c1e9c121
+          Type: BaseDataVariableType
+          DataType: ScrollAxesEnabledEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: ScrollBarStyle
+          Id: g=0fa92ef4ac662bac14300482503f5fe3
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "Default"
+        - Name: RightMargin
+          Id: g=628af1049c33978b7abab2ffa99bb007
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 8.0
+        - Name: grp_Channels
+          Id: g=28ca093408d3e6203f10632303ef1a68
+          Type: ColumnLayout
+          Children:
+          - Name: Width
+            Id: g=37367a9624a7add5012086f76a8695f7
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Id: g=05cf0db19b4a4ca198ed1f890daba68e
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Id: g=29cc66333cd3e0bde89d18a33353caca
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Id: g=f840c6cef5104b2b3d071f8c24c2bb45
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: TopMargin
+            Id: g=f9083668ae935abc4c0b7b2030686e92
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: RightMargin
+            Id: g=797fce43bfd8e92ee3bbb0ba5db9df20
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: VerticalGap
+            Id: g=e4cb846cdc9078a9324fbf3e1b9abfc2
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+        - Name: BottomMargin
+          Id: g=7e0f1f8537af4cd3ea19e56e3ad6ff0e
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: ContentWidth
+          Id: g=701bed0f2032a4415ec77a21ad9ae0ca
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentHeight
+          Id: g=858180ecab622b531872d977ea34b5ef
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewWidth
+          Id: g=5df80efe895b4159070da3176f2d4682
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewHeight
+          Id: g=c37cb11339927cb94fc2c68129bb0894
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentX
+          Id: g=c74cadfee13c78bc4966be2ab315ad7f
+          Type: BaseDataVariableType
+          DataType: Size
+        - Name: ContentY
+          Id: g=10817ea6f61bdda0d639fbc068dfcea2
+          Type: BaseDataVariableType
+          DataType: Size
+        - Class: Reference
+          Target: ns=11;i=1394
+          Direction: Forward
+      - Name: HorizontalAlignment
+        Id: g=f26438187f1bdfff48d7a89989188db3
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BottomMargin
+        Id: g=b9860b8c9af37f40d10e7931a6ee5fc1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+  - Name: raC_Dvc_IO_1734_Home_Add_Widgets
+    Id: g=c86c89b0795796a68d1c7c136ae2a26e
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: Add_Widgets
+      Id: g=890aa471f8e79a09ee319ea9e0224042
+      Children:
+      - Name: ns=0;InputArguments
+        Id: g=20e407b7178d92148b7b2378ec05556f
+        Type: BaseVariableType
+        DataType: Argument
+        ReferenceType: HasProperty
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [{"TypeId":{"Id":296},"Body":{"Name":"instCount","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: raC_5_05_raC_Dvc_1734_XXXX_Diag
+  Id: g=a440bd4a4ff377621ddc68bfe04a720f
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=e3ed3bb4348949a77ea9560f4379c7c4
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 574.0
+  - Name: Height
+    Id: g=e16e8969ad58ab68d3acfe32f420c4ea
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 309.0
+  - Name: Tag
+    Id: g=a76a16dbda36cedf3142f643ec76ce1a
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=7a91e2d09e6b5e41b571a25ba0184810
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"339cecc7f4cc318bedc1e7a0a5f42548","Namespace":28}
+    - Name: NodeClass
+      Id: g=75ef361d123d4c8325e647e888a8ec10
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      ModellingRule: Optional
+    - Name: DynamicLink
+      Id: g=ac6e7054c439cf9f011d388fcf49498b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{raSDK1_DialogBox}/Ref_Tag@NodeId"
+      Children:
+      - Name: Mode
+        Id: g=82e8a7f3f07ae6e9896a1b4ae6379107
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: grp_Home
+    Id: g=c069ad7ff167eebe52ca54ed2a3df8b1
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=2e38a438ce3604b797b966d672a30063
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=90a760b52706b95d3005b2d410deb69e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+    - Name: HorizontalAlignment
+      Id: g=da8e8cb07f371d8572e371531565861e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Banner
+      Id: g=32915ba805209ac86289a65bf2f53773
+      Type: raC_5_05_raC_Dvc_1734_XXXX_Banner
+      Children:
+      - Name: grp_BannerAndSeparator
+        Id: g=6e174bded64fe1f1855a7e5c063cad09
+        Type: ColumnLayout
+        Children:
+        - Name: pnl_banner
+          Id: g=a803c6a7499692adc39452ac915673ea
+          Type: Panel
+          Children:
+          - Name: dwg_background
+            Id: g=304bec79c420cfad1260cdd68b941013
+            Type: Rectangle
+            Children:
+            - Name: FillColor
+              Id: g=0da608174f189a990b4d3fdcd2c0100c
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+              Children:
+              - Name: ConditionalConverter1
+                Id: g=76ecce11156dbfbab82b3b3c44980984
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Id: g=1f2d02f18175bdb30a5e056d10bb4c00
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Id: g=16d69ff3fd8c6136ce1bffc396ed429f
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Source0
+                      Id: g=37e8fe67fec7fbe94a116a90e93b2e7f
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Id: g=000354cd4d00b9b4591ea3a1349a7fc7
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Children:
+                        - Name: DynamicLinkFormatter
+                          Id: g=c0fd2afc350537c0e18ae5a330498b79
+                          Type: StringFormatter
+                          Children:
+                          - Name: Source0
+                            Id: g=cf651f60ae52bb2aed3c574498bf973e
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Id: g=394a3be4b4764808eaaf0b1006f32707
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../../../../../FaultTag"
+                    - Name: Source2
+                      Id: g=f66f66e8272b1cb01299376b4de4a299
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Id: g=8348e488f6fab0a3cd9bfd24d42ca763
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "{raSDK1_DialogBox}/Ref_Cat"
+          - Name: grp_Banner
+            Id: g=7dc7878bb8adaeec8ce1db8686170754
+            Type: RowLayout
+            Children:
+            - Name: img_faulted
+              Id: g=0f63c25955dfba4e62fe7450d6be0ac1
+              Type: Image
+              Children:
+              - Name: Path
+                Id: g=025fd6c3772a6b9eb0af84faadcf444b
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=28;%PROJECTDIR%/res/Faulted_16px.svg"
+              - Name: Visible
+                Id: g=5dd1626f248fa983c65bf6de8e9b42f9
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ExpressionEvaluator1
+                  Id: g=96192cd73b8ff18099bafbd4f9325f34
+                  Type: ExpressionEvaluator
+                  Children:
+                  - Name: Source0
+                    Id: g=032cc1f204255e697514d1e80a99b6a3
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=1935a60fb8229c607144453d31f6a2a4
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Children:
+                      - Name: DynamicLinkFormatter
+                        Id: g=7d6948c69d95f76917763714945543b4
+                        Type: StringFormatter
+                        Children:
+                        - Name: Source1
+                          Id: g=04468444cb660062600bb9d584fc6931
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Id: g=c8c62a57ebff035ceb213beb5e40a331
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../../FaultTag"
+                  - Name: Source2
+                    Id: g=145a6fa5460c5a47fb1a02a926fca845
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=928145fa724e3f0bcec83ce6c319ad5a
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_StsReady
+              Id: g=90f5b9bf10cbce8e7c00b1bfaa40579b
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=85c72949a049d02eecbffe2db212f4e7
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"TEST 111"}
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=76ff5bc01c941833e32382413efa862e
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=d6428799b51b028b4af1eea4305e9dd4
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=9d73a088f33daa06c009d08804f5c05f
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=9a024384b1c6b68c9e52afd3c3f489f7
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=55a478ae7880f18eefc62f4cd2ef66fd
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=31040f5b19c3d1939c7a77a95c7c2d47
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=b626bf1ce7b8d2bcbd30ee332525783a
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=925961b17607d465dcdbb1d04ace3a61
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=19700e767851f119458a7f83eef247e9
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=5a56d4c5ed1a1fb00dfd7112a04f34e7
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+              - Name: Visible
+                Id: g=cf930ca824f59fd463efd1935db54201
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Style
+                Id: g=2e6195ed03c947ba4aaddc37a3df72ec
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Default"
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=8a7a9ec3cc505006c1766d7f856c777a
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=23c4e953d8b618ad59bef98873035340
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=fc5d1e3b202c99ff960f526fa42dccc7
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=0c02b10de2c249b8818257243f06fa2f
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=c09ccdf1ed5b1f5e52c26bb2c0a79f4f
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=f90903ad9eeb0b34553869aae7502027
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=da0b091885ff829e21b98dcc0459e229
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=610ffd093f5263961ab96e9d12592254
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=2d50061f1de395fdc0c8e9c7ce46110d
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=4b9f756777db97379a844475e4c28449
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_FaultMsg
+              Id: g=3a1fde8c14c4db1bc56189fd7faf6a40
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=e1b2269fe630f51e52db7207ead8aabe
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Module Fault – All Channel Data remains at last pre-fault state"}
+              - Name: Visible
+                Id: g=4242c50e3c33d2cd6d2d3dd2b3d101a1
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=b6764be8630d791b898c27d10dfe5487
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=07bf3b428cdf775f282db8d32420fc34
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=87ea09d166e376e080b1934a09f2f6bc
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=5bbccc3cbf69e37ff6d99c7779565e7d
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=c572a424c1bd4ba643ca460b1c225410
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=510fe88975e19bad2cc99ae5f1f49b24
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=107d8bf1cdc9e5018e36c07215ee20a1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=f84186f338f7db3b7dd50b64656bceea
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=e351a5787cde543cca665f0a389033f8
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=75d26f94e28ab215b2722e061923b67f
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+              - Name: TextColor
+                Id: g=d5b8da87ffa59f89f69f3e08aa16e672
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#3f3f3f"
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=9e9c02d2730dd862fc43664d256f4b08
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=5ebc807ea89311534eee18dcd8e0f05a
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=ed1679b580deee9441cb51c10af4aa7f
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=ffc46c4233f55b215a25026f21e7fd2b
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=eda06be6b0c5972d815fc9ec5e410ddc
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=cc66ee46057c367b2ac4eafd8177ae02
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=fe26befc2d5c769495486e402020bf3f
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=7d1278e04705045e291920fe7713a49a
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=098e11fc22850287722745774a2b4a34
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=5e5f06a248f18d2870e6ec9432cde31a
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+              - Name: Style
+                Id: g=e915549b82d354605d68a6d6c2ccdeb7
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Default"
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=1d5bb8cf2e3f7ecadef8ed6034e52bd7
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=258108aea750c933ad7acb47465dc977
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=fccb7cbe7d51115010fcbc976e553942
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=4cce15bfa922109bf4c11e020fc7330e
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=3af3c5f73d2ddd30350fb0f27328eff4
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=9e69af73bc2cf66e3c22d6d6e85e44b2
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=09dcf0051aa026a2a70c2bdcc1149807
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=02a5e60c1679695d57e083738911d15c
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=fc3cf6eeccbe8a21edee2f379c1b62d3
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=12b9c26c896970d8392c2d92b3949236
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_ChannelFault
+              Id: g=7ead55ca4ae7e9b5ae183f20b14e3b62
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=048889042b593dd4858d9f46d4627eeb
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Channel Faults Exist – Data remains at last pre-fault state"}
+              - Name: Visible
+                Id: g=54e04d9283d8813b81fa33328ae0e8b2
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Id: g=ce8b8469cc70b7233dd120c9546686cd
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Id: g=91318ed6db878b3906116968498c8e69
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=2243fd2af5d64d29c3ab2770ae3a9598
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=7c852f25240d6079fa769b4ba1c63415
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=45670f452877e5fd81a9222547dd8654
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Children:
+                          - Name: DynamicLinkFormatter
+                            Id: g=31c0eec227adc1a33555ee45f5db0320
+                            Type: StringFormatter
+                            Children:
+                            - Name: Source1
+                              Id: g=6e3b7b5b5d4c91d3b706fca694bcc02b
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Id: g=71ea6fa8f1047ddbabe80dbe982d511d
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "../../../../../../../../../../../../FaultTag"
+                      - Name: Source2
+                        Id: g=bb4dea50d01c6bf6f564824f09c2b987
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=8ac177f9a7f9eeda24b3ef9e44e7cd5a
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+            - Name: msd_ChannelFault1
+              Id: g=a4b254261435a5f76289c9f6254291b8
+              Type: Label
+              Children:
+              - Name: Visible
+                Id: g=a7f74cceca0d7e016977b151ffabf734
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ExpressionEvaluator1
+                  Id: g=dd589fba7948b71072c55db9f0bc1532
+                  Type: ExpressionEvaluator
+                  Children:
+                  - Name: Source0
+                    Id: g=2d4f393f1524392d3d182b1120a915a0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=1919bbc1e76a72c71878d4529e5585d4
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../msd_FaultMsg/Visible"
+              - Name: Text
+                Id: g=749b035b0a4672e4b389ece902bb861b
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: KeyValueConverter1
+                  Id: g=0f0ca0bb22c37d83d4f3646f86d154a7
+                  Type: ValueMapConverter
+                  Children:
+                  - Name: Source
+                    Id: g=63e8efa82b097c983bacef2291141131
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Id: g=02eb85f229d2e49fd9bc7bdce9123d8e
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Source0
+                        Id: g=57957f5e448d434c3feab6695591ce11
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Id: g=4a75211a2f711fdea4cacf034aad06f3
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "{raSDK1_DialogBox}/Ref_Cat"
+                  - Name: Pairs
+                    Id: g=b901161b0faaac89aa12c2e82fda2a94
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Pair1
+                      Id: g=06136546ec15771b23e40d1e7355d79b
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=f3ed363294df26ff79a753dd3b573a5a
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 1
+                      - Name: Value
+                        Id: g=b90efc703d3b6d419cb83992eb70dbdb
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Children:
+                        - Name: ConditionalConverter1
+                          Id: g=c8ba6ee7baad087ee9cfb48ce7d12f87
+                          Type: ConditionalConverter
+                          Children:
+                          - Name: Condition
+                            Id: g=44b23038b4b3c99e89c1da3976488802
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: ExpressionEvaluator1
+                              Id: g=b90c02ae7e0cfb9dbc4bc0731e2a4566
+                              Type: ExpressionEvaluator
+                              Children:
+                              - Name: Source0
+                                Id: g=97f8c6143bb012791ce8d8b535a4ed50
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=78ec521d892e3ac7a29b7648a7020a40
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=4cb6d31e0e88a9ec39c989d0fcffe89b
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=102b2dad19cfb889265f9ba9855c3fe8
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=c7cb4cd90a986b79a03cc3eb009f417f
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag00"
+                              - Name: Source1
+                                Id: g=426182b32393afb6e11c96ad21ee87b0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=0c7315efa3a20ee49c76557d01a24936
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=5c568e58b9b55638247d28cd0850b497
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=2d5743a51a4166f2767439f68de04981
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=17199d05f8adee2cdbd0ba4de45d71b3
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag01"
+                              - Name: Source2
+                                Id: g=4d20b29250a8e7a69dcadd3fbc7cc246
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=a0bea1c00a798225a165587e181be7e7
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=dd4e3d60833a68db236c4160e971eed9
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=b06b3f87029bb8fe03b7ee29450ddd3c
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=a359f50ffe151d706a16ed96c9a8ade1
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag02"
+                              - Name: Source3
+                                Id: g=180b13c6f1a9c65e04f965bf49599109
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=57bcd7348a46a5486fca399433ea3e4d
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=02af9672a1e6d715c3982491c42f4911
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=55d89a5ee6be917a9ef5b47344570a6c
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=31fd95a367ae5bcdf15cf9da72ca263d
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag03"
+                    - Name: Pair2
+                      Id: g=18c3c0ce0820c34548e317f839f63436
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=0b6d66f5266e751cfd65d07a0aea5748
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 2
+                      - Name: Value
+                        Id: g=1a89ce53efb3f6ca884d20226a6250ef
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Children:
+                        - Name: ConditionalConverter1
+                          Id: g=9e62b3a94d7cee7fcd84b2c8c9ff5212
+                          Type: ConditionalConverter
+                          Children:
+                          - Name: Condition
+                            Id: g=775bd4a9709718d4276a8d2c900594a4
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: ExpressionEvaluator1
+                              Id: g=d3d9f9292effb910a475516900a8c453
+                              Type: ExpressionEvaluator
+                              Children:
+                              - Name: Source0
+                                Id: g=d612508b70ee18bbcf58f2d2b07b28e2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=1469fbec44018358eee91e3c11fc5cdb
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=be508c3c50294812911fc9bc790baa8c
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=2d178163043b5f09f8ac5e7055649e76
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=cb0ee3e4108eb258e6a30f1519aaa835
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag00"
+                              - Name: Source1
+                                Id: g=3e37deef0862f9bb90ba3a81c77ff151
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=2e732cf0fcac6afa3c2f7ff392d0a1cf
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=762bcbff4b34fd9748dee804b252fed1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=28ded1dbe7cf89460b68667d21a8143b
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=290dd8d0fc99e77ee1633cc0acf08f53
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag01"
+                              - Name: Source2
+                                Id: g=b28e434dcc409066580776c511c95968
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=bd888f67c5926d0e0cf701b624e455b8
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=2686b22027ce1e263a67b40808227746
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=a1ef7b5f6057e1585b3684ed3278433c
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=3fb890932eeb0089b7e860bf1dd52900
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag02"
+                              - Name: Source3
+                                Id: g=e3b185995800a37223e2eedf57e61ee4
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=51b54c3b618b8a151cbc7a1798feb5bf
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=49f35a86d0b2af24779dbb7034576690
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=d24e40bf043ba29cb5b8784435e93eb1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=de16c7e76056b4e5761264318c0e3f19
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag03"
+                              - Name: Source4
+                                Id: g=756f1f2f693d01b41f3f98be3b8ac656
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=afc4a00594ca9877b98d569d413e4410
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=4fb3f6c63ddee1dc3a5fcf3407221c5b
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=ca45de41e3fe4171f1b71928181c6887
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=f3aa36a928e600960c2497b2eeffec7a
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag04"
+                              - Name: Source5
+                                Id: g=9f4ebe5c138e0c927193550dd0501026
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=23fabd3b21d8ddcffbd4e218e778eb00
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=b95690755060d1912b42cc4778387082
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=27b55a0d23c1d00c636a14ce95b769ea
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=6dce380b843b9e390a06f8fa90e572f0
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag05"
+                              - Name: Source6
+                                Id: g=b50f77d11faf0c090150d3266e77101d
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=60285c96bb579ffcc1b54fc7bed1e4af
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=4c3ae89dc6a5c20eb2a0736b4ded6572
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=9a5ac657b57335f3ff39fa9b7fcc3c56
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=9e060124d00f910035fce1a4183adb0b
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag06"
+                              - Name: Source7
+                                Id: g=cadcb211300d0ec545d89828c920f4a0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=db5bd24dca23fdf875bca845966c396b
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=92adfbbea7bdd88a1c5bc5433d98c0b5
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=1ea6267e5ac28041273d27c3cd1ba387
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=dd43e3a7c0e90576c63fb16f07f839c8
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag07"
+                    - Name: Pair3
+                      Id: g=863b1be00f7009dc4203efc4a2c32a9b
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=bdab9af836898d5f915ec8d06e93fc72
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 3
+                      - Name: Value
+                        Id: g=f802902c6dd69748bf7deb42a740a74a
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Children:
+                        - Name: ConditionalConverter1
+                          Id: g=1cb41af3816ac7faf657517b1314e11f
+                          Type: ConditionalConverter
+                          Children:
+                          - Name: Condition
+                            Id: g=6ffb23f88660cc6025ab8b3d91fc3adc
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: ExpressionEvaluator1
+                              Id: g=9b74eeb27bb9c8995310bebc373f3a16
+                              Type: ExpressionEvaluator
+                              Children:
+                              - Name: Source0
+                                Id: g=583b8c3c455984e0746d329cf8276c73
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=65aa2d53b1b92b944a8c23d04c34acb8
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=7894fe8804c24e81b845ff111a8690bc
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=50c2589adfb9b7edcc0bf9d6dd570230
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=2d022226e954c779a2b272425f75b60f
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag00"
+                              - Name: Source1
+                                Id: g=a1a47ef274fa9d6d6043e6d57c18b9d4
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=dec97ddad783902cd85e0134fa42b620
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=e63dbe8d1ab9e37eb5716836ceef1aed
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=c623b533c1b3004cc941a5182675cc27
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=51dbb147100bef628d00e64744928017
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag01"
+                              - Name: Source2
+                                Id: g=6ae70e4c1d90007e91e17607910dfd10
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=9c00d69a9e0fef146f998fc5027a457f
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=641fdd741aa3f58b68da534655a2f2e1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=9d2e6d8188652ded209a91bde1141c97
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=e29e68cf4a0e74c71b187b590e3bacbf
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag02"
+                              - Name: Source3
+                                Id: g=693b3423b5f7ce25c5b9ffe2be7645d9
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=146d6fe185364c57ba259065bd17bbb2
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=c3e9e0cc9b449e68576588261b4c4d5d
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=6ca217edb31a210c258a8f5969632135
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=889c97e1304532e768966b8465ac246f
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag03"
+                              - Name: Source4
+                                Id: g=0bbf451da991dd1afd89b3ed6cfd4c06
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=903b689e11a343aec2a621c59fba1794
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=a16ff621cf01064b1765939f6ee909c5
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=607530d28427b71f5e3d9c1ceabde6cd
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=91694ff7a8d1683598bb5728be955bf3
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag04"
+                              - Name: Source5
+                                Id: g=a9e166c6fc370700609e2b4620987007
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=a67f59cc746113fea095b906c7411f04
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=e9f0ad018ee463f5fed00abc44eef2fa
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=39e72718c068a738d0dac15e1734c3cd
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=285565651dccd248061912754db17f80
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag05"
+                              - Name: Source6
+                                Id: g=f10b66be141cf01ad7965c9582497bd7
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=c70c25a05d91b0ed73838b6875654cd9
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=b8ccdace14129dd34a357da07447fa7d
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=60b05fa56c4a9dcda73b1de89be9f7ee
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=d12d40e04c7327f2ea6cd3eb9e1eebbe
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag06"
+                              - Name: Source7
+                                Id: g=5623157b5cec7bf6115f32386b15ee84
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=9ecb2a114dc8a66cff8477c722931d35
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=24d05ef631de1508f3afe48b48ae77ed
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=aed63afbf75500fbe353abc19604249b
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=2e0cdedad4dee5adb7fe9e415f0f0f78
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_FaultTag07"
+                              - Name: Source8
+                                Id: g=889a92fbf3b82003396d5e5202a650fb
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=c677323ef28ec514cb3fb26f7c89704b
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=21fa27cb3d2ed2d5b6c711f8e6da0ca2
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=8da1e881cfc2e08f490bd911183b4f53
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=99538c44dfbd38a9077ce8d4bb65a010
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag00"
+                              - Name: Source9
+                                Id: g=d5e717c85a769740a4155f0a43251af0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=ceb1602b0335e98480697ff06a15f9c9
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=c284613c62cb72a5ae8aee3f9442af8c
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=4df1c5f53c50d5ca1261f33739de6b84
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=ad9c0c90fb7bee96d42824bd9a943ab0
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag01"
+                              - Name: Source10
+                                Id: g=c12b6fc71e5d7e7d86583a540e23ec4b
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=33ae5d078f51e7ecda405577f69aeedd
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=2490237e0d96779b30f4dfc3d9059a6c
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=a66b57038a336c96165ed63509c40588
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=ce2045dac0c0965edac6a4921fa52ac3
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag02"
+                              - Name: Source11
+                                Id: g=b525ecc4887ea77f795e6fe54d1d6e4d
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Id: g=a3d4c5dac3c148f212c6bb8d9e51493e
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Children:
+                                  - Name: DynamicLinkFormatter
+                                    Id: g=17afe00836627f263bee4f5a843f91ab
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Source1
+                                      Id: g=347774e19c5630f6e3d1318a2fc4d3e9
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Id: g=622df544094e260c213e0e4fc51afc47
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "../../../../../../../../../../../../../../../../Ch_TestOutputFaultTag03"
+                    - Name: Pair4
+                      Id: g=a9f95cb31acac40a0aadad3b940e621f
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Id: g=46a350a5f562e91873fb1c1a087f9e5d
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 4
+                      - Name: Value
+                        Id: g=8fa26f8e64a22c724edd36fb6729db51
+                        Type: BaseDataVariableType
+                        DataType: String
+        - Name: Dwg_Seperator
+          Id: g=3697656482d99cf36d3c3d1de8497937
+          Type: Rectangle
+      - Name: FaultTag
+        Id: g=51ee52ba40af6717b4d4e5037f8c77a3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "0"
+      - Name: Ch_FaultTag00
+        Id: g=3eb5c9a6d49f32ec4add7b369fce6133
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag01
+        Id: g=ccf7a7f241ba35bcfc7a22728bc01eeb
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag02
+        Id: g=3b73fe4733c3eb0578d181c7ceac1852
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag03
+        Id: g=db39cb98ff4df17ff840dc03901bad87
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag04
+        Id: g=6fcbc28fbb02e73491c8585664f91d52
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag05
+        Id: g=432cf39ab226361d1a8f310adb3ac799
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag06
+        Id: g=2695be11e118dbcfcfc3f3c63c163f9e
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_FaultTag07
+        Id: g=1bd762ee6111553448641c782a99c75f
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag00
+        Id: g=0b9ae0686539e45345de3bf562e14a4c
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag01
+        Id: g=d7a52b140b699865e19eccefd130c328
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag02
+        Id: g=dd6685ef8178b99adbdd0064356597e3
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: Ch_TestOutputFaultTag03
+        Id: g=cad3eecb3b21172a6bec26dc22c944dd
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: ChannelSts
+      Id: g=d8d6350152aa6d55d408d95198a8ce58
+      Type: Panel
+      Children:
+      - Name: Width
+        Id: g=9734b6063485ee7e0b20140f9fc87220
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=157795665b6ded5e4fb957e0c4f503ef
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: ScrollView1
+        Id: g=0e52129dcf76dbfd258a7b0209cf2b79
+        Type: ScrollView
+        Children:
+        - Name: Width
+          Id: g=e49e1aa34dcd03979196ea61558888b9
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Id: g=3eb72f966e2b4eac802ae77b5824ee63
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: HorizontalAlignment
+          Id: g=47d1aa5fe066e21561c5dcd75bb9a319
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=90e3241378e85a1a1348d2813e1e7478
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: ScrollAxesEnabled
+          Id: g=12b8c92b1413a6c3e0e99ca7022f97e9
+          Type: BaseDataVariableType
+          DataType: ScrollAxesEnabledEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: ScrollBarStyle
+          Id: g=367c8143a08d9a1b704b6196a0bbfcaa
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "Default"
+        - Name: RightMargin
+          Id: g=c8854d4ec2336c4c8e057af8d18f6a3a
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 8.0
+        - Name: grp_Channels
+          Id: g=0d48ea0e1f6facb59fc7fd6ab7d51e42
+          Type: ColumnLayout
+          Children:
+          - Name: Width
+            Id: g=480335f71568296c99c161a4c4ef17ef
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Id: g=d08cdc8e398534360e09763db9e4d372
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Id: g=32a02e24d97d58f6712e9c42ba6dfd41
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Id: g=e8ccceb03aba497327ed4fc1a806856d
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: TopMargin
+            Id: g=9e4a0a83f488af59978146a01110b242
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: RightMargin
+            Id: g=d2e9d8d59b6c43fe2d2ab6431e3375a7
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: VerticalGap
+            Id: g=a944a01f4531490740d919e042cc25d0
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+        - Name: ContentWidth
+          Id: g=8e0c608c848ceaae9d2716d10558b074
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentHeight
+          Id: g=07c7c07178cc0f4b0c15986ae0643a2c
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewWidth
+          Id: g=35b9e91fe06f2b7ab4ab7680213bfdc9
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewHeight
+          Id: g=ad4a7d77509feea285b1e66eafb15f69
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentX
+          Id: g=843f6fd7faaac2363c2f521469ab0446
+          Type: BaseDataVariableType
+          DataType: Size
+        - Name: ContentY
+          Id: g=981c70e1d9096a912eb34719dbb1154c
+          Type: BaseDataVariableType
+          DataType: Size
+        - Class: Reference
+          Target: ns=11;i=1394
+          Direction: Forward
+      - Name: HorizontalAlignment
+        Id: g=92b7b140ab67ba282e9e08e32475a25b
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: TopMargin
+      Id: g=0d3eb494f2b7c7f4f33df863059887ed
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+  - Name: raC_Dvc_IO_1734_Diag_Add_Widgets
+    Id: g=a7a3876152be04ffb57e0e3db131ca65
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: Add_Widgets
+      Id: g=6f58629a0d8fbea9b89ba5df35311a03
+      Children:
+      - Name: ns=0;InputArguments
+        Id: g=3adb1ac5af8de1e8a6b285af6d19f2a7
+        Type: BaseVariableType
+        DataType: Argument
+        ReferenceType: HasProperty
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [{"TypeId":{"Id":296},"Body":{"Name":"instCount","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: raC_5_05_raC_Dvc_1734_XXXX_RO_Home
+  Id: g=52094a5fd826dfe64f319296bb63c5c2
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=b4ce819b0b88f514d4e087893726d007
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 574.0
+  - Name: Height
+    Id: g=99e08677e04a9e8c0d24be4202199807
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 309.0
+  - Name: Tag
+    Id: g=f732316a9cf06f959b2f63a3d9ed0c81
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=45a5a830fe27a811ae81dd70ae15b2c5
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"339cecc7f4cc318bedc1e7a0a5f42548","Namespace":28}
+    - Name: NodeClass
+      Id: g=6bd4fa45b62fdc9deb3aed797eab509a
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      ModellingRule: Optional
+    - Name: DynamicLink
+      Id: g=7985e0dd1bbee0d6637fee8e4e959a8f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{raSDK1_DialogBox}/Ref_Tag@NodeId"
+      Children:
+      - Name: Mode
+        Id: g=8679a333ab7507a03f2891be91e773d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: grp_Home
+    Id: g=387ca44f2b92cec4d491b960377072a9
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=58b04678c662d9904864e60019cd4074
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=47c956ec10ebcedc33e09fd4a9ccdf8a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+    - Name: HorizontalAlignment
+      Id: g=0e29db9f9dc5e65d9daf40447f81aa2f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: ChannelSts
+      Id: g=7bfde97aa208ac647f9e5e6df588eff7
+      Type: Panel
+      Children:
+      - Name: Width
+        Id: g=6ec62fc85f036c317f9d093a6ee95908
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=358155f616d63e5ff780cc8c577504c7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: ScrollView1
+        Id: g=f9c52ae0f4cccb061d6ae1e75e7714d8
+        Type: ScrollView
+        Children:
+        - Name: Width
+          Id: g=facbe47d421fbc34a85f3f82717976cf
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Id: g=27395121af19084806ca938f069dc954
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: HorizontalAlignment
+          Id: g=45def9b117e09bf448f1e77eb7df3127
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Id: g=4a315f0e3f14186c6ecd668428bbf919
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: ScrollAxesEnabled
+          Id: g=7ad782b67961db0e52569465df1a440e
+          Type: BaseDataVariableType
+          DataType: ScrollAxesEnabledEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: ScrollBarStyle
+          Id: g=283e42b13e796f4fff31a5c14fc1e038
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "Default"
+        - Name: RightMargin
+          Id: g=d706ea4512a2e6898c9dfc5cf1cacb91
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 8.0
+        - Name: grp_Channels
+          Id: g=ab4819a69c5639dbcb9c288debbb8b7b
+          Type: ColumnLayout
+          Children:
+          - Name: Width
+            Id: g=879657822f9b6b2b1cbad498537013bc
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Id: g=81d572b901663472992bf96a795136e8
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Id: g=af3629e4f7515251763fa5f4a25d11b6
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Id: g=dbd4f653196b6d922306f6de9313ae89
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: TopMargin
+            Id: g=9543738f8b642d8fa4e73c2cbe56cca6
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: RightMargin
+            Id: g=e1afe3f8958a1c43a2b5d3a14ea5f40e
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 8.0
+          - Name: VerticalGap
+            Id: g=c5f0b54ccddde3dc55aa0ff8330f356f
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+        - Name: BottomMargin
+          Id: g=edd35c70c19180e151faed43ef843f5a
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: ContentWidth
+          Id: g=4256768b0fdc4e779de87b5d2b2edba8
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentHeight
+          Id: g=bd1bc34ba0eba8f8d7774442e99f50fd
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewWidth
+          Id: g=d30015c4d68c3fc226f0241e2f9c8100
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ViewHeight
+          Id: g=549b4070e22c585f9e3f00f80c31a411
+          Type: BaseDataVariableType
+          DataType: Size
+          AccessLevel: Read
+        - Name: ContentX
+          Id: g=344674aabedba26e837e7f6c0447e7cd
+          Type: BaseDataVariableType
+          DataType: Size
+        - Name: ContentY
+          Id: g=b0bf318cc8bba6e4b0804af6b990fcc4
+          Type: BaseDataVariableType
+          DataType: Size
+        - Class: Reference
+          Target: ns=11;i=1394
+          Direction: Forward
+      - Name: HorizontalAlignment
+        Id: g=36d7b664121e3787aa9371fc7352960d
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BottomMargin
+        Id: g=5038ce81c8b34af0deb070706b9dfa6e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+  - Name: raC_Dvc_IO_1734_Home_Add_Widgets
+    Id: g=c6a817d24574ad5b7c375e17b869f269
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: Add_Widgets
+      Id: g=428876afd7f64e1ccdbdc99693174f9d
+      Children:
+      - Name: ns=0;InputArguments
+        Id: g=a5b07a249e25947aa2e04bc0b3a82f56
+        Type: BaseVariableType
+        DataType: Argument
+        ReferenceType: HasProperty
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [{"TypeId":{"Id":296},"Body":{"Name":"instCount","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

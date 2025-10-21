@@ -1,0 +1,42 @@
+7371;  Abschneideposition
+9402;  Abwärts
+13719;  Abzugsriemen
+5545;  Aufwärts
+5691;  Backensatz
+33053;  Feineinstellung
+25632;  Formatteil
+7403;  hinten
+26439;  hinten links
+14723;  hinten oben
+9429;  hinten rechts
+13337;  hinten unten
+28471;  Höhe
+2120;  horizontal
+23922;  innen
+30494;  links
+9902;  mitte
+32483;  oben
+33054;  oben links
+33055;  oben rechts
+33050;  Packstoffspindel
+33000;  Packstoffträger
+11182;  Position
+32471;  rechts
+19940;  Schwinge
+33052;  seitliche Führung
+12227;  Siegelleiste
+12685;  Splicer
+1113;  Stechmesser
+4477;  Typ
+21272;  unten
+33056;  unten links
+33057;  unten rechts
+15280;  vertikal
+6841;  vor / zurück
+33051;  vordere Führung
+20950;  vorne
+16052;  vorne links
+4893;  vorne oben
+5534;  vorne rechts
+13893;  vorne unten
+22767;  Winkel

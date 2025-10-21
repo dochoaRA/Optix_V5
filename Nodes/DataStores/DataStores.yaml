@@ -1,0 +1,886 @@
+Name: DataStores
+Id: g=a3f35f9e12baed51f4083397d7effd29
+Type: DataStoresCategoryFolder
+Children:
+- Name: Rovema_translations_db_old
+  Id: g=6307fede7161ce67415956fdd64ceb3c
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=1ba60b47228fcba4cd041219834a7f64
+    Type: BaseObjectType
+    Children:
+    - Name: Languages
+      Id: g=4fdec1f1717b63d3d898e2d718f7a86b
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=c6fe2ecc3b442ba8a4061af9f8087312
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Id: g=6734b8ed4d5109de01a6b33b8b172952
+          Type: StoreColumn
+          DataType: Int32
+        - Name: German (de)
+          Id: g=e576b470bcf7baeb7cfb847a3272ff49
+          Type: StoreColumn
+          DataType: String
+        - Name: English (en)
+          Id: g=a5222aa8683095fcf9aa72909a2abc2a
+          Type: StoreColumn
+          DataType: String
+        - Name: 'Description '
+          Id: g=e975ec3103ecefcaa66506f7f3a46e16
+          Type: StoreColumn
+          DataType: String
+        - Name: Polish (pl)
+          Id: g=0adc0583f09753123510904a9e3838c6
+          Type: StoreColumn
+          DataType: String
+        - Name: Netherlands (nl)
+          Id: g=2c8db244b5d96766ac8f703a84fd6cb6
+          Type: StoreColumn
+          DataType: String
+        - Name: Danish (da)
+          Id: g=75138877f3ce8e4718f2f470a34f1827
+          Type: StoreColumn
+          DataType: String
+        - Name: Spanish (es)
+          Id: g=de051e1a791ac2507208b029df0691f7
+          Type: StoreColumn
+          DataType: String
+        - Name: Italian (it)
+          Id: g=dad50a1c370d3b361bdef8d1f0847125
+          Type: StoreColumn
+          DataType: String
+        - Name: French (fr)
+          Id: g=d9486b02a752da65e72d303ee9a6bd17
+          Type: StoreColumn
+          DataType: String
+        - Name: Chinese (zh)
+          Id: g=9e4bccf98fd8e0c822fd184810dec7aa
+          Type: StoreColumn
+          DataType: String
+        - Name: Hungarian (hu)
+          Id: g=213ea9ef81a0d5b3a6f42eacb2e043aa
+          Type: StoreColumn
+          DataType: String
+        - Name: Portuguese (pt)
+          Id: g=ff73b5026281f244b8a5a88c5269fd62
+          Type: StoreColumn
+          DataType: String
+        - Name: Russian (ru)
+          Id: g=35d6b979ada792384ddc6c4e8c1e783d
+          Type: StoreColumn
+          DataType: String
+        - Name: Romanian (ro)
+          Id: g=302f5dccb8e694b4af707b85a52c9457
+          Type: StoreColumn
+          DataType: String
+        - Name: Swedish (sv)
+          Id: g=162e000593b92c32b121b74e1e008be1
+          Type: StoreColumn
+          DataType: String
+        - Name: Finnish (fi)
+          Id: g=08abdd8805726d8b9d866ea6b4402215
+          Type: StoreColumn
+          DataType: String
+        - Name: Norwegian (no)
+          Id: g=ab53cbabc76cdbda63b94ef4e399494d
+          Type: StoreColumn
+          DataType: String
+        - Name: Turkish (tr)
+          Id: g=2671a7b5d449714c87a4f91b88b58bcf
+          Type: StoreColumn
+          DataType: String
+        - Name: Bulgarian (bg)
+          Id: g=c1ed3abda0ec68a02720bb99f2761afd
+          Type: StoreColumn
+          DataType: String
+        - Name: Greek (el)
+          Id: g=1c08a9a29ca2c184e2dd0f101172fdea
+          Type: StoreColumn
+          DataType: String
+        - Name: Croatian (hr)
+          Id: g=b93d96c223fee5d4ef1f138db96d52f1
+          Type: StoreColumn
+          DataType: String
+        - Name: Czech (cs)
+          Id: g=7bc31dd8ab2cef8b2604c142522a345e
+          Type: StoreColumn
+          DataType: String
+        - Name: Japanese (ja)
+          Id: g=d098a8e28c28d4178119157cdc6f04eb
+          Type: StoreColumn
+          DataType: String
+        - Name: Indonesian (id)
+          Id: g=a2f86d0a19ced5b13b2fbd0f0acd0aa3
+          Type: StoreColumn
+          DataType: String
+        - Name: Slovenian (sl)
+          Id: g=e8f3061119d5739d9ce977e340a31b9b
+          Type: StoreColumn
+          DataType: String
+        - Name: Estonian (et)
+          Id: g=36751f454d00ab6803eb342326c7bfe3
+          Type: StoreColumn
+          DataType: String
+        - Name: Hebrew (he)
+          Id: g=06ba2158a6df01c6f661cf82d26e705c
+          Type: StoreColumn
+          DataType: String
+        - Name: Serbian (sr)
+          Id: g=f8217c3b071375a65abe97c728f9a9f7
+          Type: StoreColumn
+          DataType: String
+        - Name: Slovakian (sk)
+          Id: g=24e806bbb30651922b7d71205b2150f0
+          Type: StoreColumn
+          DataType: String
+        - Name: 'Portuguese (pt- BR)'
+          Id: g=7347f90c395fcd5fdf72ce68edde6b60
+          Type: StoreColumn
+          DataType: String
+    - Name: TestError
+      Id: g=4103e7ad5040e498bf80affe02af8a81
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=d61e72d1c3c7894745a561119b33114a
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Id: g=a740641e538df4a1fc641c39d1a91e26
+          Type: StoreColumn
+          DataType: Int32
+        - Name: DE
+          Id: g=d9442c5fedeede4d978976a6addc1f18
+          Type: StoreColumn
+          DataType: String
+        - Name: EN
+          Id: g=bd1c90e2b7d6767ce10e7f07908cc1fa
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=28e998b2b1a1161f339766a89f06f232
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=01cc44958c6ab9025646ec759d22fd63
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=e210a78ee4b13280aa6d121f77138f9b
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=a3ee3af0fd1d7634596b2be7f67f6ccd
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: InMemory
+    Id: g=a5f33d2e3118aec4cc0489d01937c828
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Filename
+    Id: g=5ef6dd491fffa9114857b769d7af4e14
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Rovema_translations_db_sql"
+- Name: ImportCSVtoSQL_old
+  Id: g=45468a82a072d9bb051fb95851a891c8
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=1af7e187131437e2b49ff8e42ca02417
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CsvFile
+    Id: g=4d3d04085d41e2b017fdd64fabc861b0
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "0"
+  - Name: CsvSeparator
+    Id: g=ec5a9d5175fff1e115b364bba2cbaa69
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+- Name: dbAlarmHistory
+  Id: g=22ce368819fc5cf3eff5edf49b14258e
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=ead8320e531790351e1b5a861cc70a96
+    Type: BaseObjectType
+    Children:
+    - Name: SQLiteAlarmHistory
+      Id: g=aac76cd862f5a91d9fedb964c53e8495
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=f1fc28c0815d94c352fa43b280ca2cdd
+        Type: BaseObjectType
+        Children:
+        - Name: Category
+          Id: g=60152d2a98584da7f1003270d6f25309
+          Type: StoreColumn
+          DataType: Int32
+        - Name: DateTime
+          Id: g=2abb3a4c74ed7698b48a43c1f73d9117
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: DateTimeAck
+          Id: g=23c3a31a3afdb54b3102bc9af436d7b8
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: DeviceTag
+          Id: g=b3ff6f942f1c88fe2d52ddd4fb853130
+          Type: StoreColumn
+          DataType: String
+        - Name: ReasonFunction
+          Id: g=b6ce222708b62edfdc1c4479efe58758
+          Type: StoreColumn
+          DataType: String
+        - Name: LT
+          Id: g=ec191eb63d32f6d5ca3ca4782a727d83
+          Type: StoreColumn
+          DataType: String
+        - Name: PackML_ID
+          Id: g=5e275bd4d02df5a929a5d63a5cf52500
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Message_ID
+          Id: g=a3daf24ab1a0bb95ef5308f37a01ca97
+          Type: StoreColumn
+          DataType: String
+        - Name: PartMachine
+          Id: g=ea339be051c48e05756f65bd94990ccd
+          Type: StoreColumn
+          DataType: String
+          Value: "0"
+        - Name: Reason
+          Id: g=d91c054f67be10af14bca43f5b620f13
+          Type: StoreColumn
+          DataType: String
+          Value: "0"
+        - Name: Function
+          Id: g=16776a81b9146263419aa53b450b0271
+          Type: StoreColumn
+          DataType: String
+          Value: "0"
+      - Name: RecordLimit
+        Id: g=b77d6c30b0e5278de70fdf05e28ebcc8
+        Type: BaseDataVariableType
+        DataType: UInt32
+    - Name: SQLiteAlarmHelpComments
+      Id: g=da10df4c96e992a33fd031c24b151262
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=5c050bbd2282207bb3137ff509207057
+        Type: BaseObjectType
+        Children:
+        - Name: MessageID
+          Id: g=d771f2dec64ec746aa520c79fec0ef22
+          Type: StoreColumn
+          DataType: String
+        - Name: Help
+          Id: g=ced8172d9fe813a4bc71a827305b8c4a
+          Type: StoreColumn
+          DataType: String
+        - Name: Comment
+          Id: g=6deb2c6a9ba948bcb6fd6337d15cd718
+          Type: StoreColumn
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [10]
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=f24f2bc8cda515f53a22c92a5429aa04
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=f8272aadcf2c269c6ce4ae70dc6b58d2
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=264c699631514886705989a627aaa530
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=a81999d27bace439d7c92ffb5c350657
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Filename
+    Id: g=0b880fb386aad245db61251f64b34ca6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AlarmHistory"
+- Name: dbRecipes
+  Id: g=58a86182ea0891196a73fb80db186a27
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=4135c4af8d2d80bcbc2cd74a64c8efad
+    Type: BaseObjectType
+    Children:
+    - Name: SQLiteRecipeList
+      Id: g=3f69bf5470db4ce042e8b5a2c0a00713
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=73d379e4024624f0216fe1e7b5ef981e
+        Type: BaseObjectType
+        Children:
+        - Name: RecipeNumber
+          Id: g=3101cfc952b9c33cc4abb212bb1a931d
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RecipeName
+          Id: g=a96099345e7fc21652c0b201a68d3df6
+          Type: StoreColumn
+          DataType: String
+        - Name: Timestamp
+          Id: g=56f082e4095b9d5ccf49b8ff7118cebe
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: DeleteLoad
+          Id: g=4d099818ae8446ad19de8ca117cc735d
+          Type: StoreColumn
+          DataType: Boolean
+    - Name: SQLiteFormatList1
+      Id: g=3b37712165ea51691ac06353f9d03491
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=ff2380ab4741bbfaf186389a003b6c76
+        Type: BaseObjectType
+        Children:
+        - Name: Enum
+          Id: g=4ef38f80e94c72def3ec04efc558dc8b
+          Type: StoreColumn
+          DataType: Int32
+        - Name: BS
+          Id: g=522677c0f298ebe96cf11bac0f987bca
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: BV
+          Id: g=01a726a9682d1ceb453743ae44e2de16
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: CM
+          Id: g=dec5112cb1619e4104f2c8d9a1e88990
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EC
+          Id: g=32b9535ddb08473b69a90468f9c5b950
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EE
+          Id: g=7b123bd190ff61da942bea7f68148eb5
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ELD
+          Id: g=8cc4bad4ad3a77522f9d1ee6eb92590d
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ELS
+          Id: g=4389d6c19abfc5e0cd488576303265a7
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ETIS_ETIL
+          Id: g=cc248c7cf52111ae1b8ee7ab897a2b09
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EW
+          Id: g=d8ad40bbc281d2e302894c041838e56f
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+    - Name: SQLiteFormatList2
+      Id: g=7bada5d4dc6596c5e94377138a2149fd
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=565b490cdf9ea0e02758ef6dd1dc848e
+        Type: BaseObjectType
+        Children:
+        - Name: Enum
+          Id: g=e25e9bccb78da3e2778213195f7194b6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: BS
+          Id: g=88379cc060a537535c834e90e166eee3
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: BV
+          Id: g=a68a358dafde876ad9fcd6be7b2e7a27
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: CM
+          Id: g=e773ef929acd9365fefb2cc516e4cc46
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EC
+          Id: g=772387e5e419992073816113aa44028e
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EE
+          Id: g=3063abdcd48293b4157811bd6db19c03
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ELD
+          Id: g=c2175252e36f518359dc095da3208719
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ELS
+          Id: g=08f94735d4a7f6774780784703a7301d
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ETIS_ETIL
+          Id: g=7f420aedd082ab8604f1ab1760c93a50
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EW
+          Id: g=241aa0af7894c5fb7af5931e7472eaab
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+    - Name: SQLiteFormatList3
+      Id: g=7c674506a02583e441b0f4bb8443805c
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=a117a5c52c392ba07f9d5d43bde177f3
+        Type: BaseObjectType
+        Children:
+        - Name: Enum
+          Id: g=ac0270ba28b5504466a3d2bcb26c0c47
+          Type: StoreColumn
+          DataType: Int32
+        - Name: BS
+          Id: g=b3a0fba42c0a3c94327b83bda3274762
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: BV
+          Id: g=1274b7a84531613604ec4d7867481ddb
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: CM
+          Id: g=170bddadddb27ee37c13313929f3c844
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EC
+          Id: g=82897f3f35753bd2a01673d4f380c707
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EE
+          Id: g=6c99ec3475ef588b0fd68d080d01ef30
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ELD
+          Id: g=a6236de9a0115b17aed0aa4ae93364c4
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ELS
+          Id: g=bda1a80466d4ee6c6ba777efa96e8c2a
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: ETIS_ETIL
+          Id: g=a9512fa1cce2db9dfc5d49ffc47e7e04
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+        - Name: EW
+          Id: g=9b18eb9487d6b836dcefe4ccf673954e
+          Type: StoreColumn
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"0"}
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=3d08622f74439c08cebea00a39fd1179
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=49994548141ef0a388fea7cfb0eb493f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=5c3b1df09cf1fae2c0a4ef9174962254
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=4d7fa11c1abb060389b40e189d5a836e
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Filename
+    Id: g=506820ee0a14b82a04b4384ca3c68521
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Recipes"
+- Name: dbUsers
+  Id: g=ffea190df9e86ba1f33c92d051097ac7
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=31ccda4e9fc7740bdb7789af7df4f6cf
+    Type: BaseObjectType
+    Children:
+    - Name: SQLiteUserList
+      Id: g=5f48d8c2663a0593eb4c8b8e34e57f80
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=0b65b78bb0a1a35665a016e2f4968f3c
+        Type: BaseObjectType
+        Children:
+        - Name: User
+          Id: g=3c3dff890c5164e0538eda7ad998cc0a
+          Type: StoreColumn
+          DataType: String
+        - Name: Role
+          Id: g=f02967c9e79c8f0c5c8c9eeee050d14c
+          Type: StoreColumn
+          DataType: String
+        - Name: LocaleId
+          Id: g=bd1f1caed13c5ff12be3c74006f3e4bf
+          Type: StoreColumn
+          DataType: String
+        - Name: DateOfCreation
+          Id: g=edc40df35813db36289c44184fc6da7b
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Creator
+          Id: g=b499babdfaba8a6a8272f79c5476a477
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=baff4a97d0ef6b27c43fbb4065a5ac1c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=7e8993eed370ed84d5a5745b287dba18
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=76575529280d533753d583deb202d38e
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=10be50dd360c183cc6226ef3f0becf05
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward

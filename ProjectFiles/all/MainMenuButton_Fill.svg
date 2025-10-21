@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="840"
+   height="840"
+   viewBox="0 0 840 840"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="MainMenuButton_Fill.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3200"
+     inkscape:window-height="1711"
+     id="namedview6"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="502.52674"
+     inkscape:cy="521.92465"
+     inkscape:window-x="3191"
+     inkscape:window-y="6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
+  <!-- Rotated shape with mixed corner radii -->
+  <path
+     d="M 40,835 C 4.9350788,835.375 5,811.04569 5,800 V 210 C 5,5.037398 165.81722,5 210,5 h 590 c 11.04569,0 35,0.4003471 35,35 v 590 c 0,44.18278 -3.04022,205 -205,205 z"
+     fill="none"
+     stroke="#b2b5b6"
+     stroke-width="8"
+     id="path2"
+     sodipodi:nodetypes="csssssscc"
+     style="stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;fill:#b2b5b6;fill-opacity:1" />
+</svg>
