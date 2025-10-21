@@ -1,0 +1,61 @@
+Name: UIFolderCreatedByAlan
+Id: g=4cca348f1171d0b8095cc16bce44a314
+Type: FolderType
+Children:
+- Name: Screen1
+  Id: g=161781bdd2e26477536567910586d728
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Label1
+    Id: g=74b0880ebc02fe83fcadbe4389832d11
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=31abcaef95c430e56c62f38be0a10071
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
+  - Name: TextBox1
+    Id: g=e67c822ac24d6ffd781153ba8fa88898
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=2e9affe4de2f912ceb918a3399708e6e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Width
+      Id: g=e3ca69af7583ee1b5c4a9bf9af4457df
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+- Name: Screen2
+  Id: g=7a0472a6473f9a1de5112097982ab58f
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: SpinBox1
+    Id: g=2f1f47ee45971c3298f41709ee92f2a6
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Id: g=121cba55934cdc3b3c28d20e6372e1ea
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Id: g=adcf55f245f98477af380f36581a931c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+  - Name: EditableLabel1
+    Id: g=89084f85459defb8a79abc13406f4f97
+    Type: EditableLabel
+    Children:
+    - Name: Text
+      Id: g=432e753b44ed3331e019f3467dcde979
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"EditableLabel1"}
