@@ -17930,6 +17930,34 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#eb001b"
+  - Name: Label3
+    Id: g=836946ae32e54f74202a293332103c31
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=17963e22c670d9fe529be98bd701a9a1
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Test_21102025_15_04"}
+    - Name: LeftMargin
+      Id: g=e7431537e0c01f5eb376850bcb883174
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 520.0
+    - Name: TopMargin
+      Id: g=476bc2be847555c6093c1213ed921281
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: TextColor
+      Id: g=d55439777338b99ea76904d6f5cbb0f8
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#3458d5"
 - File: Component_library/Component_library.yaml
 - File: Keyboards/Keyboards.yaml
 - File: Faceplates/Faceplates.yaml
